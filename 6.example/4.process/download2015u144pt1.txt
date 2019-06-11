@@ -1,0 +1,8556 @@
+
+PT J
+AU 阳艺武, 
+AF 阳艺武, 
+TI Research Hotspot and Trend about Sports Reserve Talents Training in China Based on Knowledge Map
+SO 上海体育学院学报
+LA 
+DT Article
+DE 竞技体育; 后备人才; 知识图谱; 研究热点; 演化
+AB 基于知识图谱的我国竞技体育后备人才培养研究热点及演化
+C1 [阳艺武]武汉理工大学.体育.
+RP 
+FU 
+CR 钟秉枢, 1900, 社会转型期我国竞技体育后备人才培养及其可持续发展, V0, P0
+   朱昆, 2011, 上海体育学院学报, V35, P6
+   聂应军, 2013, 成都体育学院学报, V39, P11
+   刘则渊, 2005, 科学研究, V0, P3
+   王俊杰, 2012, 体育科学, V32, P10
+   张凤珍, 2008, 体育与科学, V29, P3
+   阳艺武, 2009, 体育学刊, V16, P5
+   于文谦, 2008, 体育学刊, V15, P9
+   孙志伟, 2008, 体育科技文献通报, V16, P5
+   刘耀明, 2008, 体育科研, V29, P3
+   戴健, 2004, 上海体育学院学报, V28, P1
+   戴永冠, 2009, 体育学刊, V16, P3
+NR 12
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 39
+IS 020
+BP 73
+EP 79
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 毛一国, 
+   陈剑光, 
+AF 毛一国, 
+   陈剑光, 
+TI 
+SO 中国出版
+LA 
+DT Article
+DE 期刊编委; SSCI社会科学研究; 高校评估; 文献计量学
+AB 我国学者担任国际社科学术期刊编委情况研究——基于SSCI收录期刊的统计与分析
+C1 [毛一国]浙江大学.图书馆/[陈剑光]浙江越秀外国语学院.图书.
+RP 
+FU 
+CR Mauleo'n,Elba, 2013, Scientometrics, V0, P0
+   Garc?'a-Carpintero,Esther, 2010, Scientometrics, V0, P0
+   Uzun,Ali, 2004, Scientometrics, V61, P3
+   马克思, 1900, 马克思恩格斯全集(第37卷), V0, P0
+   克尔,克拉克, 1900, 高等教育不能回避历史: 21世纪的问题, V0, P0
+   [Anon], 2014, 2015年国家公派出国留学选拔计划确定, V0, P0
+NR 7
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 160
+BP 57
+EP 60
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 沙振江, 
+   张蓉, 
+   刘桂锋, 
+AF 沙振江, 
+   张蓉, 
+   刘桂锋, 
+TI Review of the Research on Technology Foresight Method in China
+SO 情报理论与实践
+LA 
+DT Article
+DE 技术预见; 组合方法; 德尔菲法; 情景分析法; 文献计量学; 社会网络分析; 综述
+AB 国内技术预见方法研究述评
+C1 [沙振江]江苏大学.科技信息研究所/[张蓉]江苏大学.科技信息研究所/[刘桂锋]江苏大学.科技信息研究.
+RP 
+FU 
+CR KANAMA D, 2013, International Journal of Foresight and Innovation Policy, V9, P1
+   MARTIN BR, 1999, Technological Forecasting and Social Change, V60, P1
+   马明, 2009, 医学信息学杂志, V0, P5
+   穆荣平, 2003, 世界科学, V14, P4
+   KOLOMINSKY-RABAS PL, 2014, Technological Forecasting and Social Change, V2, P0
+   李远远, 2010, 科技管理研究, V0, P3
+   徐磊, 2011, 科学学与科学技术管理, V0, P11
+   王金鹏, 2011, 基于科学计量的技术预见方法优化研究:学位论文, V0, P0
+   佟煊, 2012, 基于数据挖掘的江西有色金属产业技术预见方法的研究:学位论文, V0, P0
+   郭卫东, 2007, 技术预见理论方法及关键技术创新模式研究:学位论文, V0, P0
+   吴曙霞, 2007, 提升北京生物医药产业国际竞争力的技术预见研究:学位论文, V0, P0
+   曹朋冲, 2011, 基于技术路线图的我国再生铝行业关键技术的研究:学位论文, V0, P0
+   徐莉贞, 2008, 辽宁交通运输设备制造业技术预见研究:学位论文, V0, P0
+NR 13
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 38
+IS 060
+BP 140
+EP 144
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 潘东华, 
+   徐珂珂, 
+AF 潘东华, 
+   徐珂珂, 
+TI Study on the Method of Mapping Technology Networks Based on Patent Classification Codes
+SO 情报学报
+LA 
+DT Article
+DE 关键技术分析; 专利文献; 语义相似度; 知识图谱
+AB 基于专利文献分类码的技术知识图谱绘制方法研究
+C1 [潘东华]大连理工大学.系统工程研究所/[徐珂珂]大连理工大学.系统工程研究.
+RP 
+FU 
+CR 候海燕, 1900, 科学计量学知识图谱, V0, P0
+   Markus R, 2004, MIT Sloan Management Review, V45, P3
+   王朝晖, 2008, 现代情报, V0, P9
+   司有和, 1900, 竞争情报理论与方法, V0, P0
+   Yoon B, 2004, Journal of High Technology Management Research, V15, P1
+   Sunghae J, 2012, International Journal of Software Engineering & IES Applications, V6, P3
+   栾春娟, 1900, 专利计量与专利战略, V0, P0
+   顾震宇, 2013, 德温特手工代码与IPC国际专利分类号的分类比较:以燃料电池为例, V0, P0
+   孟俊娥, 1900, 专利检索策略及应用, V0, P0
+   时念云, 2007, 计算机工程与设计, V0, P24
+   甘健候, 1900, 本体方法及其应用, V0, P0
+   Claudia L, 1998, Wordnet: an Electronic Lexical Database, V49, P2
+   夏虹, 2006, 北京邮电大学学报, V0, PS1
+   王旭阳, 2014, 计算机工程与应用, V0, P10
+   Salton G, 1968, Journal of the ACM (Jacm), V15, P1
+   蒋健安, 2008, 面向专利文献数据的文本分类若干关键技术研究:学位论文, V0, P0
+   Holger E, 1997, Small Business Economics, V9, P4
+   刘立, 2010, 科技管理研究, V0, P15
+   黄晓莉, 2012, 情报杂志, V31, P15
+NR 21
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 34
+IS 080
+BP 866
+EP 874
+DI 
+PG 9
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 樊贵莲, 
+   郭淑芬, 
+AF 樊贵莲, 
+   郭淑芬, 
+TI 
+SO 科技进步与对策
+LA 
+DT Article
+DE 知识图谱; 文化产业; 研究动态; CitespaceⅢ; 文献共被引
+AB 基于知识图谱的国际文化产业研究动态与特点
+C1 [樊贵莲]山西财经大学.公共管理学院/[郭淑芬]山西财经大学.管理科学与工程学.
+RP 
+FU 
+CR 欧阳坚, 1900, 文化产业政策与文化产业发展研究, V0, P0
+   熊澄宇, 1900, 世界文化产业研究, V0, P0
+   王锐, 2010, 中国文化产业竞争力模型与战略考量:学位论文, V0, P0
+   张翼, 2015, 我国文化产业增加值超2万亿, V0, P0
+   李玲, 2014, 重庆文理学院学报(社会科学版), V0, P11
+   许振亮, 2011, 科学学研究, V0, P11
+   VAIL EF, 1999, Knowledge Management Review, V2, P0
+   肖国芳, 2014, 图书馆杂志, V0, P5
+   陈超美, 2009, 情报学报, V0, P3
+   CALERO-MEDINA C, 2008, Journal of Informetrics, V4, P0
+   刘则渊, 1900, 科学知识图谱:方法与应用, V0, P0
+   FLORIDA,RICHARD, 1900, Rise of the creative class, V0, P0
+   CAVES RICHARD E, 1900, Creative industries: contract between art and commerce, V0, P0
+   NICHOLAS,GARNHAM, 2005, International Journal of Cultural Policy, V0, P1
+   SCOTT ALLEN J, 1900, Cultural economy of cities: essays on the geography of image-producing industries, V0, P0
+   PECK,JAMIE, 2005, International Journal of Urban and Regional Rearch, V0, P12
+   BOURDIEU,PIERRE, 1900, Distinction: a social critique of the judgment of taste, V0, P0
+   PRATT ANDY C, 1997, Environment and Planning A, V11, P0
+   BECKER HOWARD S, 1900, Art worlds, V0, P0
+   栾春娟, 2009, 技术与创新管理, V0, P1
+   CHEN CM, 2006, Journal of the American Society for Information Science and Technology, V3, P0
+   张宝建, 2014, 科技进步与对策, V0, P10
+   EVANS,GRAEME, 2009, Urban Studies, V0, P5
+   PRATT ANDY C, 2008, Geografiska Annaler: Series B, Human Geography, V2, P0
+   PRATT ANDY C, 2008, International Journal of Cultural Policy, V11, P0
+   HESMONDHALGH,DAVID, 1900, Creative labour: media work in three cultural industries, V0, P0
+NR 28
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 32
+IS 200
+BP 69
+EP 75
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 胡滨, 
+AF 胡滨, 
+TI Research Progress on Information Architecture at Home and Abroad
+SO 图书馆工作与研究
+LA 
+DT Article
+DE 信息构建; 知识图谱; 文献计量; 数据可视化
+AB 国内外信息构建研究进展分析
+C1 [胡滨]中国科学技术馆.
+RP 
+FU 
+CR 周晓英, 2002, 情报资料工作, V0, P5
+   潘梅, 2004, 图书情报工作, V0, P6
+   张秀, 2008, 图书馆学刊, V0, P2
+   马宁, 2009, 科技情报开发与经济, V0, P27
+   吴莹莹, 2011, 情报杂志, V0, P6
+   郭颖涛, 2013, 高校图书馆工作, V0, P3
+   荣先乾, 2010, 图书馆界, V0, P1
+   孙建军, 1900, 网络信息计量理论、工具与应用, V0, P0
+   周晓英, 2004, 情报资料工作, V0, P2
+   杨维敏, 2007, 图书馆学刊, V0, P3
+   徐少同, 2007, 图书馆学研究, V0, P8
+   姜永常, 2005, 现代图书情报技术, V0, P6
+   王蕾, 2004, 图书情报知识, V0, P6
+   赵宇翔, 2007, 现代图书情报技术, V0, P3
+   邓昶, 2007, 情报科学, V0, P2
+   甘利人, 2005, 情报理论与实践, V0, P6
+   何晓聪, 2004, 情报资料工作, V0, P5
+   刑春艳, 2009, 图书馆学刊, V0, P1
+   Melissa,Cook, 1900, Building Enterprise Information Architecture, V0, P0
+   Boynton, 1994, MIS Quarterly, V0, P3
+NR 20
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 100
+BP 51
+EP 57
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 李淑宇, 
+   秦小燕, 
+   蒲放, 
+   李德玉, 
+   樊瑜波, 
+   韩慧瑜, 
+AF 李淑宇, 
+   秦小燕, 
+   蒲放, 
+   李德玉, 
+   樊瑜波, 
+   韩慧瑜, 
+TI Visualization analysis of International Higher Engineering Education based on Knowledge Mapping
+SO 高等工程教育研究
+LA 
+DT Article
+DE 国际高等工程教育; 知识图谱; 研究热点
+AB 基于知识图谱的国际工程学科教育研究可视化分析
+C1 [李淑宇]北京航空航天大学.生物与医学工程学院/[秦小燕]北京航空航天大学.图书馆/[蒲放]北京航空航天大学.生物与医学工程学院/[李德玉]北京航空航天大学.生物与医学工程学院/[樊瑜波]北京航空航天大学.生物与医学工程学院/[韩慧瑜]北京航空航天大学.生物与医学工程学.
+RP 
+FU 
+CR 陈超美, 2009, 情报学报, V0, P3
+   侯海燕, 1900, 科学计量学知识图谱, V0, P0
+   Wankat PC, 1900, Teaching Engineering, V0, P0
+   Brown JS, 1989, Educational Researcher, V18, P1
+   Bloom BS, 1900, Developing Talent in Young People, V0, P0
+   Bloom BS, 1900, Taxonomy of Educational Objectives: The Classification of Educational Goals:Handbook 1: The Cognitive Domain, V0, P0
+   Elaine S, 1900, Talking About Leaving: Why Undergraduates Leave the Sciences, V0, P0
+   Bransford JD,  DC:, How people learn: Brain mind experience and school, V0, P0
+   Dym CL, 2005, Journal of Engineering Education, V94, P1
+   [Anon], 1900, Engineer of 2020: Visions of Engineering in the New Century, V0, P0
+   Felder RM, 1996, Journal of Chemical Education, V73, P9
+   Kolb DA,  NJ:, Experiential Learning: Experience as the Source of Learning and Development, V0, P0
+   Koh C, 2010, Journal of Engineering Education, V99, P3
+   Rubio L, 2009, Computer Applications in Engineering Education, V18, P3
+   Carberry AR, 2010, Journal of Engineering Education, V99, P1
+   Wood WH, 2001, International Journal of Engineering Education, V17, P4
+   Perez-Martinez JE, 2010, International Journal of Engineering Education, V26, P6
+   Antonio PF, 2010, International Journal of Electrical Engineering Education, V47, P4
+NR 22
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 030
+BP 64
+EP 70
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 张红利, 
+   曹芬芳, 
+AF 张红利, 
+   曹芬芳, 
+TI Practical Research and Enlightenment of Typical Library Makerspaces At Home and Abroad
+SO 图书馆学研究
+LA 
+DT Article
+DE 创客空间; 图书馆创客空间; 图书馆服务; 知识图谱
+AB 国内外典型图书馆创客空间实践研究和启示
+C1 [张红利]西北政法大学.图书馆/[曹芬芳]华中师范大学.信息管理学.
+RP 
+FU 
+CR 安德森,克里斯, 1900, 创客:新工业革命, V0, P0
+   Stephen,Abram, 2013, Internet Schools, V20, P2
+   刘启元, 2012, 信息资源管理学报, V0, P1
+   好搜百科, 2015, 社会教育, V0, P0
+   赵厚勰, 2004, 图书馆学刊, V0, P6
+   杨薇薇, 2009, 现代情报, V0, P8
+   [Anon], 2015, Fayetteville Free Library, V0, P0
+   Wolterbeek M, 2015, De La Mare Scienceand Engineering Library first in nation to offer 3 Dprinting campuswide, V0, P0
+   [Anon], 2015, Da La Mare Science and Engineering Library, V0, P0
+   Fisher E, 2015, Makerspaces Move into Academic Libraries, V0, P0
+   [Anon], 2015, Victoria Park, V0, P0
+   [Anon], 2015, Oslo Public Library, V0, P0
+   百度百科, 2015, “国立”台湾交通大学, V0, P0
+   [Anon], 2015, Typesof Libraries, V0, P0
+   王敏, 2014, 我国图书馆创客空间服务及构建方案研究:学位论文, V0, P0
+   New State of America's Libraries Report Finds Shift in Role of U S, 2015, Libraries, V0, P0
+NR 18
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 220
+BP 9
+EP 16
+DI 
+PG 8
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 余世英, 
+   陈芳芳, 
+AF 余世英, 
+   陈芳芳, 
+TI Analysis on E-book Research Based on Mapping Knowledge Domains
+SO 出版科学
+LA 
+DT Article
+DE 电子书; 知识图谱; 知识基础; 研究热点; 研究趋势
+AB 基于知识图谱的国际电子书研究分析
+C1 [余世英]武汉大学.信息管理学院/[陈芳芳]武汉大学.信息管理学.
+RP 
+FU 
+CR Chen C, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   Langston M, 2003, Library Collections, Acquisitions, and Technical Services, V27, P1
+   Levine-Clark M, 2006, Portal: Libraries and the Academy, V3, P0
+   Rowlands I, 2007, Aslib Proceedings, V59, P6
+   Labbo LD, 2000, Journal of Literacy Research, V32, P2
+   Vasileiou M, 2012, Journal of Librarianship and Information Science, V4, P0
+   Laquintano T, 2010, Written Communication, V27, P4
+   Vasileiou M, 2009, Online Information Review, V33, P1
+   Chong PF, 2009, IETE Technical Review, V26, P3
+NR 9
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 23
+IS 010
+BP 89
+EP 94
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 丁佐奇, 
+AF 丁佐奇, 
+TI The improving strategies of SCI journals in the field of integrative complementary medicine and the contribution from China based on SCI
+SO 中国科技期刊研究
+LA 
+DT Article
+DE 整合替代医学; SCI收录期刊; 文献计量学; 期刊国际化
+AB 基于SCI的整合替代医学期刊国际影响力提升策略及中国的贡献研究
+C1 [丁佐奇]中国药科大学.《中国天然药物》编辑.
+RP 
+FU 
+CR 郭晓钟, 2014, 中华医学信息导报, V29, P23
+   赵金燕, 2013, 中国科技期刊研究, V24, P5
+   方红玲, 2012, 中国科技期刊研究, V23, P5
+   任胜利, 2009, 中国科技期刊研究, V20, P3
+   刘东信, 2012, 中国科技期刊研究, V23, P3
+   黄明睿, 2015, 中国科技期刊研究, V26, P7
+   马瑞敏, 2014, 中国科技期刊研究, V25, P11
+   罗东, 2015, 中国科技期刊研究, V26, P3
+   李晓红, 2014, 中国科技期刊研究, V25, P1
+   丁佐奇, 2014, 中国科技期刊研究, V25, P11
+   David N, 2015, Learned Publishing, V28, P1
+NR 11
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 26
+IS 100
+BP 1104
+EP 1108
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 赵美玲, 
+   吴林海, 
+AF 赵美玲, 
+   吴林海, 
+TI The Analysis of Research Status and Hot Topics about International Food Safety Based on SCI Database
+SO 科技管理研究
+LA 
+DT Article
+DE 食品安全; 社会网络分析; 文献计量学; 热点
+AB 基于SCI数据库的国际食品安全研究现状与热点分析
+C1 [赵美玲]天津科技大学.图书馆/[吴林海]江南大学.江苏省食品安全研究基.
+RP 
+FU 
+CR 刘艳阳, 2003, 科研管理, V0, P5
+   胡俊荣, 2007, 现代情报, V0, P5
+   邓秀林, 2007, 现代情报, V0, P5
+   崔丽华, 2010, 图书馆学刊, V0, P5
+   XU ZH, 2011, Neural Regen Res, V32, P0
+   张爱军, 2011, 科技管理研究, V0, P16
+   张爱军, 2010, 情报科学, V0, P5
+   孟浩, 2007, 科学学研究, V0, P6
+   储节旺, 2011, 情报杂志, V0, P3
+   王运锋, 2008, 现代教育技术, V0, P4
+   苏娜, 2009, 情报理论与实践, V0, P9
+NR 11
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 35
+IS 080
+BP 253
+EP 258
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 黄静, 
+   刘萍, 
+   张锐, 
+AF 黄静, 
+   刘萍, 
+   张锐, 
+TI 
+SO 科技进步与对策
+LA 
+DT Article
+DE 科学知识图谱; 企业社会责任; 文献计量
+AB 基于科学知识图谱的企业社会责任前沿研究
+C1 [黄静]武汉大学.经济与管理学院/[刘萍]武汉大学.经济与管理学院/[张锐]华中师范大学.信息管理学.
+RP 
+FU 
+CR BERLE AA, 1931, Harvard Law Review, V44, P0
+   SERENK A, 2009, International Journal of Business Governance and Ethics, V4, P0
+   崔智敏, 2010, 统计与决策, V0, P19
+   刘仲林, 2004, 科学学研究, V0, P6
+   邱均平, 1900, 信息资源管理学, V0, P0
+   姚宏魏, 2012, 管理评论, V0, P6
+   PELOZA J, 2009, Journal of Management, V35, P0
+   WOOD DJ, 2010, International Journal of Management Reviews, V12, P0
+   PELOZA J, 2011, Journal of the Academy of Marketing Science, V39, P0
+   LUDESCHER JC, 2011, Environmental Ethics, V33, P2
+   BUULTJENS J, 2010, Tourism Management, V31, P5
+   HE M, 2009, Journal of agricultural and environmental ethics, V22, P4
+   CORBETT J, 2013, Journal of Law, Medicine & Ethics, V41, Ps1
+   CORBETT J, 2013, Industrial and Organizational Psychology, V6, P4
+   KERNS CM, 2013, Journal of Anxiety Disorders, V27, P2
+   KARSTOFT KI, 2013, Journal of Clinical psychiatry, V74, P12
+NR 16
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 32
+IS 050
+BP 84
+EP 89
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 张宝建, 
+   孙国强, 
+   薛婷, 
+   张素姣, 
+AF 张宝建, 
+   孙国强, 
+   薛婷, 
+   张素姣, 
+TI Knowledge Mapping of International Business Incubation
+SO 中国科技论坛
+LA 
+DT Article
+DE 企业孵化; 科学计量; 可视化技术; 知识图谱
+AB 国际企业孵化研究脉络分布与趋势
+C1 [张宝建]山西财经大学.管理科学与工程学院/[孙国强]山西财经大学.管理科学与工程学院/[薛婷]山西财经大学.工商管理学院/[张素姣]山西财经大学.管理科学与工程学.
+RP 
+FU 
+CR Low MB, 1988, Journal of Management, V14, P2
+   Jack SL, 2002, Journal of Business Venturing, V17, P5
+   Baron RA, 2006, Management Science, V52, P9
+   Vail EF, 1999, Information Systems Management, V16, P0
+   庞景安, 1900, 科学计量研究方法论, V0, P0
+   Chen C, 2009, Journal of Informetrics, V3, P3
+   Chen C, 2010, Journal of the American Society for Information Science and Technology, V61, P7
+   布劳温, 1900, 科学计量学指标32国自然科学文献与引文影响的比较分析, V0, P0
+NR 8
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 030
+BP 148
+EP 154
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 张美芳, 
+   潘韩婷, 
+   陈曦, 
+   罗天, 
+AF 张美芳, 
+   潘韩婷, 
+   陈曦, 
+   罗天, 
+TI The Development of Discourse Analytical Approaches to Translation Studies: A Bibliometric Overview
+SO 中国翻译
+LA 
+DT Article
+DE 语篇翻译研究; 文献计量学; 期刊论文; 回顾; 展望
+AB 语篇分析途径的翻译研究:回顾与展望
+C1 [张美芳]澳门大学.
+   [潘韩婷]澳门大学.
+   [陈曦]澳门大学.
+   [罗天]澳门大学.
+RP 
+FU 
+CR 黄勤, 2008, 外语与外语教学, V0, P3
+   李红满, 2014, 中国翻译, V0, P2
+   穆雷, 2014, 中国翻译, V0, P2
+   余高峰, 2011, 上海翻译, V0, P2
+   张美芳, 2002, 中国翻译, V0, P3
+   Baker M, 1900, In Other Words: A Coursebook on Translation, V0, P0
+   Baker M, 2010, Translator, V2, P0
+   Baker M, 1900, Translation and Conflict: A Narrative Account, V0, P0
+   Bosseaux C, 2004, Across Languages and Cultures, V1, P0
+   Brown,Gillian, 1900, Discourse Analysis, V0, P0
+   Carter R, 1900, Linguistics and the Teacher, V0, P0
+   Fariclough N, 2012, Critical Discourse Analysis:Routledge Handbook of Discourse Analysis, V0, P0
+   Gee JP, 2012, Introduction:Routledge Handbook of Discourse Analysis, V0, P0
+   Grbic N, 2008, Target, V2, P0
+   Hale S, 1997, Translator, V1, P0
+   Harding SA, 2001, Meta, V1, P0
+   Harding SA, 2012, Target, V2, P0
+   Hatim B, 1900, Discourse and Translator, V0, P0
+   Hatim B, 1900, Translator as Communicator, V0, P0
+   Hoey M, 1900, Patterns of Lexis in Text, V0, P0
+   House J, 1900, Translation Quality Assessment: A Model Revisited, V0, P0
+   Jaworski A, 1900, Discourse Reader, V0, P0
+   Kaindl K, 2013, Multimodality and translation:Routledge Handbook of Translation Studies, V0, P0
+   Kang JH, 2007, Translator, V2, P0
+   Kang JH, 2012, Meta, V2, P0
+   Kress G, 1900, Multimodality: A Social Semiotic Approach to Contemporary Communication, V0, P0
+   Martin JR, 1900, Language of Evaluation: Appraisal in English, V0, P0
+   Munday J, 1900, Introducing Translation Studies (3rd Edition), V0, P0
+   Munday J, 1900, Evaluation in Translation: Critical Points of Translator Decision-making, V0, P0
+   Rovira-Esteva S, 2011, Perspectives: Studies in Translatology, V3, P0
+   Rovira-Esteva S, 2012, Babel, V3, P0
+   Schiffrin D, 1900, Handbook of Discourse Analysis, V0, P0
+   Schiffrin D, 2001, Introduction:Handbook of Discourse Analysis, V0, P0
+   Shlesinger M, 1995, Translator, V2, P0
+   Valdeon RA, 2008, Babel, V4, P0
+   Valdeon RA, 2009, Meta, V4, P0
+   Valdeon RA, 2010, Translator, V2, P0
+   Valdeon RA, 2011, Meta, V1, P0
+   Yan JX, 2013, Perspectives: Studies in Translatology, V3, P0
+   Zhang MF, 2013, Perspectives: Studies in Translatology, V3, P0
+NR 40
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 36
+IS 050
+BP 25
+EP 32
+DI 
+PG 8
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 姜春林, 
+   刘学, 
+   张立伟, 
+AF 姜春林, 
+   刘学, 
+   张立伟, 
+TI References of Chinese Highly Cited Papers: To be or Not to be Highly Cited?——Take Library and Information Science as an Example
+SO 情报杂志
+LA 
+DT Article
+DE 图书情报学; 高被引论文; 文献计量学; 引文分析; 牛顿假说
+AB 中文高被引期刊论文的参考文献也倾向于高被引吗？——以图书情报学为例
+C1 [姜春林]大连理工大学.公共管理与法学学院WISE实验室/[刘学]大连理工大学.公共管理与法学学院WISE实验室/[张立伟]大连理工大学.公共管理与法学学院WISE实验.
+RP 
+FU 
+CR 曾倩, 2013, 情报理论与实践, V0, P10
+   JE, 2005, Proceedings of the Hirsch National Academy of Sciences, V102, P46
+   Moed Henk F, 2002, Nature, V415, P0
+   齐艳红, 2012, 情报科学, V30, P1
+   王知津, 2004, 图书馆建设, V0, P6
+   贾玉英, 2011, 情报科学, V29, P3
+   屈清慧, 2008, 中国科技期刊研究, V19, P6
+   苗松, 2014, 情报科学, V32, P1
+   张立伟, 2014, 自然辩证法研究, V30, P11
+   王伟军, 2006, 情报科学, V24, P9
+   刘雪立, 2012, 中国科技期刊研究, V0, P6
+NR 11
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 34
+IS 010
+BP 105
+EP 109
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 杨国立, 
+   刘竟, 
+   汪满容, 
+   卢章平, 
+AF 杨国立, 
+   刘竟, 
+   汪满容, 
+   卢章平, 
+TI Mapping Knowledge Domains Analysis of Research Topics of Doctoral Dissertations on Library Science in Europe and the United States
+SO 中国图书馆学报
+LA 
+DT Article
+DE 图书馆学; 博士学位论文; PQDD数据库; 知识图谱; 欧美
+AB 欧美图书馆学博士学位论文研究主题图谱分析
+C1 [杨国立]江苏大学.科技信息研究所/[刘竟]江苏大学.科技信息研究所/[汪满容]江苏大学.科技信息研究所/[卢章平]江苏大学.图书.
+RP 
+FU 
+CR 程亚男, 1900, 书海听涛图书馆散论, V0, P0
+   Schlachter GA, 1900, Library science dissertations 1925—1972: an annotated bibliography, V0, P0
+   张进, 1997, 情报学报, V0, P3
+   Thompson HA, 2000, Significance and use of historical method in Library and Information Science dissertations 1984—1999, V0, P0
+   曹树金, 2011, 图书情报知识, V0, P5
+   王知津, 2011, 大学图书馆学报, V0, P1
+   华薇娜, 1996, 中国图书馆学报, V22, P3
+   鲁程, 2005, 图书馆论坛, V0, P1
+   吕青, 2004, 图书馆建设, V0, P1
+   白榕, 2006, 图书馆工作与研究, V0, P4
+   Schlachter GA,  Col, Library Science dissertations 1925—1972: an annotated bibliography, V0, P0
+   Schlachter GA,  Col, Library Science dissertations 1973—1981: an annotated bibliography, V0, P0
+   王炳立, 2015, 情报杂志, V0, P2
+   陈超美, 2009, 情报学报, V28, P3
+   赵蓉英, 2010, 中国图书馆学报, V0, P5
+   姜春林, 2013, 科学学与科学技术管理, V0, P12
+   钟周, 2015, 中国远程教育, V0, P2
+NR 23
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 040
+BP 96
+EP 111
+DI 
+PG 16
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 唐晓波, 
+   叶珍芳, 
+AF 唐晓波, 
+   叶珍芳, 
+TI Analysis of the Domestic Research of Social Media——Based on Bibliometrics
+SO 情报科学
+LA 
+DT Article
+DE 社会化媒体; 文献计量; 知识图谱; 研究现状
+AB 国内社会化媒体研究现状——基于文献计量分析
+C1 [唐晓波]武汉大学.信息系统研究中心/[叶珍芳]武汉大学.信息系统研究中.
+RP 
+FU 
+CR 邱均平, 1900, 文献计量学, V0, P0
+   王崇德, 桂林:广, 文献计量学引论, V0, P师范大学出版社
+   Hirsch JE, 2005, Proceedings of the National Academy of Sciences of the USA, V102, P46
+   张学梅, 2007, 图书情报工作, V51, P10
+   张伟远, 1999, 开放教育研究, V0, PZ1
+   Kaplan AM, 2010, Business Horizons, V53, P1
+   许振亮, 2008, 图书情报工作, V52, P12
+   薛薇, 1900, 统计分析与SPSS的应用, V0, P0
+   许振亮, 2008, 图书情报工作, V52, P5
+   Hartmaier SL, 1994, Journal of the American Geriatrics Society, V11, P0
+   何南洋, 2010, 图书情报工作, V54, P22
+   中国互联网络信息中心, 2013, 互联网天地, V0, P2
+   田丽, 2013, 新闻与写作, V0, P9
+   彭兰, 2006, 中国记者, V0, P2
+   孙楠楠, 2009, 新闻爱好者, V0, P9
+   张永杰, 2011, 系统工程理论与实践, V31, P4
+   刘蔚, 2012, 前沿, V0, P8
+   付玉辉, 2011, 互联网天地, V0, P9
+   曹慧丹, 2013, 潍坊工程职业学院学报, V26, P3
+   彭兰, 2012, 江淮论坛, V0, P2
+   韩晓芳, 2010, 编辑之友, V0, P2
+   陈娟, 2010, 新闻记者, V0, P3
+   孟建, 2006, 国际新闻界, V0, P7
+   蔡雯, 2006, 国际新闻界, V0, P5
+   彭兰, 2012, 新闻界, V0, P1
+   曹慧丹, 2013, 新闻前哨, V0, P4
+   费斯克,约翰, 1900, 关键概念, V0, P0
+   王陆, 2009, 电化教育研究, V0, P1
+   宋好, 2010, 今传媒, V0, P11
+   丁汉青, 2010, 新闻与传播研究, V0, P3
+NR 30
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 33
+IS 120
+BP 135
+EP 141
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 刘彬, 
+   陈柳, 
+AF 刘彬, 
+   陈柳, 
+TI Analysis of Huazhong Agricultural University’s basic research based on WOS and Citespace
+SO 中国科学基金
+LA 
+DT Article
+DE WOS; Citespace; SCI; 文献计量; 知识图谱
+AB 基于WOS和Citespace的华中农业大学基础研究状况分析
+C1 [刘彬]华中农业大学.科学技术发展研究院/[陈柳]华中农业大学.科学技术发展研究.
+RP 
+FU 
+CR 师昌绪, 1999, 科学通报, V42, P8
+   刘小鹏, 2007, 北京大学学报(自然科学版), V43, P5
+   杨俊丽, 2012, 科技管理研究, V0, P11
+   周辉, 2002, 中国科学基金, V16, P2
+   金安江, 2008, 我校分离出控制水稻产量和生育期的多效性基因, V0, P0
+   袁国华, 2012, 华中农业大学学报(社会科学版), V102, P6
+   刘玉博, 2013, 情报探索, V193, P11
+   刘彬, 2014, 中国科学基金, V28, P1
+NR 9
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 29
+IS 010
+BP 42
+EP 47
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 陈嘉勇, 
+   周婕, 
+   李玲, 
+   肖明, 
+AF 陈嘉勇, 
+   周婕, 
+   李玲, 
+   肖明, 
+TI Research on Author Claim Pattern for University Institutional Repository Based on Paper-Entity Relationship Model
+SO 情报理论与实践
+LA 
+DT Article
+DE 机构知识库; 认领模式; 文献计量学; 关联模型
+AB 基于文献实体关系模型的高校机构知识库作者认领模式研究
+C1 [陈嘉勇]北京邮电大学.图书馆/[周婕]北京邮电大学.图书馆/[李玲]北京邮电大学.图书馆/[肖明]北京师范大学.政府管理学.
+RP 
+FU 
+CR CROW R, 2014, Case for institutional repositories: a SPARC position paper, V0, P0
+   CHAN F, 2014, A conceptual model of name access control for institutional repository, V0, P0
+   赵亚萍, 2012, 中国教育信息化, V0, P15
+   肖明, 2012, 图书情报工作, V56, P22
+   刘巍, 2014, 现代图书情报技术, V30, P3
+NR 5
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 38
+IS 020
+BP 59
+EP 63
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 蔡治东, 
+   虞荣娟, 
+   汤际澜, 
+AF 蔡治东, 
+   虞荣娟, 
+   汤际澜, 
+TI Profiles Analysis of Knowledge of the Sports Policy Research in China
+SO 西安体育学院学报
+LA 
+DT Article
+DE 体育政策; 共现分析; CitespaceⅡ; 知识图谱
+AB 中国体育政策研究的知识图谱分析
+C1 [蔡治东]苏州科技学院.体育部/[虞荣娟]苏州科技学院.体育部/[汤际澜]苏州科技学院.体育.
+RP 
+FU 
+CR 马宣建, 1990, 哈尔滨体育学院学报, V8, P3
+   刘则渊, 1900, 科学知识图谱:方法与应用, V0, P0
+   姜春林, 2008, 中国科技期刊研究, V19, P6
+   杜广强, 2009, 科技进步与对策, V26, P7
+   钱景, 1987, 四川体育科学, V7, P4
+   Bak P, 1991, Scientific American, V264, P1
+   Green M, 1900, Elite Sport Development: Policy Learning and Political Priorities, V0, P0
+   马宣建, 2005, 成都体育学院学报, V31, P6
+   夏培玲, 2012, 北京体育大学学报, V35, P5
+   肖谋文, 2009, 体育科学, V29, P4
+   金世斌, 2013, 体育与科学, V34, P1
+   李益群, 2003, 北京体育大学学报, V26, P2
+   刘宁, 2009, 体育科学, V29, P12
+   赵炳璞, 1997, 体育科学, V17, P4
+   吴超林, 1900, 体育产业经济学, V0, P0
+   徐金尧, 2005, 北京体育大学学报, V28, P3
+NR 16
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 32
+IS 050
+BP 553
+EP 561
+DI 
+PG 9
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 李江, 
+   刘源浩, 
+   黄萃, 
+   苏竣, 
+AF 李江, 
+   刘源浩, 
+   黄萃, 
+   苏竣, 
+TI Remolding the Policy Text Data through Documents Quantitative Research: The Formation, Transformation and Method Innovation of Policy Documents Quantitative Research
+SO 公共管理学报
+LA 
+DT Article
+DE 政策文献计量; 文献计量学; 政策分析; 研究范式
+AB 用文献计量研究重塑政策文本数据分析——政策文献计量的起源、迁移与方法创新
+C1 [李江]浙江大学.公共管理学院/[刘源浩]清华大学.公共管理学院/[黄萃]清华大学.公共管理学院/[苏竣]清华大学.公共管理学.
+RP 
+FU 
+CR 陈振明, 2007, 中国社会科学, V0, P3
+   丁煌, 2003, 管理世界, V0, P2
+   宁骚, 1900, 公共政策, V0, P0
+   傅广宛, 2009, 中国行政管理, V0, P4
+   邱均平, 1900, 信息计量学, V0, P0
+   严怡民, 1900, 情报学概论, V0, P0
+   苏竣, 1900, 公共科技政策导论, V0, P0
+   HULME EW, 1900, Statistical Bibliography in Relation to the Growth of Modern Civilization, V0, P0
+   PRITCHARD A, 1900, Statistical Bibliography; An Interim Bibliography North-Western Polytechnic School of Librarianship, V0, P0
+   GARFIELD E, 1955, Science, V122, P0
+   NARIN F, 1994, Scientometrics, V30, P1
+   乐思诗, 2009, 图书与情报, V0, P6
+   ALMIND TC, 1997, Journal of Documentation, V4, P0
+   HUANG C, 1900, A Bibliometric Study of China’s Science and Technology Policies: 1949—2010, V0, P0
+   HUANG C, 2014, Scientometrics, V99, P3
+   普赖斯, 1900, 巴比伦以来的科学, V0, P0
+   袁军鹏, 1900, 科学计量学高级教程, V0, P0
+   苏竣, 1900, 科技政策要目概览(1949—2010), V0, P0
+   ETZIONI A, 1967, Public Administration Review, V27, P4
+   鲍姆加特纳, 1900, 美国政治中的议程与不稳定性, V0, P0
+   CALLON M, 1900, Mapping the Dynamics of Science and Technology: Sociology of Science in the Real World, V0, P0
+   PINHEIRO CAR, 1900, Social Network Analysis in Telecommunications, V0, P0
+   SNIJDERS TAB, 2005, Models for Longitudinal Network Data:Models and Methods in Social Network Analysis, V0, P0
+   PROVAN KG, 2008, Journal of Public Administration Research and Theory, V18, P2
+   李东泉, 2011, 国际城市规划, V26, P3
+   RICHARD D, 1900, Evaluation in Practice: A Methodological Approach, V0, P0
+   斯图尔特, 1900, 公共政策导论, V0, P0
+   张勤, 2012, 情报学报, V31, P9
+   ROWLANDS I, 2002, Aslib Proceedings, V54, P2
+   LIU Y, 2010, Journal of the American Society for Information Science and Technology, V61, P2
+   ROUSSEAU R, 2005, Journal of Documentation, V61, P2
+   李江, 2013, 情报资料工作, V0, P4
+   王浦劬, 2013, 北京大学学报(哲学社会科学版), V0, P6
+   KING G,  NJ:, Designing Social Iinquiry: Scientific Inference in Qualitative Research, V0, P0
+   默顿, 1900, 社会理论和社会结构, V0, P0
+NR 36
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 12
+IS 020
+BP 138
+EP 144
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 李贵庆, 
+   胡雪晴, 
+   杨继美, 
+AF 李贵庆, 
+   胡雪晴, 
+   杨继美, 
+TI Knowledge Spectrum of College Aerobics in Fomestic and Foreign Researches
+SO 武汉体育学院学报
+LA 
+DT Article
+DE 知识图谱; 高校; 健美操; 发展现状; 热点; 前沿
+AB 国内外高校健美操研究的知识图谱分析
+C1 [李贵庆]武汉体育学院.体操教研室/[胡雪晴]武汉体育学院.研究生院/[杨继美]武汉理工大学.体育.
+RP 
+FU 
+CR 王璟, 2011, 体育成人教育学刊, V27, P3
+   彭道秀, 2009, 科技创新导报, V0, P13
+   易高峰, 2009, 高等教育研究, V30, P10
+   黄霞, 2007, 吉林体育学院学报, V23, P2
+   刘华, 2013, 电子测试, V0, P19
+   王曼, 2013, 哈尔滨体育学院学报, V31, P1
+   夏昆宜, 2006, 大理学院学报, V5, P1
+   毛振明, 1998, 体育科学, V0, P6
+   索彩霞, 2000, 河北体育学院学报, V14, P1
+   王淑红, 2002, 淮阴工学院学报, V11, P2
+   Kin-Isler A, 2001, Journal of Sports Medicine and Physical Fitness, V3, P0
+   Earnest Conrad P, 2011, European Journal of Applied Physiology, V7, P0
+   Blair Steven N, 2003, Diabetes Spectrum, V4, P0
+   李洪波, 2011, 体育成人教育学刊, V27, P2
+NR 14
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 49
+IS 020
+BP 84
+EP 89
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 徐浩, 
+   朱学芳, 
+   肖平, 
+   申俊龙, 
+AF 徐浩, 
+   朱学芳, 
+   肖平, 
+   申俊龙, 
+TI Visualization Analysis on Interdisciplinary Research Field Knowledge Sources: Take Chinese Medicine Interdisciplinary Research Field as a Case Study
+SO 图书馆杂志
+LA 
+DT Article
+DE 学科交叉; 知识源流; 中医学; 知识图谱
+AB 学科交叉研究领域知识源流可视化分析——以我国中医学学科交叉领域为例
+C1 [徐浩]南京大学.信息管理学院/[朱学芳]南京大学.信息管理学院/[肖平]南京中医药大学.药学院/[申俊龙]南京中医药大学.经贸管理学.
+RP 
+FU 
+CR 刘仲林, 2005, 科学技术与辩证法, V22, P6
+   陈其荣, 2009, 上海大学学报(社会科学版), V16, P5
+   邱均平, 2012, 情报科学, V30, P4
+   方红玲, 2010, 中华医学图书情报杂志, V19, P11
+   聂兰英, 2012, 中国科技期刊研究, V23, P4
+   莫金余, 2014, 中国血吸虫病防治杂志, V26, P1
+   戴丽琼, 2012, 科技情报开发与经济, V22, P13
+   戴丽琼, 2012, 预防医学情报杂志, V28, P5
+   耿海英, 2006, 情报杂志, V25, P12
+   Chen C, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   胡泽文, 2013, 图书情报工作, V57, P3
+   陈悦, 2015, 科学学研究, V33, P2
+   魏建香, 1900, 学科交叉知识发现及可视化, V0, P0
+   闵超, 2014, 图书情报工作, V58, P1
+   闵超, 2014, 情报杂志, V33, P5
+NR 17
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 34
+IS 090
+BP 55
+EP 62
+DI 
+PG 8
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 邢颖, 
+   董瑜, 
+   袁建霞, 
+   杨艳萍, 
+   张薇, 
+AF 邢颖, 
+   董瑜, 
+   袁建霞, 
+   杨艳萍, 
+   张薇, 
+TI Method Research on SWOT Analysis of High-tech Industries Based on Bibliometrics: An Empirical Study on the Industry of Rapid Detection of Pesticide
+SO 图书情报工作
+LA 
+DT Article
+DE SWOT分析法; 文献计量学; 战略分析; 农药快速检测
+AB 应用文献计量学的高技术产业SWOT分析研究——以我国农药快速检测行业为例
+C1 [邢颖]中国科学院文献情报中心.
+   [董瑜]中国科学院文献情报中心.
+   [袁建霞]中国科学院文献情报中心.
+   [杨艳萍]中国科学院文献情报中心.
+   [张薇]中国科学院文献情报中心.
+RP 
+FU 
+CR 李娜, 2000, 情报理论与实践, V23, P4
+   Ghazinoory S, 2011, Journal of Business Economics and Management, V12, P1
+   于波, 2011, 南京社会科学, V0, P7
+   郭凤侠, 2010, 财经问题研究, V0, P10
+   崔伟, 2011, 科技与法律, V92, P4
+   Chen,Weiming, 2014, Energy Policy, V0, P0
+   Zeng,Ming, 2014, Renewable and Sustainable Energy Reviews, V0, P0
+   李勇, 2005, 科技管理研究, V0, P7
+   张赤东, 2007, 科技管理研究, V0, P3
+   夏志锋, 2013, 图书馆工作与研究, V0, P12
+   浮肖肖, 2011, 情报探索, V0, P7
+   张克忠, 2012, 出版科学, V20, P6
+   侯延香, 2007, 情报科学, V25, P1
+   翁建兴, 2006, 科技管理研究, V0, P7
+   中国食品药品检定研究院, 2015, 标准化事业发展“十二五”规划, V0, P0
+   问法网站, 2015, 国家标准化管理委员会关于印发《标准化“十一五”发展规划》的通知, V0, P0
+NR 16
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 59
+IS 170
+BP 105
+EP 112
+DI 
+PG 8
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 钟镇, 
+AF 钟镇, 
+TI The reliability testing of knowledge mapping: Case study on co-word analysis
+SO 科学学研究
+LA 
+DT Article
+DE 知识图谱; 共词分析; 可靠性检验; 文献耦合; 叙词分析
+AB 知识图谱分析方法的可靠性检验研究——以共词分析为例
+C1 [钟镇]河南工业大学.管理学.
+RP 
+FU 
+CR Lucio-Arias D, 2008, Journal of the American Society for Information Science and Technology, V59, P12
+   White HD, 1998, Journal of the American Society for Information Science, V49, P4
+   Leydesdorff L, 2011, Journal of Informetrics, V5, P3
+   Kretschmer H, 2007, Journal of Informetrics, V1, P4
+   Glanzel W, 1996, Scientometrics, V37, P2
+   Chen CM, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   胡泽文, 2013, 图书情报工作, V57, P3
+   陈超美, 2014, 判断一篇论文的重要性的结构变化理论, V0, P0
+   Swanson DR, 1986, Perspectives in Biology and Medicine, V30, P1
+   庞杰, 2010, 科学学与科学技术管理, V31, P9
+   Leydesdorff L, 2007, Journal of the American Society for Information Science and Technology, V58, P9
+   屈卫群, 2006, 农业图书情报学刊, V17, P11
+   Bartol T, 2012, Program-Electronic Library and Information Systems, V46, P2
+   薛春香, 2013, 图书馆杂志, V32, P11
+   钟镇, 2011, 科学学研究, V29, P8
+   Martinez M, 2014, Scientometrics, V98, P3
+   Van Raan A, 2004, Scientometrics, V59, P3
+NR 18
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 33
+IS 050
+BP 647
+EP 653
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 钟镇, 
+AF 钟镇, 
+TI Collavorative Characteristics of High Level Research among inner Cities in the Central Area of China Based on Web of Science Papers: A Case Study of Henan Province
+SO 情报科学
+LA 
+DT Article
+DE 科学合作; 文献计量学; 地市合作; 马太效应; 核心边缘结构; 地域倾向
+AB 从Web of Science看中部地区省内地市高层次学术成果合作特征——以河南省为例
+C1 [钟镇]河南工业大学.管理学.
+RP 
+FU 
+CR 薛汉莉, 2013, 情报杂志, V32, P7
+   方茁, 2009, 南昌大学学报(人文社会科学版), V40, P5
+   卢方元, 2007, 中国科技论坛, V0, P1
+   孙恒有, 2010, 郑州大学学报(哲学社会科学版), V43, P2
+   许吉黎, 2013, 地域研究与开发, V32, P5
+   樊华, 2012, 科研管理, V33, P1
+   魏守华, 2004, 中国软科学, V0, P7
+   梁立明, 2002, 自然辩证法通讯, V24, P2
+   Salton G, 1900, Introduction to modern information retrieval, V0, P0
+   梁立明, 2008, 科学学与科学技术管理, V29, P11
+NR 10
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 33
+IS 060
+BP 120
+EP 125
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 向明友, 
+AF 向明友, 
+TI Pragmatic Studies: A Mapping-Knowledge-Domain Analysis
+SO 外国语(上海外国语大学学报)
+LA 
+DT Article
+DE 语用学; Cite SpaceⅡ; 文献计量学分析
+AB 语用学研究的知识图谱分析
+C1 [向明友]信阳师范学院.
+RP 
+FU 
+CR Austin JL, 1900, How to Do Things with Words, V0, P0
+   Blakemore D, 1900, Semantic Constraints on Relevance, V0, P0
+   Blakemore D, 1900, Relevance and Linguistic Meaning: The Semantics and Pragmatics of Discourse Markers, V0, P0
+   Brinton LJ, 1900, Pragmatic Markers in English: Grammaticalization and Discourse Functions, V0, P0
+   Brown P, 1900, Politeness: Some Universals in Language Usage, V0, P0
+   Carston R, 1900, Thoughts and Utterances: The Pragmatics of Esqdicit Communication, V0, P0
+   Clark HH, 1900, Using Language, V0, P0
+   Grice HP, 1900, Logic and conversation:Syntax and Semantics Vol, V0, P0
+   Grice HV, 1900, Studies in the Way of Words, V0, P0
+   Leech G, 1900, Principles of Pragmatics, V0, P0
+   Levinson SC, 1900, Pragmatics, V0, P0
+   Levinson SC, 1900, Presumptive Meanings: The Theory of Generalized Conversational Implicature, V0, P0
+   Schiffrin D, 1900, Discourse Markers, V0, P0
+   Searle J, 1900, Speech Acts: An Essay in the Philosophy of Language, V0, P0
+   Sperber D, 1900, Relevance: Communication and Cognition, V0, P0
+   Walts,Richard, 1900, Politeness, V0, P0
+NR 16
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 38
+IS 060
+BP 36
+EP 47
+DI 
+PG 12
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 邱均平, 
+   祖旋, 
+   郭丽琳, 
+   肖婷婷, 
+AF 邱均平, 
+   祖旋, 
+   郭丽琳, 
+   肖婷婷, 
+TI Visualized Analysis of Research Status and Development Trend of Institutional Repository
+SO 情报理论与实践
+LA 
+DT Article
+DE 机构知识库; 知识图谱; 可视化分析; 研究现状; 发展趋势
+AB 机构知识库的研究现状及其发展趋势的可视化分析
+C1 [邱均平]武汉大学.信息管理学院/[祖旋]武汉大学.信息管理学院/[郭丽琳]武汉大学.信息管理学院/[肖婷婷]武汉大学.信息管理学.
+RP 
+FU 
+CR OpenDOAR, 2014, Proportion of repositories by continent-worldwide, V0, P0
+   CHEN C, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   FREEMAN LC, 1979, Social Networks, V1, P3
+   CROW R, 2002, ARL Bimonthly Report, V223, P0
+   LYNCH CA, 2005, D-lib Magazine, V11, P9
+   FOSTER NF, 2005, D-Lib Magazine, V11, P1
+   LYNCH CA, 2003, Portal: Libraries and the Academy, V3, P2
+   赵蓉英, 2010, 中国图书馆学报, V36, P5
+   栾春娟, 2009, 技术与创新管理, V30, P1
+   CHEN C, 1999, Information Processing and Management, V35, P2
+   CHEN C, 2001, Computer, V34, P3
+   BORNER K, 2003, Annual Review of Information Science and Technology, V37, P1
+   ABRIZAH A, 2009, Malaysian Journal of Library & Information Science, V14, P2
+   WESTELL M, 2006, Library Hi Tech, V24, P2
+   SALO D, 2008, Library Trends, V57, P2
+   BANKIER JG, 2008, Serials Review, V34, P1
+   WARE M, 2004, Learned Publishing, V17, P2
+   GARFIELD E, 1994, Current Contents: Social & Behavioural Sciences, V7, P45
+NR 20
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 38
+IS 010
+BP 12
+EP 17
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 刘宇, 
+   薛碧莹, 
+   顾烨青, 
+AF 刘宇, 
+   薛碧莹, 
+   顾烨青, 
+TI Knowledge Output and Academic Style of the Boone Library School Quarterly——A Bibliometric Analysis
+SO 大学图书馆学报
+LA 
+DT Article
+DE 文华图书馆学专科学校季刊; 文华图书科季刊; 知识产出; 学术风格; 文献计量学
+AB 《文华图书馆学专科学校季刊》的知识产出与学术风格——基于文献计量学的研究
+C1 [刘宇]上海大学.图书情报档案系/[薛碧莹].
+   [顾烨青].
+RP 
+FU 
+CR [Anon], 2015, 晚清民国期间武汉书市概况, V0, P0
+   李小贞, 2014, 高校图书馆工作, V0, P4
+   李小贞, 2014, 四川图书馆学报, V0, P5
+   程焕文, 1985, 图书馆, V0, P5
+   程焕文, 1985, 图书馆, V0, P6
+   谈金铠, 1991, 图书馆论坛, V0, P3
+   谈金铠, 1991, 图书馆论坛, V0, P4
+   李万健, 2004, 中国图书馆学报, V0, P1
+   范凡, 1900, 民国时期图书馆学著作出版与学术传承, V0, P0
+   谢灼华, 2007, 图书情报知识, V0, P4
+   谢灼华, 2006, 图书馆研究与工作, V0, P1
+   吴永贵, 2009, 大学图书馆学报, V0, P6
+   刘宇, 2009, 图书馆建设, V0, P5
+   刘宇, 2012, 大学图书馆学报, V0, P5
+   邓咏秋, 2010, 大学图书馆学报, V0, P2
+   王阿陶, 2014, 大学图书馆学报, V0, P3
+   邓咏秋, 2010, 图书情报知识, V0, P1
+   刘宇, 2008, 图书馆工作与研究, V0, P5
+   [Anon], 1929, 文华图书科季刊, V1, P1
+   [Anon], 1930, 文华图书科季刊, V2, P3/4
+   肖安平, 2003, 武汉文史资料, V0, P9
+   Boettcher C, 1989, Libraries & Culture, V24, P3
+   梁建洲, 1996, 四川图书馆学报, V0, P5
+   [Anon], 1932, 文华图书馆学专科学校季刊, V4, P1
+   [Anon], 1929, 文华图书科季刊, V1, P1
+   耿靖民, 1929, 文华图书科季刊, V1, P3
+   [Anon], 1932, 文华图书馆学专科学校季刊, V4, P1
+   [Anon], 1933, 文华图书馆学专科学校季刊, V5, P1
+   [Anon], 1937, 文华图书馆学专科学校季刊, V9, P2
+   李明伟, 1900, 清未民初中国城市社会阶层研究(1897—1927), V0, P0
+   陈明远, 1900, 文化人的经济生活, V0, P0
+   沈祖荣, 1934, 文华图书馆学专科学校季刊, V6, P2
+   刘宇, 2008, 图书馆, V0, P3
+   沈祖荣, 1935, 文华图书馆学专科学校季刊, V7, P3/4
+   严文郁, 1900, 中国图书馆发展史, V0, P0
+   刘国钧, 1926, 图书馆学季刊, V0, P2
+   上海交通大学, 1930, 文华图书科季刊, V0, P3/4
+   陈季杰, 1933, 文华图书馆学专科学校季刊, V5, P1
+   李小缘, 1936, 图书馆学季刊, V0, P4
+   范并思, 2003, 图书馆, V0, P1
+   吴永贵, 2009, 图书情报知识, V0, P3
+   [Anon], 1930, 文华图书科季刊, V2, P3/4
+   沈祖荣我对于文华图书科季刊的几种希望, 1900, 1929, V0, P0
+   王子舟, 2011, 图书情报知识, V0, P1
+   Lynch BP, 2008, Library Trends, V56, P4
+   于良芝, 1900, 图书馆学导论, V0, P0
+NR 48
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 33
+IS 030
+BP 108
+EP 115
+DI 
+PG 8
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 曹利红, 
+AF 曹利红, 
+TI Research on Visualization of International Technology Competitive Intelligence Based on Knowledge Map
+SO 科技管理研究
+LA 
+DT Article
+DE 技术竞争情报; 知识图谱; 可视化分析; 研究热点
+AB 基于知识图谱的国际技术竞争情报可视化分析研究
+C1 [曹利红]中国科学技术信息研究所.
+RP 
+FU 
+CR 彭靖里, 2009, 图书情报工作, V53, P4
+   吴山, 2010, 现代情报, V30, P10
+   李艳, 2006, 情报学报, V25, P2
+   贡金涛, 2011, 农业图书情报学刊, V23, P5
+   魏晓峰, 2012, 情报学报, V31, P9
+   朱光, 2012, 现代情报, V32, P2
+   黎九平, 2012, 现代情报, V32, P9
+   韩曾丽, 2012, 现代情报, V32, P9
+   彭靖里, 2008, 情报理论与实践, V31, P2
+NR 10
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 35
+IS 230
+BP 163
+EP 169
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 叶爱敏, 
+   王佑镁, 
+AF 叶爱敏, 
+   王佑镁, 
+TI Research on Focus and Direction of Microlecture in China: Based on the Knowledge Map Analysis
+SO 现代教育技术
+LA 
+DT Article
+DE 微课; 知识图谱; 翻转课堂; 多维尺度分析
+AB 基于知识图谱的微课研究热点与趋势分析
+C1 [叶爱敏]温州大学.教育信息化研究所/[王佑镁]温州大学.教育信息化研究.
+RP 
+FU 
+CR 赵永红, 2014, 中小企业管理与科技(中旬刊), V0, P2
+   杨世鉴, 2014, 中国教育信息化, V0, P15
+   那一沙, 2013, 现代教育技术, V0, P3
+   郭文姣, 2012, 中国生物医学工程学报, V0, P4
+   郭煜, 2014, 现代教育技术, V0, P8
+   刘红霞, 2014, 现代教育技术, V0, P2
+   袁志芬, 2014, 当代教育科学, V0, P9
+   贾桂强, 2013, 新作文(中学作文教学研究), V0, P6
+   郭文斌, 2012, 西北师大学报(社会科学版), V0, P1
+   郭文斌, 2014, 电化教育研究, V0, P2
+   张生, 2014, 中国电化教育, V0, P9
+   苏小兵, 2014, 中国电化教育, V0, P7
+   赵旭辉, 2014, 工业和信息化教育, V0, P10
+   张武威, 2014, 课程·教材·教法, V0, P7
+   陈智敏, 2014, 现代教育技术, V0, P8
+   胡铁生, 2014, 现代教育技术, V0, P2
+   余胜泉, 2014, 开放教育研究, V0, P1
+NR 17
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 25
+IS 110
+BP 46
+EP 52
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 张俊艳, 
+   祝文超, 
+AF 张俊艳, 
+   祝文超, 
+TI 
+SO 高教探索
+LA 
+DT Article
+DE 创业教育; 知识图谱分析; 前沿动态
+AB 国际创业教育研究的知识图谱与前沿动态分析
+C1 [张俊艳]天津大学.管理与经济学部/[祝文超]天津大学.管理与经济学.
+RP 
+FU 
+CR 任红娟, 2009, 情报杂志, V28, P12
+   许振亮, 2011, 科学学研究, V0, P11
+   彭绪梅, 2007, 科学学与科学技术管理, V0, P12
+   余菜花, 2012, 资源科学, V0, P10
+   栾春娟, 2009, 技术与创新管理, V30, P1
+   邱均平, 2013, 情报理论与实践, V0, P1
+   Chen C, 2010, Journal of the American Society for Information Science and Technology, V61, P7
+   侯剑华, 2007, 科学学研究, V0, PS1
+   刘则渊, 1900, 科学知识图谱:方法与应用, V0, P0
+   Sanchez JC, 2011, International Entrepreneurship and Management Journal, V7, P2
+   Volery T, 2013, Journal of Small Business Management, V51, P3
+   Walter SG, 2011, University Departments and Self-Employment Intentions of Business Students: A Cross-Level Analysis, V0, P0
+   Giacomin O, 2011, International Entrepreneurship and Management Journal, V7, P2
+   Leoni T, 2010, Small Business Economics, V34, P2
+   DeJaeghere J, 2014, Progress in Development Studies, V14, P1
+   Karlsson T, 2013, International Journal of Management Education, V11, P1
+   Diaz-Casero JC, 2012, International Small Business Journal, V30, P8
+   Nelson T, 2010, Handbook of Research in Entrepreneurship Education: International Perspectives, V3, P0
+   Duval-Couetil N, 2012, International Journal of Engineering Education, V28, P2
+   Spais GS, 2010, Advances in Educational Administration, V11, P0
+   Zappe S, 2013, International Journal of Engineering Education, V29, P1
+   Verzat C, 2009, Academy of Management Learning & Education, V8, P3
+   沈雁, 2011, 高等工程教育研究, V0, P3
+   闫守轩, 2013, 中国高等教育, V0, P22
+   Elmes MB, 2012, Academy of Management Learning & Education, V11, P4
+   Lans T, 2010, Handbook of Research in Entrepreneurship Education: International Perspectives, V3, P0
+   Rideout EC, 2013, Journal of Small Business Management, V51, P3
+   Martin BC, 2013, Journal of Business Venturing, V28, P2
+   Doms M, 2010, Journal of Urban Economics, V67, P1
+   Van Praag M, 2013, Small Business Economics, V40, P2
+   Van Stel A, 2012, Value of an Educated Population for an Individual’s Entrepreneurship Success, V0, P0
+   Rahmati MH, 2011, African Journal of Business Management, V5, P17
+   O’Connor A, 2013, Journal of Business Venturing, V28, P4
+   Cornwall JR, 2012, Journal of Entrepreneurship and Public Policy, V1, P1
+   Cravo TA, 2010, Papers in Regional Science, V89, P4
+   Bahmani S, 2012, Small Business Economics, V38, P4
+   李华晶, 2012, 外国经济与管理, V34, P9
+   Lans T, 2014, Journal of Cleaner Production, V62, P0
+   Lourenco F, 2013, International Small Business Journal, V31, P8
+   Pache AC, 2012, Academy of Management Learning & Education, V11, P3
+   Miller TL, 2012, Academy of Management Learning & Education, V11, P3
+   Nga JKH, 2010, Journal of Business Ethics, V95, P2
+   Smith IH, 2012, Academy of Management Learning & Education, V11, P3
+   Chang J, 2013, Learning-by-doing as an Approach to Teaching Social Entrepreneurship, V0, P0
+NR 47
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 060
+BP 52
+EP 59
+DI 
+PG 8
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 叶江峰, 
+   任浩, 
+   甄杰, 
+AF 叶江峰, 
+   任浩, 
+   甄杰, 
+TI Themes and evolution of the three-decade policies of national industrial parks in China
+SO 科学学研究
+LA 
+DT Article
+DE 产业园区; 政策; 知识图谱
+AB 中国国家级产业园区30年发展政策的主题与演变
+C1 [叶江峰]安徽大学.商学院/[任浩]同济大学.经济与管理学院/[甄杰]华东政法大学.商学.
+RP 
+FU 
+CR [Anon], 2014, 2013年国家级经济技术开发区统计年报, V0, P0
+   程凌华, 2014, 中国科技产业, V0, P9
+   林汉川, 1994, 财政研究, V0, P2
+   张艳, 2007, 城市规划, V0, P2
+   徐伟民, 2008, 中国软科学, V0, P10
+   郑国, 2008, 经济问题探索, V0, P9
+   郭戎, 2013, 中国科技论坛, V0, P11
+   汪涛, 2011, 科研管理, V0, P6
+   王方, 2013, 科技进步与对策, V0, P9
+   Yoon B, 2010, Scientometrics, V85, P3
+   Lee B, 2008, Scientometrics, V77, P1
+NR 11
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 33
+IS 110
+BP 1634
+EP 1640
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 刘毅, 
+AF 刘毅, 
+TI Analysis of Evolvement of Public Opinion Research in the Past 20 Years in China——Based on CSSCI Database (1994—2013)
+SO 情报杂志
+LA 
+DT Article
+DE CitespaceⅡ; 舆论学; 知识图谱; 关键词共现
+AB 近20年我国舆论学研究进展的知识图谱分析——基于CSSCI数据库(1994—2013)
+C1 [刘毅]天津外国语大学.天津国际发展研究.
+RP 
+FU 
+CR 刘则渊, 1900, 科学知识图谱:方法与应用, V0, P0
+   Chen CM, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   陈力丹, 2012, 新闻大学, V0, P5
+   徐玲英, 2013, 南京社会科学, V0, P1
+NR 5
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 34
+IS 050
+BP 169
+EP 173
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 曲霞, 
+   杨晓彤, 
+AF 曲霞, 
+   杨晓彤, 
+TI The Topics Evolution and Frontier Trends of Chinese Higher Education Quality Research in the Past Fifteen Years——Based on the knowledge mapping of research papers’ keywords in CSSCI in 2000—2014
+SO 中国高教研究
+LA 
+DT Article
+DE 高等教育质量研究; CSSCI; 知识图谱; 话题演进; 前沿趋势
+AB 中国高等教育质量研究十五年的话题演进与前沿趋势——基于CSSCI数据库2000—2014年论文关键词共现知识图谱分析
+C1 [曲霞]中国人民大学.教育学院/[杨晓彤]中国人民大学.教育学.
+RP 
+FU 
+CR 邱均平, 2013, 中国高教研究, V0, P2
+   邱梅生, 2002, 江苏高教, V0, P1
+   曲艺, 2008, 黑龙江高教研究, V0, P6
+   闫震普, 2011, 太原大学教育学院学报, V0, P1
+   吴雪, 2012, 高等理科教育, V0, P1
+   邱均平, 2013, 宏观质量研究, V0, P3
+   刘志波, 2014, 现代教育科学, V0, P6
+   陈悦, 1900, 引文空间分析原理与应用:CiteSpace实用指南, V0, P0
+   潘黎, 2011, 教育研究, V0, P2
+   李汉邦, 2008, 湘潭大学学报, V0, P5
+   黄海涛, 2013, 外国教育研究, V0, P7
+   蔡宗模, 2012, 清华大学教育研究, V0, P3
+   潘懋元, 2000, 中国高教研究, V0, P1
+   张应强, 2001, 江苏高教, V0, P5
+   蔡克勇, 2001, 高等教育研究, V0, P4
+   刘振天, 2012, 高等教育研究, V0, P3
+   周远清, 2011, 中国高教研究, V0, P11
+NR 17
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 090
+BP 37
+EP 43
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 朱桂龙, 
+   张艺, 
+   陈凯华, 
+AF 朱桂龙, 
+   张艺, 
+   陈凯华, 
+TI The evolution of the international research on university-industry collaboration
+SO 科学学研究
+LA 
+DT Article
+DE 产学研合作; 产学研合作国际研究; 科学知识图谱
+AB 产学研合作国际研究的演化
+C1 [朱桂龙]华南理工大学.工商管理学院/[张艺]华南理工大学.工商管理学院/[陈凯华]中国科学院科技政策与管理科学研究所.
+RP 
+FU 
+CR Varga A, 1900, University research and regional innovation, V0, P0
+   倪鹏飞, 2010, 国家竞争力蓝皮书:中国国家竞争力报告, V0, P0
+   Lincoln T, 1966, Environmental Sciences, V12, P0
+   Etzkowitz H, 1995, East Review, V14, P0
+   何郁冰, 2012, 科学学研究, V30, P2
+   Perkmann M, 2013, Research Policy, V42, P0
+   刁丽琳, 2011, 外国经济与管理, V33, P2
+   Teixeira A, 2012, Scientometrics, V93, P3
+   Calveri J, 2003, Science and Public Policy, V30, P2
+   Abramo C, 2009, Technovation, V29, P0
+   樊霞, 2013, 科研管理, V34, P9
+   万晶晶, 2014, 情报探索, V0, P7
+   闰杰, 2012, 技术进步与对策, V29, P22
+   陈云, 2012, 科学学研究, V30, P8
+   刘则渊, 1900, 科学知识图谱方法与应用, V0, P0
+   翟庆华, 2013, 科研管理, V34, P9
+   李强, 2014, 科研管理, V35, P5
+   Dang Y, 2011, Decision Support Systems, V50, P0
+   Swar B, 2014, Scientometrics, V99, P0
+   Chen KH, 2011, Journal of Informetrics, V5, P0
+   张晓鹏, 2011, 科学学与科学技术管理, V32, P3
+   Chen C, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   Liu G, 2013, Scientometrics, V94, P0
+   Thomsomson Scientific, 2014, Web of Science核心合集, V0, P0
+   Price DJD, 1900, Little science Big scicne, V0, P0
+   Dabic D, 2011, Management Decision, V49, P2
+   Chen C, 2009, Journal of Informetrics, V3, P3
+   潘东华, 2014, 科研管理, V35, P4
+   Bailon-Moreno R, 2005, Scientometrics, V63, P2
+   Belvaux G, 2000, Management Science, V46, P5
+   姜春林, 2013, 科学学与科学技术管理, V34, P12
+   Donohue JC, 1900, Understanding scientific literature: A bibliographic approach, V0, P0
+   Small H, 1973, Journal of the American Society for Information Science, V24, P4
+   Chen CM, 2006, Journal of the Amercian Society for Information Science and Technology, V57, P3
+   许振亮, 2012, 科学学研究, V30, P1
+NR 35
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 33
+IS 110
+BP 1667
+EP 1686
+DI 
+PG 20
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 王佑镁, 
+   叶爱敏, 
+   赖文华, 
+AF 王佑镁, 
+   叶爱敏, 
+   赖文华, 
+TI Where to Go: Domestic Hotspots Research of MOOC Based on the Knowledge Map Analysis
+SO 中国电化教育
+LA 
+DT Article
+DE MOOC; 知识图谱; 翻转课堂; 混合教学
+AB MOOC何去何从:基于知识图谱的国内研究热点分析
+C1 [王佑镁]温州大学.教育信息化研究所/[叶爱敏]温州大学.教育信息化研究所/[赖文华]温州大学.教育信息化研究.
+RP 
+FU 
+CR 王颖, 2013, 远程教育杂志, V0, P4
+   王守宏, 2015, 中国电化教育, V0, P4
+   王兴旺, 2014, 现代情报, V0, P7
+   郭文姣, 2012, 中国生物医学工程学报, V0, P4
+   张勤, 2010, 技术经济, V29, P6
+   郭文斌, 2012, 西北师大学报(社会科学版), V0, P1
+   薛景丽, 2012, 资源开发与市场, V0, P3
+   郭文斌, 2014, 电化教育研究, V0, P2
+   郑旭东, 2014, 中国电化教育, V0, P1
+   袁莉, 2014, 中国教育信息化, V0, P5
+   王志军, 2014, 中国电化教育, V0, P7
+   袁莉, 2014, 现代远程教育研究, V0, P2
+   杨元元, 2014, 大学教育, V0, P7
+   王萍, 2013, 现代远程教育研究, V0, P3
+   祝智庭, 2014, 中国电化教育, V0, P1
+   金陵, 2013, 中国信息技术教育, V0, P6
+   傅天珍, 2014, 大学图书馆学报, V0, P1
+   安德森,特里, 2014, 中国电化教育, V0, P1
+   宋灵青, 2014, 中国电化教育, V0, P9
+   程璐楠, 2014, 远程教育杂志, V0, P2
+   唐亮, 2014, MOOC热要警惕教育新殖民主义, V0, P0
+   康叶钦, 2014, 清华大学教育研究, V0, P1
+   刘名卓, 2014, 中国电化教育, V0, P7
+   王竹立, 2014, 中小学信息技术教育, V0, PZ1
+   陆波, 2014, 图书与情报, V0, P2
+NR 28
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 070
+BP 12
+EP 18
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 朱尖, 
+   苗威, 
+AF 朱尖, 
+   苗威, 
+TI An Analysis of the Current Situation of China’s Borderland Studies: Based on the Data of China’s Borderland History and Geography Studies (1988—2013)
+SO 中国边疆史地研究
+LA 
+DT Article
+DE 中国边疆史地研究; 文献计量学; 载文; 作者; 引文与被引; 统计分析
+AB 中国边疆史地研究现状分析——基于《中国边疆史地研究》(1988—2013年)的计量统计
+C1 [朱尖]东北师范大学.历史文化学院/[苗威]东北师范大学.历史文化学.
+RP 
+FU 
+CR 马大正, 2003, 中国边疆史地研究, V0, P3
+   戴豫君, 2013, 中国边疆史地研究, V0, P3
+   王天军, 2003, 北京体育大学学报, V0, P2
+   赵荣英, 2013, 情报科学, V0, P2
+   丁东学, 1900, 文献计量学基础, V0, P0
+   王崇德, 1900, 文献计量学引论, V0, P0
+   姜春林, 2009, 情报科学, V0, P2
+   郝屹, 2012, 情报科学, V0, P12
+   魏瑞斌, 2011, 情报理论与实践, V0, P3
+   唐云富, 2010, 比较教育研究, V0, P7
+NR 11
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 25
+IS 030
+BP 163
+EP 179
+DI 
+PG 17
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 隋鑫, 
+   王念祖, 
+AF 隋鑫, 
+   王念祖, 
+TI Study of Research Hotspot of Library Science and Information Science from 2009 to 2013
+SO 情报科学
+LA 
+DT Article
+DE 研究热点; 文献计量学; 内容分析法; 共词分析; 社会网络分析法
+AB 2009—2013年国内图书馆学情报学研究热点分析
+C1 [隋鑫]福建师范大学.社会发展学院/[王念祖]闽江学院.历史学.
+RP 
+FU 
+CR 王念祖, 2013, 情报杂志, V0, P32
+   中国社会科学研究评价中心, 2013, 中文社会科学引文索引, V0, P0
+   周晓英, 2012, 中国图书馆学报, V0, P4
+   Moed Henk F, 2002, Nature, V415, P0
+   Neuberger J, 2002, Eur J Gastroenterol Hepatol, V14, P3
+   Hirsch JE, 2005, Proceedings of the National Academy of Sciences, V102, P46
+   肖燕雄, 2006, 当代传播, V0, P2
+   段京肃, 2006, 现代传播, V0, P5
+   苏力, 2003, 中国法学, V0, P2
+   凌斌, 2004, 中国社会科学, V0, P6
+   成凡, 2005, 中国社会科学, V0, P2
+   肖明, 2009, 情报杂志, V28, P8
+   丁悦梅, 2011, 情报科学, V29, P5
+   吴美美, 1999, 图书馆学与资讯科学, V25, P2
+   Nour MM, 1985, Library and Information Science Research, V7, P3
+   Feehan PE, 1987, Library and Information Science Research, V9, P3
+   Jarvelin K, 1990, Library and Information Research Science, V12, P0
+   He,Qin, 1999, Libray Trends, V0, P1
+   蒋颖, 2006, 情报学报, V0, P8
+   朱庆华, 2008, 情报理论与实践, V0, P2
+   刘军, 1900, 社会网络分析导论, V0, P0
+   罗家德, 1900, 社会网分析讲义, V0, P0
+NR 23
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 33
+IS 100
+BP 61
+EP 65
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 卢志成, 
+AF 卢志成, 
+TI Research Progress and Prospect of Social Sports Instructors——Based on Analysis of Literature of 20 Years
+SO 中国体育科技
+LA 
+DT Article
+DE 社会体育指导员; 研究进展; 前瞻; 文献计量学
+AB 社会体育指导员研究进展与前瞻——基于20年文献分析
+C1 [卢志成]嘉应学院.体育学.
+RP 
+FU 
+CR 北京志愿者协会, 1900, 志愿组织建设与管理, V0, P0
+   曹烃, 2012, 北京体育大学学报, V37, P9
+   陈绍艳, 2001, 中国体育科技, V37, P9
+   陈霞明, 2005, 体育科学研究, V0, P4
+   成民铎, 2006, 成都体育学院学报, V0, P3
+   党亚茹, 2010, 重庆大学学报(社会科学版), V0, P5
+   邓星华, 2001, 体育学刊, V0, P1
+   丁春琴, 2011, 武汉体育学院学报, V0, P11
+   范伟达, 1900, 现代社会研究方法, V0, P0
+   冯娟, 2004, 武汉体育学院学报, V0, P1
+   冯张昌, 1996, 北京体育师范学院学报, V0, P2
+   高斌, 2012, 赤峰学院学报(自然科学版), V0, P8
+   郭亦农, 2009, 沈阳体育学院学报, V0, P4
+   韩会君, 2005, 山东体育学院学报, V0, P1
+   何敏学, 2005, 武汉体育学院学报, V0, P6
+   黄胜, 2000, 体育学刊, V0, P5
+   金黄斌, 2009, 云南师范大学学报, V0, P6
+   李亮, 2012, 南京体育学院学报(自然科学版), V0, P6
+   李双玲, 2013, 哈尔滨体育学院学报, V0, P1
+   李树怡, 1999, 体育科学, V19, P4
+   李相如, 2002, 首都体育学院学报, V0, P4
+   李相如, 2003, 首都体育学院学报, V0, P4
+   李相如, 2005, 体育科学, V25, P3
+   李相如, 2002, 体育科学, V22, P4
+   李小燕, 2002, 北京体育大学学报, V0, P1
+   李彦龙, 2012, 哈尔滨体育学院学报, V0, P5
+   刘青健, 2007, 北京体育大学学报, V0, P7
+   陆亨伯, 1997, 浙江师大学报(自然科学版), V0, P1
+   帕特南 罗伯特·D, 1900, 使民主运转起来, V0, P0
+   芦金峰, 2005, 四川体育科学, V0, P4
+   卢志成, 2014, 嘉应学院学报, V0, P2
+   卢志成, 2013, 体育文化导刊, V0, P12
+   罗彭, 2005, 上海体育学院学报, V0, P2
+   马永明, 2011, 体育文化导刊, V0, P12
+   倪同云, 2002, 中国体育科技, V38, P1
+   倪同云, 1999, 体育科学, V19, P2
+   齐占霞, 1998, 体育学刊, V0, P1
+   舒为平, 2004, 西安体育学院学报, V0, P1
+   孙锋, 2010, 辽宁体育科技, V0, P3
+   孙天明, 2004, 山东体育学院学报, V0, P4
+   孙卫华, 2007, 洛阳大学学报, V0, P4
+   王春兰, 2011, 重庆工商大学学报(社会科学版), V0, P8
+   王美, 2013, 北京体育大学学报, V0, P8
+   王淑清, 2013, 吉林体育学院学报, V0, P3
+   仵晓民, 2011, 渭南师范学院学报, V0, P11
+   杨东, 2000, 体育科研, V0, P1
+   焉石, 2012, 体育科技文献通报, V0, P6
+   袁国伟, 2009, 现代教育科学, V0, P1
+   于善旭, 1994, 天津体育学院学报, V0, P1
+   于善旭, 2007, 天津体育学院学报, V0, P5
+   赵灵峰, 2010, 体育学刊, V0, P3
+   张宏伟, 2013, 吉林体育学院学报, V0, P6
+   张学纲, 1999, 北京体育师范学院学报, V0, P1
+   张永龙, 2008, 体育文化导刊, V0, P9
+   臧雷振, 2012, 中国非营利评论, V0, P1
+   章赛清, 2006, 体育成人教育学刊, V0, P1
+   周红林, 2010, 中国西部科技, V0, P11
+   朱寒笑, 2000, 浙江体育科学, V0, P12
+   邹瑜, 2011, 农业考古, V0, P6
+   SALAMON LM, 1994, Foreign Aff, V3, P0
+   ZIEMEK S, 2006, J Soc Econ, V3, P0
+NR 61
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 51
+IS 050
+BP 100
+EP 108
+DI 
+PG 9
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 兰国帅, 
+   张一春, 
+AF 兰国帅, 
+   张一春, 
+TI The Advancement and Trends in Educational Technology Research Abroad——Based on the Visual Analysis of 20 Kinds of SSCI and A&HCI Journals in the Field of Educational Technology
+SO 电化教育研究
+LA 
+DT Article
+DE 教育技术; 新进展与新趋势; 知识图谱; 可视化分析
+AB 国外教育技术研究:进展与趋势——教育技术领域20种SSCI和A&HCI期刊的可视化分析
+C1 [兰国帅]南京师范大学.教育科学学院/[张一春]南京师范大学.教育科学学.
+RP 
+FU 
+CR 刘则渊, 1900, 科学知识图谱:方法与应用, V0, P0
+   陈悦, 1900, 引文空间分析原理与应用, V0, P0
+   钟伟金, 2008, 情报杂志, V0, P5
+   董玉琦, 2014, 电化教育研究, V0, P9
+   王晓东, 2007, 电化教育研究, V0, P7
+   蔡建东, 2013, 教育研究, V0, P6
+   兰国帅, 2014, 开放教育研究, V0, P3
+NR 7
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 36
+IS 070
+BP 114
+EP 120
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 李亚员, 
+AF 李亚员, 
+TI 
+SO 江汉论坛
+LA 
+DT Article
+DE 社会思潮; 社会主义核心价值观; 共词分析; 知识图谱
+AB 改革开放以来社会思潮研究现状述评——基于30多年来有关期刊文献关键词的计量分析
+C1 [李亚员]东北师范大学.思想政治教育研究中.
+RP 
+FU 
+CR 罗式胜, 1900, 文献计量学概论, V0, P0
+   He,Qin, 1999, Library Trends, V48, P1
+   张玉双, 2008, 晋图学刊, V0, P5
+NR 4
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 090
+BP 59
+EP 64
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 王亚男, 
+   黄国彬, 
+   张一楠, 
+   程慧荣, 
+AF 王亚男, 
+   黄国彬, 
+   张一楠, 
+   程慧荣, 
+TI Analysis of Researches Charateristics on Scientometrics Visualization in Domestic Library and Information Community in the Last Decade
+SO 图书情报知识
+LA 
+DT Article
+DE 科学计量; 可视化软件; 知识图谱; 图情领域; 应用研究; 数据可视化
+AB 近十年我国图情领域科学计量可视化的研究特点剖析
+C1 [王亚男]北京师范大学.政府管理学院/[黄国彬]北京师范大学.政府管理学院/[张一楠]北京师范大学.政府管理学院/[程慧荣]鲁东大学.图书.
+RP 
+FU 
+CR 邱均平, 2009, 图书情报研究, V2, P2
+   殷沈琴, 2011, 大学图书馆学报, V0, P4
+   魏瑞斌, 2013, 情报杂志, V0, P6
+   邱均平, 2011, 图书情报知识, V0, P6
+   宗乾进, 2011, 情报杂志, V0, P12
+   秦长江, 2009, 大学图书馆学报, V0, P1
+   姜春林, 2010, 科技管理研究, V0, P7
+NR 8
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 010
+BP 86
+EP 94
+DI 
+PG 9
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 夏恩君, 
+   宋剑锋, 
+AF 夏恩君, 
+   宋剑锋, 
+TI An analysis on the evolution path and hot topics of open innovation based on the view of scientific knowledge map
+SO 科研管理
+LA 
+DT Article
+DE 开放式创新; citespaceⅡ; 知识图谱; 演化路径; 热点
+AB 开放式创新研究的演化路径和热点领域分析——基于科学知识图谱视角
+C1 [夏恩君]北京理工大学.管理与经济学院/[宋剑锋]北京理工大学.管理与经济学.
+RP 
+FU 
+CR Chesbrough HW, 1900, Open innovation: The new imperative for creating and profiting from technology, V0, P0
+   Dahlander L, 2010, Research Policy, V39, P6
+   West J, 2013, Journal of Product Innovation Management, V31, P4
+   Perkmann M, 2007, International Journal of Management Reviews, V9, P4
+   王雎, 2011, 南开管理评论, V0, P2
+   张峰, 2012, 外国经济与管理, V34, P5
+   陈超美, 2009, 情报学报, V28, P3
+   Grant RM, 2004, Journal of management studies, V41, P1
+   Christensen JF, 2005, Research Policy, V34, P10
+   Laursen K, 2006, Strategic Management Journal, V27, P2
+   Lichtenthaler U, 2008, IEEE Transactions on Engineering Management, V55, P1
+   Lichtenthaler U, 2009, R&D Management, V39, P4
+   Faraj S, 2011, Organization Science, V22, P5
+   Reed R, 2012, Management Decision, V50, P1
+   Lee SM, 2012, Management Decision, V50, P1
+   Keupp MM, 2009, R&D Management, V39, P4
+   Leiponen A, 2010, Strategic Management Journal, V31, P2
+   Lee S, 2010, Research Policy, V39, P2
+   Chen J, 2011, Technovation, V31, P8
+   Huang F, 2009, International Journal of Innovation Management, V13, P2
+   Ethiraj SK, 2008, Strategic Management Journal, V29, P8
+   Dittrich K, 2007, Journal of Product Innovation Management, V24, P6
+   Fichter K, 2009, R&D Management, V39, P4
+   Chesbrough H, 2006, R&D Management, V36, P3
+   Chesbrough H, 2003, California Management Review, V45, P3
+   Alexy O, 2009, MIT Sloan Management Review, V51, P1
+   Lichtenthaler U, 2009, Journal of Management Studies, V46, P8
+   Lichtenthaler U, 2010, International Journal of Technology Management, V52, P3
+   Laursen K, 2011, Science and Public Policy, V38, P9
+   Von Hippel E, 2003, Organization Science, V14, P2
+   Piller FT, 2006, R&D Management, V36, P3
+   Di Gangi PM, 2009, Decision Support Systems, V48, P1
+NR 32
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 36
+IS 070
+BP 28
+EP 37
+DI 
+PG 10
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 冯瑶, 
+AF 冯瑶, 
+TI Analysis on Bibliometric Laws of Item Response Theory Study in China
+SO 心理学探新
+LA 
+DT Article
+DE 项目反应理论; 文献计量学; 文献增长规律; 作者分布规律; 布拉德福定律
+AB 我国项目反应理论研究的文献计量规律分析
+C1 [冯瑶]宁波大学.科学技术学.
+RP 
+FU 
+CR 冯瑶, 2012, 现代情报, V32, P2
+   冯瑶, 2011, 中国高教研究, V0, P12
+   管连荣, 1990, 心理学报, V22, P2
+   罗照盛, 1900, 项目反应理论基础, V0, P0
+   邱均平, 1900, 信息计量学, V0, P0
+   清华同方知识网络科技有限公司, 2013, 中国知网CNKI数据库, V0, P0
+   涂冬波, 2011, 心理学报, V43, P11
+   万晓霞, 2009, 心理科学进展, V17, P6
+   王晓华, 2010, 教育科学, V26, P3
+   燕国材, 2010, 南通大学学报(社会科学版), V26, P2
+   杨业兵, 2008, 心理学报, V40, P5
+   Brookes EA, 1969, Nature, V224, P5223
+   Coile RC, 1977, Journal of the American Society for Information Science, V28, P6
+   Goffman W, 1970, Nature, V226, P5249
+   Guan LR, 1990, Acta Psychologica Sinca, V22, P2
+NR 15
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 35
+IS 050
+BP 452
+EP 457
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 张子石, 
+   吴涛, 
+   金义富, 
+AF 张子石, 
+   吴涛, 
+   金义富, 
+TI CiteSpace-based Analysis of Knowledge Map on Web-based Learning
+SO 中国电化教育
+LA 
+DT Article
+DE 网络学习; 科学知识图谱; 可视化; CiteSpace; 实证研究
+AB 基于CiteSpace的网络学习知识图谱分析
+C1 [张子石]岭南师范学院.信息科学与技术学院/[吴涛]岭南师范学院.教育技术研究所/[金义富]广东高等学校.数字化学习工程技术开发中.
+RP 
+FU 
+CR 李玉斌, 2012, 电化教育研究, V0, P9
+   彭文辉, 2013, 中国电化教育, V0, P9
+   贺斌, 2013, 开放教育研究, V0, P4
+   吴涛, 2013, 电化教育研究, V0, P1
+   李运福, 2013, 电化教育研究, V0, P5
+   牟智佳, 2013, 电化教育研究, V0, P4
+   梁林梅, 2013, 电化教育研究, V0, P1
+   武法提, 2013, 中国电化教育, V0, P7
+   梁秀娟, 2009, 图书馆杂志, V0, P6
+   蒋菲, 2014, 湖南师范大学教育科学学报, V0, P4
+   寇继虹, 2011, 电化教育研究, V0, P9
+   王佑镁, 2014, 中国电化教育, V0, P5
+   黄鲁成, 2014, 情报杂志, V0, P2
+   刘菁, 2012, 电化教育研究, V0, P1
+   陈超美, 2009, 情报学报, V0, P3
+   任红娟, 2009, 情报杂志, V0, P12
+   陈康, 2009, 软件学报, V0, P5
+NR 17
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 080
+BP 77
+EP 84
+DI 
+PG 8
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 刘锦宏, 
+   丁美方, 
+   安珍珍, 
+AF 刘锦宏, 
+   丁美方, 
+   安珍珍, 
+TI 
+SO 科技与出版
+LA 
+DT Article
+DE 数字出版; CiteSpace; 可视化分析; 知识图谱
+AB 国际数字出版研究进展可视化分析
+C1 [刘锦宏]武汉理工大学.文法学院/[丁美方]武汉理工大学.文法学院/[安珍珍]武汉理工大学.文法学.
+RP 
+FU 
+CR 谢新洲, 1900, 数字出版技术, V0, P0
+   陈悦, 2005, 科学学研究, V0, P2
+   Chen C, 2006, Journal of the American Society for Information Science and Technology, V3, P0
+   Don S, 1994, Information Science and Technology, V45, P0
+   Kahin B, 1900, Internet Publishing and Beyond: The economics of digital information and intellectual property, V0, P0
+   Thompson John B, 1900, Books in the Digital Age: The Transformation of Academic and Higher Education Publishing in Britain and United States, V0, P0
+   王异, 2006, 科技与出版, V0, P5
+NR 9
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 080
+BP 81
+EP 85
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 赵健, 
+   孙畅, 
+AF 赵健, 
+   孙畅, 
+TI Visualization Analysis of Chinese University Library Research Based on Mapping Knowledge Domain
+SO 情报科学
+LA 
+DT Article
+DE 知识图谱; 高校图书馆; 文献计量学
+AB 基于知识图谱的国内高校图书馆研究领域可视化分析
+C1 [赵健]中共沈阳市委党校.图书馆/[孙畅]中共沈阳市委党校.图书.
+RP 
+FU 
+CR 宗乾进, 2012, 国家图书馆学刊, V0, P2
+   丁悦梅, 2011, 情报科学, V0, P5
+   Shiffrin Richard M, 2004, Proceedings of the National Academy of Sciences, V4, P0
+   Persson,Olle, 2012, BibExcel, V0, P0
+   Borgatti SP,  MA:, Ucinet for Windows: Software for Social Network Analysis, V0, P0
+   Chen C, 2006, Journal of the American Society for Information Science and Technology, V3, P0
+   van Eck NJ, 2010, Journal of the American Society for Information Science and Technology, V12, P0
+   黄玉华, 2005, 大学图书馆学报, V0, P5
+   叶艳鸣, 2007, 大学图书馆学报, V0, P3
+   范爱红, 2006, 大学图书馆学报, V0, P3
+   [Anon], 2012, GPSVisualizer, V0, P0
+   张晓林, 2000, 中国图书馆学报, V0, P5
+   徐恺英, 2007, 图书情报工作, V0, P3
+   孟广均, 1900, 国外图书馆学情报学研究进展, V0, P0
+   徐引篪, 1900, 现代图书馆学理论, V0, P0
+   吴建中, 2005, 国家图书馆学刊, V0, P3
+   Beagle D, 1999, Journal of Academic Librarianship, V2, P0
+   杜也力, 2002, 大学图书馆学报, V0, P1
+   胡继东, 2002, 图书情报知识, V0, P3
+   刘淑玲, 2010, 情报科学, V0, P4
+   刘景宇, 2011, 图书馆, V0, P4
+NR 21
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 33
+IS 030
+BP 102
+EP 107
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 何壮, 
+   韦小满, 
+   李刚, 
+AF 何壮, 
+   韦小满, 
+   李刚, 
+TI A Bibliometric Analysis of Math Learning Disabilities in China
+SO 中国特殊教育
+LA 
+DT Article
+DE 数学障碍; 知识图谱; 科学计量学
+AB 我国数学障碍研究的科学计量学分析
+C1 [何壮]北京师范大学.教育学部/[韦小满]北京师范大学.中国基础教育质量监测协同创新中心/[李刚]北京师范大学.教育学.
+RP 
+FU 
+CR Thelander HE, 1958, Journal of Pediatrics, V53, P4
+   黄希庭, 1900, 心理学大辞典, V0, P0
+   张树东, 2004, 中国特殊教育, V0, P2
+   陈悦, 2005, 科学学研究, V23, P2
+   Kosc L, 1974, Journal of Learning Disabilities, V7, P3
+   俞国良, 2003, 心理学报, V35, P5
+   陈蒲晶, 2011, 中国特殊教育, V0, P1
+   汪斯斯, 2011, 中国特殊教育, V0, P7
+   张厚粲, 1989, 心理学报, V0, P2
+   张树东, 2007, 心理发展与教育, V0, P2
+NR 10
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 120
+BP 47
+EP 50
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 杨建林, 
+AF 杨建林, 
+TI Association Analysis of Academic Individuals’ Research Directions: Taking the Information Science Field in China as an Example
+SO 情报科学
+LA 
+DT Article
+DE 研究方向; 关键词分析; 关联分析; 知识图谱
+AB 学术个体研究方向的关联分析——以中国情报学领域为例
+C1 [杨建林]南京大学.信息管理学.
+RP 
+FU 
+CR 杨建林, 2004, 情报学报, V23, P6
+   王昊, 2005, 现代图书情报技术, V0, P3
+   尹相旭, 2009, 情报杂志, V0, P11
+   冯璐, 2006, 中国图书馆学报, V32, P2
+   金莹, 2006, 现代图书情报技术, V0, P9
+   刘志辉, 2010, 情报学报, V29, P2
+   魏瑞斌, 2006, 情报科学, V24, P9
+   Callon M, 1900, Mapping the dynamics of Science and technology: Sociology of science in the real world, V0, P0
+   藤广青, 2011, 现代图书情报技术, V0, P9
+   陈强, 2006, 情报杂志, V25, P5
+   邓三鸿, 2006, 情报学报, V25, P1
+   Morris SA, 2002, Computers & Industrial Engineering, V43, P4
+   Leydesdorff,Loet, 2006, Journal of the American Society for Information Science and Technology, V57, P12
+   梁战平, 2003, 情报理论与实践, V0, P3
+   王知津, 2003, 图书情报工作, V0, P1
+NR 17
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 33
+IS 020
+BP 132
+EP 138
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 郁秋亚, 
+AF 郁秋亚, 
+TI 
+SO 江苏高教
+LA 
+DT Article
+DE 高校协同创新; 人才培养; 产学研合作; 知识图谱
+AB 国内高校协同创新研究的热点分析——知识图谱的新视角
+C1 [郁秋亚]苏州大学.科技.
+RP 
+FU 
+CR Chen C, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   陈劲, 2012, 科学学研究, V0, P2
+   谢卫红, 2014, 科技管理研究, V0, P18
+   别敦荣, 2012, 中国高教研究, V0, P10
+   郭斌, 2003, 科学学研究, V0, P21
+   马莹莹, 2011, 高校科研团队产学研合作绩效的影响因素研究:学位论文, V0, P0
+   谢志宇, 2004, 产学合作绩效影响因素研究:学位论文, V0, P0
+   王子镐, 2011, 中国高等教育, V0, P24
+   毕颖, 2014, 教育发展研究, V0, P9
+   王迎军, 2012, 中国高等教育, V0, P21
+   王丹平, 2013, 中国高等教育, V0, P1
+   薛二勇, 2012, 中国高教研究, V0, P12
+   方丽, 2014, 江苏高教, V0, P2
+   王帮俊, 2014, 济南大学学报(社会科学版), V0, P1
+NR 14
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 040
+BP 50
+EP 52
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 王海英, 
+   吕书红, 
+   马智, 
+   刘哲峰, 
+   庞静, 
+   段斯文, 
+AF 王海英, 
+   吕书红, 
+   马智, 
+   刘哲峰, 
+   庞静, 
+   段斯文, 
+TI Practice and analysis of classification and assessment of academic quality of medical periodicals
+SO 中国科技期刊研究
+LA 
+DT Article
+DE 文献计量学; 学术质量; 指标遴选; 加权赋值; 对策建议
+AB 医学期刊学术质量分类评估的实践与分析
+C1 [王海英]中国健康教育中心.报刊管理部/[吕书红]中国健康教育中心.报刊管理部/[马智]疑难病杂志社.
+   [刘哲峰]国家卫生和计划生育委员会.新闻宣传司/[庞静]中国健康教育中心.报刊管理部/[段斯文]中国健康教育中心.报刊管理.
+RP 
+FU 
+CR 安静, 2009, 医学期刊质量评价指标体系的研究:学位论文, V0, P0
+   俞立平, 2009, 编辑学报, V21, P3
+   中国科学技术信息研究所, 1900, 2014年版中国科技期刊引证报告(扩刊版), V0, P0
+   王遐, 2008, 中国科技期刊研究, V19, P5
+   付春玲, 2006, 科技情报开发与经济, V16, P7
+   李卓青, 2007, 编辑学报, V19, P5
+   许新军, 2012, 情报理论与实践, V35, P1
+   贺晓利, 2015, 出版广角, V0, P5
+   俞立平, 2008, 科学学研究, V26, P5
+   张晓雪, 2014, 中国出版, V0, P1上
+NR 10
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 26
+IS 120
+BP 1325
+EP 1329
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 吴志祥, 
+   苏新宁, 
+AF 吴志祥, 
+   苏新宁, 
+TI The Development Path and Inspiration of Nature
+SO 图书与情报
+LA 
+DT Article
+DE Nature; 科学通报; 文献计量学; 内容分析法; 期刊事业发展
+AB 国际顶级学术期刊《Nature》的发展轨迹及启示
+C1 [吴志祥]南京大学.信息管理学院/[苏新宁]南京大学.信息管理学.
+RP 
+FU 
+CR [Anon], 2015, 两刊历史, V0, P0
+   赵一文, 2007, 中国科技期刊究, V0, P6
+   Day George S, 1996, Journal of Marketing, V1, P0
+   Smith Derek R, 2010, Archives of Environmental & Occupational Health, V64, P0
+   许家林, 2008, 财会通讯, V0, P11
+   郑晓丹, 2013, 音乐探索, V0, P3
+   叶石丁, 1989, 编辑学报, V0, P2
+   陆伯华, 1994, 编辑学报, V0, P2
+   周庆辉, 2006, 中国科技期刊研究, V0, P6
+   [Anon], 2015, Timeline of NPG, V0, P0
+   [Anon], 2015, History of Nature, V0, P0
+   陆歆弘, 2003, 中国建筑业成长发展轨迹与增长影响因子研究:学位论文, V0, P0
+   Choo,Chun Wei, 2014, Journal of the Association for Information Science and Technology, V0, P1
+   颜志森, 2010, 中国科技期刊研究, V0, P4
+   颜志森, 2006, 科技与出版, V0, P3
+   方红玲, 2011, 中国科技期刊研究, V0, P5
+   金碧辉, 2000, 中国科技期刊研究, V0, P4
+   [Anon], 2015, 成语释义, V0, P0
+   游苏宁, 2006, 编辑学报, V0, P5
+   邝幸华, 2001, 编辑学报, V0, P2
+   [Anon], 2015, Editor of Nature, V0, P0
+   蔡玉麟, 2002, 编辑学报, V0, P1
+   刘雪立, 2006, 中国科技期刊研究, V0, P4
+   [Anon], 2015, Nature订阅人数, V0, P0
+   游苏宁, 2008, 编辑学报, V0, P1
+   [Anon], 2015, 朱作言:办好“两刊”是一种使命, V0, P0
+NR 26
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 010
+BP 27
+EP 37
+DI 
+PG 11
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 王雪梅, 
+   张志强, 
+   李新, 
+AF 王雪梅, 
+   张志强, 
+   李新, 
+TI Tendency Analysis of the International Studies of Qinghai-Tibet Plateau Using MKD and GIS
+SO 情报学报
+LA 
+DT Article
+DE 青藏高原; 研究态势; 文献计量学; GIS; 知识图谱
+AB 基于知识图谱和GIS分析的国际青藏高原研究态势分析
+C1 [王雪梅]西南大学.图书馆/[张志强]中国科学院兰州文献情报中心.
+   [李新]中国科学院寒区旱区环境与工程研究所.
+RP 
+FU 
+CR Yao,Tandong, 2012, Environmental Development, V0, P0
+   Immerzeel WW, 2010, Science, V328, P0
+   Liu,Xiaodong, 2003, Geophysical Research Letters, V30, P16
+   郑度, 2004, 中国基础科学, V0, P2
+   Pritchard A, 1969, Journal of Documentation, V25, P4
+   Borner K, 2003, Annual Review of Information Science and Technology, V37, P0
+   Van Eck NJ, 2010, Scientometrics, V84, P2
+   王雪梅, 2014, 图书情报工作, V58, P3
+   Wang,Xuemei, 2014, Earth Science Informatics, V7, P3
+   胡泽文, 2013, 图书情报工作, V0, P3
+   肖仙桃, 2003, 地球科学进展, V18, P4
+   张燕, 2011, 地球科学进展, V26, P3
+   中国科学技术协会, 1900, 青藏高原研究学科发展报告(2012—2013), V0, P0
+   王雪梅, 2012, 地球科学进展, V27, P11
+NR 15
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 34
+IS 090
+BP 930
+EP 937
+DI 
+PG 8
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 张静儒, 
+   张歆梅, 
+   吴必虎, 
+AF 张静儒, 
+   张歆梅, 
+   吴必虎, 
+TI A Knowledge Mapping Analysis on Curriculum System of Recreation Studies in USA
+SO 旅游科学
+LA 
+DT Article
+DE 游憩; 旅游; 休闲; 知识图谱; 课程体系
+AB 美国游憩学课程体系的知识图谱分析
+C1 [张静儒]北京大学.城市与环境学院/[张歆梅]复旦大学.旅游学系/[吴必虎]北京大学.城市与环境学.
+RP 
+FU 
+CR 国际现代建筑学会, 2007, 城市发展研究, V0, P5
+   罗雪莲, 2010, 体育学刊, V0, P7
+   彭国强, 2014, 成都体育学院学报, V0, P4
+   吴必虎, 1900, 旅游规划原理, V0, P0
+   吴承照, 2005, 旅游学刊, V0, PS1
+   于伟, 2012, 旅游科学, V0, P3
+   张勤, 2007, 管理科学学报, V0, P6
+   赵珊, 2013, 体育文化导刊, V0, P10
+   钟伟金, 2008, 情报杂志, V0, P5
+   Burdge RJ, 1985, Journal of Leisure Research, V17, P2
+   Hall CM, 1900, Geography of Tourism and Recreation: Environment Place and Space, V0, P0
+   Jackson EL, 1900, Understanding Leisure and Recreation: Mapping the Past Charting the Future, V0, P0
+   Smith SLJ, 1991, Annals of Tourism Research, V18, P0
+   Twardzik LF, 1984, Leisure Sciences, V6, P3
+NR 14
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 29
+IS 010
+BP 76
+EP 87
+DI 
+PG 12
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 胡德华, 
+   种乐熹, 
+   邱均平, 
+   李俊, 
+AF 胡德华, 
+   种乐熹, 
+   邱均平, 
+   李俊, 
+TI Progress and Trends of Research on Knowledge Retrieval at Home and Abroad
+SO 图书情报知识
+LA 
+DT Article
+DE 知识检索; 知识图谱; 共被引分析; CiteSpace; 研究热点; 研究前沿
+AB 国内外知识检索研究的进展与趋势
+C1 [胡德华]武汉大学.信息管理学院/[种乐熹]中南大学.湘雅医学院医药信息系/[邱均平]武汉大学.信息管理学院/[李俊]中南大学.湘雅医学院医药信息.
+RP 
+FU 
+CR 马文峰, 2006, 情报理论与实践, V29, P2
+   张玉峰, 2003, 中国图书馆学报, V29, P5
+   Chen C, 2006, Journal of the American Society for information Science and Technology, V57, P3
+   Salton G, 1975, Communications of the ACM, V18, P11
+   Robertson SE, 1976, Journal of the American Society for Information Science, V27, P3
+   邱均平, 1900, 信息计量学, V0, P0
+   侯剑华, 2007, 科学学研究, V25, PS1
+   Maron ME, 1960, Journal of the ACM (JACM), V7, P3
+   Zadeh LA, 1965, Information and control, V8, P3
+   Deerwester S, 1990, Journal of the American Society for Information Science, V6, P41
+   Salton G, 1988, Information processing & management, V24, P5
+   郦金花, 2004, 情报学报, V23, P5
+   田大芳, 2009, 现代情报, V29, P7
+   刘雪立, 2010, 情报杂志, V0, P1
+   徐剑, 2009, 上海交通大学学报(哲学社会科学版), V17, P2
+   Bar-Ilan J, 2008, Scientometrics, V75, P3
+   王继成, 2001, 计算机研究与发展, V38, P2
+   武成岗, 2001, 计算机研究与发展, V38, P6
+   汪晓岩, 1999, 计算机研究与发展, V36, P9
+   Belvaux G, 2000, Management Science, V46, P5
+   黄国斌, 2009, 中文信息学报, V23, P2
+   Yang Y, 2012, Pattern Analysis and Machine Intelligence, IEEE Transactions on, V34, P4
+   刘治纲, 2011, 南昌航空大学学报(自然科学版), V25, P2
+   闫晓妍, 2009, Web2, V0, P0
+   柳群英, 2005, 情报探索, V0, P4
+   崔雷, 2005, 情报学报, V24, P6
+   侯跃芳, 2008, 情报理论与实践, V31, P2
+   郑乐丹, 2012, 情报杂志, V31, P9
+NR 33
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 030
+BP 93
+EP 106
+DI 
+PG 14
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 陈一, 
+   冉从敬, 
+AF 陈一, 
+   冉从敬, 
+TI A Comparative Analysis of Domestic and Foreign Library and Information Science Research in Past Fifteen Years——Case Study of “Journal of the China Society for Scientific and Technical Information”…
+SO 情报杂志
+LA 
+DT Article
+DE 情报学报; JASISIT; 图书情报学; 知识图谱
+AB 中外图书情报学近十五年学术聚焦演化对比研究——以《情报学报》和《美国信息科学与技术学会会志》为例
+C1 [陈一]武汉大学.信息管理学院/[冉从敬]武汉大学.信息管理学.
+RP 
+FU 
+CR 肖明, 2011, 图书情报工作网刊, V0, P2
+   李芬, 2009, 中国科学基金, V0, P3
+   于升峰, 1999, 情报学报, V18, P6
+   黄伟红, 2000, 情报学报, V19, P4
+   秦铁辉, 2002, 情报学报, V21, P6
+   Fidel R, 1999, JASIS, V50, P1
+   Chen C, 2000, Journal of the American Society for Information Science, V51, P6
+   杨庆芝, 2002, 情报科学, V0, P7
+   包昌火, 2004, 情报学报, V23, P3
+   Brody T, 2006, Journal of the American Society for Information Science and Technology, V57, P8
+   Kousha K, 2007, Journal of the American Society for Information Science and Technology, V58, P7
+   Vaughan L, 2005, Journal of the American Society for Information Science and Technology, V56, P10
+   邱均平, 2011, 情报学报, V30, P7
+   岳洪江, 2008, 情报学报, V27, P3
+   Luhn HP, 1958, IBM Journal of Research and Development, V2, P2
+   马费成, 1996, 情报学报, V15, P5
+   包昌火, 2003, 情报学报, V22, P3
+   Lotka AJ, 1926, Frequency Distribution of Scientific Productivity, V0, P0
+   Hirsch JE, 2005, Proceedings of the National Academy of Sciences of the United States of America, V102, P46
+   Kuhlthau CC, 1991, JASIS, V42, P5
+NR 21
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 34
+IS 030
+BP 112
+EP 118
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 王灿友, 
+   苏秦, 
+AF 王灿友, 
+   苏秦, 
+TI Evolution and Development Trends of 3D Printing Technology Based on the Analysis of Literature
+SO 情报杂志
+LA 
+DT Article
+DE 3D打印; 文献计量学; 共被引分析; Citespace ; 生物材料
+AB 基于文献分析的3D打印技术的演化及发展前沿
+C1 [王灿友]西安交通大学.管理学院/[苏秦]西安交通大学.管理学.
+RP 
+FU 
+CR The Economist, 2015, Third Industrial Revolution Begins: The Gentleman Manufacturer, V0, P0
+   安东尼,斯科, 2015, 2013年颠覆性创新趋势, V0, P0
+   王飞跃, 2012, 中国科学院院刊, V27, P6
+   Braun T, 2003, Scientometrics, V58, P0
+   刘红光, 2013, 情报杂志, V32, P6
+   吴菲菲, 2013, 情报杂志, V32, P8
+   董坤, 2014, 情报杂志, V33, P11
+   Intellectual Property Office, 1900, 3D Printing: A Patent Overview, V0, P0
+   Braun T, 1997, Scientometrics, V38, P0
+   Chen K, 2011, Journal of Informetrics, V5, P2
+   侯海燕, 2006, 基于知识图谱的科学计量学进展研究:学位论文, V0, P0
+   许振亮, 1900, 技术创新前沿图谱, V0, P0
+   [Anon], 2015, Justia Patents: Patents by Inventor Paul F, V0, P0
+   [Anon], 2015, Essential Science Indicators from Thomson Reuters January 1 2000-October 31 2010, V0, P0
+   Chen C, 2014, Expert Opinion on Biological Therapy, V14, P9
+   Chao,Chiachen, 2007, Technovation, V0, P27
+   Berman,Barry, 2012, Business Horizons, V0, P55
+   Petrick Irene J, 2013, Research-technology Management, V56, P6
+   Nyman Henrik J, 2013, From Bits to Atoms: 3D Printing in the Context of Supply Chain Strategies, V0, P0
+   陈超美, 2009, 情报学报, V28, P3
+   李健, 2014, 情报学报, V33, P8
+NR 24
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 34
+IS 090
+BP 72
+EP 77
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 邢梦婷, 
+   王曰芬, 
+AF 邢梦婷, 
+   王曰芬, 
+TI Review and Prospect of Research on Public Opinion at Home and Abroad
+SO 情报理论与实践
+LA 
+DT Article
+DE 社会舆情; 网络舆情; 文献计量学; 研究热点
+AB 国内外社会舆情研究的回顾与展望
+C1 [邢梦婷]南京理工大学.经济管理学院/[王曰芬]南京理工大学.经济管理学.
+RP 
+FU 
+CR 王来华, 1900, 舆情研究概论理论、方法与现实热点, V0, P0
+   刘毅, 2007, 理论界, V0, P1
+   喻国明, 1900, 中国民意研究, V0, P0
+   王来华, 2005, 新视野, V0, P5
+   王建龙, 2002, 瞭望新闻周刊, V0, P20
+   韩运荣, 1900, 舆论学原理、方法与应用, V0, P0
+   唐涛, 1900, 网络舆情治理研究, V0, P0
+   ROUSSEAU JJ, 1900, Social contract, V0, P0
+   柳明, 2012, 网络热点舆情的形成及社会效应:学位论文, V0, P0
+   刘继, 2013, 情报杂志, V32, P7
+   ZHANG J, 2013, Physica A: Statistical Mechanics and its Applications, V392, P21
+   方付建, 2011, 突发事件网络舆情演变研究:学位论文, V0, P0
+   王平, 2013, 现代传播(中国传媒大学学报), V0, P3
+   付业勤, 2014, 编辑之友, V0, P12
+   赵永升, 2013, 计算机工程, V39, P11
+   SKORIC M, 2012, Tweets and votes: a study of the 2011 singapore general election, V0, P0
+   LANSDALL-WELFARE T, 1900, Effects of the recession on public mood in the UK, V0, P0
+   MAYER-SCHONBERGER V, 1900, Big data: a revolution that will transform how we live work and think, V0, P0
+   龚海军, 2008, 网络热点话题自动发现技术研究:学位论文, V0, P0
+   王兰成, 2012, 情报学报, V31, P4
+   王兰成, 2013, 情报理论与实践, V36, P2
+   WAYNE CL, 2000, Multilingual topic detection and tracking: successful research enabled by corpora and evaluation, V0, P0
+   LYONS B, 2005, Journal of Consumer Behavior, V4, P5
+   DAVE K, 2003, Mining the peanut gallery: opinion extraction and semantic classification of product reviews, V0, P0
+   张珊, 2012, 计算机科学, V39, P11
+   唐晓波, 2012, 情报学报, V31, P11
+   [Anon], 2014, EMM News EXPLOER项目, V0, P0
+   曾润喜, 2010, 图书情报工作, V54, P13
+   史波, 2010, 情报理论与实践, V33, P7
+   [Anon], 2014, 美国国家科学基金项目, V0, P0
+   [Anon], 2014, 欧盟项目, V0, P0
+NR 32
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 38
+IS 110
+BP 139
+EP 144
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 张宝建, 
+   张宇, 
+   孙国强, 
+   薛婷, 
+AF 张宝建, 
+   张宇, 
+   孙国强, 
+   薛婷, 
+TI Knowledge Mapping of Business Incubation Network——Based on SSCI from 1993 to 2013
+SO 科技管理研究
+LA 
+DT Article
+DE 企业孵化网络; 科学计量; 知识图谱
+AB 企业孵化网络研究脉络与未来展望——基于SSCI数据库近20年文献的科学计量
+C1 [张宝建]山西财经大学.管理科学与工程学院/[张宇]山西财经大学.管理科学与工程学院/[孙国强]山西财经大学.管理科学与工程学院/[薛婷]山西财经大学.工商管理学.
+RP 
+FU 
+CR BRUNEEL J, 2012, Technovation, V32, P2
+   张震宇, 2008, 科技管理研究, V0, P12
+   张涵, 2013, 科学管理研究, V0, P6
+   胡海青, 2012, 科学学研究, V0, P2
+   刘刚, 2014, 中国科技论坛, V0, P4
+   HANSEN M, 2000, Harvard business review, V80, P7
+   TELLO S, 2012, Journal of Small Business & Entrepreneurship, V25, P3
+   VAIL EF, 1999, Information Systems Management, V16, P0
+   庞景安, 1900, 科学计量研究方法论, V0, P0
+   CHEN C, 2010, Journal of the American Society for Information Science and Technology, V61, P7
+   MURALE V, 2014, Knowledge Management & E-Learning: An International Journal, V6, P1
+   BRAHAMI M, 2013, Journal of Information Processing Systems, V9, P1
+NR 12
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 35
+IS 220
+BP 116
+EP 120
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 毕强, 
+   李洁, 
+AF 毕强, 
+   李洁, 
+TI Digital Resources Aggregation Abroad: Hot Spots and Frontier Analysis
+SO 情报资料工作
+LA 
+DT Article
+DE 数字资源聚合; 文献计量学; 热点分析
+AB 国外数字资源聚合热点与前沿分析
+C1 [毕强]吉林大学.管理学院/[李洁]吉林大学.管理学.
+RP 
+FU 
+CR Karunanayaka P, 2010, Neuroimage, V51, P1
+   White HD, 1981, Journal of the American Society for Information Science, V32, P3
+   Liu,Lina, ,201, Switzerland:Trans Tech Publications Ltd, V0, P:1116-1120
+   Aun,Irtaza, 2014, Computer Journal, V57, P2
+   Fabio,Rinaldi, 2011, Artificial Intelligence in Medicine, V52, P2
+   Saikat,Chakrabarti, 2009, IEEE Transactions on Parallel and Distributed Systems, V20, P7
+   Zhang,Hui, 2011, Computer Engineering and Design, V0, P32
+   Li,Jie, 2007, Jisuanji Yu Xiandaihua, V0, P7
+   Wu,Dongmei, 2006, Library and Information Service, V50, P6
+   He,Defang, 2012, Journal of Library Science in China, V0, P4
+   De Solla Price DJ, 1965, Science, V149, P3683
+   Visser M, 2012, Journal of Cognitive Neuroscience, V24, P8
+   Adwitiya,Sinha, 2014, Wireless Personal Communication, V77, P2
+   Porcel C, 2009, Expert Systems with Applications, V3, P0
+NR 19
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 040
+BP 55
+EP 61
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 陈忠海, 
+   董一超, 
+AF 陈忠海, 
+   董一超, 
+TI The condition, question and suggest on the utilization of the research method of archival science——Based on the statistical analysis of the literatures published by 《Archives Science Bulletin》 and 《Archives Science Study》 2010—2014
+SO 档案学通讯
+LA 
+DT Article
+DE 档案学; 科学方法; 研究方法; 文献计量学方法
+AB 档案学研究方法应用的状况、问题及建议——基于2010—2014年《档案学通讯》《档案学研究》所载文献的统计分析
+C1 [陈忠海]郑州大学.信息管理学院/[董一超]郑州大学.信息管理学.
+RP 
+FU 
+CR 陈永生, 1990, 档案, V0, P1
+   洪漪, 1991, 湖北档案, V0, P5
+   徐澍地, 1993, 档案学通讯, V0, P5
+   百度百科, 2015, 理性思维, V0, P0
+   黄新荣, 2012, 档案学通讯, V0, P2
+   连志英, 2012, 档案学通讯, V0, P1
+NR 6
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 060
+BP 26
+EP 32
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 罗贤春, 
+   余波, 
+AF 罗贤春, 
+   余波, 
+TI A Visualization Analysis of the Hotspots in the Studies of National Culture in the Recent 10 Years: Based on the Analysis of CSSCI Data from 2004 to 2013
+SO 广西民族研究
+LA 
+DT Article
+DE 民族文化; 知识图谱; 计量分析
+AB 近10年我国民族文化研究热点可视化分析——基于CSSCI(2004—2013年)数据分析
+C1 [罗贤春]吉首大学.法学与公共管理学院/[余波]广西民族大学.管理学.
+RP 
+FU 
+CR 许序雅, 1988, 社会科学, V0, P11
+   Kivrak,Serkan, 2014, Canadian Journal of Civil Engineering, V41, P7
+   Gottardi,Piero, 2014, Technological Forecasting and Social Change, V86, P1
+   高万能, 2005, 贵州民族研究, V0, P3
+   余梓东, 2006, 中央民族大学学报(哲学社会科学版), V0, P6
+   宋湲, 2007, 纺织学报, V0, P4
+   李强, 2011, 中国音乐, V0, P4
+   王杰, 2006, 广西民族大学学报(哲学社会科学版), V0, P6
+   侯海燕, 2006, 科研管理, V0, P3
+   邱均平, 1900, 信息计量学, V0, P0
+   祁庆富, 2004, 云南民族大学学报(哲学社会科学版), V0, P6
+   韩小兵, 2004, 河北法学, V0, P6
+   何国显, 2004, 广西民族学院学报(哲学社会科学版), V0, P2
+   王玲, 2004, 云南民族大学学报(哲学社会科学版), V0, P4
+   樊泳湄, 2004, 云南行政学院学报, V0, P5
+   李大健, 2006, 民族研究, V0, P4
+   崔明德, 2006, 民族研究, V0, P2
+   陈乐齐, 2006, 中南民族大学学报(人文社会科学版), V0, P5
+   肖青, 2008, 民族研究, V0, P4
+   庄孔韶, 2008, 民族研究, V0, P3
+   王希恩, 2008, 民族研究, V0, P5
+   白红梅, 2011, 民族教育研究, V0, P1
+   王希辉, 2012, 民族教育研究, V0, P3
+   黄健, 2012, 贵州民族研究, V0, P5
+NR 24
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 020
+BP 125
+EP 135
+DI 
+PG 11
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 卢小宾, 
+   高欢, 
+AF 卢小宾, 
+   高欢, 
+TI 
+SO 档案学通讯
+LA 
+DT Article
+DE 档案学; 研究热点; WebofScience; 知识图谱
+AB 基于Web of Science的档案学研究热点分析
+C1 [卢小宾]中国人民大学.信息资源管理学院/[高欢]中国人民大学.信息资源管理学.
+RP 
+FU 
+CR 张会超, 2010, 图书情报知识, V0, P2
+   耿志杰, 2012, 档案学通讯, V0, P1
+   沈双洁, 2012, 档案, V0, P2
+   谭必勇, 2013, 档案学研究, V0, P2
+   宋艳辉, 2014, 图书馆论坛, V0, P6
+   企业档案与知识管理研究中心, 2015, 国外档案学类著名期刊列表, V0, P0
+   Neevel JG, 1995, Restaurator-International Journal For The Preservation Of Library And Archival Material, V16, P3
+   Kolbe G, 2004, Restaurator-International Journal For The Preservation Of Library And Archival Material, V25, P1
+   Elizabeth,Shepherd, 2009, Journal of the Society of Archivists, V30, P2
+   Patrick,Ngulube, 2006, Journal of the Society of Archivists, V27, P1
+   Procter M, 2005, Journal of the Society of Archivists, V26, P1
+   Bearman D, 1993, American Archivist, V56, P4
+NR 13
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 030
+BP 35
+EP 38
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 赵蓉英, 
+   杨永美, 
+AF 赵蓉英, 
+   杨永美, 
+TI Analysis of the Library Resources Semantization at Home and Abroad
+SO 图书馆学研究
+LA 
+DT Article
+DE 馆藏资源; 语义化; 文献计量; 共现分析; 热点分析
+AB 国内外馆藏资源语义化研究进展分析
+C1 [赵蓉英]武汉大学.信息管理学院/[杨永美]武汉大学.信息管理学.
+RP 
+FU 
+CR 邱均平, 2013, 图书馆论坛, V0, P6
+   周晓剑, 2014, 情报探索, V0, P9
+   楼雯, 2015, 图书馆学研究, V0, P2
+   楼雯, 2013, 中国图书馆学报, V0, P208
+   Zhu,Qiaoli, 2015, Aslib Journal of Information Management, V0, P1
+   毕强, 2007, 图书情报工作, V0, P8
+   成全, 2014, 情报理论与实践, V0, P9
+   Neish P, 2014, Australian Library Journal, V1, P0
+   Jindal V, 2014, Information Processing & Management, V2, P0
+   Guns R, 2014, Journal of the American Society for Information Science and Technology, V10, P0
+   方平, 1999, 情报学报, V0, P2
+   Ingwersen P, 1992, International Journal of Libraries and Information Services, V3, P0
+   Melanie,Courtot, 2011, Molecular Systems Biology, V0, P1
+   Rice DJ, 1900, Little Science Big Science, V0, P0
+   杜小勇, 2006, 软件学报, V0, P9
+   刘炜, 2013, 现代图书情报技术, V0, P4
+   邱均平, 2012, 中国图书馆学报, V0, P4
+   杨瑞仙, 2014, 图书情报知识, V0, P6
+   Giuseppe,Pirro, 2009, Data & Knowledge Engineering, V0, P11
+   Thenmalar S, 2014, Aslib Journal of Information Management, V6, P0
+   Torre-Bastida AI, 2015, Profesional De La Informacion, V2, P0
+   Marcondes,Carlos Henrique, 2008, Transinformacao, V0, P2
+   Jorge,Morato, 2014, Profesional De La Informacion, V0, P3
+   Braescher,Marisa, 2014, Knowledge Organization, V0, P2
+   Cristina Pattuelli M, 2015, Journal of Knowledge Management, V1, P0
+NR 27
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 200
+BP 2
+EP 10
+DI 
+PG 9
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 刘海英, 
+AF 刘海英, 
+TI 
+SO 西南民族大学学报(人文社科版)
+LA 
+DT Article
+DE 机构知识库; 资源建设; 文献计量学; 中国大陆
+AB 国内机构知识库研究述评
+C1 [刘海英]西南民族大学.图书.
+RP 
+FU 
+CR 吴建中, 2004, 中国图书馆学报, V0, P5
+   严贝妮, 2004, 图书情报工作, V0, P5
+   刘记飞, 2013, 情报科学, V0, P9
+   蔡迎春, 2008, 情报理论与实践, V0, P5
+   王颖洁, 2008, 图书馆学刊, V0, P4
+   邓君, 2008, 图书情报知识, V0, P1
+   李广建, 2006, 情报学报, V25, P2
+   郭少友, 2006, 中国图书馆学报, V0, P1
+   郎庆华, 2009, 情报杂志, V0, P7
+   赖辉荣, 2009, 国家图书馆学刊, V0, P3
+   李永芳, 2014, 大学图书情报学刊, V0, P4
+   姜颖, 2014, 图书馆工作与研究, V0, P1
+   张丽静, 2012, 图书馆工作与研究, V0, P1
+   蔡屏, 2010, 图书情报工作, V0, P23
+   卞艺杰, 2013, 情报理论与实践, V0, P12
+   徐华, 2012, 情报科学, V0, P7
+   黄鹏, 2014, 图书馆, V0, P2
+   李楠楠, 2012, 图书馆建设, V0, P7
+   梁娜, 2013, 现代图书情报技术, V0, P9
+   翟中会, 2013, 情报探索, V0, P8
+   袁顺波, 2011, 图书情报工作, V0, P11
+   马学良, 2011, 图书情报工作, V0, P11
+   黄筱瑾, 2014, 图书馆学研究, V0, P12
+   曾苏, 2009, 图书情报工作, V0, P24
+   陈和, 2006, 数字图书馆论坛, V0, P9
+NR 25
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 090
+BP 235
+EP 240
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 胡继华, 
+AF 胡继华, 
+TI The Hot Spots and Trend Analysis of Technology Innovation in China from 1982 to 2012
+SO 软科学
+LA 
+DT Article
+DE 技术创新; 词频分析法; 热点分析
+AB 1982～2012年我国技术创新研究热点与趋势分析
+C1 [胡继华]徐州工程学院.管理学.
+RP 
+FU 
+CR 张勤, 2011, 图书情报知识, V0, P2
+   周爱民, 2007, 现代情报, V0, P10
+   万江平, 2008, 科技管理研究, V0, P12
+   安源, 2012, 情报科学, V0, P6
+   吴勇志, 2011, 软科学, V0, P7
+   Wang CH, 2008, Technovation, V28, P6
+   McDonough,Edward, 1997, Journal of Product Innovation Management, V0, P6
+   傅家骥, 1900, 技术创新学, V0, P0
+   许晖, 2013, 管理科学, V0, P4
+   辜秋琴, 1900, 企业技术创新体系研究, V0, P0
+   Mansfield,Edwin, 1996, Research Policy, V0, P7
+   Pavitt,Keith, 1995, Research Policy, V0, P2
+NR 12
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 29
+IS 050
+BP 17
+EP 21
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 盛丽娜, 
+AF 盛丽娜, 
+TI A Preliminary Analysis of Periodicals in Information Science and Library Science Cited by SSCI——On the basis of the Journal Citation Report (2012)
+SO 情报科学
+LA 
+DT Article
+DE SSCI; 信息科学与图书馆学; 文献计量学
+AB SSCI收录信息科学与图书馆学期刊及其文献计量学指标分析——基于JCR网络版(2012)
+C1 [盛丽娜]新乡医学院.期刊社《眼科新进展》编辑.
+RP 
+FU 
+CR 陈贵梧, 2011, 中国图书馆学报, V37, P1
+   Perez Andres C, 2006, Rev Esp Salud Publica, V80, P4
+   盛丽娜, 2012, 中国科技期刊研究, V23, P2
+   窦曦骞, 2009, 大学图书馆学报, V27, P6
+   张秋, 2006, 图书情报工作, V50, P3
+   闫江, 2010, 图书情报工作, V54, P18
+   王梅英, 2011, 情报科学, V29, P5
+   李武, 2013, 出版发行研究, V0, P1
+   邱均平, 2010, 图书馆, V0, P1
+   Campbell CT, 2007, Sur Sci, V596, P5-6
+   冯桂珍, 2012, 情报探索, V0, P11
+   任胜利, 2009, 中国科技期刊研究, V20, P3
+   俞立平, 2013, 情报学报, V32, P9
+NR 15
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 33
+IS 080
+BP 102
+EP 107
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 邵黎明, 
+   赵志耘, 
+   许端阳, 
+AF 邵黎明, 
+   赵志耘, 
+   许端阳, 
+TI A Novel Technology Forecasting Method Based on Patent Literature and Knowledge Graph
+SO 科技管理研究
+LA 
+DT Article
+DE 技术预测; 专利分析; 知识图谱Mesh主题词表; Google知识图; 社区进化
+AB 基于专利文献和知识图谱的技术预测方法研究
+C1 [邵黎明]中国科学技术信息研究所.
+   [赵志耘]中国科学技术信息研究所.
+   [许端阳]中国科学技术信息研究所.
+RP 
+FU 
+CR 李红玲, 2006, 科学学与科学技术管理, V0, P12
+   王庆民, 2007, 现代情报, V0, P7
+   方曙, 2011, 图书情报工作, V0, P22
+   LEE S, 2009, Technovation, V6-7, P0
+   CAMPBELL RS, 1983, World Patent Information, V3, P0
+   DAIM TU, 2006, Technological Forecasting and Social Change, V8, P0
+   ERNST H, 1997, Small Business Economics, V4, P0
+   CHANG S, 2009, Technological Forecasting and Social Change, V1, P0
+   KANG D, 1900, A Review On Technology Forecasting Methods and their Application Are, V0, P0
+   TSENG Y, 2007, Inform Process Manag, V5, P0
+   杨思洛, 2013, 情报资料工作, V0, P6
+   李俊, 2011, 现代图书情报技术, V0, P10
+   CLAUSET A, 2004, Phys Rev E, V6, P0
+   谢洪明, 2003, 科学学研究, V0, P5
+   窦炳琳, 2012, 计算机学报, V0, P4
+   刘昌孝, 2013, 天津科技, V0, P2
+NR 22
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 35
+IS 140
+BP 134
+EP 140
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 陈悦, 
+   陈超美, 
+   刘则渊, 
+   胡志刚, 
+   王贤文, 
+AF 陈悦, 
+   陈超美, 
+   刘则渊, 
+   胡志刚, 
+   王贤文, 
+TI The methodology function of CiteSpace mapping knowledge domains
+SO 科学学研究
+LA 
+DT Article
+DE 科学知识图谱; CiteSpace; 方法论
+AB CiteSpace知识图谱的方法论功能
+C1 [陈悦]大连理工大学(中国)—德雷塞尔大学(美国)知识可视化与科学发现联合研究所.
+   [陈超美]美国德雷塞尔大学.计算与信息学院/[刘则渊]大连理工大学(中国)—德雷塞尔大学(美国)知识可视化与科学发现联合研究所.
+   [胡志刚]大连理工大学(中国)—德雷塞尔大学(美国)知识可视化与科学发现联合研究所.
+   [王贤文]大连理工大学(中国)—德雷塞尔大学(美国)知识可视化与科学发现联合研究所.
+RP 
+FU 
+CR 陈悦, 2005, 科学学研究, V23, P2
+   陈悦, 2008, 科学学研究, V26, P3
+   Chen C, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   陈超美, 2009, 情报学报, V28, P3
+   刘则渊, 2013, 知识图谱的科学学源流, V0, P0
+   侯剑华, 2013, 现代情报, V33, P4
+   胡泽文, 2013, 图书情报工作, V57, P3
+   赵丹群, 2012, 情报理论与实践, V35, P10
+   王钦炜, 2011, 基于CiteSpace Ⅱ的科学知识前沿图谱研究:学位论文, V0, P0
+   刘林青, 2005, 科学学研究, V23, P2
+   波普尔,卡尔, 1900, 客观知识——一个进化论的研究, V0, P0
+   Wouter P, 1999, Citation Culture, V0, P0
+   莫里兹, 1900, 数学家言行录, V0, P0
+   Chen C, 2009, Journal of Informetrics, V3, P3
+   库恩 TS, 1900, 科学革命的结构, V0, P0
+   刘则渊, 2013, 科学学研究, V31, P12
+   Granovetter M, 1973, American Journal of Sociology, V5, P0
+   Burt RS, 1900, Structural Holes——The Social Structure of Competition, V0, P0
+   Chen C, 2012, Expert Opinions on Biological Therapy, V12, P5
+   赵红州, 1984, 科学学与科学技术管理, V0, P9
+   刘则渊, 1900, 知识计量学及其可视化技术的应用研究:中国科学学与科学技术管理研究年鉴(2008/2009年卷), V0, P0
+   武夷山, 2013, 情报学报, V32, P10
+   Chen C, 2010, Journal of the American Society for Information Science and Technology, V61, P7
+NR 27
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 33
+IS 020
+BP 242
+EP 253
+DI 
+PG 12
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 方红玲, 
+AF 方红玲, 
+TI Comparative study of bibliometric indexes between China’s and International SSCI Journals
+SO 中国科技期刊研究
+LA 
+DT Article
+DE SSCI收录期刊; 文献计量学指标; 国际对比
+AB SSCI收录我国社科期刊文献计量学指标的国际对比研究
+C1 [方红玲]新乡医学院.期刊社眼科新进展编辑.
+RP 
+FU 
+CR [Anon], 2006, Learned Publishing, V19, P1
+   彭晓东, 2010, 图书情报工作, V0, P4
+   冯桂珍, 2012, 情报探索, V0, P11
+   胡惠芳, 2001, 大学图书馆学报, V20, P4
+   贺德方, 2011, 中国软科学, V26, P9
+   刘清海, 2010, 编辑学报, V22, P1
+   赵培云, 2008, 图书馆论坛, V28, P3
+   刘雪立, 2007, 中国科技期刊研究, V18, P4
+   方红玲, 2011, 中国科技期刊研究, V22, P3
+   刘筱敏, 2014, 中国科技期刊研究, V25, P3
+   赵星, 2009, 情报理论与实践, V32, P8
+   米佳, 2009, 大学图书馆学报, V27, P6
+NR 12
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 26
+IS 010
+BP 93
+EP 97
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 曹树金, 
+   吴育冰, 
+   韦景竹, 
+   马翠嫦, 
+AF 曹树金, 
+   吴育冰, 
+   韦景竹, 
+   马翠嫦, 
+TI History, Schools and Trend in Knowledge Map: Investigation and Visualization Based on SSCI and CSSCI
+SO 中国图书馆学报
+LA 
+DT Article
+DE 知识图谱; 信息计量; 可视化; 图书情报学
+AB 知识图谱研究的脉络、流派与趋势——基于SSCI与CSSCI期刊论文的计量与可视化
+C1 [曹树金]中山大学.资讯管理学院/[吴育冰]中山大学.资讯管理学院/[韦景竹]中山大学.资讯管理学院/[马翠嫦]中山大学.图书.
+RP 
+FU 
+CR Borner K, 2003, Annual Review of Information Science and Technology, V37, P1
+   陈悦, 2005, 科学学研究, V23, P2
+   胡泽文, 2013, 图书情报工作, V57, P3
+   任红娟, 2009, 情报杂志, V28, P12
+   杨思洛, 2012, 情报资料工作, V33, P4
+   汤建民, 2012, 情报资料工作, V0, P1
+   杨思洛, 2013, 情报资料工作, V34, P6
+   刘启元, 2012, 信息资源管理学报, V2, P1
+   邱均平, 2012, 中国图书馆学报, V0, P2
+   赵丙军, 2012, 图书情报工作, V0, P8
+   魏瑞斌, 2011, 图书情报工作, V55, P8
+   Porter AL, 2009, Scientometrics, V81, P3
+   O'Donnell AM, 2002, Educational Psychology Review, V14, P1
+   Van Eck NJ, 2010, Scientometrics, V84, P2
+   Boyack KW, 2010, Journal of the American Society for Information Science and Technology, V61, P12
+   侯海燕, 2006, 科研管理, V27, P3
+   陈悦, 2008, 科学学研究, V26, P3
+   秦长江, 2009, 大学图书馆学报, V27, P1
+   赵蓉英, 2011, 中国图书馆学报, V37, P2
+   邱均平, 1900, 信息计量学, V0, P0
+   Heersmink R, 2011, Ethics and Information Technology, V13, P3
+   秦寿康, 1900, 综合评价原理与应用, V0, P0
+   罗式胜, 1900, 文献计量学概论, V0, P0
+   刘亚伟, 2013, 情报科学, V31, P4
+   庞景安, 1900, 科学计量学研究方法论, V0, P0
+   汤建民, 1900, 基于中文数据库的知识图谱绘制方法及应用:以创新研究论文的分析为例, V0, P0
+   Van Eck NJ, 2010, Journal of the American Society for Information Science and Technology, V61, P12
+   Lopez-Herrera AG, 2009, Information Research, V14, P4
+   宗乾进, 2012, 情报资料工作, V0, P1
+NR 29
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 41
+IS 050
+BP 16
+EP 34
+DI 
+PG 19
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 兰国帅, 
+   张一春, 
+AF 兰国帅, 
+   张一春, 
+TI Advancement and Trends in Higher Education Research Abroad——The Visual Analysis on 12 Kinds of SSCI and A&HCI Higher Education Journals
+SO 高等教育研究
+LA 
+DT Article
+DE 国外高等教育; 学术期刊; 知识图谱; 可视化分析
+AB 国外高等教育研究:进展与趋势——高等教育领域12种SSCI和A&HCI期刊的可视化分析
+C1 [兰国帅]南京师范大学.教育科学学院/[张一春]南京师范大学.教育科学学.
+RP 
+FU 
+CR 钟伟金, 2008, 情报杂志, V0, P5
+   刘小强, 2008, 中国高教研究, V0, P4
+   韦朝晖, 2006, 经济与社会发展, V0, P9
+   周守军, 2007, 中国高教研究, V0, P3
+   田虎伟, 2007, 中国高教研究, V0, P7
+   曾伟, 2010, 教育研究, V0, P11
+   汪晓东, 2007, 电化教育研究, V0, P9
+   蔡建东, 2013, 教育研究, V0, P6
+   兰国帅, 2014, 开放教育研究, V0, P3
+   潘基鑫, 2010, 电化教育研究, V0, P10
+NR 10
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 36
+IS 020
+BP 87
+EP 98
+DI 
+PG 12
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 杨丽娟, 
+   揭筱纹, 
+   朱永中, 
+AF 杨丽娟, 
+   揭筱纹, 
+   朱永中, 
+TI Knowledge contour of ethnic tourism studies published in foreign tourism journals
+SO 思想战线
+LA 
+DT Article
+DE 民族旅游; 国外期刊; 知识图谱; 生产主体结构; 知识主题结构; 软件计量
+AB 民族旅游研究的知识图谱分析——以国外期刊为例
+C1 [杨丽娟]四川大学.商学院工商管理博士后流动站/[揭筱纹]四川大学.商学院/[朱永中]北京工业大学.经济与管理学.
+RP 
+FU 
+CR 马晓京, 2006, 中南民族学院学报(人文社会科学版), V0, P6
+   张晓萍, 2003, 思想战线, V0, P4
+   杨昇, 2008, 广西民族研究, V0, P3
+   王述芬, 2013, 广西民族研究, V0, P2
+   陈悦, 2005, 科学学研究, V0, P4
+   陈超美, 1900, 科学前沿图谱:知识可视化探索, V0, P0
+   Smith VL,  PA:, Hosts and Guests: The Anthropology of Tourism, V0, P0
+   Hosts, 昆明:云, Hosts and Guests: The Anthropology of Tourism (2nd ed, V0, P大学出版社
+   [Anon], 1900, Hosts and Guests Revisited: Tourism Issues of the 21st Century, V0, P0
+   Edwards R, 1978, Annals of Tourism Research, V5, P0
+   Xiao HG, 2003, Annals of Tourism Research, V2, P0
+   Bramwell B, 2004, Tourism Management, V1, P0
+NR 12
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 040
+BP 29
+EP 34
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 蒋合领, 
+   杨安, 
+   王晴, 
+AF 蒋合领, 
+   杨安, 
+   王晴, 
+TI Analysis of Domestic Library Governance Research Situation Based on Mapping Knowledge Domain
+SO 图书馆论坛
+LA 
+DT Article
+DE 图书馆治理; 法人治理结构; 图书馆理事会; 知识图谱
+AB 我国图书馆治理研究的知识图谱分析
+C1 [蒋合领]华中师范大学.信息管理学院/[杨安]华中师范大学.信息管理学院/[王晴]山西大学.经济与管理学.
+RP 
+FU 
+CR Chen,Chaomei, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   Van Eck,Nees Jan, 2010, Scientometrics, V84, P2
+   汪晓茵, 2000, 江苏图书馆学报, V0, P5
+   黄颖, 2003, 大学图书馆学报, V0, P6
+   黄颖, 2004, 中国图书馆学报, V0, P1
+   徐引篪, 2004, 四川图书馆学报, V0, P3
+   蒋永福, 2008, 图书馆论坛, V28, P6
+   张洪彬, 2009, 图书馆, V0, P3
+   肖容梅, 2008, 深图通讯, V0, P2
+   刘启元, 2012, 信息资源管理学报, V0, P1
+   姜利华, 2013, 图书馆学研究, V0, P5
+   杜立云, 2014, 山东图书馆学刊, V0, P4
+   冯佳, 2014, 国家图书馆学刊, V0, P3
+   冯佳, 2010, 图书馆建设, V0, P6
+   罗珊珊, 2014, 图书与情报, V0, P2
+   金武刚, 2014, 国家图书馆学刊, V0, P3
+   金武刚, 2014, 图书与情报, V0, P2
+   阮胜利, 2010, 国家图书馆学刊, V0, P4
+   王明慧, 2010, 国家图书馆学刊, V0, P4
+   张世颖, 2010, 国家图书馆学刊, V0, P4
+   肖容梅, 2014, 图书与情报, V0, P2
+   肖容梅, 2014, 中国图书馆学报, V0, P3
+   李国新, 2014, 图书与情报, V0, P2
+NR 23
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 070
+BP 27
+EP 33
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 苏纯惠, 
+   张持晨, 
+   郑建中, 
+   胡伟红, 
+AF 苏纯惠, 
+   张持晨, 
+   郑建中, 
+   胡伟红, 
+TI The Knowledge Map on Development of Chinese Clinical Psychology——Information Visualization Analysis for Chinese Journal of Clinical Psychology
+SO 中国临床心理学杂志
+LA 
+DT Article
+DE 中国临床心理学杂志; 可视化分析; CiteSpace; 文献计量学
+AB 《中国临床心理学杂志》文献信息可视化分析
+C1 [苏纯惠]山西医科大学.公共卫生学院/[张持晨]山西医科大学.管理学院/[郑建中]山西医科大学.公共卫生学院/[胡伟红]山西医科大学.公共卫生学.
+RP 
+FU 
+CR 张琼, 2004, 中国临床心理学杂志, V12, P2
+   侯志瑾, 2008, 中国临床心理学杂志, V16, P5
+   Chen C, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   Chen C, 2012, Expert Opinion on Biological Therapy, V12, P5
+   侯剑华, 2013, 现代情报, V33, P4
+   胡伟红, 2014, 中国学校卫生, V35, P10
+   苏纯惠, 2015, 现代预防医学, V42, P2
+   张持晨, 2012, 中华健康管理学杂志, V6, P5
+   辛伟, 2014, 心理科学进展, V22, P2
+   张莹, 2006, 中华医学图书情报杂志, V15, P5
+   陈学诗, 1993, 中国临床心理学杂志, V1, P1
+   [Anon], 2001, 中国临床心理学杂志, V9, P3
+   钟斌, 2014, 中国临床心理学杂志, V22, P6
+   刘文俐, 2014, 中国临床心理学杂志, V22, P2
+   孙建敏, 2014, 心理与行为研究, V12, P3
+   Rybarczyk B, 2013, Clinical Gerontologist, V36, P3
+NR 17
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 23
+IS 050
+BP 870
+EP 877
+DI 
+PG 8
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 杜鹏程, 
+   王月玥, 
+   宋锟泰, 
+AF 杜鹏程, 
+   王月玥, 
+   宋锟泰, 
+TI Foreign Work Stress Research Knowledge Map Based on Co-word Network
+SO 华东经济管理
+LA 
+DT Article
+DE 工作压力; 共词网络; 知识图谱
+AB 基于共词网络的国外工作压力领域知识图谱
+C1 [杜鹏程]安徽大学.商学院/[王月玥]安徽大学.商学院/[宋锟泰]安徽大学.商学.
+RP 
+FU 
+CR Lazarus RS, 1978, Stress-related transactions between person and environment:Perspectives in International Psychology, V0, P0
+   舒晓兵, 2002, 华中科技大学学报(人文社会科学版), V0, P5
+   舒晓兵, 2009, 工作压力研究:国内二十年的回顾与评析, V0, P0
+   于志涛, 2011, 中国远程教育, V0, P7
+   王成城, 2013, 中国人口·资源与环境, V23, P9
+   刘军, 1900, 整体网分析讲义——UCINET软件实用指南, V0, P0
+   李万辉, 2010, 图书情报工作网刊, V0, P12
+   Pines AM, 1978, Hospital and Community Psychiatry, V29, P0
+   魏瑞斌, 2009, 情报杂志, V28, P9
+   平亮, 2010, 图书情报知识, V0, P6
+   石林, 2003, 心理科学, V26, P3
+   罗玉越, 2011, 心理科学进展, V19, P1
+   Ota A, 2005, Sleep Medicine, V6, P4
+   Wada K, 2008, International Archives of Occupational and Environmental Health, V81, P3
+   Li J, 2006, Social Science & Medicine, V62, P5
+   Preckel D, 2007, Journal of Occupational and Organizational Psychology, V80, P1
+   Vegchel NV, 2002, European Journal of Work and Organizational Psychology, V11, P4
+   Laschinger HS, 2008, Journal of Nursing Management, V16, P5
+   楚艳民, 2008, 中国临床心理学杂志, V16, P6
+   时雨, 2009, 经济与管理研究, V0, P4
+   Karasek R, 1979, Administrative Science Quarterly, V24, P2
+   Ganster DC, 1989, Control in the workplace:Inernational Review of Industrial and Organizational Psychology, V0, P0
+NR 24
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 29
+IS 080
+BP 179
+EP 184
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 顾绮芳, 
+   蒋勋, 
+AF 顾绮芳, 
+   蒋勋, 
+TI 
+SO 西南民族大学学报(人文社科版)
+LA 
+DT Article
+DE 校企合作; 高职院校; 高职教育; 词频分析; 知识图谱; CSSCI数据
+AB 我国高职院校校企合作研究的现状及历史演进分析——基于CSSCI(2002—2014)数据
+C1 [顾绮芳]无锡城市职业技术学院.
+   [蒋勋]南京大学.江苏省数据工程与知识服务重点实验.
+RP 
+FU 
+CR 蒋勋, 2015, 西南民族大学学报(人文社会科学版), V0, P9
+   苏新宁, 2012, 中国图书馆学报, V0, P5
+   丁金昌, 2011, 教育研究, V0, P6
+   莫甲凤, 2014, 中国高教研究, V0, P10
+   叶鉴铭, 2011, 中国高教研究, V0, P3
+   蒋勋, 2015, 管理学报, V0, P11
+   李梦卿, 2011, 职业技术教育, V0, P5
+   蒋勋, 2014, 图书与情报, V0, P5
+   汪建云, 2014, 中国高教研究, V0, P10
+NR 9
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 36
+IS 110
+BP 235
+EP 240
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 高田钦, 
+   张凡, 
+AF 高田钦, 
+   张凡, 
+TI Bibliometric and Knowledge Mapping Analysis of Articles Published on China Higher Education during Past Five Decades(1965—2015)
+SO 中国高等教育
+LA 
+DT Article
+DE 中国高等教育; 载文量; 文献计量; 知识图谱
+AB 《中国高等教育》50 年载文的文献计量和知识图谱分析（1965—2015 年）
+C1 [高田钦]江苏师范大学.
+   [张凡]江苏师范大学.
+RP 
+FU 
+CR 姜春林, 2009, 情报科学, V0, P2
+   韩映雄, 2009, 现代大学教育, V0, P3
+   郑文辉, 2006, 情报杂志, V0, P5
+   [Anon], 2000, 世界高等教育宣言——为了21世纪:视野与行动:2000年中国教育绿皮书, V0, P0
+   赵俊芳, 2014, 现代大学教育, V0, P2
+NR 5
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 220
+BP 37
+EP 39
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 张一楠, 
+   黄国彬, 
+   王亚男, 
+   程慧荣, 
+AF 张一楠, 
+   黄国彬, 
+   王亚男, 
+   程慧荣, 
+TI Analysis of Applications of Scientometrics Visualization in Domestic non-LIS Community in the Last Decade
+SO 图书馆杂志
+LA 
+DT Article
+DE 科学计量; 可视化软件; 知识图谱; 非图情领域
+AB 近十年我国非图情领域科学计量可视化的应用研究剖析
+C1 [张一楠]北京师范大学.政府管理学院/[黄国彬]北京师范大学.政府管理学院/[王亚男]北京师范大学.政府管理学院/[程慧荣]鲁东大学.图书.
+RP 
+FU 
+CR 邱均平, 2011, 情报科学, V10, P29
+   邱均平, 2009, 图书情报研究, V2, P2
+   殷沈琴, 2011, 大学图书馆学报, V0, P4
+   洪凌子, 2013, 情报理论与实践, V0, P7
+   宗乾进, 2011, 情报杂志, V0, P12
+   姜春林, 2010, 科技管理研究, V0, P7
+NR 6
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 050
+BP 32
+EP 40
+DI 
+PG 9
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 董文鸳, 
+   袁顺波, 
+AF 董文鸳, 
+   袁顺波, 
+TI Visualization analysis of open access based on CSSCI
+SO 中国科技期刊研究
+LA 
+DT Article
+DE 开放存取; 知识图谱; CSSCI; CiteSpaceⅢ; 可视化分析
+AB 基于CSSCI的我国开放存取研究可视化分析
+C1 [董文鸳]嘉兴学院.图书馆/[袁顺波]嘉兴学院.商学.
+RP 
+FU 
+CR Craig ID, 2007, Journal of Informetrics, V1, P3
+   Russell IG, 2011, Investigacion Bibliotecologica, V25, P53
+   Collins M, 2011, Library Resources & Technical Services, V55, P3
+   Xia J, 2012, Portal: Libraries and the Academy, V12, P1
+   吴晖, 2007, 情报科学, V25, P8
+   许洁, 2014, 出版科学, V22, P3
+   李武, 2010, 中国图书馆学报, V36, P6
+   陈美家, 2011, 图书情报工作, V55, P22
+   孟雪梅, 2012, 图书馆, V0, P3
+   周金侠, 2011, 现代情报, V31, P6
+   沈晨, 2011, 图书情报工作, V55, P24
+   Chen C, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   李武, 2004, 中国图书馆学报, V30, P6
+   李武, 2005, 大学图书馆学报, V0, P4
+   李武, 2006, 图书情报工作, V50, P2
+   任胜利, 2005, 中国科技期刊研究, V16, P2
+   乔冬梅, 2004, 图书情报工作, V48, P11
+   李春旺, 2005, 中国图书馆学报, V31, P1
+   Lawrence S, 2001, Nature, V411, P0
+   刘金铭, 2005, 中国科技期刊研究, V16, P3
+   吴建中, 2004, 中国图书馆学报, V30, P5
+   黄凯文, 2005, 大学图书馆学报, V0, P2
+   孙红娣, 2005, 情报资料工作, V0, P5
+   肖冬梅, 2006, 图书情报工作, V50, P5
+   杨帆, 2006, 图书馆论坛, V26, P1
+   邱燕燕, 2006, 情报杂志, V0, P7
+   任真, 2005, 大学图书馆学报, V0, P5
+   张晓林, 2013, 图书情报工作, V57, P1
+   麦淑平, 2011, 图书馆杂志, V30, P3
+   秦珂, 2007, 情报科学, V25, P10
+   秦珂, 2008, 图书与情报, V0, P1
+   刘菊红, 2008, 图书情报工作, V52, P11
+   李晓辉, 2010, 图书情报工作, V54, P14
+   徐震, 2009, 情报资料工作, V0, P1
+   董丽, 2005, 现代图书情报技术, V0, P7
+   王学勤, 2007, 中国图书馆学报, V33, P3
+   张晓林, 2012, 中国图书馆学报, V38, P4
+   易程, 2013, 大学图书馆学报, V0, P2
+   张璇, 2009, 图书馆建设, V0, P3
+   张材鸿, 2010, 国家图书馆学刊, V0, P4
+   陶雯, 2006, 图书情报工作, V50, P10
+   胡德华, 2010, 中国科技期刊研究, V21, P4
+   朱连花, 2012, 图书情报知识, V0, P6
+   马景娣, 2005, 情报资料工作, V0, P2
+   董文鸳, 2009, 图书馆建设, V0, P5
+   尹高磊, 2011, 图书馆建设, V0, P6
+   陈月婷, 2008, 图书情报工作, V52, P5
+   黄如花, 2009, 图书与情报, V0, P5
+   何燕, 2008, 图书馆, V0, P3
+   何燕, 2008, 图书情报工作, V52, P5
+   李武, 2010, 中国图书馆学报, V36, P3
+   王应宽, 2008, 中国科技期刊研究, V19, P5
+   程维红, 2008, 中国科技期刊研究, V19, P4
+NR 54
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 26
+IS 010
+BP 98
+EP 105
+DI 
+PG 8
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 张璐, 
+   齐二石, 
+   长青, 
+AF 张璐, 
+   齐二石, 
+   长青, 
+TI The Analysis on Management Innovation Methods Research Knowledge Map in China
+SO 科技进步与对策
+LA 
+DT Article
+DE 管理创新; 创新方法; 可视化工具; 知识图谱
+AB 基于CNKI数据库的我国管理创新方法研究知识图谱
+C1 [张璐]内蒙古工业大学.管理学院/[齐二石]天津大学.管理与经济学部/[长青]内蒙古工业大学.管理学.
+RP 
+FU 
+CR 齐二石, 1900, 管理创新成功之路, V0, P0
+   张璐, 2011, 大连理工大学学报(社会科学版), V0, P3
+   张璐, 2014, 科技进步与对策, V31, P24
+   张东生, 2005, 科学学研究, V0, P12
+   刘亮, 2013, 创新科技, V0, P8
+   纪建明, 2011, 科技进步与对策, V28, P4
+   李召敏, 2012, 管理学报, V0, P4
+   刘启元, 2012, 信息资源管理学报, V0, P1
+   PRICED D, 1965, Science, V9, P0
+   SMALL H, 1980, Information Processing and Management, V17, P0
+   PERSON O, 1994, Journal of the American Society for Information Science, V45, P1
+   CHEN,CHAOMEI, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   解小刚, 2011, 科学管理研究, V0, P6
+   CHEN C, 2004, Proceedings of the National Academy of Sciences of the United States of America, V101, P11
+   王成城, 2013, 中国人口·资源与环境, V0, P9
+   罗家德, 1900, 社会网络分析讲义, V0, P0
+   FREEMAN C, 1978, Social Network, V1, P3
+   EVERETT MG, 2004, Journal of Mathematical Sociology, V28, P4
+   陶乃航, 2009, 图书情报工作, V0, P14
+   张璐, 2015, 科技进步与对策, V32, P6
+   谢洪明, 2008, 管理工程学报, V0, P1
+   李焱, 2006, 中国软科学, V0, P7
+   马文聪, 2010, 科学学研究, V0, P2
+   黄友松, 2006, 生产力研究, V0, P10
+   苏敬勤, 2011, 管理学报, V0, P8
+   舒昌俊, 2010, 科技进步与对策, V27, P4
+   庞艳桃, 2010, 科技进步与对策, V27, P18
+   宋军, 2012, 技术经济与管理研究, V0, P8
+   熊胜绪, 2004, 经济管理, V0, P4
+   芮明杰, 1900, 管理创新, V0, P0
+   崔总合, 2012, 科技进步与对策, V29, P7
+NR 31
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 32
+IS 130
+BP 26
+EP 32
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 步一, 
+   刘天祎, 
+   赵丹群, 
+   黄文彬, 
+AF 步一, 
+   刘天祎, 
+   赵丹群, 
+   黄文彬, 
+TI A Review of Foreign Study on Author Co-citation Analysis
+SO 情报杂志
+LA 
+DT Article
+DE 作者共引分析; 共引分析; 引文分析; 文献计量学
+AB 国外作者共引分析研究评述
+C1 [步一]北京大学.信息管理系/[刘天祎]北京大学.信息管理系/[赵丹群]北京大学.信息管理系/[黄文彬]北京大学.信息管理.
+RP 
+FU 
+CR 耿海英, 2007, 共引分析方法及其应用研究:学位论文:北京, V0, P0
+   White HD, 1981, Journal of the American Society for Information Science, V32, P3
+   Jeong YK, 2014, Journal of Informetrics, V8, P8
+   Anegón FDM, 1998, Scientometrics, V42, P2
+   Wang F, 2014, Journal of Documentation, V70, P3
+   Ma R, 2012, Scientometrics, V93, P3
+   Zhao R, 2014, Scientometrics, V101, P2
+   Chen C, 1999, Information processing & management, V35, P3
+   Ding Y, 2000, Journal of the American Society for Information Science, V51, P13
+   Estabrooks CA, 2008, Implementation Science, V3, P0
+   Tsay MY, 2011, Subject Structure of Randomized Controlled Trials: an Author Co-citation Analysis, V0, P0
+   Bruer JT, 2010, Scientometrics, V83, P3
+   Eom S, 1998, European Journal of Operational Research, V104, P1
+   Eom S, 1998, Omega, V26, P5
+   Eom S, 1999, Industrial Management & Data Systems, V99, P5
+   Chen LC, 2011, Scientometrics, V89, P3
+   Wang CH, 2011, International Proceedings of Economics Development & Research, V4, P0
+   Charvet FF, 2008, Journal of Business Logistics, V29, P1
+   Pilkington A, 2009, Journal of Operations Management, V27, P3
+   Nykiforuk CIJ, 2010, Health Policy, V97, P1
+   Wan CH, 2014, Journal of testing and evaluation, V42, P1
+   Hyun YS, 2012, Korean Journal of Human Resource Development Quarterly, V14, P4
+   White HD, 1998, Journal of the American Society for Information Science, V49, P4
+   Zhao D, 2008, Journal of Informetrics, V2, P3
+   Cothill CA, 1989, Science Communication, V11, P2
+   McCain K, 1990, Journal of the American Society for Information Science, V41, P6
+   Zhao D, 2003, A Comparative Author Co-citation Analysis Study of Web-based and Print-Journal-based Scholarly Communication in the XML Research Field, V0, P0
+   Liu Y, 2015, Journal of the Association for Information Science and Technology, V66, P3
+   Zhang R, 2010, Lecture Notes in Computer Science, V6185, P0
+   Persson O, 2001, Scientometrics, V50, P2
+   Zhao D, 2002, Scientometrics, V54, P2
+   Zhao D, 2006, Information Processing and Management, V42, P6
+   Schneider JW, 2009, Scientometrics, V80, P1
+   Rousseau R, 2004, Journal of the American Society for Information Science, V55, P6
+   Eom S, 2008, Journal of Informetrics, V2, P1
+   Eom S, 1900, Author Cocitation Analysis: Quantitative Methods for Mapping the Intellectual Structure of an Academic Discipline, V0, P0
+   McIntire JS, 2007, Clothing and Textile Research Base: An Author Cocitation Study, V0, P0
+   Mêgnigbêto E, 2013, Malaysian Journal of Library & Information Science, V18, P2
+   Ahlgren P, 2003, Journal of the American Society for Information Science and Technology, V54, P6
+   White HD, 2003, Journal of the American Society for Information Science, V54, P13
+   赵勇, 2008, 图书馆论坛, V28, P6
+   An L, 2011, Knowledge Organization, V38, P4
+   Chen C, 2001, IEEE Computer Society, V34, P3
+   de Moya-Anegon F, 2007, Journal of the American Society for Information Science and Technology, V58, P14
+   White HD, 2003, Journal of the American Society for Information Science and Technology, V54, P5
+   赵蓉英, 2014, 图书情报工作, V58, P9
+NR 50
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 34
+IS 120
+BP 48
+EP 53
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 刘毅, 
+AF 刘毅, 
+TI Knowledge Landscape of Overseas Research on Public Opinion: A Study Based on Knowledge Mapping Domain and SSCI Database (1994—2013)
+SO 新闻与传播研究
+LA 
+DT Article
+DE 舆论学; 国外; 知识图谱; CitespaceⅡ; 关键词共现
+AB 国外舆论学研究的“知识图景”:热点、网络与结构——基于SSCI数据库(1994—2013)的知识图谱分析
+C1 [刘毅]天津外国语大学.天津国际发展研究.
+RP 
+FU 
+CR 刘则渊, 1900, 科学知识图谱:方法与应用, V0, P0
+   Chen CM, 2006, Journal of the American Society for Information Science and Technology, V57, P0
+   罗式胜, 1900, 文献计量学概论, V0, P0
+   路红, 2010, 科技进步与对策, V0, P2
+   Lippman,Walter, 1900, Public Opinion, V0, P0
+   McCombs ME, 1972, Public Opinion Quarterly, V36, P0
+   Jacobs Lawrence R, 1900, Politicians Don't Pander: Political Manipulation and the Loss of Democratic Responsiveness, V0, P0
+   Zaller,John, 1900, Nature and Origins of Mass Opinion, V0, P0
+   Page Benjamin I, 1983, American Political Science Review, V77, P0
+   Page Benjamin I, 1900, Rational Public: Fifty Yearsof Trendsin American Policy Preferences, V0, P0
+NR 10
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 050
+BP 19
+EP 31
+DI 
+PG 13
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 郭文斌, 
+   方俊明, 
+AF 郭文斌, 
+   方俊明, 
+TI 
+SO 高教探索
+LA 
+DT Article
+DE 关键词; 共词分析; 高等教育研究; 知识图谱
+AB 关键词共词分析法:高等教育研究的新方法
+C1 [郭文斌]陕西师范大学.
+   [方俊明]华东师范大学.
+RP 
+FU 
+CR 潘黎, 2011, 教育研究, V0, P2
+   王方华, 1900, 数据库营销, V0, P0
+   郭文斌, 2012, 西北师大学报(社会科学版), V49, P1
+   郑日昌, 2001, 教育研究, V0, P6
+   郭文斌, 2012, 华东师范大学学报(教育科学版), V30, P3
+   崔雷, 1996, 情报理论与实践, V19, P4
+   马妍春, 1999, 情报科学, V17, P6
+   杨国立, 2010, 科普研究, V5, P4
+   王凡, 2011, 图书馆理论与实践, V0, P8
+   崔雷, 2012, 书目共现分析系统《用户使用说明书》, V0, P0
+   李文兰, 2005, 情报科学, V23, P1
+   安秀芬, 2002, 中国科技期刊研究, V13, P6
+   马费城, 2006, 情报学报, V25, P2
+   邱均平, 2008, 情报学报, V27, P1
+   迟景明, 2011, 中国高教研究, V0, P9
+   陈正昌, 1900, 多变量分析方法:统计软件应用, V0, P0
+   张文彤, 1900, SPSS统计分析高级教程, V0, P0
+   靖新巧, 2008, 中国考试, V0, P1
+   Law J, 1988, Scientometrics, V14, P3-4
+   冯璐, 2006, 中国图书馆学报, V32, P2
+   崔雷, 2003, 情报学报, V22, P4
+   教育研究编辑部, 2007, 教育研究, V0, P3
+   汤汇道, 2009, 学术界, V0, P3
+   种艳秋, 2007, 中华医学图书情报杂志, V16, P6
+NR 24
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 090
+BP 15
+EP 21
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 侯剑华, 
+   都佳妮, 
+AF 侯剑华, 
+   都佳妮, 
+TI Study of Co-evolution of Extensive Knowledge Metrics Discipline
+SO 情报科学
+LA 
+DT Article
+DE 泛知识计量学科; 协同演进; 科学知识图谱
+AB 泛知识计量学科协同演进初探
+C1 [侯剑华]大连大学.马克思主义学院/[都佳妮]大连大学.马克思主义学.
+RP 
+FU 
+CR 任福珍, 2001, 图书情报工作, V0, P8
+   王梅, 2006, 基于生态原理的学科协同进化研究:学位论文, V0, P0
+   Ivanov SA, 2009, Automatic Documentation and Mathematical Linguisties, V43, P4
+   王续琨, 2008, 大连理工大学学报(社会科学版), V9, P3
+   陈琼娣, 2012, 图书情报工作, V0, P2
+   高继平, 2011, 图书情报工作, V0, P20
+   Narin F, 1994, Scientometries, V30, P1
+   刘则渊, 1999, 科学学研究, V17, P4
+   Eugene,Garfield, 1955, Science, V0, P122
+   梁永霞, 2009, 引文分析学的知识计量研究:学位论文, V0, P0
+   温有奎, 2006, 计算机工程与应用, V0, P4
+   陈颖, 2011, 医学信息学杂志, V32, P9
+NR 12
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 33
+IS 070
+BP 7
+EP 10
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 朱轶佳, 
+   李慧, 
+   王伟, 
+AF 朱轶佳, 
+   李慧, 
+   王伟, 
+TI Evolution features and trends of the studies on urban update
+SO 城市问题
+LA 
+DT Article
+DE 城市更新; 科学知识图谱; CiteSapce; 演进特征
+AB 城市更新研究的演进特征与趋势
+C1 [朱轶佳]新加坡邦城规划顾问有限公司.
+   [李慧]同济大学.
+   [王伟]中央财经大学.政府管理学院城市管理.
+RP 
+FU 
+CR 张庭伟, 2001, 城市规划, V0, P7
+   陈悦, 2015, 科学学研究, V0, P2
+   李琬, 2014, 经济地理, V0, P4
+   Chen,Chaomei, 2014, Expert Opinion on Biological Therapy, V0, P14
+NR 4
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 090
+BP 30
+EP 35
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 蒋伟伟, 
+   吴志祥, 
+AF 蒋伟伟, 
+   吴志祥, 
+TI The Analysis of Dissertation Utilization Status in China
+SO 图书与情报
+LA 
+DT Article
+DE 学位论文; 开放利用; 引用分析; 文献计量学
+AB 我国学位论文利用现状分析
+C1 [蒋伟伟]南京财经大学.信息工程学院/[吴志祥]南京大学.信息管理学.
+RP 
+FU 
+CR 陈传夫, 2008, 图书与情报, V0, P4
+   陈传夫, 2008, 学位与研究生教育, V0, P12
+   陈淑云, 2008, 图书馆建设, V0, P6
+   朱金, 2004, 图书馆学研究, V0, P3
+   刘良璧, 2008, 现代情报, V0, P2
+   苏新宁, 2008, 东岳论丛, V0, P1
+   王昊, 2011, 情报杂志, V0, P1
+   杨奕虹, 2015, 情报杂志, V0, P1
+   金铁成, 2008, 河南工业大学学报(社会科学版), V0, P3
+   王智琦, 2008, 图书馆, V0, P3
+   杨莉, 2010, 情报理论与实践, V0, P1
+   周晓林, 2005, 学位与研究生教育, V0, P7
+NR 12
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 040
+BP 41
+EP 45
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 赵雅洁, 
+AF 赵雅洁, 
+TI Visual Analysis on Research Progress of International Cloud Computing
+SO 图书馆工作与研究
+LA 
+DT Article
+DE 云计算; CiteSpace; 可视化; WebofScience; 科学知识图谱
+AB 国际云计算研究进展可视化分析
+C1 [赵雅洁]南开大学.图书.
+RP 
+FU 
+CR 张建勋, 2010, 计算机应用研究, V0, P2
+   Chen C, 2006, Journal of the American Society for Information Science and Technology, V3, P0
+   Hassan,Mohammad Mehedi, 2010, Annals of Telecommunications-Annales Des Telecommunications, V0, P11-12
+   陈超美, 2009, 情报学报, V0, P3
+   Armbrust M, 2009, UCB/EECS-2009-28, V2, P0
+   Armbrust,Michael, 2010, Communications of the ACM, V0, P4
+   Buyya R, 2009, Future Generation Computer Systems, V6, P0
+   Dean,Jeffrey, 2008, Communications of the ACM, V0, P1
+   Foster I, 2001, High performance computing applications, V3, P0
+NR 11
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 060
+BP 49
+EP 52
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 陈琴, 
+   蒋合领, 
+   王晴, 
+AF 陈琴, 
+   蒋合领, 
+   王晴, 
+TI Visualization Analysis of Domestic Think Tank Research Situation Based on CSSCI Journal
+SO 情报杂志
+LA 
+DT Article
+DE 智库; 美国; 知识图谱; 公共政策; 决策咨询
+AB 基于CSSCI的我国智库研究态势可视化分析
+C1 [陈琴]贵州财经大学.信息学院/[蒋合领]贵州财经大学.信息学院/[王晴]山西大学.经济与管理学.
+RP 
+FU 
+CR Chen,Chaomei, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   任晓, 2000, 现代国际关系, V0, P7
+   Simon,James, 1993, Public Administration, V71, P4
+   薛澜, 2006, 科学学研究, V24, P3
+   朱旭峰, 2004, 世界经济与政治, V0, P12
+   王莉丽, 2010, 国际问题研究, V0, P2
+   韦磊, 2010, 现代国际关系, V0, P5
+   仇华飞, 2012, 国外社会科学, V0, P2
+   魏玲, 2007, 外交评论, V0, P2
+   朱旭峰, 2007, 世界经济与政治, V0, P5
+   魏玲, 2010, 世界经济与政治, V0, P2
+   胡鞍钢, 2013, 清华大学教育研究, V34, P5
+   朱旭峰, 2014, 中国行政管理, V0, P5
+   胡鞍钢, 2014, 上海行政学院学报, V15, P2
+NR 14
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 34
+IS 070
+BP 71
+EP 76
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 陈静, 
+   陆泉, 
+AF 陈静, 
+   陆泉, 
+TI Visualization Analysis of Research on Topic Mining
+SO 图书馆学研究
+LA 
+DT Article
+DE 主题挖掘; 知识图谱; CiteSpace38R1; 可视化分析
+AB 主题挖掘研究可视化分析
+C1 [陈静]华中师范大学.信息管理学院/[陆泉]武汉大学.信息管理学.
+RP 
+FU 
+CR 陈超美, 2009, 情报学报, V0, P3
+   Chen,Chaomei, 2006, Journal of the American Society for Information Science and Technology, V0, P3
+   赵蓉英, 2011, 中国图书馆学报, V0, P192
+   赵蓉英, 2010, 图书情报工作, V0, P9
+   侯剑华, 2009, 情报学报, V0, P3
+   马海群, 2011, 情报科学, V0, P6)
+   Deerwester S, 1990, Journal of the American Society of Information Science, V6, P0
+   Hofmann T, 1999, Probabilistic Latent Semantic Indexing, V0, P0
+   Salton G, 1900, A Vector Space Model for Automatic Indexing, V0, P0
+   Salton G, 1900, Introduction to Modern Information Retrieval, V0, P0
+   Salton G, 1900, Term-Weighting Approaches in Automatic Text Retrieval, V0, P0
+   Salton G, 1900, Automatic Text Processing: The Transformation Analysis and Retrieval of Information by Computer, V0, P0
+   Porter MF, 1900, An Algorithm for Suffix Stripping, V0, P0
+   Baeza-Yates,Ricardo, 1900, Modern Information Retrieval, V0, P0
+   Kleinberg JM, 1999, Journal of the ACM, V5, P0
+   Han JW, 1900, Data Mining Concepts and Techniques, V0, P0
+   Pang B, 1900, Opinion Mining and Sentiment Analysis, V0, P0
+   侯海燕, 2006, 科研管理, V0, P3
+   栾春娟, 2009, 科学学研究, V0, P2
+NR 24
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 140
+BP 2
+EP 11
+DI 
+PG 10
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 郭金云, 
+   苏楠, 
+AF 郭金云, 
+   苏楠, 
+TI 
+SO 理论与改革
+LA 
+DT Article
+DE 公共服务绩效评估; 知识图谱; 热点主题; 前沿趋势
+AB 近二十年国内公共服务绩效评估研究的知识图谱
+C1 [郭金云]四川大学.
+   [苏楠]四川大学.
+RP 
+FU 
+CR 盛明科, 2009, 湘潭大学学报, V0, P1
+   戴钰, 2010, 湖南行政学院学报, V0, P6
+   许淑萍, 2013, 理论探讨, V0, P6
+   姜晓萍, 2013, 行政论坛, V0, P6
+   丁元竹, 2008, 浙江经济, V0, P19
+   孟华, 2009, 中国行政管理, V0, P2
+   臧乃康, 2007, 长白学刊, V0, P3
+   车震, 2007, 科技信息(学术研究), V0, P32
+   陈昌盛, 2007, 财政研究, V0, P6
+   廖晓明, 2010, 中国行政管理, V0, P4
+   张钢, 2008, 浙江大学学报(人文社会版), V0, P6
+   吕维霞, 2010, 华东经济管理, V0, P5
+   丁辉侠, 2012, 商业时代, V0, P3
+   陈振明, 2011, 中国行政管理, V0, P1
+   彭国甫, 2004, 中国行政管理, V0, P7
+   盛明科, 2004, 行政论坛, V0, P6
+   张康之, 2007, 上海城市管理职业技术学院学报, V0, P4
+   薄贵利, 2007, 国家行政学院学报, V0, P3
+   包国宪, 2012, 公共管理学报, V0, P2
+   彭向刚, 2013, 行政论坛, V0, P5
+   彭国甫, 1900, 地方政府绩效评估研究, V0, P0
+   吴建南, 2005, 理论与改革, V0, P5
+   孙庆国, 2009, 中国浦东干部学院学报, V0, P1
+   卓越, 2005, 中国行政管理, V0, P11
+   徐双敏, 2003, 中南财经政法大学学报, V0, P5
+   倪星, 2004, 政治学研究, V0, P3
+   唐晓英, 2011, 学术研究, V0, P5
+   吴建南, 2005, 理论与改革, V0, P5
+   吴建南, 2007, 西安交通大学学报(社会科学版), V0, P5
+   倪星, 2009, 武汉大学学报(哲学社会科学版), V0, P5
+   陈振明, 2009, 理论探讨, V0, P5
+   彭国甫, 2005, 湘潭大学学报(哲学社会科学版), V0, P3
+   彭国甫, 2007, 兰州大学学报(社会科学版), V0, P1
+   范柏乃, 2005, 政治学研究, V0, P1
+   南锐, 2010, 财经科学, V0, P12
+   杨光, 2015, 财经问题研究, V0, P1
+   张钢, 2008, 浙江大学学报, V0, P11
+   江易华, 2011, 天府新论, V0, P1
+NR 41
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 040
+BP 187
+EP 192
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 宗利永, 
+   白韬韬, 
+   张飞相, 
+   匡霞, 
+AF 宗利永, 
+   白韬韬, 
+   张飞相, 
+   匡霞, 
+TI Study on Technology Development of Wearable Devices from the Perspective of Technology Requirements for Creative Industry Based on the Knowledge Map Analysis
+SO 科技管理研究
+LA 
+DT Article
+DE 文化创意产业; 可穿戴设备; 知识图谱; 专利分析
+AB 文化创意产业科技需求视角下的可穿戴设备技术发展研究——基于知识图谱的分析方法
+C1 [宗利永]上海出版印刷高等专科学校.
+   [白韬韬]上海理工大学.出版印刷与艺术设计学院/[张飞相]上海理工大学.出版印刷与艺术设计学院/[匡霞]上海出版印刷高等专科学校.
+RP 
+FU 
+CR 毛俊玉, 2014, 可穿戴设备为创意产业带来什么, V0, P0
+   FRANKJAER TR, 2013, Employing creative practice as a research method in the field of wearable and interactive technologies:HCI International 2013-Posters' Extended Abstracts, V0, P0
+   赵子忠, 2013, 中国传媒科技, V0, P6
+   甘芳, 2013, 上海信息化, V0, P10
+   CHEN C, 2004, PNAS, V101, P1
+   CHEN C, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   CHEN C, 2012, Expert Opinion on Biological Therapy, V12, P5
+   侯剑华, 2013, 现代情报, V33, P4
+   赵佳, 2013, 专利视阈下物联网领域知识图谱及产业引导政策研究:学位论文, V0, P0
+   ZHEN H, 2013, Science Research Management, V7, P0
+   李春燕, 2012, 现代情报, V0, P2
+   CHEN C, 2014, Citespace manual, V0, P0
+   PATEL S, 2012, Journal of neuroengineering and rehabilitation, V9, P1
+   BILLINGHURST M, 1999, Computer, V32, P1
+NR 14
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 35
+IS 070
+BP 23
+EP 27
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 何清华, 
+   王歌, 
+AF 何清华, 
+   王歌, 
+TI The Developments and Trends of Green and Low-Carbon Building Study Based on Scientometric Map
+SO 中国科技论坛
+LA 
+DT Article
+DE 绿色建筑; 低碳建筑; 共词分析; 社会网络分析; 知识图谱
+AB 知识图谱视角下绿色低碳建筑研究动态
+C1 [何清华]同济大学.经济与管理学院/[王歌]同济大学.经济与管理学.
+RP 
+FU 
+CR Janda KB, 2011, Architectural Science Review, V54, P1
+   姜虹, 2011, 中国人口·资源与环境, V20, P12
+   刘泽照, 2014, 科学学与科学技术管理, V35, P11
+   王成城, 2013, 中国人口·资源与环境, V23, P9
+   Bruneau M, 2007, Earthquake Spectra, V23, P1
+   Ding GKC, 2008, Journal of Environmental Management, V86, P3
+   Huang KT, 2015, Implementation of Green Building Specification Credits for Better Thermal Conditions in Naturally Ventilated School Buildings, V0, P0
+   Pei Z, 2015, Building and Environment, V84, P0
+   [Anon], 1900, Energy performance of LEED for New Construction Buildings, V0, P0
+   Suzer O, 2015, Journal of Environmental Management, V154, P0
+   HM Government, 2015, Carbon management plan 2011 to 15: a summary, V0, P0
+   Pan W, 2015, Building Research & Information, V43, P1
+NR 13
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 100
+BP 136
+EP 141
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 丁汉青, 
+   曹璞, 
+AF 丁汉青, 
+   曹璞, 
+TI Overseas Media Economics Studies’ Core Issues and Fields in 2013: A Bibliometrics Analysis
+SO 新闻与传播研究
+LA 
+DT Article
+DE 传媒经济学; 文献计量学; 热点议题; 场域
+AB 2013年国外传媒经济研究热点与场域——基于文献计量学的方法探索
+C1 [丁汉青]中国人民大学.新闻学院/[曹璞]中国人民大学.新闻学.
+RP 
+FU 
+CR 杭敏, 2005, 现代传播, V0, P4
+   丁汉青, 2009, 国际新闻界, V0, P6
+   喻国明, 2012, 现代传播, V0, P2
+   陈杰, 2009, 新闻传播, V0, P7
+   陈杰, 2010, 新闻爱好者, V0, P9下
+   Albarran AB, 1998, Mass Communication & Society, V1, P3/4
+   Chambers T, 1998, Journal of Media Economics, V11, P1
+   储节旺, 2012, 情报理论与实践, V0, P3
+   张勤, 10(6, 管理科学学报, V0, P
+   Balanger PC, 2013, Journal of Radio & Audio Media, V20, P2
+   Garcia Pires AJ, 2013, Journal of Media Economics, V26, P1
+   Yang M, 2013, Journal of Media Economics, V26, P4
+   Lopez M, 2013, European Journal of Marketing, V47, P7
+   Reinares P, 2013, International Journal on Media Management, V15, P3
+   Kim SH, 2013, Journal of Media Economics, V26, P2
+   Chiang Y, 2013, Journal of Media Economics, V26, P3
+   Smets K, 2013, Communication Review, V16, P1/2
+   Thussu DK, 2013, Javnost-The Public, V20, P4
+   Fenier MB, 2013, Journalism & Mass Communication Educator, V68, P3
+   Schulhofer-Wohl S, 2013, Journal of Media Economics, V26, P2
+   Cancino CS, 2013, Global Media Journal: Australian Edition, V7, P1
+   Couture TD, 2013, Canadian Journal of Communication, V38, P1
+   Vizcarrondo T, 2013, International Journal on Media Management, V15, P3
+   Angelopulo G, 2013, South African Journal for Communication Theory & Research, V39, P1
+   Psychogiopoulou E, 2013, International Journal of Media & Cultural Politics, V9, P2
+   Lin Trisha TC, 2013, Telecommunications Policy, V37, P8
+   Rumney R, 2013, African Journalism Studies (Routledge), V34, P2
+   Lis B, 2013, International Journal on Media Management, V15, P4
+   Stanca L, 2013, Journal of Media Economics, V26, P2
+   Voorveld HAM, 2013, International Journal on Media Management, V15, P1
+   Alacovska A, 2013, Communication, Culture & Critique, V6, P1
+   O'Regan T, 2013, Media International Australia, V149, P0
+   Fernandez-Quijada D, 2013, Global Media & Communication, V9, P2
+   Minic,Danica, 2013, Journalism Practice, V7, P5
+   Ghasemi A, 2013, Feminist Media Studies, V13, P5
+   Lowe GF, 2013, International Journal on Media Management, V15, P2
+   Li,Sarrina, 2013, International Journal on Media Management, V15, P2
+   Lin,Yih-Ming, 2013, Journal of Media Economics, V26, P4
+   Rothbauer J, 2013, Journal of Media Economics, V26, P1
+   Nissen CS, 2013, International Journal on Media Management, V15, P2
+   Murray A, 2013, International Journal on Media Management, V15, P2
+   Nee RC, 2013, International Journal on Media Management, V15, P1
+   Ge,Yijuan, 2013, China Media Report Overseas, V9, P4
+   Von Rimscha M, 2013, Publishing Research Quarterly, V29, P4
+   Figueiras R, 2013, International Journal of Press and Politics, V18, P4
+   Alam A, 2013, Journal of Media Economics, V26, P1
+   Van Kranenburg H, 2004, Journal of Media Economics, V17, P2
+   Lee F, 2006, Journal of Media Economics, V19, P4
+   Li,Shu-Chu Sarrina, 2004, Journal of Media Economics, V17, P4
+   喻国明, 2014, 国际新闻界, V0, P1
+NR 51
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 040
+BP 61
+EP 82
+DI 
+PG 22
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 李妍, 
+AF 李妍, 
+TI The Evolution of the Research Frontier of China’s Tacit Knowledge Management———Based on the perspective of scientific knowledge graph
+SO 科学管理研究
+LA 
+DT Article
+DE 隐性知识; 研究前沿; 演进趋势; 知识图谱
+AB 我国隐性知识管理研究前沿的演进历程——基于科学知识图谱视角
+C1 [李妍]哈尔滨工程大学.经济管理学.
+RP 
+FU 
+CR 罗家德, 1900, 社会网分析讲义, V0, P0
+   张庆普, 2003, 中国软科学, V0, P0
+   芮明杰, 2006, 研究与发展管理, V0, P0
+   单伟, 2008, 企业自主创新中知识整合机理与模式研究, V0, P0
+   从聪, 2010, 科研管理, V0, P0
+   汤超颖, 2011, 南开管理评论, V0, P0
+   赵增耀, 2012, 科学学研究, V0, P0
+   南旭光, 2010, 科学学与科学技术管理, V0, P0
+NR 8
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 33
+IS 030
+BP 17
+EP 20
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 焦晓静, 
+   王兰成, 
+AF 焦晓静, 
+   王兰成, 
+TI Discussion of the Concept and Disciplinary Orientation of Mapping Knowledge Domain
+SO 图书情报工作
+LA 
+DT Article
+DE 知识图谱; 知识地图; 科学地图; 信息可视化; 科学计量学
+AB 知识图谱的概念辨析与学科定位研究
+C1 [焦晓静]解放军南京政治学院上海分院.军事信息管理系/[王兰成]解放军南京政治学院上海分院.军事信息管理.
+RP 
+FU 
+CR 陈悦, 2005, 科学学研究, V0, P2
+   杨思洛, 2013, 情报资料工作, V0, P6
+   Chen,Chaomei, 1900, Mapping scientific frontierss: The quest for knowledge visualization, V0, P0
+   Synnestvedt MB, 2015, Design and evaluation of the tightly coupled perceptual-cognitive tasks in knowledge domain visualization, V0, P0
+   Shiffrin RM, 2004, Proceedings of the National Academy of Sciences, V101, P1
+   Rafols I, 2010, Journal of the American Society for Information Science and Technology, V61, P9
+   刘则渊, 1900, 科学知识图谱:方法与应用, V0, P0
+   秦长江, 2009, 大学图书馆学报, V0, P1
+   陈祖香, 2010, 面向科学计量分析的知识图谱构建与应用研究:学位论文, V0, P0
+   陈超美, 1900, 科学前沿图谱:知识可视化探索, V0, P0
+   廖胜姣, 2009, 基于文献计量的科学知识图谱绘制研究:学位论文, V0, P0
+   辛伟, 2013, 知识图谱在军事心理学研究中的应用——基于ISI Web of Science数据库的CiteSpace分析:学位论文, V0, P0
+   赵丙军, 2015, 基于CiteSpace的国内知识图谱研究, V0, P0
+   陈悦, 2008, 科学学研究, V0, P3
+   Borner K, 2012, PLoS One, V7, P7
+   Chen,Chaomei, 2014, Expert Opinion on Biological Therapy, V14, P9
+   刘则渊, 2009, 数字图书馆论坛, V0, P10
+   唐钦能, 2011, 情报理论与实践, V0, P1
+   赵国庆, 2005, 开放教育研究, V11, P1
+   薛晓芳, 2014, 知识可视化理论、方法和工具及军事医学应用研究:学位论文, V0, P0
+   杨思洛, 2012, 图书情报知识, V0, P6
+   陈悦, 2015, 科学学研究, V0, P2
+   陈悦, 1900, 引文空间分析原理与应用:CiteSpace实用指南, V0, P0
+   刘则渊, 2012, 科技导报, V0, P7
+   [Anon], 2015, 情报计量学, V0, P0
+   刘志辉, 2009, 图书情报研究, V0, P1
+   潘浩, 2009, 科技情报开发与经济, V0, P1
+NR 27
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 59
+IS 150
+BP 5
+EP 11
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 张孝宇, 
+   张安录, 
+AF 张孝宇, 
+   张安录, 
+TI Small-scale Spatial Patterns of Farmland Conversion Based on Autocorrelation Analysis in Wuhan City
+SO 长江流域资源与环境
+LA 
+DT Article
+DE 空间自相关; 耕地非农化; 热点分析; 武汉市
+AB 武汉市耕地非农化的空间自相关分析
+C1 [张孝宇]华中农业大学.公共管理学院/[张安录]华中农业大学.公共管理学.
+RP 
+FU 
+CR IRWIN EG, 2007, Proceedings of the National Academy of Sciences, V104, P52
+   JENERETTE GD, 2010, Landscape ecology, V25, P5
+   FAHRIG L, 2003, Effects of habitat fragmentation on biodiversity, V0, P0
+   ARMSWORTH PR, 2006, Proceedings of the National Academy of Sciences, V103, P14
+   LEWIS DJ, 2009, American Journal of Agricultural Economics, V91, P4
+   LICHTENBERG E, 2008, Land Use Policy, V25, P1
+   SULLIVAN E, 2008, San Joaquin Agriculture Law Review, V18, P1
+   吴泽斌, 2009, 自然资源学报, V0, P10
+   AZADI H, 2011, Land Degradation & Development, V22, P6
+   刘涛, 2012, 地理研究, V0, P7
+   杜国明, 2007, 地理研究, V0, P2
+   BETTS MG, 2006, Ecological Modelling, V191, P2
+   祁彩虹, 2011, 生态学报, V0, P18
+   赵小风, 2009, 环境科学, V30, P6
+   杨杨, 2011, 长江流域资源与环境, V0, P5
+   OVERMARS KP, 2003, Ecological Modelling, V164, P2
+   高凯, 2010, 长江流域资源与环境, V0, PS1
+   刘庆, 2009, 资源科学, V0, P5
+   钱忠好, 2002, 扬州大学学报(人文社会科学版), V0, P1
+   陈江龙, 2004, 管理世界, V0, P8
+   SAWADA M, 2009, Global spatial autocorrelation indices-Moran’s I Geary’s C and the General Cross-Product Statistic, V0, P0
+   MORAN PA, 1950, Biometrika, V37, P0
+   ANSELIN L, 1995, Geographical Analysis, V27, P2
+NR 23
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 24
+IS 050
+BP 781
+EP 788
+DI 
+PG 8
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 郭宇, 
+   王晰巍, 
+   贺伟, 
+   杨梦晴, 
+AF 郭宇, 
+   王晰巍, 
+   贺伟, 
+   杨梦晴, 
+TI Chinese and International Dynamic Research into Low Carbon Technology Based on Bibliometrics and Knowledge Mapping
+SO 情报科学
+LA 
+DT Article
+DE 文献计量; 知识图谱; 可视化; 低碳技术
+AB 基于文献计量和知识图谱可视化方法的国内外低碳技术发展动态研究
+C1 [郭宇]吉林大学.管理学院/[王晰巍]吉林大学.管理学院/[贺伟]吉林大学.图书馆/[杨梦晴]吉林大学.管理学.
+RP 
+FU 
+CR Kai Q, 2011, Energy Procedia, V5, P0
+   Energy Information Administration, 1900, Annual Energy Review 2008, V0, P0
+   Kennedy M, 2013, Renewable and Sustainable Energy Reviews, V26, P0
+   Huang B, 2012, Journal of Cleaner Production, V32, P0
+   Olson EL, 2013, Journal of Product Innovation Management, V30, P4
+   Cabeza LF, 2013, Renewable and Sustainable Energy Reviews, V23, P0
+   Zhou YJ, 2012, Energy Policy, V46, P0
+   王文军, 2012, 中国软科学, V0, P12
+   Kumar S, 1998, Information processing & management, V34, P6
+   普赖斯, 1900, 小科学·大科学, V0, P0
+   Wallace DP, 2011, International Journal of Information Management, V31, P1
+   Chen C, 2009, Journal of Informetrics, V3, P3
+NR 14
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 33
+IS 040
+BP 139
+EP 148
+DI 
+PG 10
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 詹川, 
+AF 詹川, 
+TI Knowledge Mapping Analysis of Cloud Computing Research
+SO 科技管理研究
+LA 
+DT Article
+DE 云计算; 知识图谱; CiteSpace; 共被引分析
+AB 基于知识图谱的云计算研究分析
+C1 [詹川]重庆工商大学.商务策划学.
+RP 
+FU 
+CR CHEN C, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   CHEN C, 2010, Journal of the American Society for Information Science and Technology, V61, P7
+   BUYYA R, 2009, Future Generation Computer Systems, V25, P6
+   ARMBRUST M, 2010, Communications of the ACM, V53, P4
+   DEAN J, 2008, Communications of the ACM, V51, P1
+   VAQUERO L, 2009, ACM SIGCOMM Computer Communication Review, V39, P1
+   SOTOMAYOR B, 2009, Internet Computing, IEEE, V13, P5
+   NURMI D, 2009, Eucalyptus Open-Source Cloud-Computing System, V0, P0
+   CALHERIOS R, 2011, Software: Practice and Experience, V41, P1
+   FOSTER I, 2008, Cloud Computing and Grid Computing 360-Degree Compared, V0, P0
+   HAYES B, 2008, Communications of the ACM, V51, P7
+NR 12
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 35
+IS 190
+BP 191
+EP 196
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 詹川, 
+AF 詹川, 
+TI Knowledge Mapping Analysis of Research on Big Data
+SO 图书馆论坛
+LA 
+DT Article
+DE CiteSpace; 大数据; 知识图谱
+AB 大数据研究的知识图谱分析
+C1 [詹川]重庆工商大学.电子商务.
+RP 
+FU 
+CR Chen C, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   Chen C, 2010, Journal of the American Society for Information Science and Technology, V61, P7
+   Dean J, 2008, Communications of the ACM, V51, P1
+   White T, 1900, Hadoop the definitive guide, V0, P0
+   Howe D, 2008, Nature, V455, P7209
+   Schadt EE, 2010, Nature Reviews Genetics, V11, P0
+   Lynch C, 2008, Nature, V455, P7209
+   Ekanayake J, 2010, Lecture Notes of the Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering, V34, P0
+   Dean J, 2010, Communications of the ACM, V53, P1
+   Hey T, 2009, Fourth Paradigm: Data-Intensive Scientific Discovery, V0, P0
+NR 12
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 35
+IS 040
+BP 84
+EP 91
+DI 
+PG 8
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 蒋勋, 
+   杨晓健, 
+   王建, 
+AF 蒋勋, 
+   杨晓健, 
+   王建, 
+TI 
+SO 西南民族大学学报(人文社科版)
+LA 
+DT Article
+DE 高职教育; 词频分析; 知识图谱; CSSCI数据
+AB 我国高职教育研究现状与发展路径研判——基于CSSCI(1998—2014)数据
+C1 [蒋勋]无锡城市职业技术学院.
+   [杨晓健]无锡城市职业技术学院.物联网工程学院/[王建]无锡城市职业技术学院.教务.
+RP 
+FU 
+CR 丁金昌, 2010, 中国高教研究, V0, P6
+   周建松, 2013, 中国高教研究, V0, P2
+   李进, 2010, 中国高教研究, V0, P2
+   苏新宁, 2012, 中国图书馆学报, V0, P5
+   丁金昌, 2011, 教育研究, V0, P6
+   莫甲凤, 2014, 中国高教研究, V0, P10
+   蒋勋, 2014, 图书与情报, V0, P5
+   蒋勋, 2015, 管理学报, V0, P11
+   王振洪, 2011, 高等教育研究, V0, P7
+   洪贞银, 2010, 高等教育研究, V0, P3
+   张辉, 2008, 高等教育研究, V0, P11
+   冯增俊, 2006, 华东师范大学学报(教育科学版), V0, P4
+NR 12
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 090
+BP 228
+EP 231
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 郭华桥, 
+AF 郭华桥, 
+TI To Explore the Strategy on Enhancing the Core Competitiveness of the Higher Education Journal——An Analysis of the 30th Anniversary of China Higher Education Research
+SO 中国高教研究
+LA 
+DT Article
+DE 中国高教研究; 特色发展; 学术共同体; 知识图谱
+AB 高等教育期刊提升核心竞争力策略探析——纪念《中国高教研究》创刊30周年
+C1 [郭华桥]中南财经政法大学.高等教育研究中.
+RP 
+FU 
+CR 叶继元, 2005, 学术界, V0, P4
+   李武, 2012, 科技导报, V0, P10
+   方文, 2001, 中国社会科学, V0, P6
+   本刊编辑部, 1992, 中国高教研究, V0, P1
+   范笑仙近十年来中国高等教育研究主题的“变”与“不变”——以《中国高教研究》刊发的论文为样本, 1900, 2012, V0, P0
+   郭华桥, 2012, 中国高教研究, V0, P12
+   田虎伟, 2007, 中国高教研究, V0, P7
+   郭华桥, 2014, 中国高教研究, V0, P5
+   张斌, 2012, 中国高教研究, V0, P11
+NR 9
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 010
+BP 12
+EP 17
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 甘永涛, 
+AF 甘永涛, 
+TI The Frontiers and Evolution of International Researches on Educational Anthropology (1965—2013)
+SO 华东师范大学学报(教育科学版)
+LA 
+DT Article
+DE 科学知识图谱; 研究前沿; 文献共引图谱
+AB 1965—2013年国际教育人类学的研究前沿与演化
+C1 [甘永涛]华中科技大学.教育科学研究.
+RP 
+FU 
+CR 邱均平, 1900, 信息计量学, V0, P0
+   Rosen Beaver D, 1978, Scientometrics, V1, P0
+   庄孔韶, 1900, 人类学通论, V0, P0
+   Casey C, 1900, A companion to psychological anthropology: modernity and psycho cultural change, V0, P0
+   刘泽渊, 1900, 科学知识图谱:方法与应用, V0, P0
+   Freire P, 1900, Pedagogy of the Oppressed, V0, P0
+   Jeannie O, 1900, Keeping Track: How Schools Structure Inequality, V0, P0
+   Kozol J, 1900, Savage Inequalities Children in America＇s Schools, V0, P0
+   Vygotsky LS,  MA:, Mind in Society, V0, P0
+   Ladson-Billings G, 1900, Dream keepers: Successful teachers of African American children, V0, P0
+   Bhabha HK, 1900, Location of Culture, V0, P0
+   Delpit L, 1995, Teachers culture and power: An interview with Lisa Delpit:Rethinking schools: An agenda for change, V0, P0
+   Gay G, 1900, Culturally responsive teaching: theory research and practice, V0, P0
+   Glaser BG, 1900, Discovery of grounded theory: Strategies for qualitative research, V0, P0
+   Trussa A,  CA:, Basics of Qualitative Research: Grounded Theory Procedures and Techniques, V0, P0
+   Lincoln YS,  CA:, Naturalistic inquiry, V0, P0
+   Miles MB, 1900, Qualitative data analysis, V0, P0
+   Raudenbush SW,  CA:, Hierarchical linear models: Applications and data analysis methods, V0, P0
+   Astin A, 1900, What matters in college? Four Critical Years revisited, V0, P0
+NR 20
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 33
+IS 010
+BP 118
+EP 124
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 孙耀吾, 
+   李丽波, 
+AF 孙耀吾, 
+   李丽波, 
+TI Analysis of Research Fronts and Hotspots in the Service Innovation Management Based on Knowledge Mapping
+SO 科技进步与对策
+LA 
+DT Article
+DE 服务创新管理; CiteSpaceⅢ; 知识图谱; 高技术服务; 共词共引
+AB 服务创新管理研究前沿与热点知识图谱分析
+C1 [孙耀吾]湖南大学.工商管理学院/[李丽波]湖南大学.工商管理学.
+RP 
+FU 
+CR PAUL PM, 2006, Service science management and engineering, V0, P0
+   BARRAS R, 1986, Research Policy, V15, P4
+   CHEN C, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   GALLOUJ F, 1997, Research Policy, V26, P4/5
+   VARGO SL, 2004, Journal of Marketing, V68, P1
+   GALLOUJ F, 1900, Innovation in the service economy: the new wealth of nations, V0, P0
+   GALLOUJ F, 1900, Handbook of innovation and services: a multi-disciplinary perspective, V0, P0
+   HERTOG P, 2000, International Journal of Innovation Management, V4, P4
+   AMARA N, 2008, Research Policy, V37, P9
+   CANDELIN-PALMQVIST H, 2012, Technovation, V32, P9
+   AYERBE C, 2014, Technovation, V34, P4
+   VAN R, 2004, International Journal of Service Industry Management, V15, P1
+   SPOHRER J, 2008, Production and Operations Management, V17, P3
+   NAM K, 2010, Journal of Universal Computer Science, V16, P13
+   NATTI S, 2014, Journal of Business & Industrial Marketing, V29, P2
+   DEN HERTOG P, 2010, Journal of Service Management, V21, P4
+   MONICA HU ML, 2009, Tourism Management, V30, P1
+   JUNG TH, 2010, Service Industries Journal, V30, P10
+   DAMANPOUR F, 2009, Journal of Management Studies, V46, P4
+   TOR HA, 2011, Service Industries Journal, V31, P13
+   TEECE D, 1994, Industrial and Corporate Change, V3, P3
+   AGARWAL R, 2009, Decision Sciences, V40, P3
+   KINDSTROM D, 2013, Journal of Business Research, V66, P8
+   SOLBERG SK, 2012, Journal of Business Research, V65, P9
+   SUNDBO J, 2000, International Journal of Services Technology and Management, V1, P1
+   CHANG YC, 2012, Technovation, V32, P7-8
+   KODAMA F, 2013, Technovation, V34, P9
+NR 27
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 32
+IS 230
+BP 135
+EP 142
+DI 
+PG 8
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 甘永涛, 
+AF 甘永涛, 
+TI The Evolution of Chinese Ethnic Education Research in 1928—2013——Based on an Empirical Analysis by Method of Mapping Knowledge Domains
+SO 西北师大学报(社会科学版)
+LA 
+DT Article
+DE 民族教育研究; 知识图谱; CiteSpace; 共引分析
+AB 1928—2013年中国民族教育研究之演化——基于科学知识图谱的实证分析
+C1 [甘永涛]中南民族大学.少数民族教育研究基.
+RP 
+FU 
+CR 滕星, 1997, 民族教育研究, V0, P1
+   滕星, 1998, 民族研究, V0, P2
+   王鉴, 2002, 民族研究, V0, P6
+   万明钢, 1999, 西北师大学报(社会科学版), V0, P5
+   张诗亚, 2007, 西南大学学报(人文社会科学版), V0, P1
+   苏德, 2004, 内蒙古师范大学学报(教育科学版), V0, P11
+   钱民辉, 2004, 西北民族研究, V0, P3
+   金志远, 2002, 内蒙古师范大学学报(教育科学版), V0, P1
+   陈达云, 2003, 中南民族学院学报(人文社会科学版), V0, P1
+   孟立军, 2012, 民族论坛, V0, P12
+   陈立鹏, 2004, 贵州民族研究, V0, P1
+   朴今海, 2001, 宁夏社会科学, V0, P3
+   严庆, 2006, 民族教育研究, V0, P2
+   敖俊梅, 2010, 黑龙江高教研究, V0, P1
+   刘彤, 1999, 黑龙江民族丛刊, V0, P2
+   李忠斌, 2007, 民族教育投资与民族地区经济增长研究:学位论文, V0, P0
+   彭谦, 2002, 广西民族研究, V0, P2
+   何波, 1999, 青海民族研究, V0, P4
+   汪伟, 2011, 现代教育管理, V0, P12
+   Chen C, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   Persson O, 1994, Journal of the American Society for Information Science, V45, P1
+NR 21
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 52
+IS 020
+BP 82
+EP 87
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 冯佳, 
+   张云秋, 
+AF 冯佳, 
+   张云秋, 
+TI Research on the Emerging Trend Detection Based on Emerging Words and Knowledge Mapping
+SO 情报理论与实践
+LA 
+DT Article
+DE 新生词; 知识图谱; 新兴趋势探测; 数据挖掘
+AB 基于新生词与知识图谱的新兴趋势探测研究
+C1 [冯佳]吉林大学.公共卫生学院/[张云秋]吉林大学.公共卫生学.
+RP 
+FU 
+CR 程齐凯, 2013, 图书情报工作, V57, P8
+   葛菲, 2013, 情报理论与实践, V36, P9
+   张云秋, 2011, 情报理论与实践, V34, P1
+   葛菲, 2012, 情报杂志, V0, P12
+   WANG J, 2007, Advances in Knowledge Discovery and Data Mining, V4426, P0
+   MOERCHEN F, 2008, Emerging trend prediction in biomedical literature, V0, P0
+   SCHIEBEL E, 2010, Scientometrics, V83, P3
+   TU YN, 2012, Information Processing & Management, V48, P2
+   POTTENGER WM, 2001, Detecting emerging concepts in textual data mining:Computational information retrieval, V0, P0
+   LE MH, 2005, International Journal of Knowledge and Systems Sciences, V2, P2
+   GOTH G, 2012, Communication of ACM, V55, P2
+   KONTOSTSATHIS A, 2004, A Study of emerging trend detection in textual data mining:Survey of Text Mining: Clustering Classification and Retrieval, V0, P0
+   SHIBATA N, 2008, Technovation, V282, P11
+   蒋颖, 2006, 情报学报, V25, P4
+   JANSSENS F, 2012, Clustering of scientific fields by integrating text mining and bibliometrics, V0, P0
+   王晓光, 2013, 情报学报, V32, P9
+   CHEN CM, 2006, Journal of American Society for Information Science and Technology, V56, P1
+   宣云儿, 2011, 情报杂志, V30, P5
+   王颖纯, 2012, 情报杂志, V31, P7
+   李姗姗, 2012, 情报科学, V30, P8
+   魏瑞斌, 2006, 情报科学, V24, P9
+   EGGHE L, 2006, Scientometeics, V69, P1
+   杨爱青, 2012, 情报杂志, V31, P2
+   马海群, 2012, 情报学报, V31, P5
+NR 24
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 38
+IS 110
+BP 87
+EP 90
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 陈必坤, 
+   赵蓉英, 
+AF 陈必坤, 
+   赵蓉英, 
+TI Theoretical Research on the Visualized Analysis of Disciplinary Knowledge
+SO 情报理论与实践
+LA 
+DT Article
+DE 学科知识; 可视化分析; 知识图谱; 知识地图
+AB 学科知识可视化分析的理论研究
+C1 [陈必坤]南京理工大学.经济管理学院/[赵蓉英]武汉大学.信息管理学.
+RP 
+FU 
+CR 陈为, 1900, 数据可视化, V0, P0
+   周宁, 2007, 情报理论与实践, V30, P2
+   赵国庆, 2005, 开放教育研究, V11, P1
+   李运景, 1900, 基于引文分析可视化的知识图谱构建研究, V0, P0
+   邓三鸿, 2006, 情报学报, V25, P1
+   邹晓顺, 1900, 图书情报应用数学:知识组织、发现和利用中的数学方法, V0, P0
+   MORRIS SA, 2008, Annual Review of Information Science and Technology, V42, P1
+   肖明, 2012, 图书情报工作, V56, P22
+   SCHARNHORST A, 1900, Models of science dynamics: encounters between complexity theory and information sciences, V0, P0
+   CHEN C, 1900, Mapping scientific frontiers: the quest for knowledge visualization, V0, P0
+   BORNER K, 2014, Mining mapping and accelerating scholarly networks, V0, P0
+   杨思洛, 2012, 图书情报知识, V6, P6
+   TSVETOVAT M, 1900, 社会网络分析·方法与实践, V0, P0
+   GARFIELD E, 2004, Journal of Information Science, V30, P2
+   COBO MJ, 2012, Journal of the American Society for Information Science and Technology, V63, P8
+   CWTS, 2014, CitNetExplorer, V0, P0
+   刘启元, 2012, 信息资源管理学报, V0, P1
+   王晓光, 2013, 情报学报, V32, P9
+   TSENG YH, 2013, Scientometrics, V95, P2
+   肖明, 2012, 现代图书情报技术, V0, P4
+   唐蓓, 2012, 图书与情报, V0, P5
+   李国俊, 2012, 图书情报工作, V56, P12
+   COBO MJ, 2011, Journal of the American Society for Information Science and Technology, V62, P7
+   WALTMAN L, 2010, Journal of Informetrics, V4, P4
+NR 27
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 38
+IS 110
+BP 23
+EP 29
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 伍新木, 
+   任俊霖, 
+   孙博文, 
+   邵玮, 
+AF 伍新木, 
+   任俊霖, 
+   孙博文, 
+   邵玮, 
+TI Visualization Analysis of Water Resources Management in China Based on Knowledge Mapping
+SO 长江流域资源与环境
+LA 
+DT Article
+DE CiteSpace; 水资源管理; 知识图谱; 文献可视化
+AB 基于文献分析工具的国内水资源管理研究论文的可视化综述
+C1 [伍新木]武汉大学.经济与管理学院/[任俊霖]武汉大学.经济与管理学院/[孙博文]武汉大学.中部发展研究院/[邵玮]武汉大学.中部发展研究.
+RP 
+FU 
+CR VIDYASAGAR D, 2007, Journal of Perinatology, V27, P1
+   赵丹群, 2012, 情报理论与实践, V35, P10
+   邱均平, 2013, 情报学报, V32, P5
+   赵蓉英, 2010, 中国图书馆学报, V0, P5
+   刘则渊, 2009, 数字图书馆论坛, V0, P10
+   左其亭, 2011, 南水北调与水利科技, V9, P5
+   张婷, 2009, 情报学报, V0, P6
+   PRICE DD, 1965, Science, V149, P0
+   夏军, 1997, 水科学进展, V8, P4
+NR 9
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 24
+IS 030
+BP 489
+EP 497
+DI 
+PG 9
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 靳永翥, 
+   谢德根, 
+AF 靳永翥, 
+   谢德根, 
+TI 
+SO 贵州社会科学
+LA 
+DT Article
+DE 关系资本; 公共服务提供机制; 知识图谱; 经验观察
+AB 关系资本视角的公共服务提供机制创新及经验观察
+C1 [靳永翥]贵州大学.
+   [谢德根]贵州大学.
+RP 
+FU 
+CR 胡荣, 1900, 社会资本与地方治理, V0, P0
+   蔡翔, 2006, 改革与战略, V0, P11
+   靳永翥, 1900, 公共服务提供机制——以欠发达农村地区为研究对象, V0, P0
+   刘伟, 2012, 甘肃行政学院学报, V0, P3
+   李秉龙, 2003, 中国农村观察, V0, P1
+   楚永生, 2004, 太原理工大学学报(社会科学版), V0, P3
+   靳永翥, 2009, 东南学术, V0, P5
+   张芳华, 2005, 江苏科技大学学报(社会科学版), V0, P4
+   黄锐, 2007, 首都经经济贸易大学学报, V0, P6
+   帕特南 罗伯特·D, 1900, 使民主运转起来, V0, P0
+   翟学伟, 2009, 社会, V0, P1
+   崔香芬, 2010, 中国农业大学学报(社会科学版), V0, P4
+   陈莹, 2009, 生产力研究, V0, P7
+   Sarkar MB, 2001, Journal of the Academy of Marketing Science, V29, P0
+   卢洪友, 2011, 管理世界, V0, P7
+   王宁, 2008, 公共行政评论, V0, P3
+   郭正林, 2003, 中国农村观察, V0, P1
+   Coleman JC, 1900, Foundation of Social Theory, V0, P0
+   胡熳华, 1900, 贫困地区农业科技服务体系示范建设, V0, P0
+   Putnam Robert D, 1900, Bowling Alone: The Collapse and Revival of American Community, V0, P0
+   彼得斯,B, 上海世纪, 政治科学中的制度理论:“新制度主义”, V0, P版社集团
+   Putnam Robert D, 1993, American Prospect, V13, P0
+NR 24
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 010
+BP 36
+EP 43
+DI 
+PG 8
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 刘润泽, 
+   魏向清, 
+   赵文菁, 
+AF 刘润泽, 
+   魏向清, 
+   赵文菁, 
+TI Equivalence as a Key Term and Its Impact on the Organization of Knowledge in Contemporary Translation Studies in China: A Genealogical Study
+SO 中国翻译
+LA 
+DT Article
+DE 对等; 谱系化; 中国当代译学; Citespace知识图谱; 术语翻译
+AB “对等”术语的谱系化发展与中国当代译学知识体系建构——兼谈术语翻译的知识传播与理论生发功能
+C1 [刘润泽]南京大学.
+   [魏向清]南京大学.
+   [赵文菁]南京中医药大学.
+RP 
+FU 
+CR [Anon], 1900, 现代汉语词典, V0, P0
+   陈华, 1978, 安徽大学学报, V0, P2
+   郭建中, 2014, 中国翻译, V0, P4
+   韩旭, 2012, 文学界, V0, P9
+   金隄, 1986, 外语教学与研究, V0, P4
+   林书武, 1981, 国外语言学, V0, P2
+   刘丹青, 1965, 外语教学与研究, V0, P1
+   马会娟, 1900, 当代西方翻译理论选读, V0, P0
+   马祖毅, 1977, 安徽大学学报, V0, P3
+   屈华荣, 1965, 外语教学与研究, V0, P1
+   孙会军, 2002, 中国翻译, V0, P2
+   谭载喜, 1999, 中国翻译, V0, P6
+   王佐良, 1963, 外语教学与研究, V0, P2
+   魏向清, 2013, 辞书研究, V0, P5
+   吴兴明, 1900, 中国传统文论的知识谱系, V0, P0
+   肖山, 1977, 外语教学与研究, V0, P2
+   杨义, 1900, 现代中国学术方法通论, V0, P0
+   张思洁, 1900, 中国传统译论范畴及其体系, V0, P0
+   张阳, 2008, 安徽广播电视大学学报, V0, P1
+   郑伯华, 1962, 武汉大学学报, V0, P2
+   郑南渡, 1979, 语言学动态, V0, P2
+   朱本源, 1978, 陕西师大学报, V0, P4
+   Chesterman,Andrew, 1900, Contrastive Functional Analysis, V0, P0
+   Chesterman,Andrew, 1900, Memes of Translation: The Spread of Ideas in Translation Theory, V0, P0
+NR 26
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 36
+IS 050
+BP 18
+EP 24
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 谭春辉, 
+   程凡, 
+AF 谭春辉, 
+   程凡, 
+TI Metric Visualization Analyzing of Information Science Development Status Based on Five Types of Data Resources——Review on the Emphasises of Information Science Research in China in 2012 and Its Forecast
+SO 情报科学
+LA 
+DT Article
+DE 情报学; 内容分析法; 词频统计分析; 研究重点; 知识图谱; 可视化
+AB 基于五类数据源的情报学发展动向之计量可视化分析——国内情报学研究重点2012年度回顾与展望
+C1 [谭春辉]华中师范大学.信息管理学院/[程凡]华中师范大学.信息管理学.
+RP 
+FU 
+CR 全国哲学社会科学规划办公室, 2013, 2012年度国家社会科学基金项目申报说明, V0, P0
+   《2013年度国家自然科学基金项目指南》编辑委员会, 2013, 2012年度国家自然科学基金项目指南, V0, P0
+   教育部社会科学司, 2013, 关于2012年度教育部人文社会科学研究一般项目申报工作的通知, V0, P0
+   邱均平, 1900, 文献计量学, V0, P0
+   邱均平, 2004, 中国图书馆学报, V0, P2
+   邱均平, 2007, 情报学报, V10, P5
+NR 6
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 33
+IS 110
+BP 117
+EP 123
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 韩燕娟, 
+   卜彩丽, 
+   张宝辉, 
+AF 韩燕娟, 
+   卜彩丽, 
+   张宝辉, 
+TI Research Hot Spots, Subjects and Development Tendency of Micro Lectures in China——Mapping knowledge domain research based on co-word analysis
+SO 现代远距离教育
+LA 
+DT Article
+DE 微课; 研究热点; 研究主题; 发展趋势; 知识图谱
+AB 我国微课的研究热点、主题和发展趋势——基于共词分析的知识图谱研究
+C1 [韩燕娟]陕西师范大学.
+   [卜彩丽]陕西师范大学.
+   [张宝辉]陕西师范大学.
+RP 
+FU 
+CR 胡铁生, 2013, 远程教育杂志, V0, P4
+   周贤波, 2015, 中国电化教育, V0, P4
+   唐烨伟, 2015, 中国电化教育, V0, P4
+   姜玉莲, 2013, 中国远程教育, V0, P12
+   苏小兵, 2014, 中国电化教育, V0, P7
+   周文杰, 2012, 教师教育研究, V0, P4
+   王佑镁, 2014, 中国电化教育, V0, P5
+   秦长江, 2009, 大学图书馆学报, V0, P1
+   任红娟, 2009, 情报杂志, V0, P12
+   庞恩旭, 2004, 图书馆论坛, V0, P2
+   钟伟金, 2008, 情报杂志, V0, P7
+   郭文斌, 2012, 华东师范大学学报(教育科学版), V0, P3
+   侯海燕, 2009, 科学管理, V0, P0
+   王佑镁, 2012, 中国高教研究, V0, P1
+   胡铁生, 2011, 电化教育研究, V0, P10
+   肖明, 1900, 知识图谱工具使用指南, V0, P0
+   吴彤, 1900, 自组织方法论研究, V0, P0
+   张豪锋, 2011, 电化教育研究, V0, P0
+   李林艳, 2004, 社会学研究, V0, P3
+   贾利军, 2013, 华东师范大学报, V0, P5
+   张新, 2015, 现代教学, V0, P5
+   赵瑞芳, 2015, 中国教育技术装备, V0, P1
+   焦建利, 2014, 中国教育信息化, V0, P24
+   徐海芳, 2014, 太原城市职业技术学院学报, V0, P10
+   裴华艳, 2014, 甘肃广播电视大学学报, V0, P1
+   周佳, 2015, 新课程研究, V0, P2中
+   胡君, 2014, 课程教学研究, V0, P9
+   刘锐, 2014, 现代教育技术, V0, P5
+   靳琰, 2015, 现代教育技术, V0, P3
+   梁乐明, 2013, 开放教育研究, V0, P1
+   陈智敏, 2014, 现代教育技术, V0, P8
+   杨满福, 2013, 教育发展研究, V0, P23
+   Popham WJ, 1900, Educational evaluation, V0, P0
+   赵康, 2010, 继续教育研究, V0, P11
+NR 35
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 060
+BP 24
+EP 32
+DI 
+PG 9
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 任增元, 
+   崔鸣哲, 
+AF 任增元, 
+   崔鸣哲, 
+TI 
+SO 江苏高教
+LA 
+DT Article
+DE 江苏高教; 研究热点; 文献计量学; 高频关键词; 突现关键词
+AB 高等教育研究的热点主题与文献计量学分析——纪念《江苏高教》办刊30周年
+C1 [任增元]吉林大学.高等教育研究所/[崔鸣哲]吉林大学.高等教育研究.
+RP 
+FU 
+CR Chen C, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   王煌, 2004, 江苏高教, V0, P6
+   胡弼成, 2010, 高等教育研究, V0, P2
+   李建军, 2005, 江苏高教, V0, P2
+   曾秀兰, 2007, 广东社会科学, V0, P4
+   袁祖望, 2005, 江苏高教, V0, P4
+   李元元, 2007, 高等工程教育研究, V0, P4
+   张祥云, 2011, 高等教育研究, V0, P7
+   吴松强, 2010, 现代教育管理, V0, P4
+NR 10
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 050
+BP 35
+EP 37
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 肖婷婷, 
+   邱均平, 
+   祖旋, 
+   郭丽琳, 
+AF 肖婷婷, 
+   邱均平, 
+   祖旋, 
+   郭丽琳, 
+TI Knowledge Mapping Analysis of Semantic Annotation: Research Hotspots and Developing Path
+SO 情报理论与实践
+LA 
+DT Article
+DE 语义标注; 可视化; 知识图谱; 引文分析
+AB 语义标注研究热点与演进历程的知识图谱分析
+C1 [肖婷婷]武汉大学.信息管理学院/[邱均平]武汉大学.信息管理学院/[祖旋]武汉大学.信息管理学院/[郭丽琳]武汉大学.信息管理学.
+RP 
+FU 
+CR 维基百科, 2014, 语义, V0, P0
+   刘耀, 2010, 情报理论与实践, V0, P10
+   CHEN C, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   侯剑华, 2013, 现代情报, V33, P4
+   邱均平, 2012, 中国图书馆学报, V0, P3
+   魏晓萍, 2013, 图书馆杂志, V0, P2
+   陈超美, 2009, 情报学报, V0, P3
+   GRUBER TR, 1993, Knowledge Acquisition, V5, P2
+   MILLER GA, 1995, Magazine Communications of the ACM, V38, P11
+   BERNERS-LEE T, 2001, Scientific American, V284, P5
+   BAADER F, 1900, Description logic handbook: theory implementation and applications, V0, P0
+   UREN V, 2006, Journal of Web Semantics, V4, P1
+   KOPECKY J, 2007, IEEE Internet Computing, V11, P6
+   SMEULDERS AWM, 2000, IEEE Transactions on Pattern Analysis and Machine Intelligence, V22, P12
+   BLEI DM, 2003, Journal of Machine Learning Research, V3, P4-5
+   LOWE DG, 2004, International Journal of Computer Vision, V60, P2
+   FELLBAUM C, 1900, WordNet: An Electronic Lexical Database, V0, P0
+NR 19
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 38
+IS 010
+BP 1
+EP 6
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 李培凤, 
+AF 李培凤, 
+TI Analysis of International Research Dynamic of Entrepreneurial University Based on Mapping Knowledge Domain
+SO 比较教育研究
+LA 
+DT Article
+DE 创业型大学; CiteSpace; 知识图谱; 美国; 英国; 国际研究
+AB 基于知识图谱的创业型大学国际研究动态分析
+C1 [李培凤]山西大学.高等教育研究.
+RP 
+FU 
+CR Kuratko DF, 2005, Entrepreneurship Theory and Practice, V29, P5
+   Etzkowitz H, 2000, Research Policy, V29, P2
+   陈超美, 2009, 情报学报, V0, P3
+   Rothaermel FT, 2007, Industrial and Corporate Change, V16, P4
+   Leydesdorff L, 2007, Journal of the American Society for Information Science and Technology, V58, P9
+   克拉克,伯顿, 1900, 建立创业型大学:组织上转型的途径, V0, P0
+   Etzkowitz H, 1998, Research Policy, V27, P8
+   Etzkowitz H, 2003, Research Policy, V32, P1
+   Di Gregorio D, 2003, Research Policy, V32, P2
+   Shane SA, 1900, Academic Entrepreneurship: University Spinoffs and Wealth Creation, V0, P0
+   Leslie LL, 1900, Academic Capitalism: Politics Policies and the Entrepreneurial University, V0, P0
+NR 11
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 37
+IS 040
+BP 51
+EP 56
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 齐娜, 
+   宋立荣, 
+AF 齐娜, 
+   宋立荣, 
+TI Analysis on Current Situation of Information Quality in China
+SO 科技管理研究
+LA 
+DT Article
+DE 信息质量; 文献计量学; 统计分析; 综述
+AB 我国信息质量研究现状分析
+C1 [齐娜]中国科学技术信息研究所.
+   [宋立荣]中国科学技术信息研究所.
+RP 
+FU 
+CR 高智勇, 2005, 计算机集成制造系统, V0, P7
+   彭传薇, 2004, 中华医院管理杂志, V0, P12
+   苏景萍, 2006, 中国卫生统计, V0, P5
+   葛某智, 2009, 中国科技资源导刊, V0, P1
+   宋立荣, 2008, 基于网络共享的农业科技信息质量管理研究:学位论文, V0, P0
+   强自力, 1999, 大学图书馆学报, V0, P4
+   张咏, 2002, 情报理论与实践, V0, P5
+   刘雁书, 2002, 情报杂志, V0, P6
+   张咏, 2002, 图书情报工作, V0, P10
+   宛玲, 2000, 情报科学, V0, P1
+   李培, 2000, 图书情报工作, V0, P9
+   张咏, 2001, 图书情报工作, V0, P12
+   张燕, 2004, 图书情报工作, V0, P3
+   李志纯, 2005, 公路交通科技, V0, P2
+   钟栎娜, 2007, 旅游学刊, V0, P9
+NR 15
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 35
+IS 150
+BP 64
+EP 68
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 王佳迪, 
+   马卓君, 
+AF 王佳迪, 
+   马卓君, 
+TI Research Focus and Development Trend of Sino-EU Fisheries Science and Technology
+SO 科技管理研究
+LA 
+DT Article
+DE 渔业科技; 发展趋势; 文献计量学; 研究热点
+AB 中欧渔业科技研究热点及发展趋势
+C1 [王佳迪]中国水产科学研究院.
+   [马卓君]中国水产科学研究院.
+RP 
+FU 
+CR 张福绥, 2003, 世界科技研究与发展, V0, P3
+   陈新军, 2001, 资源科学, V0, P2
+   高明, 2008, 太平洋学报, V0, P2
+   段志光, 2005, 中国科学基金, V0, P3
+   静莹, 2010, 中国农学通报, V26, P15
+   李长玲, 2010, 科技进步与对策, V27, P18
+   张新民, 2008, 渔业经济研究, V0, P5
+   李健华, 2005, 中国水产, V358, P9
+   杨小川, 2007, 南方农村, V0, P1
+   钱志林, 1980, 世界农业, V0, P8
+   卓友瞻, 1995, 中国水产, V0, P10
+   黄燕, 1998, 淡水渔业, V0, P5
+   杨吝, 1990, 现代渔业信息, V0, P2
+   刘新山, 2007, 上海水产大学学报, V0, P9
+   中华人民共和国国务院, 2014, 国家中长期科学和技术发展规划纲要(2006—2020年), V0, P0
+   刘文博, 2014, 世界农业, V0, P6
+   国家统计局, 2014, 2012年全国科技经费投入统计公报, V0, P0
+   张熠, 2013, 世界农业, V0, P3
+   蒋和平, 2008, 农业科技管理, V0, P12
+NR 20
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 35
+IS 090
+BP 34
+EP 40
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 郝志鹏, 
+   张所地, 
+AF 郝志鹏, 
+   张所地, 
+TI Mapping Knowledge Domains of International Ecopreneurship
+SO 科技进步与对策
+LA 
+DT Article
+DE 生态创业; 知识图谱; 可视化分析; 研究热点; 研究前沿
+AB 国际生态创业研究知识图谱分析
+C1 [郝志鹏]山西财经大学.管理科学与工程学院/[张所地]山西财经大学.管理科学与工程学.
+RP 
+FU 
+CR QUINN JB, 1971, Harvard Business Review, V49, P9-10
+   FISCHETTI M, 1992, Technology Review, V95, P3
+   SCHAPER M, 2002, Greener Management International, V38, P5
+   SHIFFRIN RM, 2004, Proceedings of the National Academy of Sciences of the United States of America, V101, P1
+   陈悦, 2005, 科学学研究, V23, P2
+   胡泽文, 2013, 图书情报工作, V57, P3
+   CHEN C, 2006, Journal of the American Society for Information Science & Technology, V57, P3
+   陈悦, 1900, 引文空间分析原理与应用, V0, P0
+   COHEN B, 2007, Journal of Business Venturing, V22, P1
+   DEAN TJ, 2007, Journal of Business Venturing, V22, P1
+   SCHUMPETER J, 2009, Theory of economic development:European heritage in economics & the social sciences, V0, P0
+   HART SL, 1995, Academy of Management Review, V20, P4
+   SHANE S, 2000, Academy of Management Review, V25, P1
+   PRICE DJ, 1965, Science, V149, P3683
+   HALL JK, 2010, Journal of Business Venturing, V25, P5
+   张宝建, 2014, 科技进步与对策, V31, P19
+   KUCKERTZ A, 2009, Social Science Electronic Publishing, V25, P5
+   YORK JG, 2010, Social Science Electronic Publishing, V41, P2
+   DIXON SEA, 2007, Journal of Organizational Change Management, V20, P3
+   SCHALTEGGER S, 2011, Business Strategy & the Environment, V20, P4
+   MEEK W, 2010, Social Science Electronic Publishing, V25, P5
+   POTTS J, 2010, Ecological Economics, V70, P2
+NR 22
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 32
+IS 240
+BP 131
+EP 137
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 杨安, 
+   蒋合领, 
+   王晴, 
+AF 杨安, 
+   蒋合领, 
+   王晴, 
+TI A Multi-dimensional Analysis and Evaluation of Domestic Think Tank Research Based on Mapping Knowledge Domain
+SO 图书馆学研究
+LA 
+DT Article
+DE 智库; 思想库; 研究进展; 知识图谱; 可视化
+AB 基于知识图谱分析的我国智库研究进展述评
+C1 [杨安]华中师范大学.信息管理学院/[蒋合领]华中师范大学.信息管理学院/[王晴].
+RP 
+FU 
+CR 朱旭峰, 2014, 中国行政管理, V0, P5
+   周静, 2014, 浙江社会科学, V0, P7
+   Chen,Chaomei, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   van Eck Nees JanSoftware Survey: VOSviewer A Computer Program for Bibliometric Mapping Scientometrics, 1900, 2010, V0, P0
+   钟文娟, 2012, 科技管理研究, V0, P2
+   刘启元, 2012, 信息资源管理学报, V0, P1
+   王英津, 2003, 理论探讨, V0, P6
+   宋惠昌, 2004, 中国党政干部论坛, V0, P3
+   孙蔚, 2012, 重庆社会科学, V0, P4
+   周琪, 2013, 人民论坛, V0, P12
+   任晓, 2000, 现代国际关系, V0, P7
+   刘丽群, 2014, 湖北社会科学, V0, P10
+   张继生, 2001, 国际观察, V0, P4
+   范士明, 2000, 国际政治研究, V0, P4
+   朱旭峰, 2004, 世界经济与政治, V0, P12
+   黄忠敬, 2009, 教育理论与实践, V29, P5
+   谷贤林, 2013, 比较教育研究, V0, P4
+   孙志茄, 2010, 图书情报工作, V54, P12
+   上海社会科学院智库研究中心项目组, 2014, 社会科学, V0, P4
+   胡鞍钢, 2014, 上海行政学院学报, V15, P2
+   孙蔚, 2014, 中共中央党校学报, V18, P4
+   郭万达, 2014, 开放导报, V0, P4
+   朱虹, 2014, 江西社会科学, V0, P1
+   李国强, 2014, 中国行政管理, V0, P5
+NR 24
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 100
+BP 6
+EP 11
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 刘宇, 
+   魏瑞斌, 
+   方向明, 
+AF 刘宇, 
+   魏瑞斌, 
+   方向明, 
+TI Review of Journal Evaluation Research Based on Mapping Knowledge Domain: A Bibliometric Study of CSSCI (1998—2014)
+SO 图书与情报
+LA 
+DT Article
+DE 期刊评价; 知识图谱; 学术评价; 期刊质量
+AB 国内期刊评价知识图谱研究——基于CSSCI(1998—2014年)的计量分析
+C1 [刘宇]上海大学.图书情报档案系/[魏瑞斌]安徽财经大学.管理科学与工程学院/[方向明]上海大学.图书.
+RP 
+FU 
+CR 范并思, 2003, 图书馆, V0, P1
+   王萃, 2011, 大学图书馆学报, V0, P5
+   黄慕萱, 2009, 图书馆学与资讯科学, V35, P2
+   Nederhof AJ, 2006, Scientometrics, V66, P1
+   Broadus RN, 1987, Journal of the American Society for Information Science, V38, P2
+   布朗, 1900, 信息的社会层面, V0, P0
+   李云霞, 2008, 中国科技期刊研究, V19, P6
+   刘新燕, 2008, 中国科技期刊研究, V0, P4
+   姜春林, 2011, 情报科学, V0, P7
+   侯素芳, 2014, 情报科学, V0, P1
+   曾建勋, 2007, 编辑学报, V19, P4
+   别立谦, 2012, 大学图书馆学报, V0, P3
+   陈燕, 2010, 中国科技期刊研究, V0, P6
+   叶继元, 2007, 重庆大学学报(社会科学版), V0, P4
+   刘启元, 2012, 信息资源管理学报, V2, P1
+   万昊, 2015, 图书情报工作, V59, P6
+   冯璐, 2006, 中国图书馆学报, V0, P2
+   Small H, 1973, Journal of the American Society for Information Science, V24, P4
+   Marshakova-Shaikevich I, 1973, Nauchn-Tchn Inform, V2, P6
+   苏新宁, 2006, 图书馆论坛, V26, P6
+   苏新宁, 2008, 东岳论丛, V29, P1
+   刘宇, 2014, 图书馆杂志, V0, P12
+   朱剑, 2015, 清华大学学报(哲学社会科学版), V0, P1
+   尹玉吉, 1994, 中国人民大学学报, V0, P4
+   尹玉吉, 2009, 西北农林科技大学学报(社会科学版), V0, P3
+   尹玉吉, 2009, 山东理工大学学报(社会科学版), V0, P2
+   于鸣镝, 1996, 晋图学刊, V0, P1
+   于鸣镝, 1998, 晋图学刊, V0, P4
+   崔国平, 2000, 编辑学报, V0, P1
+   齐世武, 1995, 编辑学报, V0, P1
+NR 30
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 050
+BP 81
+EP 91
+DI 
+PG 11
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 赵丙军, 
+AF 赵丙军, 
+TI Evolution Characteristics of Hot Topics of Oversea Researches on Strength Training
+SO 中国体育科技
+LA 
+DT Article
+DE 力量训练; 研究热点; 演进特征; 共词分析; 知识图谱
+AB 国外力量训练研究热点主题的演进特征
+C1 [赵丙军]聊城大学.体育学.
+RP 
+FU 
+CR 巩永强, 2011, 图书馆学研究, V0, P7
+   贺颖, 2012, 图书情报工作, V56, P6
+   李长玲, 2012, 科学与管理, V0, P4
+   李焕玉, 2011, 中国运动医学杂志, V30, P4
+   邱均平, 1987, 图书馆, V0, P3
+   王平, 2011, 中国运动医学杂志, V30, P11
+   王水泓, 2007, 中国运动医学杂志, V26, P4
+   文安, 2012, 中国组织工程研究, V16, P28
+   肖明, 2011, 情报理论与实践, V34, P1
+   张士靖, 2010, 医学信息学杂志, V31, P4
+   赵永军, 2011, 中国运动医学杂志, V30, P2
+   ASHER MI, 1982, Am Rev Respir Dis, V126, P5
+   ALEN M, 1988, Int J Sports Med, V3, P0
+   AAGAARD P, 2000, J Appl Physiol, V6, P0
+   ADAMS GR, 1993, J Appl Physiol, V2, P0
+   ANDERSEN JL, 2000, Muscle Nerve, V7, P0
+   AHTIAINEN JP, 2003, Eur J Appl Physiol, V6, P0
+   AIZAWA K, 2010, Steroids, V3, P0
+   AAGAARD P, 2002, J Appl Physiol, V6, P0
+   AAGAARD P, 2001, J Physiol, Vpt2, P0
+   ABE T, 2006, J Appl Physiol, V5, P0
+   ATHERTON PJ, 2010, Am J Clin Nutr, V5, P0
+   ALKNER BA, 2004, Eur J Appl Physiol, V3, P0
+   ADAMSEN L, 2009, BMJ, V339, P0
+   BRADLEY ME, 1978, J Appl Physiol, V6, P0
+   BELMAN MJ, 1980, Am Rev Res Disease, V2, P0
+   BROWN CH, 1974, Med Sci Sports, V3, P0
+   BERNARD S, 1999, Am J Respir Crit Care Med, V3, P0
+   BAAR K, 1999, Am J Physiol, V1, P0
+   BELL GJ, 2000, Eur J Appl Physiol, V5, P0
+   BIOLO G, 1995, Am J Physiol, V3, P0
+   BIOLO G, 1997, Am J Physiol, V1, P0
+   BERMON S, 1998, Acta Physiol Scand, V2, P0
+   BELANGER M, 2000, Arch Phys Med Rehabil, V8, P0
+   BLACKMAN MR, 2002, JAMA, V18, P0
+   BRUUSGAARD JC, 2010, Proc Natl Acad Sci, V34, P0
+   BODINE SC, 2001, Nat Cell Biol, V11, P0
+   BOLSTER DR, 2003, J Physiol, V1, P0
+   BALAGOPAL P, 2001, Am J Physiol Endocrinol Metab, V2, P0
+   BURD NA, 2010, J Physiol, V16, P0
+   BURD NA, 2010, PLoS One, V8, P0
+   BURD NA, 2011, J Nutr, V4, P0
+   BURKE DG, 2001, Int J Sport Nutr Exe, V3, P0
+   BORSHEIM E, 2002, Am J Physiol Endocrinol Metab, V4, P0
+   BELAVY DL, 2011, Osteoporos Int, V5, P0
+   BINDER EF, 2002, J Am Geriatr Soc, V12, P0
+   BECKER C, 2003, J Am Geriatr Soc, V3, P0
+   BOSCO C, 2000, Eur J Appl Physiol, V6, P0
+   BALDUCCI S, 2010, Arch Intern Med, V20, P0
+   BROWN JC, 2011, Cancer Epidemiol Biomarkers Prev, V1, P0
+   COONEY MM, 1986, Med Sci Sports Exe, V5, P0
+   CLARK CJ, 2000, Eur Respiratory J, V1, P0
+   CHESLEY A, 1992, J Appl Physiol, V4, P0
+   CAMPBELL WW, 1995, Am J Physiol-Endoc M, V6, P0
+   CHANDLER RM, 1994, J Appl Physiol, V2, P0
+   CLARKSON PM, 2005, J Appl Physiol, V1, P0
+   CRIBB PJ, 2006, Med Sci Sports Exe, V11, P0
+   CASTANEDA C, 2002, Diabetes Care, V12, P0
+   CHURCH TS, 2010, JAMA, V20, P0
+   COSTILL DL, 1979, J Appl Physiol, V1, P0
+   COLLIANDER EB, 1990, Acta Physiol Scand, V1, P0
+   DUDLEY GA, 1985, J Appl Physiol, V5, P0
+   DOESSING S, 2010, J Physiol, V2, P0
+   DREYER HC, 2006, J Physiol, V2, P0
+   DRUMMOND MJ, 2009, J Physiol, V7, P0
+   DICKINSON JM, 2011, J Nutr, V5, P0
+   DAVIDSEN PK, 2011, J Appl Physiol, V2, P0
+   DEMARK-WAHNEFRIED W, 2001, J Clin Oncol, V9, P0
+   DRUMMOND MJ, 2008, J Appl Physiol, V5, P0
+   DELORME TL, 1948, J Bone Joint Surg Am, V4, P0
+   DUDLEY GA, 1991, Aviat Space Environ Med, V6, P0
+   EWART CK, 1986, Med Sci Sports Exe, V5, P0
+   FRONTERA WR, 1990, J Appl Physiol, V1, P0
+   FIATARONE MA, 1990, JAMA-J Am Med Assoc, V22, P0
+   FRONTERA WR, 1988, J Appl Physiol, V3, P0
+   FERRI A, 2003, Acta Physiol Scand, V1, P0
+   FUJITA S, 2007, J Physiol, V2, P0
+   FIELDING RA, 2002, J Am Geriatr Soc, V4, P0
+   FRY CS, 2010, J Appl Physiol, V5, P0
+   FERRER RA, 2011, Ann Behav Med, V1, P0
+   FAHEY TD, 1973, Med Sci Sports, V4, P0
+   FLECK SJ, 1988, Med Sci Sports Exe, V5, P0
+   GETTMAN LR, 1982, Med Sci Sports Exe, V3, P0
+   GARFINKEL S, 1992, Med Sci Sports Exe, V11, P0
+   GIBALA MJ, 1995, J Appl Physiol, V2, P0
+   GIBALA MJ, 2009, J Appl Physiol, V3, P0
+   GENTILE MA, 2010, J Mol Endocrinol, V1, P0
+   GREIWE JS, 2001, FASEB J, V2, P0
+   GETTMAN LR, 1978, Med Sci Sports, V3, P0
+   GETTMAN LR, 1979, Arch Phys Med Rehabil, V3, P0
+   HURLEY BF, 1984, Med Sci Sports Exe, V5, P0
+   HAKKINEN K, 1988, Eur J Appl Physiol Occup Physiol, V2, P0
+   HAKKINEN K, 1988, Int J Sports Med, V6, P0
+   HARRIS KA, 1987, Med Sci Sports Exe, V3, P0
+   HATHER BM, 1991, Acta Physiol Scand, V2, P0
+   HORTOBAGYI T, 1996, J Appl Physiol, V3, P0
+   HIGBIE EJ, 1996, J Appl Physiol, V5, P0
+   HAKKINEN K, 2000, Eur J Appl Physiol, V1, P0
+   HAKKINEN K, 1993, Acta Physiol Scand, V2, P0
+   HEINONEN A, 1993, Bone Mineral, V1, P0
+   HAKKINEN K, 1993, J Appl Physiol, V2, P0
+   HAKKINEN K, 2001, J Appl Physiol, V2, P0
+   HILL M, 2003, J Physiol, V2, P0
+   HAMEED M, 2003, J Physiol, V1, P0
+   HAMEED M, 2004, J Physiol, V1, P0
+   HADDAD F, 2005, J Appl Physiol, V3, P0
+   HORNBERGER TA, 2006, Proc Natl Acad Sci, V12, P0
+   HADDAD F, 2002, J Appl Physiol, V1, P0
+   HULMI JJ, 2009, Amino Acids, V2, P0
+   HAKKINEN A, 2001, Arthritis Rheum, V3, P0
+   HAKKINEN K, 2001, Acta Physiol Scand, V1, P0
+   HUNTER GR, 2004, Sports Med, V5, P0
+   HICKSON RC, 1980, Eur J Appl Physiol Occup Physiol, V2-3, P0
+   HOUSTON ME, 1983, Eur J Appl Physiol Occup Physiol, V1, P0
+   HAKKINEN K, 1983, Med Sci Sports Exe, V6, P0
+   HAKKUKINEN K, 1985, Acta Physiologica Scandinavica, V4, P0
+   HAKKUKINEN K, 1985, Acta Physiol Scand, V4, P0
+   IANNUZZI-SUCICH M, 2002, J Gerontol A Biol Sci Med Sci, V12, P0
+   ISSURINA VB, 1994, J Sports Sci, V6, P0
+   ISHII T, 1998, Diabetes Care, V8, P0
+   JONES DA, 1987, J Physiol, V1, P0
+   JANSSEN I, 2002, Diabetes Care, V3, P0
+   KRAEMER WJ, 1988, Med Sci Sports Exe, V5, P0
+   KANEHISA H, 1983, Eur J Appl Physiol Occupat Physiol, V3, P0
+   KELEMEN MH, 1986, J Am Coll Cardiol, V1, P0
+   KLINGENSTIERNA U, 1990, Scand J Rehabil Med, V1, P0
+   KIRKENDALL DT, 1998, Am J Sports Med, V4, P0
+   KRAEMER WJ, 2005, Sports Med, V4, P0
+   KIMBALL SR, 2002, J Appl Physiol, V3, P0
+   KIM JS, 2005, Am J Physiol Endocrinol Metab, V6, P0
+   KUMAR V, 2009, J Physiol, V1, P0
+   KOOPMAN R, 2005, Am J Physiol Endocrinol Metab, V4, P0
+   KNOLS R, 2005, J Clin Oncol, V16, P0
+   KOMI PV, 1978, Eur J Appl Physiol Occup Physiol, V1, P0
+   KRAEMER WJ, 1987, Int J Sports Med, V4, P0
+   KRAEMER WJ, 1995, J Appl Physiol, V3, P0
+   KERR D, 1996, J Bone Miner Res, V2, P0
+   KRAEMER WJ, 1991, Int J Sports Med, V2, P0
+   KRAEMER WJ, 1993, J Appl Physiol, V2, P0
+   LATHAM NK, 2004, J Gerontol A Biol Sci Med Sci, V1, P0
+   LARSSON L, 1979, J Appl Physiol, V3, P0
+   LARSON JL, 1988, Am Rev Respir Dis, V3, P0
+   LISBOA C, 1994, Eur Respir J, V7, P0
+   LISBOA C, 1997, Eur Respir J, V3, P0
+   LOUIS E, 2007, J Appl Physiol, V5, P0
+   LEMURA LM, 2002, Med Sci Sports Exe, V3, P0
+   LIU-AMBROSE T, 2004, J Am Geriatr Soc, V5, P0
+   MANCINI DM, 1995, Circulation, V2, P0
+   MAGNUSSON G, 1996, Eur Heart J, V7, P0
+   MCCARTNEY N, 1995, J Gerontol A Biol Sci Med Sci, V2, P0
+   MILLER JP, 1994, J Appl Physiol, V3, P0
+   MARX JO, 2001, Med Sci Sports Exe, V4, P0
+   MILLER BF, 2005, J Physiol, V3, P0
+   MARIN PJ, 2010, J Strength Cond Res, V3, P0
+   MORELAND JD, 2004, J Am Geriatr Soc, V7, P0
+   MAIORANA A, 2001, J Am College Cardiol, V3, P0
+   MCDERMOTT MM, 2009, JAMA, V2, P0
+   MEAD S, 1950, JAMA-J Am Med Assoc, V6, P0
+   MACDOUGALL JD, 1977, J Appl Physiol, V4, P0
+   MORITANI T, 1979, Am J Physical Med, V3, P0
+   MACDOUGALL JD, 1985, J Appl Physiol, V3, P0
+   MACDOUGALL JD, 1984, J Appl Physiol, V5, P0
+   MILLER WJ, 1984, Med Sci Sports Exe, V6, P0
+   MANNICHE C, 1988, Lancet, V8626, P0
+   NISSEN S, 1996, J Appl Physiol, V5, P0
+   NADER GA, 2001, J Appl Physiol, V5, P0
+   NAIR KS, 2005, Am J Clin Nutr, V5, P0
+   NINDL BC, 2010, Med Sci Sports Exe, V1, P0
+   NEWTON RU, 1999, Med Sci Sports Exe, V2, P0
+   PSILANDER N, 2003, J Appl Physiol, V3, P0
+   PARDY RL, 1981, Am Rev Respir Dis, V4Pt1, P0
+   PARDY RL, 1981, Am Rev Respir Dis, V4Pt1, P0
+   PETERSEN S, 1990, Arch Phys Med Rehabil, V2, P0
+   PESCATELLO LS, 2004, Med Sci Sports Exe, V3, P0
+   PHILLIPS SM, 1997, Am J Physiol-Endoc M, V1, P0
+   PLOUTZ LL, 1994, J Appl Physiol, V4, P0
+   PAAVOLAINEN L, 1999, J Appl Physiol, V5, P0
+   PETRELLA JK, 2006, AJP-Endo, V5, P0
+   ROMMEL C, 2001, Nat Cell Biol, V11, P0
+   RITTWEGER J, 2010, Bone, V1, P0
+   ROELANTS M, 2004, J Am Geriatr Soc, V6, P0
+   RUTHERFORD OM, 1986, Eur J Appl Physiol Occup Physiol, V1, P0
+   RAMSAY JA, 1990, Med Sci Sports Exe, V5, P0
+   RASMUSSEN BB, 2000, J Appl Physiol, V2, P0
+   RATAMESS NA, 2005, J Steroid Biochem, V1, P0
+   SIMPSON K, 1992, Thorax, V2, P0
+   SMITH K, 1992, Am Rev Respir Dis, V3, P0
+   SMELTZER SC, 1996, Arch Physical Med Rehabi, V9, P0
+   STARON RS, 1991, J Appl Physiol, V2, P0
+   SALE DG, 1990, J Appl Physiol, V1, P0
+   SHAIBI GQ, 2006, Med Sci Sports Exe, V7, P0
+   SPANGENBURG EE, 2008, J Physiol, V1, P0
+   SHORT KR, 2004, Am J Physiol Endocrinol Metab, V1, P0
+   STONE MH, 2003, J Strength Cond Res, V1, P0
+   SHERRINGTON C, 2008, J Am Geriatr Soc, V12, P0
+   SIGAL RJ, 2007, Ann Intern Med, V6, P0
+   SCHWAB RS, 1947, Response of the quadriceps in poliomyelitis muscular dystrophy and immobilization atrophy to heavy resistance exercise, V0, P0
+   SALE DG, 1982, J Appl Physiol, V2, P0
+   SALE DG, 1988, Med Sci Sports Exe, V20, P5
+   SPENCE DW, 1990, Arch Phys Med Rehabil, V9, P0
+   TIPTON KD, 1999, Am J Physiol-Endoc M, V4, P0
+   TREUTH MS, 1994, J Applied Physiol, V2, P0
+   TRAPPE S, 2003, J Physiol-London, V1, P0
+   TERZIS G, 2008, Eur J Appl Physiol, V2, P0
+   TIPTON KD, 2001, Am J Physiol Endocrinol Metab, V2, P0
+   TIPTON KD, 2007, Am J Physiol Endocrinol Metab, V1, P0
+   TANG JE, 2009, J Appl Physiology, V3, P0
+   TRAPPE S, 2004, J Physiol, V2, P0
+   TORVINEN S, 2002, Med Sci Sports Exe, V9, P0
+   THORSTENSSON A, 1976, Acta Physiologica Scandinavica, V3, P0
+   TESCH PA, 1990, Acta Physiol Scand, V4, P0
+   TROOSTERS T, 1999, Am J Med, V3, P0
+   TAKARADA Y, 2000, J Appl Physiol, V6, P0
+   VOLEK JS, 1997, J Am Dietetic Ass, V7, P0
+   VANDENBERGHE K, 1997, J Appl Physiol, V6, P0
+   VUORI I, 1994, Calcified Tissue Int, V1, P0
+   VERSCHUEREN SM, 2004, J Bone Miner Res, V3, P0
+   WRIGHT WG, 1912, Boston Med Surgical J, V17, P0
+   WILMORE JH, 1974, Med Sci Sport Eex, V2, P0
+   WILMORE JH, 1978, Med Sci Sports, V2, P0
+   WILMORE JH, 1978, Med Sci Sports, V2, P0
+   WHIPPLE RH, 1987, J Am Geriatr Soc, V1, P0
+   WEINER P, 1992, Chest, V5, P0
+   WILKINSON SB, 2008, J Physiol, V15, P0
+   WILLIAMS MA, 2007, Circulation, V5, P0
+   YOUNG A, 1983, Eur J Clinical Invest, V5, P0
+   YARASHESKI KE, 1993, Am J Physiol, V2, P0
+   YARASHESKI KE, 1995, Am J Physiol, V2pt1, P0
+   YANG YF, 2005, J Appl Physiol, V5, P0
+NR 235
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 51
+IS 030
+BP 3
+EP 22
+DI 
+PG 20
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 王硕旺, 
+   褚照锋, 
+AF 王硕旺, 
+   褚照锋, 
+TI Bibliometric and Mapping Knowledge Domain Analysis of Papers Published by China Higher Education Research (1985—2014)
+SO 中国高教研究
+LA 
+DT Article
+DE 中国高教研究; 文献计量; 知识图谱; 研究热点
+AB 《中国高教研究》30年载文的文献计量和知识图谱分析(1985—2014年)
+C1 [王硕旺]河北大学.教育学院/[褚照锋]河北大学.教育学.
+RP 
+FU 
+CR 陈悦, 1900, 引文空间分析原理与应用:CiteSpace实用指南, V0, P0
+   易高峰, 2009, 高等教育研究, V0, P10
+   赵俊芳, 2014, 大学教育科学, V0, P1
+   中共中央文献编辑委员会, 1900, 邓小平文选(第3卷), V0, P0
+   王小梅, 2015, 中国高教研究, V0, P2
+   王佑镁, 2012, 中国高教研究, V0, P1
+NR 6
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 050
+BP 20
+EP 26
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 吴远仁, 
+   沈利生, 
+AF 吴远仁, 
+   沈利生, 
+TI The Mapping Knowledge Domain of Quantitative Economics in China
+SO 经济学动态
+LA 
+DT Article
+DE 数量经济学; 知识图谱; 共词分析
+AB 我国数量经济学学科知识图谱研究——基于CSSCI(2000—2014)数据的文献计量分析
+C1 [吴远仁]华侨大学.经济与金融学院/[沈利生]华侨大学.数量经济研究.
+RP 
+FU 
+CR 陈静, 2014, 图书与情报, V0, P2
+   侯海燕, 2009, 科研管理, V0, P1
+   金浩, 2004, 河北工业大学学报, V0, P2
+   潘晨, 2011, 现代情报, V0, P5
+   邱小平, 2006, 武汉理工大学学报(交通科学与工程版), V0, P2
+   苏新宁, 2008, 东岳论丛, V0, P1
+   乌家培, 2008, 重庆工商大学学报(西部论坛), V0, P1
+   王庆石, 2003, 东北财经大学学报, V0, P3
+   徐润华, 2014, 西南民族大学学报(人文社会科学版), V0, P8
+   宗乾进, 2011, 情报杂志, V0, P5
+   宗乾进, 2011, 图书馆杂志, V0, P6
+   张守一, 2001, 重庆商学院学报, V0, P4
+   赵鑫, 2014, 西南民族大学学报(人文社会科学版), V0, P7
+   Chen C, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+NR 15
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 080
+BP 84
+EP 96
+DI 
+PG 13
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 汤景泰, 
+AF 汤景泰, 
+TI 
+SO 现代传播:中国传媒大学学报
+LA 
+DT Article
+DE 网络舆论; 知识图谱; 研究主题; CNKI; 数据分析
+AB 我国网络舆论研究的知识图谱与研究主题——基于CNKI(1998—2014)的数据分析
+C1 [汤景泰]暨南大学.新闻与传播学.
+RP 
+FU 
+CR 胡泳, 2012, 中国新闻周刊, V0, P1
+   李良荣, 2012, 现代传播, V0, P4
+   王润泽, 2004, 国际新闻界, V0, P4
+   田卉, 2010, 现代传播, V0, P1
+   陈明, 2004, 瞭望新闻周刊, V0, P35
+   王国华, 2012, 华中科技大学学报(社会科学版), V0, P2
+   余秀才, 2010, 现代传播, V0, P5
+   张涛甫, 2011, 当代传播, V0, P2
+   童兵, 2012, 人民论坛, V0, P5
+   官建文, 2012, 新闻与写作, V0, P2
+   张健挺, 2006, 新闻记者, V0, P10
+   刘冰, 2006, 新闻知识, V0, P11
+   胡勇, 2008, 四川大学学报(自然科学版), V0, P2
+   刘志明, 2011, 系统工程, V0, P6
+   张涛甫, 2012, 新闻记者, V0, P9
+   芦何秋, 2013, 湖北大学学报(哲学社会科学版), V0, P5
+   龙小农, 2014, 新闻与传播研究, V0, P2
+   黄永林, 2010, 华中师范大学学报(人文社会科学版), V0, P3
+   谢耘耕, 2011, 现代传播, V0, P5
+   许鑫, 2009, 情报理论与实践, V0, P3
+   叶昭晖, 2011, 广西大学学报(自然科学版), V0, PS1
+   戴媛, 2008, 情报理论与实践, V0, P6
+   李雯静, 2009, 情报科学, V0, P7
+   曾润喜, 2010, 情报理论与实践, V0, P1
+   杜智涛, 2013, 图书情报工作, V0, P15
+   李伟权, 2013, 中国行政管理, V0, P11
+   叶皓, 2007, 现代传播(中国传媒大学学报), V0, P4
+   姜胜洪, 2008, 理论月刊, V0, P4
+   孙健, 2011, 中国行政管理, V0, P12
+   罗扬, 2013, 河北法学, V0, P1
+   揭萍, 2007, 江西社会科学, V0, P9
+   杨斌成, 2013, 中国出版, V0, P9
+   李彪, 2014, 新闻记者, V0, P1
+   张涛甫, 2008, 西南民族大学学报(人文社科版), V0, P4
+   汤景泰, 2013, 暨南学报(哲学社会科学版), V0, P8
+   喻国明, 2013, 新闻记者, V0, P6
+   周葆华, 2014, 南京社会科学, V0, P1
+NR 41
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 37
+IS 090
+BP 65
+EP 71
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 许强, 
+   李恩科, 
+   王帮金, 
+   李海英, 
+AF 许强, 
+   李恩科, 
+   王帮金, 
+   李海英, 
+TI Bibliometric Analysis of Social Computing
+SO 情报杂志
+LA 
+DT Article
+DE 社会计算; 可视化; CiteSpace; 知识图谱
+AB 社会计算领域的文献计量分析
+C1 [许强]西安电子科技大学.经济与管理学院/[李恩科]西安电子科技大学.经济与管理学院/[王帮金]西安电子科技大学.经济与管理学院/[李海英]西安电子科技大学.经济与管理学.
+RP 
+FU 
+CR 王飞跃, 2005, 科技导报, V23, P9
+   王飞跃, 2006, 中国基础科学, V7, P5
+   孟小峰, 2013, 计算机研究与发展, V50, P12
+   朱庆华, 2012, 情报理论与实践, V35, P12
+   彭希羡, 2013, 情报杂志, V32, P3
+   陈超美, 2009, 情报学报, V0, P3
+   马海群, 2012, 情报学报, V31, P5
+   Freeman LC, 1979, Social Networks, V1, P3
+   邱均平, 2012, 情报理论与实践, V35, P3
+   邱均平, 2010, 图书馆论坛, V0, P6
+   Scekic O, 2013, Communications of the ACM, V56, P6
+   邱均平, 2012, 中国图书馆学报, V0, P2
+   窦永香, 2014, 情报杂志, V33, P6
+   Wang FY, 2007, Intelligent Systems, V22, P2
+   Parameswaran M, 2007, Communications of the Association for Information Systems, V19, P1
+   O'Reilly T, 2004, Open Sources, V2, P0
+   赵蓉英, 2010, 中国图书馆学报, V0, P5
+   Schuler D, 1994, Communications of the ACM, V37, P1
+   毛文吉, 2011, 中国计算机学会通讯, V12, P7
+   Zeng D, 2010, Intelligent Systems, V25, P6
+   Chen C, 2014, Journal of the Association for Information Science and Technology, V65, P2
+   Chen C, 2014, Expert Opinion on Biological Therapy, V14, P9
+NR 28
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 34
+IS 020
+BP 148
+EP 153
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 周婕, 
+   陈嘉勇, 
+   李玲, 
+   侯瑞芳, 
+AF 周婕, 
+   陈嘉勇, 
+   李玲, 
+   侯瑞芳, 
+TI Research on the Key Technology of Literature Data Regularity-based Institutional Repository: A Case Study of Institutional Repository in Beijing University of Posts and Telecommunications
+SO 情报资料工作
+LA 
+DT Article
+DE 机构知识库; 数据模型; 关键技术; 文献计量学; 北京邮电大学
+AB 基于文献数据规律的机构知识库关键技术研究——以北京邮电大学机构知识库为例
+C1 [周婕]北京邮电大学.图书馆/[陈嘉勇]北京邮电大学.图书馆/[李玲]北京邮电大学.图书馆/[侯瑞芳]北京邮电大学.图书.
+RP 
+FU 
+CR [Anon], 2014, Directory of Open Access Repositories-OpenDOAR, V0, P0
+   张巧娜, 2010, 大学图书馆学报, V0, P6
+   Lynch CA, 2003, Libraries and the Academy, V3, P2
+   张智雄, 2006, 图书情报工作, V0, P8
+   赵晓晔, 2009, 图书情报工作, V0, PS1
+   李国俊, 2012, 大学图书馆学报, V30, P4
+   邓红, 2013, 现代情报, V33, P7
+   肖明, 2012, 图书情报工作, V56, P22
+NR 10
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 010
+BP 65
+EP 70
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 高明, 
+   段卉, 
+   韩尚洁, 
+AF 高明, 
+   段卉, 
+   韩尚洁, 
+TI Bibliometric Analysis of Foreign Physical Education Research Based on CiteSpaceⅢ
+SO 体育科学
+LA 
+DT Article
+DE 体育教育; 知识图谱; 国家分布; 主要期刊; 高产机构; 高产作者
+AB 基于CiteSpaceⅢ的国外体育教育研究计量学分析
+C1 [高明]山西医科大学.体育教学部/[段卉]山西医科大学.体育教学部/[韩尚洁]山西医科大学.体育教学.
+RP 
+FU 
+CR 李芳, 2014, 首都体育学院学报, V26, P1
+   李元, 2013, 北京体育大学学报, V36, P7
+   邱均平, 2006, 中国图书馆学报, V32, P1
+   司虎克, 2012, 上海体育学院学报, V36, P6
+   王璟, 2013, 沈阳体育学院学报, V32, P1
+   王俊杰, 2012, 体育科学, V23, P10
+   王娟萍, 1997, 中国生物医学工程学报, V16, P3
+   王琪, 2011, 西方现代体育科学发展史论:学位论文, V0, P0
+   王琪, 2010, 武汉体育学院学报, V44, P5
+   王琪, 2011, 西安体育学院学报, V28, P4
+   谢彩霞, 2007, 科研管理, V29, P3
+   夏培玲, 2011, 体育科学, V31, P4
+   夏培玲, 2012, 北京体育大学学报, V35, P5
+   赵丙军, 2013, 国外力量训练研究知识网络的结构及演化特征:学位论文, V0, P0
+   张春合, 2014, 上海体育学院学报, V38, P1
+   ADAMA J, 2011, 科学观察, V6, P5
+   ALLISION PD, 1976, Soc Stud Sci, V6, P2
+   DE SOLLA PRICE DJ, 1966, Am Psychol, V21, P11
+   GOFMAN W, 1900, Scientific information systems and the principle of selectivity, V0, P0
+   HODDER P, 1980, J Res Communications Stud, V2, P3
+   LAWANI SM, 1986, Scientometrics, V9, P1-2
+   NARIN F, 1990, Office for official publications of the European communities, V1, P0
+   PAO ML, 1981, Library Res, V2, P0
+   PRICE DS, 1900, Little Science Big Science, V0, P0
+NR 24
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 35
+IS 010
+BP 4
+EP 12
+DI 
+PG 9
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 魏先龙, 
+   王运武, 
+AF 魏先龙, 
+   王运武, 
+TI The Research Summary of Educational Informatization to Promote Educational Equity in Recent Years
+SO 现代教育技术
+LA 
+DT Article
+DE 教育信息化; 教育公平; 发展历程; 热点分析; 综述
+AB 近十年中国教育信息化促进教育公平研究综述
+C1 [魏先龙]江苏师范大学.教育研究院/[王运武]江苏师范大学.教育研究.
+RP 
+FU 
+CR 《温家宝谈教育》编辑组, 1900, 温家宝谈教育, V0, P0
+   杜玉霞, 2003, 现代远程教育研究, V0, P2
+   林佩燕, 2004, 宁波教育学院学报, V0, P12
+   何克抗, 2011, 现代远程教育研究, V0, P4
+   熊才平, 2006, 中国电化教育, V0, P3
+   熊才平, 2007, 电化教育研究, V0, P4
+   刘敏娜, 2011, 陕西教育(高教版), V0, P4
+   魏黎, 2006, 高等工程教育研究, V0, P2
+   陈联, 2006, 经济师, V0, P2
+   陶明, 2009, 思想战线, V0, P35
+   宋有, 2007, 现代远程教育研究, V0, P5
+   彭红光, 2010, 中国电化教育, V0, P10
+   张先梅, 2013, 华章, V0, P12
+   何克抗, 2009, 电化教育研究, V0, P2
+   章飞, 2013, 江苏教育学院学报(自然科学), V0, P2
+   杨东平, 1900, 中国教育公平的理想与现实, V0, P0
+   赵建华, 2010, 电化教育研究, V0, P11
+   黄红敏, 2010, 中国电化教育, V0, P10
+   孙刚成, 2007, 开放教育研究, V0, P5
+   周洪宇, 1900, 教育公平是和谐社会的基石, V0, P0
+   杨文超, 2009, 教育探索, V0, P10
+   岳金辉, 2011, 大家, V0, P22
+   李姗泽, 2012, 电化教育研究, V0, P10
+   朱玉莲, 2007, 河北科技师范学院学报(社会科学版), V0, P3
+   周英芳, 2011, 企业导报, V0, P3
+   周惠颖, 2009, 中国电化教育, V0, P4
+   朱超华, 2011, 电化教育研究, V0, P1
+   王运武, 2009, 中国电化教育, V0, P2
+   刘荣, 2008, 中国电化教育, V0, P1
+   陈琳, 2008, 中国电化教育, V0, P12
+   高方银, 2013, 中国电化教育, V0, P9
+NR 33
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 25
+IS 020
+BP 12
+EP 18
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 曹霞, 
+AF 曹霞, 
+TI 
+SO 西南民族大学学报(人文社科版)
+LA 
+DT Article
+DE 真人图书馆; livinglibrary; 文献计量学; 图书馆
+AB 国内真人图书馆研究的文献计量分析
+C1 [曹霞]西南民族大学.图书.
+RP 
+FU 
+CR [Anon], 2014, 中国知网, V0, P0
+   林梦笑, 2009, 图书馆研究与工作, V0, P2
+   [Anon], 2014, History of The Human Library, V0, P0
+   朱茗, 2009, 图书馆论坛, V0, P5
+   李胜林, 2014, 河南图书馆学刊, V0, P3
+   张立亚, 2009, 大学图书馆学报, V0, P5
+   王彩春, 2009, 图书馆建设, V0, P7
+   严贝妮, 2004, 图书情报工作, V0, P5
+   张立, 2014, 情报科学, V0, P1
+   徐娜, 2013, 图书馆理论与实践, V0, P4
+   余少瑛, 2012, 情报科学, V0, P2
+   Wongoo Lee SK, 2014, Library Hi Tech, V4, P0
+   苏海燕, 2009, 图书馆建设, V0, P11
+   徐璟, 2010, 图书情报工作, V0, P1
+   熊太纯, 2010, 图书馆学研究, V0, P7
+   王君学, 2010, 图书情报工作, V0, P13
+   尚新丽, 2012, 图书馆理论与实践, V0, P3
+   刘记飞, 2013, 情报科学, V0, P9
+   吕红, 2010, 情报科学, V0, P10
+   仝莉, 2007, 内蒙古科技与经济, V0, P22
+NR 20
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 36
+IS 060
+BP 236
+EP 240
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 曹倩, 
+   赵一鸣, 
+AF 曹倩, 
+   赵一鸣, 
+TI The Realization Process of Knowledge Map Technology and Its Relevant Application
+SO 情报理论与实践
+LA 
+DT Article
+DE 知识图谱; 知识组织; 知识检索; 知识应用
+AB 知识图谱的技术实现流程及相关应用
+C1 [曹倩]武汉大学.信息资源研究中心/[赵一鸣]武汉大学.信息资源研究中.
+RP 
+FU 
+CR 王知津, 2012, 国家图书馆学刊, V21, P4
+   索传军, 2013, 图书情报工作, V57, P7
+   钟翠娇, 2010, 图书馆学研究, V0, P17
+   赵鑫, 2014, 辽宁行政学院学报, V16, P10
+   SINGHAL A, 2015, Introducing the knowledge graph: things not strings, V0, P0
+   钟秀琴, 2012, 计算机学报, V35, P4
+   THAKKER D, 2014, Using DBpedia as a knowledge source for culture-related user modelling questionnaires, V0, P0
+   黄如花, 2011, 图书馆论坛, V31, P6
+   ADAMS T, 2015, Google and the future of search: amit singhal and the knowledge graph, V0, P0
+   徐绪堪, 2014, 图书情报知识, V0, P6
+   张坤, 2015, 面向知识图谱的搜索技术(搜狗), V0, P0
+   蒋勋, 2013, 图书与情报, V0, P6
+   PUJARA J, 2013, Knowledge graph identification, V0, P0
+   [Anon], 2015, I am an entity: hacking the knowledge graph, V0, P0
+   常万军, 2011, 计算机工程与设计, V32, P8
+   孙知信, 2014, 南京邮电大学学报(自然科学版), V34, P4
+   王志, 2009, 微电子学与计算机, V26, P8
+   马文峰, 2007, 中国图书馆学报, V33, P2
+   BLANCO R, 2013, Entity recommendations in web search, V0, P0
+   ZHU A, 2013, International Journal for Cross-Disciplinary Subjects in Education, V3, P1
+   [Anon], 2013, 电脑编程技巧与维护, V19, P0
+   [Anon], 2015, Did Google knowledge graph change SEO, V0, P0
+   搜狗百科, 2015, 搜狗知立方, V0, P0
+   田玲, 2013, 生态经济, V0, P10
+   贺桂和, 2013, 情报科学, V31, P12
+   百度百科, 2015, 一淘网, V0, P0
+   百度百科, 2015, Graph Search, V0, P0
+   李涓子, 2015, 知识图谱:大数据语义链接的基石, V0, P0
+   STEINER T, 2015, Adding realtime coverage to the Google knowledge graph, V0, P0
+NR 29
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 38
+IS 120
+BP 127
+EP 132
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 罗云, 
+   武建鑫, 
+AF 罗云, 
+   武建鑫, 
+TI The Construction and Analysis of Visual Knowledge Mapping of Chinese Higher Education Academic Groups
+SO 高教探索
+LA 
+DT Article
+DE 高等教育; 学术群体; 知识图谱; 作者共被引
+AB 我国高等教育研究学术群体可视化知识图谱构建与分析
+C1 [罗云]兰州大学.教育学院/[武建鑫]兰州大学.教育学.
+RP 
+FU 
+CR 潘黎, 2012, 中国高教研究, V0, P6
+   刘旭, 2010, 图书馆学研究, V0, P1
+   黄维, 2010, 现代大学教育, V0, P2
+   陈瑜林, 2012, 中国电化教育, V0, P12
+   张晗, 2007, 情报理论与实践, V30, P3
+   陈瑜林, 2012, 电化教育研究, V0, P8
+   林聚任, 1900, 社会网络分析:理论、方法与应用, V0, P0
+   邱均平, 2011, 情报科学, V0, P10
+   袁润, 2010, 图书馆情报研究, V0, P3
+   刘军, 1900, 整体网分析讲义——UCINET软件使用指南, V0, P0
+   徐媛媛, 2008, 情报理论与实践, V31, P2
+   邱均平, 2012, 情报科学, V0, P2
+   李亮, 2008, 情报科学, V0, P4
+NR 14
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 030
+BP 40
+EP 47
+DI 
+PG 8
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 赵新亮, 
+   张彦通, 
+AF 赵新亮, 
+   张彦通, 
+TI Status, Hot-topics and Trends of American Higher Educational Research in Recent Ten Years——Based on visual analysis of 5 American higher education journals from SSCI
+SO 中国高教研究
+LA 
+DT Article
+DE 美国高等教育; 学术期刊; 知识图谱; 可视化分析
+AB 近十年美国高等教育研究的现状、热点与趋势——基于美国5种SSCI高等教育期刊的可视化分析
+C1 [赵新亮]北京航空航天大学.高等教育研究所/[张彦通]国务院参事室.参事业务.
+RP 
+FU 
+CR Chen C, 2006, Journal of the American Society for Information Science and Technology, V57, P0
+   Chen C, 2005, Centrality of pivotal points in the evolution of the scientific networks, V0, P0
+   汪志国, 2013, 国家教育行政学院学报, V0, P3
+   兰国帅, 2015, 高等教育研究, V0, P2
+NR 4
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 100
+BP 63
+EP 69
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 刘兰娟, 
+   司虎克, 
+   刘成, 
+AF 刘兰娟, 
+   司虎克, 
+   刘成, 
+TI Evolution of the International Yoga Research Context and Frontier Dynamic Sports Competitive Intelligence Analysis
+SO 中国体育科技
+LA 
+DT Article
+DE 瑜伽; 国际; 演进脉络; 前沿动态; 体育竞争情报; 知识图谱
+AB 国际瑜伽研究演进脉络与前沿动态的体育竞争情报分析
+C1 [刘兰娟]上海体育学院.
+   [司虎克]上海体育学院.
+   [刘成]东华大学.
+RP 
+FU 
+CR 林敏, 1900, 生活瑜伽, V0, P0
+   刘成, 2012, 北京体育大学学报, V35, P11
+   BOWER JE, 2014, Psychoneuroendocrinol, V43, P5
+   BOWER JE, 2011, Cancer, V118, P15
+   BUSSING A, 2012, Evidence-based Complementary Alternative Med, V18, P7
+   CHEN KM, 2007, J Adv Nurs, V57, P4
+   CHEN KM, 2009, Int J Nursing Stud, V46, P2
+   CRAMER H, 2013, Depres Anxiety, V30, P11
+   CRAMER H, 2013, Clin J Pain, V29, P5
+   DASGUPTA SN, 1900, Yoga Philosophy in Relation to Other Systems of India Thought, V0, P0
+   EISENBERG DM, 1998, JAMA J Am Med Asso, V280, P18
+   INNERS KE, 2008, Menopause-J North Am Menopause Soc, V15, P5
+   LONG L, 2001, Complement Therapies Med, V9, P3
+   TELLES S, 2009, Perceptual Motor Skills, V109, P3
+   WILLIAM WA, 1900, Yogi Philosophy, V0, P0
+   WILLIAM WA, 1900, Science of Breath, V0, P0
+NR 17
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 51
+IS 020
+BP 105
+EP 113
+DI 
+PG 9
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 高广尚, 
+   张智雄, 
+AF 高广尚, 
+   张智雄, 
+TI An Analysis of Knowledge Panel Recommended Mode for Entity
+SO 图书馆学研究
+LA 
+DT Article
+DE 知识面板; 知识图谱; 实体搜索
+AB 面向实体的知识面板推荐模式分析
+C1 [高广尚]中国科学院文献情报中心.
+   [张智雄]中国科学院文献情报中心.信息系统.
+RP 
+FU 
+CR Goel KJ, 2014, Knowledge Panel, V0, P0
+   Santos J, 2013, Document Analytics Through Entity Resolution, V0, P0
+   Wang Y, 2012, Toward Topic Search on the Web, V0, P0
+   [Anon], 2014, Web Gets Smarter, V0, P0
+   [Anon], 2014, Google's One Box Patent Application, V0, P0
+   Angelo M, 2014, Determination of a Desired Repository, V0, P0
+   [Anon], 2014, Official Google Blog: Introducing the Knowledge Graph: Things Not Strings, V0, P0
+   [Anon], 2014, Future SEO: Understanding Entity Search, V0, P0
+   [Anon], 2014, Entity Search And Its Affect On SEO & Search Listings, V0, P0
+   Henry JW, 2014, Providing Knowledge Panels with Search Results, V0, P0
+   Liu Y, 1900, SidePoint: A Peripheral Knowledge Panel for Presentation Slide Authoring, V0, P0
+   [Anon], 2014, Introducing the Knowledge Graph: Things not Strings, V0, P0
+   [Anon], 2014, Google Improves Knowledge Graph with Comparisons and Filters Brings Cards & Cross-Platform Notifications to Mobile, V0, P0
+   [Anon], 2014, Music Is Google's Latest Ad Test in the Knowledge Panel, V0, P0
+   [Anon], 2014, Google Testing More Ads on Knowledge Graph Panels: Google Play Gets the Spotlight, V0, P0
+   [Anon], 2014, Bing Adds Khan Academy Courses & Book Finding Results, V0, P0
+   [Anon], 2014, Google Now Displaying Full Review Snippets in the Knowledge Panel, V0, P0
+   [Anon], 2014, Bing Adds School Ratings to Search Results, V0, P0
+   [Anon], 2014, Bing Expands Snapshot with New Food & Drug Entities, V0, P0
+   [Anon], 2014, I Am an Entity: Hacking the Knowledge Graph, V0, P0
+   Zhang J, 2014, International Journal of Computers Communications & Control, V9, P1
+   Bron M, 2013, Example Based Entity Search in the Web of Data:Advances in Information Retrieval, V0, P0
+   Heck L, 2014, Deep Learning of Knowledge Graph Embeddings for Semantic Parsing of Twitter Dialogs:IEEE Institute of Electrical and Electronics Engineers, V0, P0
+   Constantin BR, 2014, Disambiguation of Named Entities, V0, P0
+   Vallet D, 2008, Inferring the Most Important Types of a Query: A Semantic Approach, V0, P0
+   [Anon], 2014, Microsoft Has Big Plans for Bing's Entity Engine, V0, P0
+NR 27
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 010
+BP 56
+EP 64
+DI 
+PG 9
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 胡德华, 
+   王蕊, 
+AF 胡德华, 
+   王蕊, 
+TI Mapping Knowledge Analysis in Information Retrieval
+SO 图书馆杂志
+LA 
+DT Article
+DE 信息检索; 知识图谱; 研究热点; 可视化分析
+AB 信息检索研究的知识图谱探析
+C1 [胡德华]中南大学.湘雅医学院医药信息系/[王蕊]中南大学.湘雅医学院医药信息.
+RP 
+FU 
+CR 林海, 2007, 科技情报开发与经济, V17, P10
+   庞弘燊, 2009, 中国图书馆学报, V35, P4
+   孙巍, 2008, 情报理论与实践, V31, P4
+   赵蓉英, 2011, 情报理论与实践, V34, P10
+   Fox KL, 1999, JOURNAL OF THE AMERICAN SOCIETY FOR INFORMATION SCIENCE, V50, P7
+   Quan D, 2007, BRIEFINGS IN BIOINFORMATICS, V8, P3
+   Ahn JW, 2009, INFORMATION VISUALIZATION, V8, P3
+   Kumar A, 2013, INTERNATIONAL JOURNAL OF COMPUTER ASSISTED RADIOLOGY AND SURGERY, V8, P6
+   Chen CM, 2010, Journal of the American Society for Information Science and Technology, V61, P7
+   Chen C, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   Persson O, 1994, Journal of the American Society for Information Science, V45, P1
+   Taylor RS, 1968, College Research Libraries, V29, P3
+   Cooper WS, 1968, Am Documentation, V19, P1
+   赵丽梅, 2012, 情报学报, V31, P1
+   Jamali HR, 1900, New directions in human information behavior, V0, P0
+   Jamali HR, 1900, Article title type and its relation with the number of downloads and citations, V0, P0
+   邱均平, 2013, 情报学报, V32, P5
+   赵蓉英, 2010, 中国图书馆学报, V36, P5
+   陈嘉勇, 2012, 数字图书馆论坛, V0, P3
+   马海群, 2012, 新世纪图书馆, V0, P6
+   苍宏宇, 2009, 图书馆建设, V0, P1
+NR 22
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 34
+IS 010
+BP 20
+EP 28
+DI 
+PG 9
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 赵丙军, 
+AF 赵丙军, 
+TI Structural Evolution Characteristics of Scientific Collaboration Network of Overseas Researches on Strength Training
+SO 中国体育科技
+LA 
+DT Article
+DE 力量训练; 科研合作网络; 演化特征; 小世界网络; 知识图谱
+AB 国外力量训练研究科研合作网络的结构演化特征
+C1 [赵丙军]聊城大学.体育学.
+RP 
+FU 
+CR 曹烃, 2012, 北京体育大学学报, V35, P9
+   黄维, 2012, 长沙理工大学学报(社会科学版), V27, P4
+   刘军, 1900, 整体网分析讲义:UCINET软件实用指南, V0, P0
+   邱均平, 2009, 图书情报研究, V2, P2
+   司虎克, 2012, 上海体育学院学报, V36, P6
+   谢彩霞, 1900, 科学合作的功能与计量, V0, P0
+   肖冬平, 1900, 知识网络导论:理论与应用, V0, P0
+   尹丽春, 2007, 图书情报工作, V51, P8
+   张玉涛, 2012, 图书情报工作, V56, P6
+   张大伟, 2008, 情报杂志, V27, P8
+   张红岩, 2012, 图书馆建设, V0, P8
+   CHEN C, 2006, J Am Soc Inf Sci Technol, V57, P3
+   CHO SR, 2008, Scientometrics, V77, P1
+   GAUFFRIAU M, 2007, Scientometrics, V73, P2
+   KIM Y, 2014, Scientometrics, V99, P1
+   SEGLEN PO, 2000, Scientometrics, V49, P1
+NR 17
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 51
+IS 040
+BP 3
+EP 15
+DI 
+PG 13
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 芦彩梅, 
+   徐天强, 
+AF 芦彩梅, 
+   徐天强, 
+TI Knowledge Mapping Analysis of International Industrial Clusters Research
+SO 科技管理研究
+LA 
+DT Article
+DE 产业集群; 知识图谱; CiteSpace; 可视化
+AB 国际产业集群研究知识图谱分析
+C1 [芦彩梅]山西大学.管理与决策研究所/[徐天强]山西大学.管理与决策研究.
+RP 
+FU 
+CR 李文娟, 2014, 情报科学, V32, P1
+   赵蓉英, 2011, 中国图书馆学报, V37, P2
+   杨国立, 2012, 统计研究, V29, P2
+   王孟钧, 2013, 科技进步与对策, V30, P23
+   余菜花, 2013, 湖南大学学报(社会科学版), V27, P6
+   CHEN CM, 2006, Journal of the American Society for Information Science and Technology, V57, P3
+   GARFIELD E, 1994, Current Contents: Social & Behavioural Sciences, V7, P45
+   PORTER ME, 1900, Competitive advantage of nations, V0, P0
+   KRUGMAN PR, 1900, Geography and trade, V0, P0
+   PORTER ME, 1998, Harvard Business Review, V76, P6
+   MARSHALL A, 1900, Principles of Economics, V0, P0
+   MARTIN R, 2003, Journal of Economic Geography, V3, P1
+NR 13
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 35
+IS 180
+BP 157
+EP 160
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 胡德华, 
+   种乐熹, 
+   邱均平, 
+AF 胡德华, 
+   种乐熹, 
+   邱均平, 
+TI Visualized Analysis of Information Behavior Study
+SO 图书馆杂志
+LA 
+DT Article
+DE 信息行为; 知识图谱; 共被引分析; 研究热点; 研究前沿
+AB 信息行为研究的可视化分析
+C1 [胡德华]武汉大学.信息管理学院/[种乐熹]中南大学.信息安全与大数据研究院医药信息系/[邱均平]武汉大学.信息管理学.
+RP 
+FU 
+CR Wilson TD, 2000, Informing Science, V3, P2
+   Pettigrew Al KE, 2001, Annual Review of Information Science and Technolog, V35, P0
+   Wiison TD, 1999, Information Processing Management, V35, P6
+   侯剑华, 2007, 科学学研究, V0, P0
+   Davis FD, 1989, MIS quarterly, V14, P3
+   Ajzen I, 1991, Organizational Behavior and Human Decision Processess, V50, P2
+   劳可夫, 2013, 财经科学, V0, P2
+   Wilson TD, 1999, Journal of documentation, V55, P3
+   Dervin B, 1986, Annual Review of information science and technology, V21, P0
+   邱均平, 2010, 图书馆论坛, V0, P6
+   Belvaux G, 2000, Management Science, V46, P5
+   栾春娟, 2009, 科学学研究, V127, P2
+NR 12
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 34
+IS 090
+BP 49
+EP 54
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 华薇娜, 
+AF 华薇娜, 
+TI 
+SO 西南民族大学学报(人文社科版)
+LA 
+DT Article
+DE 海洋学; 海洋工程; 文献计量学; 核心期刊
+AB 从海洋核心期刊论文看世界海洋研究格局
+C1 [华薇娜]南京大学.信息管理.
+RP 
+FU 
+CR 胡锦涛, 2013, 坚定不移沿着中国特色社会主义道路前进，为全面建成小康社会而奋斗——在中国共产党第十八次全国代表大会上的报告, V0, P0
+   颜昊, 2013, 中共十八大代表强烈支持中国建设海洋强国, V0, P0
+   Staley Shannon M, 2007, COLLEGE & RESEARCH LIBRARIES, V68, P2
+   Hua,Weina, 2012, Scientometrics, V91, P3
+   华薇娜, 2006, 科学学研究, V0, P3
+NR 7
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 36
+IS 020
+BP 225
+EP 231
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 王琪, 
+AF 王琪, 
+TI New Features of Sports Scientific Research in China from 2004 to 2014 Sports Science and Technology Awards
+SO 沈阳体育学院学报
+LA 
+DT Article
+DE 科学知识图谱; 体育科技奖; 体育科学; 中国体育科学学会
+AB 2004—2014年度体育科技奖管窥新世纪以来我国体育科研的新特征
+C1 [王琪]吉林体育学院.
+RP 
+FU 
+CR 马费成, 2006, 情报学报, V0, P2
+   邱均平, 1900, 信息计量学, V0, P0
+   林聚任, 1900, 社会网络分析:理论、方法与应用, V0, P0
+   孙葆丽, 2000, 体育科学, V20, P1
+   中国科学技术协会, 2007, 2006—2007体育科学学科发展报告, V0, P0
+   杨桦, 2013, 北京体育大学学报, V36, P1
+   [Anon], 2015, 国务院会议部署发展体育产业，要推进职业体育改革, V0, P0
+NR 7
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 34
+IS 050
+BP 12
+EP 16
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 郑俊涛, 
+   刘念才, 
+AF 郑俊涛, 
+   刘念才, 
+TI On the Weights of International Research Awards and the Relative Relationship between Awards Based on Common Awardees
+SO 情报杂志
+LA 
+DT Article
+DE 国际科研奖项; 科学知识图谱; 关联强度
+AB 基于共同获奖人的国际科研奖项权重和相对关系研究
+C1 [郑俊涛]上海交通大学.高等教育研究院/[刘念才]上海交通大学.高等教育研究.
+RP 
+FU 
+CR Merton RK, 1957, American Sociological Review, V22, P6
+   王炎坤, 1900, 科技奖励论, V0, P0
+   科尔,乔纳森, 1900, 科学界的社会分层, V0, P0
+   朱克曼,哈里特, 1900, 科学界的精英——美国的诺贝尔奖金获得者, V0, P0
+   梁秀娟, 2009, 图书馆杂志, V0, P6
+   Frey BS, 2006, Perspectives on Psychological Science, V1, P4
+   陈悦, 2008, 科学学研究, V26, P3
+   Sternitzke C, 2009, Scientometrics, V78, P1
+   Van Eck NJ, 2007, International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems, V15, P5
+   Van Eck NJ, 2009, Journal of the American Society for Information Science and Technology, V60, P8
+   Van Eck NJ, 2010, Journal of the American Society for Information Science and Technology, V61, P12
+   Van Eck NJ, 2010, Scientometrics, V84, P2
+NR 13
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 34
+IS 040
+BP 37
+EP 42
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 刘桂锋, 
+   卢章平, 
+   宋新平, 
+AF 刘桂锋, 
+   卢章平, 
+   宋新平, 
+TI Comparative Study of Big Data Based on Patent Map and Knowledge Mapping
+SO 图书情报知识
+LA 
+DT Article
+DE 大数据; 专利地图; 知识图谱; 信息可视化; 专利分析; 数据挖掘; 云计算; 共被引
+AB 专利地图和知识图谱视角的大数据比较研究
+C1 [刘桂锋]江苏大学.科技信息研究所/[卢章平]江苏大学.科技信息研究所/[宋新平]江苏大学.管理学.
+RP 
+FU 
+CR Hu H, 2014, Access, IEEE, V2, P0
+   王珊, 2011, 计算机学报, V34, P10
+   孟小峰, 2013, 计算机研究与发展, V50, P1
+   杨绎, 2012, 图书馆杂志, V31, P9
+   王新才, 2013, 情报科学, V31, P9
+   王一博, 2014, 图书馆论坛, V34, P8
+   李贺, 2014, 情报科学, V34, P6
+   刘泽照, 2014, 图书馆论坛, V34, P8
+   黄永勤, 2014, 情报杂志, V33, P6
+   陆静, 2014, 图书馆杂志, V33, P1
+   李鹏飞, 2014, 情报杂志, V34, P9
+   Boyd D, 2012, Information Communication & Society, V15, P5
+   Dean J, 2008, Communications of the ACM, V51, P1
+   White T,  Inc, Hadoop: the definitive guide, V0, P0
+   Mayer-Schonberger V, 1900, Big data: A revolution that will transform how we live work and think, V0, P0
+   Blei DM, 2003, Journal of machine Learning research, V3, P0
+   Howe D, 2008, Nature, V455, P7209
+   Srivastava DK, 2014, Data Mining and Knowledge Engineering, V6, P7
+   Taylor RC, 2010, BMC bioinformatics, V11, PSuppl 12
+   Hampton SE, 2013, Frontiers in Ecology and the Environment, V11, P3
+   Waller MA, 2013, Journal of Business Logistics, V34, P2
+   Ghemawat S, 2003, ACM SIGOPS Operating Systems Review, V37, P5
+   Dean J, 2010, Communications of the ACM, V53, P1
+   Chang F, 2008, ACM Transactions on Computer Systems, V26, P2
+NR 29
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 050
+BP 89
+EP 98
+DI 
+PG 10
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 吴伟成, 
+AF 吴伟成, 
+TI The Analysis of Discipline Half-life Based-on Citation Relations in Chinese Religion Studies
+SO 图书与情报
+LA 
+DT Article
+DE 学科半衰期; 宗教学; 引用半衰期; 被引半衰期; 文献计量学; 引文分析
+AB 基于文献引证关系的我国宗教学学科半衰期分析
+C1 [吴伟成]南京大学.信息管理学.
+RP 
+FU 
+CR Burton RE, 1960, American Document, V11, P0
+   罗式胜, 1994, 情报科学, V15, P1
+   罗式胜, 1995, 图书与情报, V0, P2
+   李玉珍, 1997, 延边大学学报(自然科学版), V23, P4
+   王崇德, 1983, 图书情报工作, V5, P1
+   张黄群, 2011, 学报编辑论丛, V0, P6
+   黄利平, 2011, 情报杂志, V30, P10
+   白云, 2006, 云南师范大学学报(哲学社会科学版), V38, P4
+NR 8
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2015
+VL 
+IS 020
+BP 86
+EP 90
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER

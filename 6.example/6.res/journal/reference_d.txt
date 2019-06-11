@@ -1,0 +1,1640 @@
+	author	title	journal	year	Volume	issue	page	Freq
+1		NA	NA	NA	NA	NA	NA	22
+2			NA	NA	NA	NA	NA	14
+3	刘则渊	科学知识图谱:方法与应用	北京:人民出版社	NA	NA	NA	NA	13
+4	陈悦	引文空间分析原理与应用	北京:科学出版社	NA	NA	NA	NA	6
+5	邱均平	信息计量学	武汉:武汉大学出版社	NA	NA	NA	NA	6
+6	Chen,C_	CiteSpace Ⅱ: Detecting and visualizing emerging trends and transient patterns in scientific literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	5
+7	陈悦	悄然兴起的科学知识图谱	科学学研究	2005		2	NA	5
+8	陈悦	悄然兴起的科学知识图谱	科学学研究	2005	23	2	NA	5
+9	陈悦	引文空间分析原理与应用:CiteSpace实用指南	北京:科学出版社	NA	NA	NA	NA	5
+10	邱均平	信息计量学	武汉:武汉大学出版社，2007	NA	NA	NA	NA	5
+11	苏新宁	构建人文社会科学学术期刊评价体系	东岳论丛	2008	29	1	NA	5
+12	苏新宁	中国人文社会科学学术影响力报告	北京:中国社会科学出版社，2007	NA	NA	NA	NA	5
+13	罗式胜	文献计量学概论	广州:中山大学出版社，1994	NA	NA	NA	NA	4
+14	秦长江	知识图谱——信息管理与知识管理的新领域	大学图书馆学报	2009		1	NA	4
+15	苏新宁	构建人文社会科学学术期刊评价体系	东岳论丛	2008		1	NA	4
+16	Almind,T_C_	Informetric analyses on the World Wide Web:methodological approaches to "Webometrics"	Journal of Documentation	1997	53	4	404-426	3
+17	Chen,C_	Cite Space Ⅱ: Detecting and visualizing emerging trends and transient patterns in scientific literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	3
+18	邓小昭	网络用户信息行为研究	北京:科学出版社	NA	NA	NA	NA	3
+19	丁学东	文献计量学基础	北京:北京大学出版社，1993	NA	NA	NA	NA	3
+20	侯海燕	科学计量学知识图谱	大连:大连理工大学出版社	NA	NA	NA	NA	3
+21	刘则渊	关于知识计量学研究的方法论思考	科学学与科学技术管理	2002		8	NA	3
+22	邱均平	文献计量学	北京:科学技术文献出版社	NA	NA	NA	NA	3
+23	邱均平	文献计量学	北京:科学技术文献出版社，1988	NA	NA	NA	NA	3
+24	苏新宁	构建人文社会科学学术期刊评价体系	东岳论丛	2008		1	NA	3
+25	朱强	中文核心期刊要目总览	北京:北京大学出版社	NA	NA	NA	NA	3
+26			2003	NA	NA	NA	NA	2
+27			2010	NA	NA	NA	NA	2
+28		Changing Scholarly Communication Landscape: An International Survey of Senior Researchers	Learned Publishing	2006	19	1	NA	2
+29		现代汉语词典	北京:商务印书馆	NA	NA	NA	NA	2
+30	Almind,T_C_	Information Analysis on the WWW:Methodological Approaches to "Webmetrics"	Journal of Documentation	1997	53	4	NA	2
+31	Brookes,B_C_	Towards informetrics	Journal of Documentation	1984	40	2	NA	2
+32	CHEN,C_	Cite Space Ⅱ: Detecting and visualizing emerging trends and transient patterns in scientific literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	2
+33	Chen,Chaomei	CiteSpace Ⅱ: Detecting and Visualizing Emerging Trends and Transient Patterns in Scientific Literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	2
+34	Garfield,E_	Scientometrics comes to age	Current Contents	1979	46	NA	5-10	2
+35	Liu,Zeyuan	On Scientometrics-Based Institutional Science Studies	Free University Berlin,Germany，2000	NA	NA	NA	NA	2
+36	Robins,R_W_	An empirical analysis of trends in psychology	American Psychologist	1999	54	2	NA	2
+37	SCHUMPETER,JOSEPH A_	Theory of economic development: an inquiry into profits, capital, credit, interest, and the business cycle	Beijing:The Commercial Press	NA	NA	NA	NA	2
+38	埃格希，L_	情报计量学引论	北京:科学技术文献出版社，1992:	NA	NA	NA	NA	2
+39	安秀芬	期刊工作文献计量学学术论文的关键词分析	中国科技期刊研究	2002	13	6	505－506	2
+40	部义峰	足球运动员的体能研究范式与体能训练研究	体育科学	2012	32	8	NA	2
+41	陈超美	CiteSpace Ⅱ:科学文献中新趋势与新动态的识别与可视化	情报学报	2009		3	NA	2
+42	陈悦	CiteSpace知识图谱的方法论功能	科学学研究	2015		2	NA	2
+43	陈悦	悄然想起的科学知识图谱	科学学研究	2005	23	2	NA	2
+44	陈悦	悄然兴起的科学知识图谱	科学学研究	2005		2	NA	2
+45	戴龙基	中文核心期刊要目总览	北京:北京大学出版社，2000	NA	NA	NA	NA	2
+46	丁学东	文献计量学基础	北京:北京大学出版社，1992	NA	NA	NA	NA	2
+47	霍丽萍	网络环境下的文献计量学	图书情报工作	2001		11	40—42，92	2
+48	姜春林	期刊文献计量与知识图谱对《情报科学》的解读	情报科学	2009		2	NA	2
+49	梁秀娟	科学知识图谱研究综述	图书馆杂志	2009		6	NA	2
+50	刘军	社会网络分析导论	北京:社会科学文献出版社	NA	NA	NA	NA	2
+51	刘宁南	2005年《情报科学》的文献计量学分析	情报科学	2006		2	NA	2
+52	刘则渊	科学学理论体系建构的思考——基于科学计量学的中外科学学进展研究报告	科学学研究	2006		1	NA	2
+53	刘则渊	科学知识图谱方法及其在科技情报中的应用	数字图书馆论坛	2009		10	NA	2
+54	刘泽渊	科学知识图谱方法与应用	北京:人民出版社	NA	NA	NA	NA	2
+55	罗式胜	文献计量学概论	广州:中山大学出版社	NA	NA	NA	NA	2
+56	罗式胜	文献计量学引论	北京:书目文献出版社，1987:	NA	NA	NA	NA	2
+57	吕福谦	2001年《情报科学》载文、作者及引文的统计分析	情报科学	2003		11	NA	2
+58	庞恩旭	我国核心期刊的现状分析与研究	图书馆论坛	2004		2	NA	2
+59	庞景安	科学计量研究方法论	北京:科学技术文献出版社	NA	NA	NA	NA	2
+60	邱均平	论知识管理与竞争情报	图书情报工作	2000		4	NA	2
+61	邱均平	文献计量学	北京:科学技术出版社，1988	NA	NA	NA	NA	2
+62	邱均平	文献计量学	北京:科学技术文献出版社，1988:	NA	NA	NA	NA	2
+63	苏新宁	人文社会科学期刊评价指标体系研究	图书馆论坛	2006		6	NA	2
+64	苏新宁	我国人文社会科学图书被引概况分析——基于CSSCI数据库	东岳论丛	2009		7	NA	2
+65	苏新宁	中国人文社会科学学术影响力报告（2000—2004）	北京:中国社会科学出版社	NA	NA	NA	NA	2
+66	隋鑫	2009-2013年国内图书馆学情报学研究热点分析	情报科学	2015	33	10	NA	2
+67	王崇德	文献计量学引论	桂林:广西师范大学出版社，1997	NA	NA	NA	NA	2
+68	王念祖	数字出版赢利模式高被引论文特征分析	情报杂志	2013		32	NA	2
+69	魏顺平	教育技术研究领域研究者派系分析与可视化研究	开放教育研究	2008		1	NA	2
+70	杨思洛	中外图书情报学科知识图谱比较研究	北京:科学出版社	NA	NA	NA	NA	2
+71	叶继元	图书馆学、情报学与信息科学、信息管理学等学科的关系问题	中国图书馆学报	2004	30	3	NA	2
+72	张斌贤	近三十年我国教育知识来源的变迁——基于《教育研究》杂志论文引文的研究	教育研究	2009		4	NA	2
+73	张玉利	论创业研究的学科发展及其对管理理论的挑战	外国经济与管理	2007		1	NA	2
+74			2004	NA	NA	NA	NA	1
+75			2008	NA	NA	NA	NA	1
+76			2009	NA	NA	NA	NA	1
+77			2014	NA	NA	NA	NA	1
+78		“第十二次全国国民阅读调查”成果发布	2015	NA	NA	NA	NA	1
+79		“高举中国特色社会主义伟大旗帜，为夺取全面建设小康社会新胜利而奋斗”——胡锦涛同志十七大报告	人民日报	2007	10	NA	NA	1
+80		《体育发展十三五规划》发布	2017	NA	NA	NA	NA	1
+81		《中国海洋年鉴》编纂委员会编:中国海洋年鉴(2013)	北京:海洋出版社,2013:15	NA	NA	NA	NA	1
+82		1995—1997年全国优秀图书馆学期刊名单	中国图书馆学报	1999		1	NA	1
+83		1995—1997年全国优秀图书馆学期刊名单	中国图书馆学报	1999	25	1	NA	1
+84		2007年全国新闻出版业基本情况	2009	NA	NA	NA	NA	1
+85		2013年国家级经济技术开发区统计年报	2014	NA	NA	NA	NA	1
+86		5亿观众收看里约奥运乒乓	2017	NA	NA	NA	NA	1
+87		CSSCI来源文献检索、被引文献检索	NA	NA	NA	NA	NA	1
+88		Defining e-Science	2015	NA	NA	NA	NA	1
+89		Derwent Patent Citation Index	2001	NA	NA	NA	NA	1
+90		Development and Verification of A Bibliometric Model for the Identification of Frontier Research-DBF	2015	NA	NA	NA	NA	1
+91		Digital humanities	2015	NA	NA	NA	NA	1
+92		Directory of Open Access Repositories-OpenDOAR	2014	NA	NA	NA	NA	1
+93		EMC数字宇宙项目报	2012	NA	NA	NA	NA	1
+94		Global MBA Ranking 2017	NA	NA	NA	NA	NA	1
+95		History of E-learning	NA	NA	NA	NA	NA	1
+96		JCR	2011	NA	NA	NA	NA	1
+97		Journal citation reports	2010	NA	NA	NA	NA	1
+98		Journal Citation Reports	2014	NA	NA	NA	NA	1
+99		Journal of Scholarly Publishing	2011	NA	NA	NA	NA	1
+100		Literature of bibliometrics,scientometrics,and informetrics	Scientometrics	2001		2	NA	1
+101		MOOC成教育信息化热点重点高校全上阵	NA	NA	NA	NA	NA	1
+102		Prize in Economic Sciences 2016	2016	NA	NA	NA	NA	1
+103		Swine-origin influenza A (H1N1) virus infections in a school-New York City, April 2009	2009	NA	NA	NA	NA	1
+104		United Nations Educational, Scientific and Cultural Organization	2012	NA	NA	NA	NA	1
+105		Usnews排名	2010	NA	NA	NA	NA	1
+106		Web of Science	2013	NA	NA	NA	NA	1
+107		WebLyzard White Paper	2004	NA	NA	NA	NA	1
+108		阿里应用:2017年Q2中国Android应用分发报告解读	NA	NA	NA	NA	NA	1
+109		丙肝的危害	2011	NA	NA	NA	NA	1
+110		材料科学论坛——卢柯:材料科学研究的动力与乐趣	2004	NA	NA	NA	NA	1
+111		成功的实践，显著的成绩——国家科学基金委员会成立十周年	科技导报	1996		9	33	1
+112		从大脑到心脏再到天堂:公共图书馆发展的必经之路	2011	NA	NA	NA	NA	1
+113		东华大学3个学科入围ESI世界前1%学科	纺织服装教育	2011		2	NA	1
+114		公共图书馆	2011	NA	NA	NA	NA	1
+115		关于spss	2002	NA	NA	NA	NA	1
+116		关于加强中国特色新型智库建设的意见(全文)	2016	NA	NA	NA	NA	1
+117		馆情介绍	2010	NA	NA	NA	NA	1
+118		国际科学计量学与信息计量学大会在武汉大学召开	2017	NA	NA	NA	NA	1
+119		国家八七扶贫攻坚计划	2016	NA	NA	NA	NA	1
+120		国家信息化发展战略纲要	2016	NA	NA	NA	NA	1
+121		国务院办公厅转发教育部等部门关于进一步加强学校体育工作若干意见的通知	2017	NA	NA	NA	NA	1
+122		胡锦涛在全国抗震救灾表彰大会上的讲话	2008	NA	NA	NA	NA	1
+123		教育部关于印发《普通高等学校图书馆规程(修订)》的通知	2016	NA	NA	NA	NA	1
+124		科技政策	NA	NA	NA	NA	NA	1
+125		科学引文索引与科学前沿预测	北京:兵器出版社，1992	NA	NA	NA	NA	1
+126		两刊历史	2015	NA	NA	NA	NA	1
+127		林州市人民政府关于大力发展坡地经济的意见	NA	NA	NA	NA	NA	1
+128		民族学	2009	NA	NA	NA	NA	1
+129		普通高等学校图书馆规程(修订)	2002	NA	NA	NA	NA	1
+130		数字出版平台检索语法——专业检索表达式语法	2011	NA	NA	NA	NA	1
+131		同济大学化学化工创新实践基地	2009	NA	NA	NA	NA	1
+132		图书馆学百科全书	北京:中国大百科全书出版社，1993	NA	NA	NA	NA	1
+133		晚清民国期间武汉书市概况	2015	NA	NA	NA	NA	1
+134		万方数据检索系统:科技名人数据库:中国国家图书馆,1999	NA	NA	NA	NA	NA	1
+135		网面自动载入技术示例	NA	NA	NA	NA	NA	1
+136		文献计量学	2014	NA	NA	NA	NA	1
+137		显卡的发展史	NA	NA	NA	NA	NA	1
+138		知识图谱	2011	NA	NA	NA	NA	1
+139		中共中央关于制定国民经济和社会发展第十一个五年规划的建议	2016	NA	NA	NA	NA	1
+140		中国共产党章程(中国共产党第十九次全国代表大会部分修改，2017年10月24日通过)	人民日报	10	29	NA	NA	1
+141		中国基尼系数七连降仍高于国际警戒线	2016	NA	NA	NA	NA	1
+142		中国学术期刊电子杂志社	NA	NA	NA	NA	NA	1
+143		中国知网	2014	NA	NA	NA	NA	1
+144		中国知网文献来源高级检索	2014	NA	NA	NA	NA	1
+145		中华人民共和国科学技术部	科学技术评价办法（试行）	中国科技期刊研究	2004	NA	NA	1
+146		中科院邹承鲁院士谈我国科学期刊如何走向世界	中国科学时报	1998，05	18	NA	NA	1
+147		中文社会科学引文索引	2008	NA	NA	NA	NA	1
+148		中文社会科学引文索引	2011	NA	NA	NA	NA	1
+149		中信所建所45周年纪念文集（1956－2001）	2001	NA	NA	NA	NA	1
+150		准备各种考试	1998	NA	NA	NA	NA	1
+151	《华东师范大学学报（教育科学版）》编辑部	加强教育实证研究，提高教育科研水平——“第二届全国教育实证研究专题论坛”及“全国教育实证研究联席会议”成果览要	华东师范大学学报(教育科学版)	2017	35	3	NA	1
+152	《教师教育指导全书》课题组	教师教育指导全书（上卷）	北京:人民日报出版社	NA	NA	NA	NA	1
+153	《温家宝谈教育》编辑组	温家宝谈教育	北京:人民教育出版社	NA	NA	NA	NA	1
+154	《中国大学评价》课题组	2007中国大学各学科排行榜——社会科学100强	NA	NA	NA	NA	NA	1
+155	《中国科技发展研究报告》研究组	中国科技发展研究报告(2000):科技全球化及中国面临的挑战	北京:社会科学文献出版社	NA	NA	NA	NA	1
+156	《中国情报学百科全书》编委会	中国情报学百科全书	北京:中国大百科全书出版社	NA	NA	NA	NA	1
+157	2010年中国对外直接投资统计公报	NA	NA	NA	NA	NA	NA	1
+158	A Summary of Literature Pertaining to the Use of Concept Mapping Techniques and Technologies for Education and Performance Support	NA	NA	NA	NA	NA	NA	1
+159	Abramo,Giovanni	Evaluating research: from informed peer review to bibliometrics	Scientometrics	2011	87	NA	NA	1
+160	Aceijas,C	Global Overview of Injecting Drug Use and HIV Infection among Drug Users	Aids Care	2004	18	17	NA	1
+161	Adamic,Lada A_	You are what you link	NA	NA	NA	NA	NA	1
+162	AFUAH,A_	Internet business models and strategies	Boston:McGraw Hill	NA	NA	NA	NA	1
+163	Ajzen,I_	Understanding attitudes and predicting social behaviour	Englewood Cliffs, NJ:Prentice-Hall, Inc	NA	NA	NA	NA	1
+164	Albert,R_	Statistical Mechanics of Complex Network	Review of Modern Physics	2002		74	47-97	1
+165	Albir,A	 H	A retrospective and prospective view of translation research from an empirical, experimental, and cognitive perspective: The TREC network	Translation & Interpreting	2015	NA	NA	1
+166	Alimisis,D	Educational robotics: Open questions and new challenges	Themes in Science & Technology Education	2013	6	1	NA	1
+167	Alkalimat,A_	eBlack Studies: A project of community informatics	2011	NA	NA	NA	NA	1
+168	Allen,J_	自然语言理解	北京:电子工业出版社	NA	NA	NA	NA	1
+169	ALMIND,T C	Informetric analyses on the World Wide Web: methodological approaches to "webometrics"	Journal of Documentation	1997	53	4	NA	1
+170	Almind,T_C_	Information Analysis on the WWW:Methodological Approaches to "Webmetrics"	Journal of Documentation	1997		4	NA	1
+171	Almind,T_C_	Informetric Analysis on the World Wide Web:Methodological Approaches to "Webmetrics"	Journal of Documentation	1997	1997	4	NA	1
+172	Almind,T_C_	Informetric Analysis on the World Wide Web:Methodological Approaches to "Webometrics"	J	Documentation	1997	NA	NA	1
+173	Almind,Tomas C_	Informetric analyses on the World Wide Web:methodological approaches to "Webometrics"	Journal of Documentation	1997		4	NA	1
+174	Almind,Tomas C_	Informetric analyses on the World Wide Web:methodological approaches to "Webometrics"	Journal of Documentation	1997	53	4	NA	1
+175	Almind,Tomas C_	Informetric analyses on the World Wide Web:methodological approaches to "Webometrics"	Journal of Documentation	1997	54	NA	NA	1
+176	ALMODóVAR,P	M curve and the performance of Spanish international new ventures	British Journal of Management	2014	25	S1	NA	1
+177	Alraimi,K_M_	Understanding the MOOCs continuance: The role of openness and reputation	Computers & Education	2015	80	NA	NA	1
+178	Anderson,N H	Foundations of Information Integration Theory	American Journal of Psychology	1981	95	4	NA	1
+179	Angeli,C	Preservice elementary teachers as information and communication technology designers: An instructional systems design model based on an expanded view of pedagogical content knowledge	Journal of Computer Assisted Learning	2005	21	4	NA	1
+180	Arminen,I_	Repairs as the last orderly provided defense of safety in aviation	Journal of Pragmatics	2010		2	NA	1
+181	Association of Research Libraries	Directory of scholarly electronic journals and academic discussion lists	NA	NA	NA	NA	NA	1
+182	Atkins,Stephen E_	Subject Trend of Library and Information Sciences Research	Library Trends	1988	36	4	NA	1
+183	Austin,J_L_	How to Do Things with Words	Oxford:Clarendon Press	NA	NA	NA	NA	1
+184	Ayres,I	Determinants of Cites to Articles in Elite Law Reviews	Journal of Legal Studies	2000	29	NA	NA	1
+185	Azevedo,R	Does training on self-regulated learning facilitate students′ learning with hypermedia?	Journal of Educational Psychology	2004	96	3	NA	1
+186	Azoulay, P_	Publication Harvester: an open-source software tool for science policy research	Research Policy	2006	35	7	NA	1
+187	Baayen,R_	Analyzing Linguistic Data: A Practical Introduction to Statistics Using R	Cambrige:Cambridge University Press	NA	NA	NA	NA	1
+188	Bacca,J_	Augmented reality trends in education: A systematic review of research and applications	Educational Technology & Society	2014	17	4	NA	1
+189	BADKE,WILLIAM_Foundations Of Information Literacy: Learning From Paul Zurkowski_	2010	34(1)	NA	NA	NA	NA	1
+190	Baggaley,J_	MOOC rampant	Distance Education	2013	34	3	NA	1
+191	Baird,L_M_	Do Citations Mattet?	JASIS	1994	20	1	2-15	1
+192	Baker,M	Translation and Conflict: A Narrative Account	London:Routledge	NA	NA	NA	NA	1
+193	Balakrishnan,R_	Cost structure and sticky costs	Journal of Management Accounting Research	2014	26	2	NA	1
+194	Ball,P_	Index Aims for Fair Ranking of Scientists	Nature	2005	436	7053	900	1
+195	Ball,R_	An Empirical Evaluation of Accounting Income Numbers	Journal of Accounting Research	1968		6	NA	1
+196	Bardovi-Harlig,K_	Do language learners recognize pragmatic violations? Pragmatic versus grammatical awareness in instructed L2 learning	TESOL Quarterly	1998	32	NA	NA	1
+197	Barooash,P_K_	Bibliometric Study of Doctoral Dissertations in Organic Chemistry Submitted by S&T Workers of RRL,Jorhat to Evaluate the Utility Factor of the Lirary	Annals of Library Science and Documentation	1999	46	1	NA	1
+198	Barsalou,L	 W	Perceptions of perceptual symbols	Behavioral and Brain Sciences	1999	NA	NA	1
+199	Baverstock,A	Why self-publishing needs to be taken seriously	Logos	2012		4	NA	1
+200	Bederson,Benjamin B_	Craft of Information Visualization: Readings and Reflections	San Francisco:Morgan Kaufmann	NA	NA	NA	NA	1
+201	BERGSTROM,C T	Eigenfactor metrics	Journal of Neuroscience	2008	28	45	NA	1
+202	BERLE,A_A_	Corporate powers as powers in trust	Harvard Law Review	1931		44	NA	1
+203	Bernal,J_D_	Social Function of Science	London:George Routledge & Sons		NA	NA	NA	1
+204	Bernal,J_D_	Transmission of Scientific Information: A	 User's Analysis,1960:77-95	NA	NA	NA	NA	1
+205	Berners-Lee,T_	Semantic Web	Scientific American	2001	284	5	NA	1
+206	Berners-Lee,T	Design Issues: Linked Data	2017	NA	NA	NA	NA	1
+207	Biggs,J_ B_	Teaching for quality learning at university: What the student does	New York:McGraw-Hill Education	NA	NA	NA	NA	1
+208	Bitcoin,Nakamotos	A peer-to-peer electronic cash system	NA	NA	NA	NA	NA	1
+209	Bizer,C	Linked Data——The Story So Far	International Journal on Semantic Web & Information Systems	2009	5	3	NA	1
+210	Bjorneborn,Lennart	Perspective of webometrics	Scientometrics	2001	2001	1	65-81	1
+211	Blaut,J M	Diffusionism: A Uniformitarian Critique	Annals of the Association of American Geographers	1987	77	1	NA	1
+212	Blixrud,J_C_	Association of Research Libraries Statistics and Measurement Program: From Descriptive Data to Performance Measures	2013	NA	NA	NA	NA	1
+213	Blumenfeld,P	Motivating project-based learning: Sustaining the doing, supporting the learning	Educational Psychologist	1991		26	NA	1
+214	BOAI	Open Access as a means to promote academic publishing	2011	NA	NA	NA	NA	1
+215	Borgatti,S_P_	Ucient for Windows: Software for Social Network Analysis	Harvard, MA:Analytic Technologies	NA	NA	NA	NA	1
+216	Borgatti,S_P_	Ucinet for Windows: Software for social network analysis	Harvard, MA:Analytic Technologies	NA	NA	NA	NA	1
+217	Borgatti,S_P_	Ucinet for Windows: Software for Social Network Analysis	Harvard, MA:Analytic Technologies	NA	NA	NA	NA	1
+218	Borner,K_	Visualizing knowledge domains	Annual Review of Information Science and Technology	2003	37	NA	NA	1
+219	Borner,K_	Visualizing knowledge domains	Annual Review of Information Science and Technology	2003	37	1	NA	1
+220	Borner,K	Visualizing knowledge domains	Annual Review of Information Science and Technology	2003		37	NA	1
+221	Bottle,R_I_	A Biblometric Study on the Ageing and Content Typology Relationship of the Biochemical Literature	Journal of Information Science	1987	13	1	NA	1
+222	Boulton,A_	Testing the limits of data-driven learning: Language proficiency and training	ReCALL	2009	21	1	NA	1
+223	Bounegru,L_	Data Journalism Handbook	2012	NA	NA	NA	NA	1
+224	Bradford,S_C_	Sources of information on special subject	Engineering	1934	137	3550	NA	1
+225	Bradford,S_C_	Sources of information on specific subject	Engineering	1934	137	3550	NA	1
+226	Bradford,S_C_	Sources of Information on Specific Subject	Engineering	1934	137	3550	NA	1
+227	Bradford,S_C_	Sources of Information on Specific Subjects	Engineering	1934	137	3550	NA	1
+228	Bradford,S_C_	Sources of Information On Specific	Subjects Engineering	1934	1934	NA	NA	1
+229	Brinton,L	 J	Lexicalization and Language Change	Cambridge:Cambridge University Press	NA	NA	NA	1
+230	Brookers,B_C_	growth,utility,and obsolescence of scientific periodical literature	J	Documentation	1970	NA	NA	1
+231	Brookes,B_C_	Foundation of Information Science,part III,Quantitative Aspects:Objective Maps and Subjective Landscapes	J	Information Science	1980	NA	NA	1
+232	Brookes,B_C_	Growth,Utility,and Obsolescence of Scientific Periodical Literature	Journal of Documentation	1970	1970	4	NA	1
+233	Brookes,B_C_	The Growth,Utility,and Obsolescence of Scientific Preiodical Literature	Journal of Docunemtation	1970	26	4	283-294	1
+234	Brookes,B_C_	科学交流与情报学	Nature	1969		NA	224	1
+235	BRUNEEL,J_	Evolution of business incubators: comparing demand and supply of business incubation services across different incubator generations	Technovation	2012	32	2	NA	1
+236	Buckland,M	What kind of science can information science be?	Journal of the American Society for Information Science and Technology	2012	63	1	NA	1
+237	Burton,R_E_	“Half-life”of some scientific technical literature	American Document	1960		11	NA	1
+238	Busenitz,L_W_	Entrepreneurship Research in Emergence: Past Trends and Future Directions	Journal of Management	2003	29	3	NA	1
+239	C&E N	Hardly a year for the recorded books	Chemical and Engineering News	2001		58	NA	1
+240	Callon,M_	Co-word analysis as a tool for describing the network of interactions between basic and technological research: The case of polymer chemsitry	Scientometrics	1991	22	1	NA	1
+241	Campbell,Philip	《Nature》杂志与中国科学家	中国科学基金	1998		3	NA	1
+242	Cao,L	Data Science and Analytics: a New Era	International Journal of Data Science and Analytics	2016		1	NA	1
+243	Carroll,A_B_	Social issues in manangement research	Business and Society	1994	33	1	NA	1
+244	Carter,R_	Language, Literature and the Learner	London:Addison Wesley Longman	NA	NA	NA	NA	1
+245	Carter,Simon	Microblog Language Identification: Overcoming the Limitations of Short, Unedited and Idiomatic Text	Language Resources and Evaluation	2013	47	1	NA	1
+246	Chandler,P_	Split-attention effect as a factor in the design of instruction	British Journal of Educational Psychology	1992	62	NA	NA	1
+247	Chang,F	Research and expectation on wearable health monitoring system	Chinese journal of medical instrumentation	2015	39	1	NA	1
+248	Chaomei,Chen	Searching for intellectual turning Point: Progressive knowledge Domain Visualization	Proceedings of the National Academy of Sciences of the United States of America	2004	101	Supp1	NA	1
+249	Chemistry Citation Index（CD—ROM）	NA	NA	NA	NA	NA	NA	1
+250	CHEN, CHAOMEI	Mapping Scientometrics	2002	NA	NA	NA	NA	1
+251	Chen,C M	CiteSpace II: Detecting and visualizing emerging trends and transient patterns in scientific literature	Journal of the Association for Information Science & Technology	2006		3	NA	1
+252	CHEN,C M	CiteSpaceII: Detecting and visualizing emerging trends and transient patterns in scientific literature	J Am Inf Sci Technol	2006	57	3	NA	1
+253	Chen,C M	Hindsight, insight, and foresight: a multi-level structural variation approach to the study of a scientific field	Technology Analysis & Strategic Management	2013	25	6	NA	1
+254	Chen,C_	Centrality of Pivotal Points in the Evolution of the Scientific Networks	San Diego, CA,2005:37-43	NA	NA	NA	NA	1
+255	Chen,C_	Cite Space Ⅱ: Detecting and Visualizing Emerging Trends and Transient Patterns in Scientific Literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	1
+256	Chen,C_	CiteSpace Ⅱ: Detecting and Visualizing Emerging Trends and Transient Patterns in Scientific Literature	J Am Soc Inform Sci	2006		3	NA	1
+257	Chen,C_	CiteSpace Ⅱ: Detecting and visualizing emerging trends and transient patterns in scientific literature	Journal of the American Society for Information Sc	2006	57	3	NA	1
+258	Chen,C_	CiteSpace Ⅱ: Detecting and visualizing emerging trends and transient patterns in scientific literature	Journal of the American Society for Information Science and Technology	2006		57	NA	1
+259	Chen,C_	CiteSpace Ⅱ: Detecting and visualizing emerging trends and transient patterns in scientific literature	Journal of the American Society for information Science and Technology	2006	57	3	NA	1
+260	Chen,C_	CiteSpace Ⅱ: Detecting and Visualizing Emerging Trends and Transient Patterns in Scientific Literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	1
+261	Chen,C_	Citespace Ⅱ: Detecting and visualizing emerging trendsand transient patterns in scientific literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	1
+262	Chen,C_	CiteSpace II: Detecting and visualizing emerging trends and transient patterns in scientific literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	1
+263	Chen,C_	CiteSpace II: Detecting and Visualizing Emerging Trends and Transient Patterns in Scientific Literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	1
+264	CHEN,C_	CiteSpace II: Detecting and visualizing emerging trends and transient patterns in scientific literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	1
+265	CHEN,C_	CITESPACE II: Detecting and visualizing emerging trends and transient patterns in scientific literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	1
+266	Chen,C_	Citespace II: Detecting and visualizing emerging trendsand transient patterns in scientific literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	1
+267	Chen,C_	CiteSpace II:Detecting and visualizing emerging trends and transient patterns in scientific literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	1
+268	Chen,C_	CiteSpaceⅡ: Detecting and visualizing emerging trends and transient patterns in scientific literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	1
+269	Chen,C_	Searching for intellectual turning points: Progressive knowledge domain visualization	Proc	 Nat	 Acad	NA	NA	1
+270	Chen,C_	Searching For Intellectual Turning Points: Progressive Knowledge Domain Visualization	Proceedings of the National Academy of Sciences of the United States of America	2004	101	NA	NA	1
+271	Chen,C	Cite Space II: Detecting and Visualizing Emerging Trends and Transient Patterns in Scientific Literature	Journal of the American Society for Information Science and Technology	2006		51	NA	1
+272	Chen,C	Cite Space II: Detecting and visualizing emerging trends and transient patterns in scientific literature	Journal of the American Society for Information Scienceand Technology	2006	57	3	NA	1
+273	Chen,C	CiteSpace II: Detecting and Visualizing Emerging Trends and Transient Patterns in Scientific Literature	Journal of American Society for Information Science and Technology	2006		3	NA	1
+274	CHEN,C	CiteSpace II: detecting and visualizing emerging trends and transient patterns in scientific literature	Journal of the American society for information science and technology	2006	57	3	NA	1
+275	CHEN,C	CiteSpace II: Detecting and visualizing emerging trends and transient patterns in scientific literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	1
+276	Chen,C	CiteSpace: Detecting and visualizing emerging trends and transient patterns in scientific literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	1
+277	CHEN,C_M_	Cite Space Ⅱ: Detecting and visualizing emerging trends and transient patterns in scientific literature	J AM SOC INF SCI TEC	2006	57	3	NA	1
+278	Chen,C_M_	Cite SpaceⅡ: Detecting and Visualizing Emerging Trends and Transient Patterns in Scientific Literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	1
+279	Chen,C_M_	Structure and dynamics of co-citation clusters: a multiple-perspective co-citation analysis	Journal of the American Society for Information Science and Technology	2010	61	7	NA	1
+280	CHEN,C_M_	Structure and dynamics of cocitation clusters: a multiple-perspective co-citation analysis	Journal of the American Society for Information Science and Technology	2010	61	7	NA	1
+281	CHEN,C_M_	Thematic and Citation Landscape of Data and Knowledge Engineering (1985—2007)	2010	NA	NA	NA	NA	1
+282	Chen,C	Mapping Scientific Frontierss: The Quest for Knowledge Visualization	Springer London	NA	NA	NA	NA	1
+283	Chen,C	Predictive effects of structural variation on citation counts	Journal of the American Society for Information Science and Technology	2012		3	NA	1
+284	Chen,C	Searching for Intellectual Turning Points: Progressive Knowledge Domain Visualization	Proceedings of the National Academy of Sciences	2004	101	1	NA	1
+285	Chen,Chaomei	Cite Space: Visualizing Patterns and Trends in Scientific Literature	2010	NA	NA	NA	NA	1
+286	Chen,Chaomei	CiteSpace II: Detecting and visualizing emerging trends and transient patterns in scientific literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	1
+287	Chen,Chaomei	CiteSpace II: Detecting and Visualizing Emerging Trends and Transient Patterns in Scientific Literature	Journal of the American Society for Information Science and Technology	2006	57	3	NA	1
+288	Chen,Chaomei	CiteSpaceⅡ: Detecting and Visualizing Emerging Trends and Transient Patterns in Scientific Literature	Journal of the American Society for Information Science and Technology	2006		3	NA	1
+289	Chen,Chaomei	Hindsight, Insight, and Foresight: A Multi-Level Structural Variation Approach to the Study of a Scientific Field	Technology Analysis and Strategic Management	2013		6	NA	1
+290	Chen,Chaomei	Hindsight, Insight, and Foresight: A Multi-Level Structural Variation Approach to the Study of a Scientific Field	Technology Analysis and Strategic Management	2013	25	6	NA	1
+291	Chen,Chaomei	Thematic and citation landscape of data and knowledge engineering (1985—2007)	2010	NA	NA	NA	NA	1
+292	Chesbrough,H_W_	Open innovation: The new imperative for creating and profiting from technology	Boston:Harvard Business Press	NA	NA	NA	NA	1
+293	Chetty,S	Speed of internationalization: Conceptualization, measurement and validation	Journal of World Business	2014	49	4	NA	1
+294	CHEUNG,C_F_	Systematic knowledge auditing with applications	Journal of Knowledge Management Practice	2005		8	NA	1
+295	Choi,C_	Monitoring the organic structure of technology based on the patent development paths	Technological Forecasting & Social Change	2009		76	NA	1
+296	Christensen,C M	Innovator's dilemma	Cambridge:Harvard Business School Press	NA	NA	NA	NA	1
+297	Chu,Heting	Library and information science schools in Canada and USA:A webometric perspective	Journal of Education for Library and Information Science	2002	43	2	NA	1
+298	Clark,G L	Oxford Handbook of Economic Geography	Oxford:Oxford University Press	NA	NA	NA	NA	1
+299	Clausen,H	Nordic Information Quality Project: The Final Report	New Library World	1995		4	NA	1
+300	Cobo,M_J_	An approach for detecting, quantifying, and visualizing the evolution of a research field: A practical application to the Fussy Sets Theory field	Journal of Informetrics	2011		5	NA	1
+301	Cobo,M_J_	Science mapping software tools: Review, analysis and cooperative study among tools	Journal of the American Society for Information Science and Technology	2011	62	7	NA	1
+302	Cobo,M_J_	Science Mapping Software Tools: Review, Analysis, and Cooperative Study Among Tools	Journal of the American Society for Information Science and Technology	2012	62	7	NA	1
+303	Constant,D_	What's mine is ours, or is it? A study of attitudes about information sharing	Information Systems Research	1994		5	NA	1
+304	Cooper,A	Inmates are Running the Asylum: [Why High-tech Products Drive us Crazy and How to Restore the Sanity]	Indianapolis, IN, USA:Sams	NA	NA	NA	NA	1
+305	CORRALL,S_	Bibliometrics and research data management services: emerging trends in library support for research	Library trends	2013	61	3	NA	1
+306	COVIN,G_	Corporate entrepreneurship and the pursuit of competitive advantage	Entrepreneurship Theory & Practice	1999	23	3	NA	1
+307	Craig,S_	Business and Competitive Analysis: Effective Application of New and Classic Methods	New Jersey:Pearson Education	NA	NA	NA	NA	1
+308	CROW,R_	Case for institutional repositories: a SPARC position paper	2014	NA	NA	NA	NA	1
+309	CSSCI官方网站	“中文社会科学引文索引”(CSSCI)简介	NA	NA	NA	NA	NA	1
+310	Cullier,D_	Internet information-seeking and its relation to support for access to government records	Government Information Quarterly	2009	26	2	NA	1
+311	Dahal，T_M_	A study on developing Nepal information system in S&T	Kathmandu:JNCC,1998	NA	NA	NA	NA	1
+312	Davies,G_	CALL (computer assisted language learning)	2012	NA	NA	NA	NA	1
+313	Davis,T_T_	Analysis of Economic Time Series	Bloomington,Ind	:Principia Press,1941:	NA	NA	NA	1
+314	de Nooy,W_	Exploratory social network analysis with pajek	London:Cambridge University Press	NA	NA	NA	NA	1
+315	DeB,Beaver D_	Studies in scientific collaboration(Part I):The professional origins of scientific co-authorship	Scientometrics	1978	1	1	65-84	1
+316	Dess,G_G_	Changing roles: Leadership in the 21st century	Organizational Dynamics	2001	28	3	NA	1
+317	DIETZE,H_	GoWeb: a semantic search engine for the life science web	BMC Bioinformatics	2009	10	Sup	NA	1
+318	Donaldson	Toward a Unified Conception of Business Ethics: Integrative Social Contracts Theory	Academy of Management Review	1994		19	NA	1
+319	Drulkor,P_F_	Managing for the future: The 1990’s and Beyond	New York:Truman Talley Books/Dutton	NA	NA	NA	NA	1
+320	DUNCAN,R	Ambidextrous organization: designing dual structures for innovation:Management of organization	New York:North Holland,1976:167-188	NA	NA	NA	NA	1
+321	Earl,M_	Knowledge Management Strategies: Toward a Taxonomy	Journal of Management Information Systems	2001	18	1	NA	1
+322	Edwards,K	Young Citizens and Political Participation in a Digital Society	Information, Communication & Society	2015	18	12	NA	1
+323	Egghe,L_A_	Review of Ranking Problems in Scientometrics and Informaetrics	1997	NA	NA	NA	NA	1
+324	Eisenmann,T R	Strategies for two-sided markets	Harvard Business Review	2006	84	10	NA	1
+325	Ell,C S_	Cooperative Education	School and Society	1927	677	26	NA	1
+326	Essential Science Indicators	Overview of Hot Papers	2015	NA	NA	NA	NA	1
+327	Fayyad,U_M_	Advancesin Knowledge Discoveryand Data Mining	AAAi/MIT Press	NA	NA	NA	NA	1
+328	Figa－Talamanca,A_	Impact Factor in the Evaluation of Research	Bulletin of Group Int Rech Sci Stomatol Odontol	2002	44	1	NA	1
+329	Finn,J_D_	Professionalizing the audio-visual field	Educational Technology Research and Development	1953		1	NA	1
+330	Fishbein,Ajzen	Belief, attitude, intention and behaviour: An introduction to theory and research	Addison-Wesley Publishing Company	NA	NA	NA	NA	1
+331	Foray,D	Knowledge-Based economy: from the economics of knowledge to the learning economy	Economic impact of knowledge	1998		NA	NA	1
+332	Frame,Barbara	Citation Maze:A Beginner's Guide	Library Resources & Technical Services	1996	1996	4	370-374	1
+333	Freeland,R_S_	Plant Survival Assessment on Wetland and Stream Mitigation Sites Using GPS/GIS Geotagging	Applied Engineering in Agriculture	2010	26	4	NA	1
+334	FREEMAN,C_	Networks of innovators: a synthesis of research issues	Policy Research	1991	20	5	NA	1
+335	FREEMAN,C_	Technology Policy and Economic Performance: Lessons from Japan	London:Pinter Publishers	NA	NA	NA	NA	1
+336	GALBRAITH, CRAIG S_	Predicting technology success: identifying key predictors and assessing expert evaluation for advanced technologies	Journal of Technology Transfer	2006		31	NA	1
+337	GARFIELD,E_	Citation analysis as a tool in journal evaluation	Science	1972	178	4060	NA	1
+338	Garfield,E_	Citation analysis as a tool in journal evaluation: Journals can be ranked by frequency and impact of citations for science policy studies	Science	1972	178	4060	NA	1
+339	Garfield,E_	Citation Analysis as a Tool in Journal Evalution	Science	1955		178	471-479	1
+340	Garfield,E_	Citation Index-Its Theory and Application in Science, Technology and Humanitics	John Wiley & Sons,New York,1979	NA	NA	NA	NA	1
+341	Garfield,E_	Citation Indexes for Science	 A New Dimension in Documentation Through Association of Ideas	Science	1955	NA	NA	1
+342	Garfield,E_	Citation indexes for science: A new dimension in documentation through association of ideas	Science	1955	122	3159	NA	1
+343	Garfield,E_	Citation Indexes for Science: A New Dimension in Documentation through the Association of Ideas	Science	1955		122	NA	1
+344	GARFIELD,E_	Citation indexes to science: a new dimension in documentation through association of ideas	Science	1955	122	3159	NA	1
+345	GARFIELD,E_	Journal impact factor: a brief review	Canadian Medical Association Journal	1999	161	8	NA	1
+346	Garfield,E_	Science citation index: A new dimension in indexing	Science	1964		3619	NA	1
+347	GARFIELD,E_	Use of citation data in writing the history of science	Philadelphia:Institute for Scientific Information	NA	NA	NA	NA	1
+348	Garfield,E_	Use of Citation Data in Writing the History of Science:The Institute for Scientific Information,1964	NA	NA	NA	NA	NA	1
+349	Garfield,E	Citation analysis as a tool in journal evaluation	Science	1972	178	4060	NA	1
+350	Gibbons,M_	New production of knowledge: The dynamics of science and research in contemporary societies	London:SAGE Publications	NA	NA	NA	NA	1
+351	Goel,K_J_	Knowledge Panel	2014	NA	NA	NA	NA	1
+352	Google,I_O_M_	Mobile Moment: Understanding Smartphone Users	2011	NA	NA	NA	NA	1
+353	Governance, Governance Failure, and Meta-Governance	NA	NA	NA	NA	NA	NA	1
+354	Govindan,K	Analyzing the drivers of green manufacturing with fuzzy approach	Journal of Cleaner Production	2015	96	1	NA	1
+355	Grane,D_	Invisible College:diffusion of knowledge in scientific communities	Chicago:The University of Chicago Press,1972	NA	NA	NA	NA	1
+356	GRANT,M R	Toward a Knowledge Based Theory of the Firm	Strategic Management Journal	1996	17	S2	NA	1
+357	Gruber,T_R_	A Translation Approach to Portable Ontology Specifications	Knowledge Acquisition	1993	5	2	NA	1
+358	Gruber,T_R_	Ontolingua: A Translation Approach to Portable Ontology Specifications	Knowledge Acquisition	1993	2	5	NA	1
+359	Gruzd,A	Non-Academic and Academic Social Networking Sites for Online Scholarly Communities:Social Media for Academics	Cambridge:Chandos Publishing,2012:21-37	NA	NA	NA	NA	1
+360	Hackman,J_ R_	Work Redesign	 Reading	Boston, MA:Addison-Wesley	NA	NA	NA	1
+361	Hall,C M	Wine tourism: An introduction:Wine Tourism around the World: Development, Management and Market	Oxford:Elsevier Butterworth-Heinemann,2000:1-4	NA	NA	NA	NA	1
+362	Hanson,S	Transportation: Hooked on speed, eyeing sustainability:A Companion to Economic Geography	Oxford:Blackwell,2003:468-483	NA	NA	NA	NA	1
+363	Harrison,R_ T_	Discipline emergence in entrepreneurship: accumulative fragmentalism or paradigmatic science	Entrepreneurship, Innovation and Change	1996	5	2	NA	1
+364	Hawkins,D_T_	Information Science Abstracts: tracking the literature of information science	 part 1: definition and map	Journal of the American Society for Information Science and Technology	2001	NA	NA	1
+365	Healy,P_	A Review of the Earnings Management Literature and Its Implications for Standard Setting	Accounting Horizons	1999	13	4	NA	1
+366	HELLSTROM,TOMAS	Systemic innovation and risk: technology assessment and the challenge of responsible innovation	Technology in Society	2003		25	NA	1
+367	Herlo,Dorin	Pass Through Exemples of Instructional Design	Journal Plus Education	2013		1	NA	1
+368	High Energy Astrophysics Division	SAO/NASA Astrophysics Data System	2010	NA	NA	NA	NA	1
+369	Hikkerova,L_	Patent life cycle: New evidence	Technological Forecasting & Social Change	2014	88	NA	NA	1
+370	HIRSCH, J_ E_	An index to quantify an individual’s scientific research output	Proceedings of the National Academy of Sciences of the USA	2005	102	46	NA	1
+371	HIRSCH, J_ E_	An index to quantify an individual’s scientific research output	Proceedings of the National Academy of Sciences	2005	102	46	NA	1
+372	HIRSCH, J_ E_	An index to quantify an individual’s scientific research output	Proceedings of The National Academy of Sciences	2005	102	46	NA	1
+373	Hirsch,J_	An Index to Quantify an Individual’s Scientific Research Output	Proceedings of the National Academy of Sciences	2005	102	46	NA	1
+374	Hirsch,J_E_	An index to quantify an individual’s research output	Proceedings of National Academy of Sciences	2005	102	46	NA	1
+375	HJ?RLAND,B_HJ?RLAND,B		Toward a new horizon in information science: domain analysis	Journal of the American Society for Information Science	1995	NA	NA	1
+376	Hockey,Susan	History of Humanities Computing:A Companion to Digital Humanities	Oxford (UK):Blackwell Publishing,2004:3-19	NA	NA	NA	NA	1
+377	Holmes,J S	Name and nature of translation studies:Translation Studies Reader	London:Routledge,2000:180-192	NA	NA	NA	NA	1
+378	Hook,P_A_	Domain maps: Purposes, history, parallels with cartography, and applications	Zurich, Switzerland,2007:442-446	NA	NA	NA	NA	1
+379	House,Ernest R_	Assumptions underlying evaluation models	Educational Researcher	1978	7	8	NA	1
+380	Hrsch,J_E_	An Index to Quantify an Individuals’ Scientific Research Output	Proceedings of the National Academy of Sciences	2005	102	46	NA	1
+381	Hu,H_	Towards scalable systems for big data analytics: a technology tutorial	Access, IEEE	2014		2	NA	1
+382	Hualou,Long	A brief background to rural restructuring in China: A forthcoming special issue of Journal of Rural Studies	Journal of Geographical Sciences	2015	25	10	NA	1
+383	Hull,T J	Electronic communications for reference services: A case study	Government Information Quarterly	1995	12	3	NA	1
+384	Ingwersen,P_	Calculation of Web Impact Factors	Journal of Documentation	1998	54	2	NA	1
+385	Institute for Science Information	Journal Citatioin Reports	USA,2000	NA	NA	NA	NA	1
+386	Irwin,C	Socialization in the online classroom	E-Journal of Instructional Science and Technology	2006	9	1	NA	1
+387	IRWIN,E_G_	Evolution of urban sprawl: Evidence of spatial heterogeneity and increasing land fragmentation	Proceedings of the National Academy of Sciences	2007	104	52	NA	1
+388	ISI	Guide and Lists of Source Publication	Science Citation Index(SCI)(1992)	1993	Annual	NA	64-65	1
+389	J_E_	An index to quantify an individuals scientific research output	Proceedings of the Hirsch National Academy of Sciences	2005		46	NA	1
+390	JAMIESON,L M	Sport and violence: a critical examination of sport	London:Routledge	NA	NA	NA	NA	1
+391	Janda,K_B_	Buildings don't Use Energy: People Do	Architectural Science Review	2011	54	1	NA	1
+392	Johnson,L_	2008 Horizon Report	Austin, Texas:The New Media Consortium,2008	NA	NA	NA	NA	1
+393	Jonathan,D_L_	Perspective:Ranking the technology innovation management journals	Journal of Product Innovation Management	2004		21	123-139	1
+394	Jones,S	Pew Internet and American Life Project	2017	NA	NA	NA	NA	1
+395	Jose,Francisco	Current Paradigms in the International Management Field: An Author Co-citation Analysis	International Business Review	2005		14	NA	1
+396	Journal Citation Reports（Science Edition）	NA	NA	NA	NA	NA	NA	1
+397	Kahn,Robert E	Digital Library Project Volume 1: The World Knowbots (DRAFT)	2016	NA	NA	NA	NA	1
+398	Kai,Q_	Research of university science and technology innovation system based on low-carbon economy	Energy Procedia	2011		5	NA	1
+399	KANAMA,D_	Objective, methodology and subject area of technology foresight based on bibliometric analysis	International Journal of Foresight and Innovation Policy	2013	9	1	NA	1
+400	Kaplan,N_	Norms of citation behavior: Prolegomena to the footnote	American Documenttion	1965	16	3	NA	1
+401	Karlenzig,W	Tap into the power of knowledge collaboration	Customer interaction solutions	2002	20	11	NA	1
+402	Karunanayaka,P_	A group independent component analysis of covert verb generation in children: A functional magnetic resonance imagine study	Neuroimage	2010	51	1	NA	1
+403	Katz,J_S_	What is Research Collaboration	Research Policy	1997	26	1	NA	1
+404	KATZ,J_S_	What is research collaboration?	Research Policy	1997	26	1	NA	1
+405	Kelley,Brooks	Yale: A History	New Haven:Yale University Press	NA	NA	NA	NA	1
+406	Kemp,R_	Eco-innovation: Definition, measurement and open research issues	Economia Politica	2010	27	3	NA	1
+407	Kling,Rob	Assessing Anonymous Communication on the Internet: Policy Deliberations	Information Society	1999		2	NA	1
+408	Knoke,D	Political Networks: The Structural Perspective	England:Cambridge University Press	NA	NA	NA	NA	1
+409	Kobayashi,Lindsay C_	Cognitive function and health literacy decline in a cohort of aging English adults	Journal of general internal medicine	2015		NA	NA	1
+410	Krugman,P_	Geography and Trade	Cambridge, Mass:MIT Press	NA	NA	NA	NA	1
+411	Ku,Heng-yu	Twenty Years of Productivity in ETR & D by Institutions and Authors	Educational Technology Research and Development	2009		11	NA	1
+412	Kuhn,T_S_	Postscript:Structure of Scientific Revolutions	Chicago:Unviersity of Chicago Press,1970:174—210	NA	NA	NA	NA	1
+413	Kuhn,T_S_	Structure of Scientific Revolutions, 2nd ed	Chicago:University of Chicago Press	NA	NA	NA	NA	1
+414	Kuratko,D_F_	Emergence of Entrpreneurship Education: Development, Trends, and Challenges	Entrepreneurship Theory and Practice	2005	29	5	NA	1
+415	Lage,M_J_	Inverting the Classroom: A Gateway to Creating an Inclusive Learning Environment	Journal of Economic Education	2000	31	1	NA	1
+416	Lambert,T	An empirical analysis of crowdfunding	Social Science Research Network	2010		NA	NA	1
+417	Landry,R	Linguistic landscape and ethnolinguistic vitality: An empirical study	Journal of Language and Social Psychology	1997	16	1	NA	1
+418	Larkin,J_H_	Why a Diagram is (Sometimes) Worth Ten Thousand Words	Cognitive Science	1987		11	NA	1
+419	Larson,W	Crop residues: energy production or erosion control	Journal of Soil and Water Conservation	1979	34	2	NA	1
+420	Latif,S A	Environmental Problems and Quality of Life: Situational Factor as a Predictor of Recycling Behaviour	Procedia-Social and Behavioral Sciences	2012	35	NA	NA	1
+421	Law,J	On sociology and STS	Sociological Review	2008	56	4	NA	1
+422	Lawani,S M	Bibliometrics: Its Theoretical Foundations, Methods and Applications: Libri	Libri	1981	31	4	NA	1
+423	Lazarus,R_S_	Stress-related transactions between person and environment:Perspectives in International Psychology	New York:Plenum,1978:287-327	NA	NA	NA	NA	1
+424	Lederer,D	Sociology's "One Law": Moral Statistics, Modernity, Religion, and German Nationalism in the Suicide Studies of Adolf Wagner and Alexander von Oettingen	Journal of Social History	2013	46	3	NA	1
+425	Lewis,W_A_	Economic Development with Unlimited Supplies of Labour	Manchester School	1954		2	NA	1
+426	LI,JIE	Bibliometric mapping of international symposium on safety science and technology (1998—2012)	Procedia Engineering	2014		7	NA	1
+427	Li,tang	China-US Ccientific Collaboration in Nanotechnology-Patterns and Dynamics	Scientometrics	2011		88	NA	1
+428	Li,X	Validating Online Reference Managers for Scholarly Impact Measurement	Scientometrics	2012	91	2	NA	1
+429	Li,Y_	Study on visualization of citation analysis	Journal of the China Society for Scientific and Technical Information	2007	26	2	NA	1
+430	LI,Y	Study on visualization of citation analysis	Journal of the China Society for Scientific and Technical information	2007	26	2	NA	1
+431	Liang,Y_	Patent analysis with text mining for TRIZ,2008:1147-1151	NA	NA	NA	NA	NA	1
+432	Linton, Jonathan D_	PERSPECTIVE:Ranking the Technology Innovation Management Journals	J Prod Innov Manag	2004		21	NA	1
+433	Liu,Y_L_	A Review of Social Network Sites: Definition, Experience and Applications	USA:Scientific Research Publishing,2010:749-752	NA	NA	NA	NA	1
+434	Logan,BRUCE E_	Microbial Fuel Cells	John Wiley & Sons	NA	NA	NA	NA	1
+435	LOTKA,A_	Frequency distribution of scientific productivity	Journal of the Washington Academy of Sciences	1926	16	12	NA	1
+436	Lotka,A_J_	Frequency Distribution of Scientific Productivity	Journal of the Washington Academy of Sciences	1926	1926	NA	NA	1
+437	Lotka,A_J_	Frequency distribution of scientific productivity	Journal of Washington Academy of Science	1926	16	12	NA	1
+438	Lotka,A_J_	Frequency Distribution of Scientific Productivity	Journal of Washington Academy of Sciences	1926	16	12	317—323	1
+439	Low,M_B_	Entrepreneurship: Past Research and Future Challenges	Journal of Management	1988	14	2	NA	1
+440	Lucio-Arias,D_	Main-path analysis and path-dependent transitions in HistCite (TM)-based historiograms	Journal of the American Society for Information Science and Technology	2008	59	12	NA	1
+441	Mackinlay,J_D_	Opportunities for information visualization	IEEE Computer Graphics and Applications	2000	20	1	NA	1
+442	Maguire,S_	Institutional entrepreneurship in emerging fields: HIV/AIDS treatment advocacy in Canada	Academy of Management Journal	2004	47	5	NA	1
+443	Mauleo'n,Elba	Assessing gender balance among journal authors and editorial board members	Scientometrics	2013	95	NA	NA	1
+444	Merton,R_K_	Priorities in Scientific Discovery: A Chapter in the Sociology of Science	American Sociological Review	1957	22	6	NA	1
+445	Milgram, S_	Small world problem	Psychology Today	1967	2	1	NA	1
+446	Minniti,M	A dynamic model of entrepreneurial learning	Entrepreneurship Theory and Practice	2001		3	NA	1
+447	Mitzopulos,C_	Earthquake of Tripoli and Triphylia in the Years 1898 and 1899	PETERMANNS MITTEILUNGEN	46(12)	NA	NA	NA	1
+448	MOILANEN,T_	How to Brand Nations, Cities and Destinations: A Planning Book for Place Branding	UK:Palgrave Macmillan	NA	NA	NA	NA	1
+449	MONE,MA_	Organizational decline and innovation: a contingency framework	Academy of Management Review	1998	23	1	NA	1
+450	Moravcsik,M_J_	一项科学学的国际科学奖——普赖斯奖章——1984年12月20日首届普赖斯奖授奖仪式上的讲话	世界科学	1986		5	NA	1
+451	MOYA-ANEGoN, FeLIX	A New Technique for Building Maps of Large Scientific Domains Based on the Cocitation of Classes and Categories	Scientometrics	2004	61	1	NA	1
+452	Moya-Anegon,F_	A new technique for building maps of large scientific domains based on the cocitation of classes and categories	Scientometrics	2004	61	1	NA	1
+453	Moya-anegoN,FeLix	A new technique for building maps of large scientific domains based on the cocitation of classes and categories	Scientometrics	2004	61	1	NA	1
+454	MOYA-ANEGóN,FéLIX	A New Technique for Building Maps of Large Scientific Domains Based on the Cocitation of Classes and Categories	Scientometrics	2004	61	1	NA	1
+455	Ness,B	Categorising tools for sustainability assessment	Ecological Economics	2007	60	3	NA	1
+456	Networks of scientific papers	NA	NA	NA	NA	NA	NA	1
+457	Neumann,E	Knowledge networks in the age of the Semantic Web	Briefings in Bioinformatics	2007		8	NA	1
+458	Nielsen, J_	Zipf Curves and Website Popularty	2008	NA	NA	NA	NA	1
+459	NMC	Horizon Report: 2011 K-12 Edition	2013	NA	NA	NA	NA	1
+460	NMC	Horizon Report: 2015K-12 Edition	2015	NA	NA	NA	NA	1
+461	Ntoumanis,N_	A review of motivational climate in physical activity	Journal of sports sciences	1999	17	8	NA	1
+462	OECD	OECD Communications Outlook 2009,2009:13-17	NA	NA	NA	NA	NA	1
+463	OECD	以知识为基础的经济	北京:机械工业出版社，1997	NA	NA	NA	NA	1
+464	Oliveira,P	Users as service innovators: The case of banking services	Research policy	2011	40	6	NA	1
+465	Onyancha,O_B_	Growth, productivity, and scientific impact of sources of HIV/AIDS research information, with a focus on eastern and southern Africa	Ajar-African Journal of Aids Research	2008	7	1	NA	1
+466	OpenDOAR	Proportion of repositories by continent-worldwide	2014	NA	NA	NA	NA	1
+467	Opthof,T_	Caveats for the Journal and Field Normalizations in the CWTS (“Leiden”) Evaluations of Research Performance	Journal of Informetrics	2010	4	3	NA	1
+468	Osca,J_	Spanish bibiographic production on AIDS-Bibliometric approach	Enferm Infecc Microbiol Clin	1997	15	NA	407-410	1
+469	Palmer,A_L_	Tourism and Statistics-Bibliometric Study 1998—2002	Annual Tourism Research	2005	32	1	NA	1
+470	Pao,M_L_	An Empirical Examination of Lotka's Law	Journal of American Science	1986	37	1	NA	1
+471	Pao,M_L_	Lotka's Law:a Testing Procedure	Information Progressing & Management	1985	21	4	305-320	1
+472	Parameswaran,M_	Research Issues in Social Computing	Journal of the Association for Information Systems	2007	8	6	NA	1
+473	PAUL,P_M_	Service science, management and engineering	America:IBM Almaden Services Research Center,2006:15-31	NA	NA	NA	NA	1
+474	Pellmar,T C	Bridging disciplines in the brain, behavioral, and clinical sciences	Washington D C:National Academies Press	NA	NA	NA	NA	1
+475	Peritz,B	 C	On the objectives of citation analysis: Problems of theory and method	Journal of the American Society for Information Science	1992	NA	NA	1
+476	Persson,O_	Intellectual base and research fronts of jasis 1986—1990	Journal of the American Society for Information Science	1994	45	1	NA	1
+477	PETRASH,G_	Dow's journey to a knowledge value management culture	European Management Journal	1996	14	4	NA	1
+478	Phaal,R_	Technology roadmapping-a planning framework for evolution and revolution	Technol	 Forecast	 Soc	NA	NA	1
+479	Picard,R W	Affective computing	USA:MIT press	NA	NA	NA	NA	1
+480	Porter,A_	Technology opportunity analysis	Technological Forecasting and Social Change	1995		49	NA	1
+481	Poser,H_	On Structural Differences between Science and Engineering	Techne	1998	4	2	NA	1
+482	PRAHALAD,C_K_	Core competence of the corporation	HARVARD BUS REV	1990	68	NA	NA	1
+483	PRICE,D_	Networks of scientific papers	Science	1965	149	NA	NA	1
+484	Price,D_	Science Since Babylon	Yale University Press，1961	NA	NA	NA	NA	1
+485	Price,D_S_	Little Science, Big Science…and Beyond	New York:Columbia University Press	NA	NA	NA	NA	1
+486	Price,D_S_	Science since Babylon	New Haven:Yale University Press，1961	NA	NA	NA	NA	1
+487	PRIEM,J	Altmetrics: a manifesto	2010	NA	NA	NA	NA	1
+488	Priss,U	Formal concept analysis in information science	Annual Review of Information Science & Technology	2006	40	1	NA	1
+489	Pritchard,A_	Statistical bibliography or bibliometrics?	Journal of Documentation	1969	25	4	NA	1
+490	QIN,H_	Knowledge Discovery Through Co-word Analysis	Library Trends	1999	48	1	NA	1
+491	Qin,He	Knowledge discovery through Co-Word Analysis	Library Trends	1999	48	1	NA	1
+492	Qiu,L_	New test of Bradford law	Information Processing and Management	1990		5	NA	1
+493	QUINN,J_B_	Next big industry: environmental improvement	Harvard Business Review	1971	49	9-10	NA	1
+494	RAMEZAN,M	Intellectual capital and organizational organic structure in knowledge society: How are these concepts related?	International Journal of Information Management	2011	31	1	NA	1
+495	Rasmussen,E	Visualizing knowledge domains	Proceedings of the American Society for Information Science & Technology	2002	39	39	NA	1
+496	Rasmussen,Pernille G_	Altmetrics: an Alternate Perspective on Research Evaluation	Sciecom Info	2013	9	2	NA	1
+497	Ratkowsky,David A_	非线性回归模型:统一的实用方法	南京:南京大学出版社，1986:	NA	NA	NA	NA	1
+498	REID, E_ F_	Mapping the contemporary terrorism research domain	Int	 J	 Human-computer Studies	NA	NA	1
+499	Rogers,E_M_	Field of Health Communication Today: An Up-to-Date Report	Journal of Health Communication	1996	1	1	NA	1
+500	Rorissa,A_	Visualizing and Mapping the Intellectual Structure of Information Retrieval	Information Processing and Management	2011		48	NA	1
+501	Rosalie,T_	Brain drain versus brain gain: An exploratory study of ex-host country nationals in central and east Europe	International Journal of Human Resource Management	2006	17	11	NA	1
+502	Rothaermel,F_	Incubator firm failure or graduation?: The role of university linkages	Research Policy	2005	34	7	NA	1
+503	Rousseau,R_	Sitations:An Exploratory Study	Cybermetrics	1997	1	1	NA	1
+504	Rudd,J_	Education for a smarter planet: The future of learning	NA	NA	NA	NA	NA	1
+505	Rumbaugh,J_	Object-oriented modeling and design	Englishwood Cliffs, NJ:Prentice Hall	NA	NA	NA	NA	1
+506	Rychen,D S	Key Competencies for a Successful Life and a Well-Functioning society	Gottingen:Hogrefe Publishing	NA	NA	NA	NA	1
+507	Sanchez,C A	Instructor accents in online education and their effect on learning and attitudes	Journal of Computer Assisted Learning	2016	32	5	NA	1
+508	Sawyer,S	Conceptualizing information, technology, and people: Comparing information science and information systems literatures	Journal of the American Society for Information Science & Technology	2007	58	10	NA	1
+509	Scharnhorst,A_	Models of science dynamics: encounters between complexity theory and information sciences	Springer	NA	NA	NA	NA	1
+510	Schindler, D_W_	Impact statement Boondoggle	Science	1976	1976	NA	509	1
+511	Scholl,W_	Future of knowledge management: An international delphi study	Journal of Knowledge Management	2004	8	2	NA	1
+512	Schubert,A_	Cross-national preference in co-authorship, references and citations	Scientometrics	2006	69	2	NA	1
+513	Schumpeter,Joseph A	Theory of economic development: an inquiry into profits, capital, credit, interest, and the business cycle	Beijing:The Commercial Press	NA	NA	NA	NA	1
+514	Scott,J_	Social network analysis: A handbook (2nd edition)	California:Sage Publications	NA	NA	NA	NA	1
+515	SCOTT,W_R_	Institutions and Organizations	Thousand Oaks:Sage Publications	NA	NA	NA	NA	1
+516	Scott,W_R_	Reflections on a Half Century of Organizational Sociology	Annual Review of Sociology	2004		30	NA	1
+517	Sebastiani,Fabrizio	Text categorization:Text Mining and Its Applications	Southampton:WIT Press,2005:109-129	NA	NA	NA	NA	1
+518	Seglen,P O	Why the impact factor of journals should not be used for evaluating research	British Medical Journal	1997	314	7079	NA	1
+519	Seglen,P_O_	Skewness of science	Journal of the American Society for Information Science	1992		9	NA	1
+520	Sense,Andrew J_	Structuring the Project Environment for Learing Internation	2013	NA	NA	NA	NA	1
+521	Shaw,A_W_	Some problems in market distribution: Illustrating the application of a basic philosophy of business	Cambridge:Harvard University Press	NA	NA	NA	NA	1
+522	Sheldon,K_M_	Why positive psychology is necessary	American Psychologist	2001	56	3	NA	1
+523	Shotton,D	Semantic publishing: The coming revolution in scientific journal publishing	Learned Publishing	2009	22	2	NA	1
+524	SINGHAL,A_	Introducing the knowledge graph: things, not strings	2017	NA	NA	NA	NA	1
+525	Sirakaya,E_	Redefining ecotourism: The need for a supply-side view	Journal of Travel Research	1999	38	2	NA	1
+526	Small, H_	Relationship of information science to the social science: A co-citation analysis	Information Processing and Management	1980	17	NA	NA	1
+527	SMALL, H_	Relationship of information science to the social science: A co-citation analysis	Information Processing and Management	1980	17	NA	NA	1
+528	Small,H_	Co-citation in scientific literature a new measure of the relationship between publication	Journal of the America Society of Information Science	1973	24	4	NA	1
+529	Small,H_	Co-citation in the scientific literature: A new measure of the relationship between two documents	Journal of the American Society for information Science	1973		4	NA	1
+530	Small,H_	Relationship of information science to the social science: A co-citation analysis	Information Processing and Management	1980		17	39-50	1
+531	Small,H_	Relationship of information science to the social science:A co-citation analysis	Information Processing and Management	1980	17	NA	39-50	1
+532	Small,H_G_	Structure of scientific literature	I:Identifying and graphing specialities	Science Studies	1974	NA	NA	1
+533	Smith,M_	DSpace: An institutional repository from the MIT Libraries and Hewlett Packard Laboratories	NA	NA	NA	NA	NA	1
+534	Solomon,S_	Irreversible climate change due to carbon dioxide emissions	PNAS	2009	106	6	NA	1
+535	Spinello,R_A_	Knowledge chain	Business Horizons	1998	41	6	NA	1
+536	Stepan,Matthias	Welfare governance in China? A Conceptual Discussion of Governing Social Policies and the Applicability of the Concept to Contemporary China	Journal of Cambridge Studies	2012	7	July	NA	1
+537	Su,Xin-Ning	Developing the Chinese sociai Science citationg index	Online Information Eeview	2001	25	6	365-369	1
+538	SVEDBOM,A	Osteoporosis in the European Union: a compendium of country-specific reports	Arch Osteoporos	2013	8	1-2	NA	1
+539	Svensson, G_	Scientific Identity of “Top” Research Journals in the Broader Discipline of Marketing	European Business Review	2008		5	NA	1
+540	Teece,D J	Technological Change and the Nature of Firm	 Technical Change and Economic Theroy	New York:Pinter Publishers	NA	NA	NA	1
+541	Terras,M_I_	Digital: Personal Collections in the Digital Era	Journal of the Society of Archivists	2012	33	2	NA	1
+542	Testa,J_	ISI database:the selection process	2004	NA	NA	NA	NA	1
+543	Testa,James	ISI Database:The Journal Selection Process	NA	NA	NA	NA	NA	1
+544	The Economist	Third Industrial Revolution Begins: The Gentleman Manufacturer	2015	NA	NA	NA	NA	1
+545	The Royal Society	Knowledge, networks and nations: Global international collaboration in the 21st Century	2011	NA	NA	NA	NA	1
+546	The Royal Society	Knowledge, Networks and Nations: Global Scientific Collaboration in the 21st century,2011	NA	NA	NA	NA	NA	1
+547	Thelander,H_E_	Learning disabilities associated with lesser brain damage	Journal of Pediatrics	1958	53	4	NA	1
+548	Thelwall,M_	Link analysis: An information science approach,2004	NA	NA	NA	NA	NA	1
+549	Think Tanks and Civil Societies Program	2014 Global Go To Think Tank Index Report	2015	NA	NA	NA	NA	1
+550	Timmers,P	Business models for electronic markets	Electronic markets	1998	8	2	NA	1
+551	Toffler, A	Third wave	New York:Bantam books	NA	NA	NA	NA	1
+552	TSAY,M_	A bibliometric analysis and comparison on three information science journals: JASIST, IPM, JOD, 1998—2008	Scientometrics	2011	89	2	NA	1
+553	Tu,Y_N_	Indices of Novelty for Emerging Topic Detection	Information Processing & Management	2012	48	2	NA	1
+554	Ujifusa,Andrew	AERA Opens Centennial Meeting With Look at Research’s Political Impact	2016	NA	NA	NA	NA	1
+555	van Eck,N_J_	A Comparison of Two Techniques for Bibliometric Mapping: Multidimensional Scaling and VOS	Journal of the American Society for Information Science and Technology	2010	61	12	NA	1
+556	van,Eck N_J_	A comparison of two techniques for bibliometric mapping: Multidimensional scaling and VOS	Journal of the American Society for Information Science and Technology	2010	61	12	NA	1
+557	Varga,A_	University research and regional innovation	Boston:Kluwer Academic Publishers	NA	NA	NA	NA	1
+558	VIDYASAGAR,D_	Global minute: Water and health-walking for water and water wars	Journal of Perinatology	2007	27	1	NA	1
+559	Vienna, Austria, R Development Core Team	R: A Language and Environment for Statistical Computing-R Foundation for Statistical Computing	NA	NA	NA	NA	NA	1
+560	Volberda,H M	Management innovation: Management as fertile ground for innovation	European Management Review	2013	10	1	NA	1
+561	Waaijer,C_J_F_	Careers in science: policy issues according to Nature and Science editorials	Scientometrics	2013	96	2	NA	1
+562	Wagner,C_S_	Six case studies of international collaboration in science	Scientometrics	2005	62	1	NA	1
+563	Wakefield,E_H_	电动汽车发展史:电池动力车辆	北京:北京理工大学出版社	NA	NA	NA	NA	1
+564	Watts,D_J_	Collective dynamics of “small-world” networks	Nature	1998	393	6684	NA	1
+565	WETTLER,M_	Computation of word associations based on the co-occurrences of words in large corporation	2010	NA	NA	NA	NA	1
+566	Whalley，Jahn	全球化背景下的中国经济问题研究——大洋两岸的对话:经济学家茶座	济南:山东人民出版社,2009:19	NA	NA	NA	NA	1
+567	White, H_ D_	Author cocitation-A literature measure of intellectual structure	Journal of the American Society for Information Science	1981	32	3	NA	1
+568	WHITE,H_D_	Authors as citers over time	Journal of the American Society for Information Science and Technology	2001	52	2	NA	1
+569	White,R_W_	Exploratory search interfaces: categorization, clustering and beyond: report on the XSI 2005 workshop at the Human-Computer Interaction Laboratory	University of Maryland SIGIR Forum	2(39)	NA	NA	NA	1
+570	Whitehead,A	 N	Aims of Education and Other Essays	New York:Macmillan Company	NA	NA	NA	1
+571	WICKHAM,P A	Strategic Entrepreneurship: A Decision-Making Approach to New Venture Creation and Management	London:Pitman Publishing	NA	NA	NA	NA	1
+572	Wilson,L_	Innovation today, Success Tomorrow	2016	NA	NA	NA	NA	1
+573	Wilson,T_D_	Human Information Behavior	Informing Science	2000	3	2	NA	1
+574	Woberley,Stephen E_	Journal Rankings from Citation Studies:a Comparison of National and Local Data From Social Work	Library Quarterly	1982	52	4	348-359	1
+575	World Health Organization	United Nations:World Health Organization,2000	2006	NA	NA	NA	NA	1
+576	Xu, Qingrui	Perspective of Technological Innovation and Technology Management in China	IEEE Transaction on Engineering Management	1998	45	4	NA	1
+577	Yao,Tandong	Third pole environment (TPE)	Environmental Development	2012	3	NA	NA	1
+578	Zanardi,Maurizio	Anti-dumping: What are the numbers to discuss at Doha?	World Economy	2004	27	3	NA	1
+579	Zanella,A	Internet of things for smart cities	Internet of Things Journal	2014	1	1	NA	1
+580	Zehavi,A_	Distribution sensitive innovation policies: Conceptualization and empirical examples	Research Policy	2017	46	1	NA	1
+581	Zhang,X	Linking empowering leadership and employee creativity: the influence of psychological empowerment, intrinsic motivation, and creative process engagement	Academy of Management Journal	2010	53	1	NA	1
+582	Zhao, Yupeng	Investigation about the Research Front of Artificial Intelligence that based on the Mapping Knowledge Domain	北京:电子工业出版社,2008:2688-2697	NA	NA	NA	NA	1
+583	Zhuge,H_	A Knowledge Flow Model for Peer-to-peer Team Knowledge Sharing and Management	Expert Systems with Applications	2002	23	NA	NA	1
+584	Zikopoulos,P_	Understanding Big Data: Analytics for Enterprise Class Hadoop and Streaming Data	McGraw-Hill Osborne Media	NA	NA	NA	NA	1
+585	埃格希，L_	情报计量学引论	科学技术文献出版社，1992	NA	NA	NA	NA	1
+586	安德森,克里斯	创客:新工业革命	北京:中信出版社	NA	NA	NA	NA	1
+587	安德森,克里斯	长尾理论	北京:中信出版社	NA	NA	NA	NA	1
+588	安静	医学期刊质量评价指标体系的研究:学位论文	广州:南方医科大学,2009	NA	NA	NA	NA	1
+589	安伟峰	我国中文引文分析研究的回顾与评价	情报学刊	1989		1	23-29	1
+590	安秀芬	期刊工作文献计量学学术论文的关键词分析	中国科技期刊研究	2002	13	6	505-506	1
+591	安秀芬	期刊工作文献计量学学术论文的关键词分析	中国科技期刊研究	2002	13	6	505—506	1
+592	安雪慧	教育研究的文献计量法	上海教育科研	2000		4	46-49	1
+593	白崇远	《图书馆工作与研究》1990-1994载文量分析	图书馆工作与研究	1995		10	NA	1
+594	白崇远	关于图书馆学情报学论文作者的计量分析	图书情报工作	1997		9	25-29	1
+595	白光斌	“十一五”以来我国农村体育研究述评与展望	体育与科学	2012	33	3	NA	1
+596	白广思	基于CNKI的著者引文分析探讨	郑州大学学报（文科版）	2007		2	NA	1
+597	白广思	科技文献灰色预测模型的分析与修正	情报学报	1993		2	NA	1
+598	白海清	影响ERP成功应用的关键因素因果模型——上线后的视角	管理世界	2011		3	NA	1
+599	白丽娜	语文教育的对话性:问题与讨论——高考作文命题与中国社会发展学术研讨会述评	当代修辞学	2013		1	NA	1
+600	白逸仙	多学科研究:高等教育理论体系构建之方法	高等教育研究	2010		5	NA	1
+601	白云	《现代图书情报技术》载文及引文特征的学术影响力分析——基于CSSCI2004-2006年	现代图书情报技术	2008		4	NA	1
+602	邦克,柯蒂斯	世界是开放的:网络技术如何变革教育	上海:华东师范大学出版社	NA	NA	NA	NA	1
+603	包昌火	企业竞争情报系统	中国信息导报	2001		8	NA	1
+604	包昌火	情报研究方法论	北京:科技文献出版社，1987	NA	NA	NA	NA	1
+605	包昌火	情报研究方法论	北京:科学技术文献出版社，1990	NA	NA	NA	NA	1
+606	包昌火	情报研究方法论	科学技术文献出版社，1991:	NA	NA	NA	NA	1
+607	鲍国海	2000年美国工程索引（EI）光盘数据库收录中国科技期刊表	中国科技期刊研究	2001	12	5	NA	1
+608	鲍明晓	对我国体育产业热点问题的思考	体育科学	1999	19	4	NA	1
+609	北京志愿者协会	志愿组织建设与管理	北京:中国国际广播出版社	NA	NA	NA	NA	1
+610	贝尔纳，J_D_	科学的社会功能	北京:商务印书馆，1982	NA	NA	NA	NA	1
+611	毕强	国外Folksonomy应用研究的前沿进展及热点分析	现代图书情报技术	2013		Z1	NA	1
+612	毕强	浅谈图书馆学的跨学科研究	图书馆学刊	1982		2	NA	1
+613	毕涛	国内外生态城市发展进程及我国生态城市建设对策	资源节约与环保	2008		1	NA	1
+614	边林海	基于视频的人体运动跟踪技术研究:学位论文	沈阳:沈阳航空航天大学,2011	NA	NA	NA	NA	1
+615	卞坤	都市圈网络化模式:区域空间组织的新范式	干旱区资源与环境	2011	25	5	NA	1
+616	波斯特莱斯维特，T·N_	最新世界教育百科全书	石家庄:河北教育出版社，1991	NA	NA	NA	NA	1
+617	伯格，罗伯特·H_	图书编目规范工作	北京:商务印书馆，1993	NA	NA	NA	NA	1
+618	卜卫	试论内容分析方法	国际新闻界	1997		4	55-59，68	1
+619	步一	国外作者共引分析研究评述	情报杂志	2015	34	12	NA	1
+620	蔡宝来	教学理论与教学能力:关系、转化条件与途径	上海师范大学学报:哲学社会科学版	2012		1	NA	1
+621	蔡蓓瑛	自闭症儿童行为评定与社会认知发展的研究	心理科学	2000		23	NA	1
+622	蔡昉	认识中国经济减速的供给侧视角	经济学动态	2016		4	NA	1
+623	蔡建东	教育理论研究的量化与技术化路径——科学计量学方法与技术在教育理论研究中的应用	教育研究	2013		6	NA	1
+624	蔡建东	我国教育技术学知识结构与关键节点文献研究——基于学科知识图谱的分析	开放教育研究	2011		4	NA	1
+625	蔡尚伟	新闻学与传播学国家社科基金项目统计分析	现代传播——中国传媒大学学报	2008		2	NA	1
+626	蔡卫忠	论加强大学生法制教育要着力把握好的几个问题	思想理论教育导刊	2013		6	NA	1
+627	蔡文	可拓学的应用研究、普及与推广(综述)	数学的实践与认识	2010		7	NA	1
+628	蔡新乐	后现代主义语境中含意思维的意义:“含意本体论”的新理性主义思想初探	外语学刊	1998		1	NA	1
+629	蔡跃洲	科技成果转化的内涵边界与统计测度	科学学研究	2015		1	NA	1
+630	曹广忠	中国城镇化地区贡献的内陆化演变与解释——基于1982-2008年省区数据的分析	地理学报	2011	66	12	NA	1
+631	曹双喜	网络用户信息行为研究述略	情报杂志	2006		2	NA	1
+632	曹烃	体育科研论文合著状况分析——基于知识图谱的CSSCI文献计量分析	北京体育大学学报	2012	35	9	NA	1
+633	曹学艳	我国文献计量学的发展	图书情报工作	2004		2	106-107	1
+634	曹燕黎	转喻研究的学科路径、方法及其融合趋势	现代外语	2015		2	NA	1
+635	曹志杰	共词分析法用于文献隐性关联知识发现研究	情报理论与实践	2009	32	NA	NA	1
+636	曾建勋	2011年版中国期刊引证报告:扩刊版	北京:科学技术文献出版社	NA	NA	NA	NA	1
+637	曾建勋	我国科技期刊评价工作的现状与走向	编辑学报	2007	19	4	241-244	1
+638	曾倩	国内外图书情报学科知识交流的比较研究——以期刊引证分析为视角	情报理论与实践	2013		10	NA	1
+639	曾润喜	网络舆情管控工作机制研究	图书情报工作	2009		18	NA	1
+640	曾勇	国内南海问题研究综述	现代国际关系	2012		8	NA	1
+641	查炜	个性化信息服务与社会科学创新	图书馆理论与实践	2007		4	NA	1
+642	查先进	情报学研究进展	武汉:武汉大学出版社，2007	NA	NA	NA	NA	1
+643	柴英	大数据时代学术期刊功能变革	编辑之友	2014		6	NA	1
+644	常安	从国家社科基金立项项目看法学研究状况	现代法学	2006		2	NA	1
+645	常鹏	基于词共现的文本主题挖掘模型和算法研究:学位论文:天津大学,2010	NA	NA	NA	NA	NA	1
+646	常文静	科技期刊编辑应关注基金资助课题论文	编辑学报	2005	17	1	35-36	1
+647	陈宝生	幼儿园毛入园率2020年将达85%	文汇报	10	2	A04	NA	1
+648	陈彩虹	基于核心素养的单元教学设计——全国第十届有效教学理论与实践研讨会综述	全球教育展望	2016		1	NA	1
+649	陈彩平	《现代图书情报技术》评介	现代图书情报技术	1999		4	NA	1
+650	陈超美	CiteSpace II:科学文献中新趋势与新动态的识别与可视化	情报学报	2009		3	NA	1
+651	陈超美	CiteSpaceⅡ，科学文献中新趋势与新动态的识别与可视化	情报学报	2009		3	NA	1
+652	陈超美	CitespaceⅡ:科学文献中新趋势与新动态的识别与可视化	情报学报	2009		3	NA	1
+653	陈超美	CiteSpaceⅡ:科学文献中新趋势与新动态的识别与可视化	情报学报	2009		3	NA	1
+654	陈超美	CiteSpaceII	科学文献中新趋势与新动态的识别与可视化	情报学报	2009	NA	NA	1
+655	陈超美	如何选取CiteSpace中的各项参数	2012	NA	NA	NA	NA	1
+656	陈超群	复旦大学图书馆藏哈佛教学用书的引进与利用	上海高校图书情报工作研究	2007		2	NA	1
+657	陈传夫	公共资金资助的科研成果应实行开放存取	光明日报	06	23	11	NA	1
+658	陈传夫	我国图书情报研究生学位授权“四个十年”研究	中国图书馆学报	2017		1	NA	1
+659	陈传夫	学位论文开发利用中的知识产权风险与对策	图书与情报	2008		4	NA	1
+660	陈春花	激活组织	北京:机械工业出版社	NA	NA	NA	NA	1
+661	陈春华	影响高校图书馆员学术产出率因素分析	武汉理工大学学报	2010		24	NA	1
+662	陈定权	同引分析与可视化技术	情报科学	2005	23	4	NA	1
+663	陈东霞	试论《颜氏家训》中的儒家思想	东岳论丛	1999		3	NA	1
+664	陈鼓应	老子注释及评介	北京:北京中华书局，1984	NA	NA	NA	NA	1
+665	陈光旨	最近邻耦合动力学网络的同步	广西大学学报（自然科学版）	2004		3	NA	1
+666	陈光祚	布拉德福定律在测定核心期刊中的局限性	情报科学	1981		1	NA	1
+667	陈贵梧	图书情报学的国际研究态势:基于2000—2009年SSCI研究性论文的实证分析	中国图书馆学报	2011	37	1	NA	1
+668	陈红勤	2003—2007年我国开放获取研究文献计量学分析	情报科学	2008	26	9	NA	1
+669	陈红勤	我国隐蔽网络研究文献计量学分析	情报杂志	2008		5	NA	1
+670	陈积银	国外新媒体研究16年发展脉络分析——基于SSCI期刊New media & society1999年至2014年的实证研究	新闻大学	2015		6	NA	1
+671	陈家柳	前言:《广西民族研究》刊文精选(民族理论政策卷)	南宁:广西民族出版社,2015	NA	NA	NA	NA	1
+672	陈晶	共情概念的演变	中国临床心理学杂志	2007	15	6	NA	1
+673	陈静	基于CSSCI(2000—2011)的我国统计学学科知识图谱研究	图书与情报	2014		2	NA	1
+674	陈娟	欧洲学分转换与累积制度及其对我国学分银行建设的启示	职业技术教育	2007		18	NA	1
+675	陈立辉	商业新世界中的“知识管理”	IT经济世界	1998		3	NA	1
+676	陈谟开	高等教育评价概论	长春:吉林教育出版社,1988	NA	NA	NA	NA	1
+677	陈鹏	时空犯罪热点预测模型研究	系统仿真学报	2011	23	9	NA	1
+678	陈巧云	中国教育技术学三十年研究热点与趋势——基于共词分析和文献计量方法	开放教育研究	2013		10	NA	1
+679	陈士吉	科学研究前沿探测方法综述	现代图书情报技术	2009		9	NA	1
+680	陈仕吉	科学研究前沿探测方法综述	现代图书情报技术	2009		9	NA	1
+681	陈水泰	网络调查和传统纸质调查的差异性研究	统计与决策	2008		16	NA	1
+682	陈为	数据可视化	北京:电子工业出版社	NA	NA	NA	NA	1
+683	陈蔚丽	基于文献计量的可拓学科研影响力分析	科技管理研究	2014		NA	NA	1
+684	陈文勇	论图书馆学交叉学科的功能	图书情报工作	1998		7	NA	1
+685	陈汐敏	从6种医学学报的高被引论文分析看如何提高医学学报类期刊的影响力	中国科技期刊研究	2013	24	4	NA	1
+686	陈曦	文献计量分析与研究	河北师范大学学报（文科版）	2002		3	NA	1
+687	陈喜乐	我国战略性新兴产业理论研究综述	未来与发展	2011		11	NA	1
+688	陈宪权	中文气象文献流及其控制	情报学刊	1984		4	NA	1
+689	陈向敏	部分外语类综合性期刊的引文分析	高校图书馆工作	1997		1	24-28	1
+690	陈晓田	我国管理科学重要期刊的遴选及其认定	管理科学学报	1999		4	NA	1
+691	陈兴	微机在文献计量学中的应用	情报学刊	1991		3	NA	1
+692	陈学芬	1991-1992年我国图书馆学情报学核心期刊之测定	图书与情报	1994		4	51-54	1
+693	陈耀华	论国家公园的公益性、国家主导性和科学性	地理科学	2014	34	3	NA	1
+694	陈益君	利用核心期刊评价论文质量存在的局限性研究	图书馆	2001		6	28－30	1
+695	陈寅恪	金明馆丛稿(二编)	上海:上海古籍出版社	NA	NA	NA	NA	1
+696	陈英群	版权扩张与限制在数字图书馆中的体现	图书与情报	2003		2	57－59	1
+697	陈永生	应当重视档案学方法论的研究	档案	1990		1	NA	1
+698	陈咏梅	学术类医学期刊栏目设置现状及分析	广东药学院学报	1998	14	1	NA	1
+699	陈瑜林	我国教育技术学术群体可视化知识图谱构建与分析	中国电化教育	2012		12	NA	1
+700	陈雨露	金融学文献通论	北京:中国人民大学出版社	NA	NA	NA	NA	1
+701	陈玉屏	民族问题能否“去政治化”论争之我见	西南民族大学学报（文科版）	2008		7	NA	1
+702	陈远	近年来国内竞争情报研究述评——基于中国期刊网1999-2004年竞争情报论文的统计分析	图书情报知识	2005		12	NA	1
+703	陈悦	Cite￣Space知识图谱的方法论功能	科学学研究	2015		2	NA	1
+704	陈悦	科学知识图谱:方法与应用	北京:人民出版社	NA	NA	NA	NA	1
+705	陈悦	科学知识图谱的发展历程	科学学研究	2008		3	NA	1
+706	陈悦	科学知识图谱的发展历程	科学学研究	2008	26	3	NA	1
+707	陈悦	悄然兴起的知识图谱	科学学研究	2005	23	2	NA	1
+708	陈悦	引文空间分析原理与应用:Cite Space实用指南	北京:科学出版社	NA	NA	NA	NA	1
+709	陈悦	引文空间分析原理与应用Citespace实用指南	北京:科学出版社	NA	NA	NA	NA	1
+710	陈兆祦	再论档案的定义——兼论文件的定义和运动周期问题	档案学通讯	1987		2	NA	1
+711	陈振明	政策科学的起源与政策研究的意义	厦门大学学报（哲学社会科学版）	1992		4	NA	1
+712	陈振明	中国公共管理理论研究的重点领域和主题	中国社会科学	2007		3	NA	1
+713	成波	网络计量学研究的奠基之作——评邱均平教授等著的《网络数据分析》	情报理论与实践	2006		2	253	1
+714	程朝欣	基于CSSCI近十年我国知识服务可视化分析	现代商业	2013		30	NA	1
+715	程达	试论第五个现代化	湖南师范大学社会科学学报	1986		6	NA	1
+716	程刚	《图书情报工作》被引分析与研究	图书情报工作	2001		4	NA	1
+717	程刚	《现代图书情报技术》被引分析	现代图书情报技术	2001		1	33－36	1
+718	程焕文	光荣与梦想:二十世纪中国图书馆事业回顾	图书馆	1994		3	NA	1
+719	程军	《养性延命录》作者考	中华医史杂志	1994		4	NA	1
+720	程齐凯	一种基于共词网络社区的科研主题演化分析框架	图书情报工作	2013	57	8	NA	1
+721	程维红	中、外农学期刊网站现状调查与比较分析	中国科技期刊研究	2006	17	5	726-729	1
+722	程星	美国院校研究的历史与现状	苏州大学学报(哲学社会科学版)	1995		4	NA	1
+723	程雪峰	媒介推力与文化强势:对中国体育话语权缺失的再认识	中国体育科技	2015	12	9	NA	1
+724	程亚男	书海听涛图书馆散论	北京:北京图书馆出版社	NA	NA	NA	NA	1
+725	池建	国民体质健康研究的思考	北京体育大学学报	2009	32	12	NA	1
+726	初景利	嵌入式学科服务研究进展	图书情报工作	2013	57	22	NA	1
+727	辞海编辑委员会	辞海	上海:上海辞书出版社	NA	NA	NA	NA	1
+728	崔雷	当年高被引论文的主题链聚类分析及其在情报预测中的应用	情报学报	1995	14	5	368-373	1
+729	崔雷	关于从MEDLINE数据库中进行知识抽取和挖掘的研究进展	情报学报	2003		4	NA	1
+730	崔雷	关于从medline数据库中进行知识抽取和挖掘的研究进展	情报学报	2003	22	4	NA	1
+731	崔雷	关于从MEDLINE数据库中进行知识抽取和挖掘的研究进展	情报学报	2003	22	4	NA	1
+732	崔雷	关于从MEDLINE数据库中进行知识抽取和挖掘的研究进展	情报学报	2003	22	4	NA	1
+733	崔雷	文献数据库中书目信息共现挖掘系统的开发	现代图书情报技术	2008		8	NA	1
+734	崔雷	学科主题演变的深度挖掘分析——以普通外科学为例	医学信息学杂志	2009		8	NA	1
+735	崔雷	重点学科发展战略情报研究(一)——引文战略坐标	情报理论与实践	2009		6	NA	1
+736	崔旺来	《中国社会科学》1994-1998年作者及引文的统计分析与评价	中国社会科学	1999		3	NA	1
+737	崔卫民	飞机驾驶舱设计中的人因工程问题	南华大学学报（理工版）	2002	16	1	63-66	1
+738	崔雁黎	图书情报文献学发展趋势分析——基于2003—2012年国家社会科学基金立项资料	四川图书馆学报	2013		6	NA	1
+739	崔玉萍	文献计量中论文作者数量的研究	运筹与管理	2004		l2	NA	1
+740	戴龙基	中文核心期刊要目总览（2000年版）	北京:北京大学出版社，2000	NA	NA	NA	NA	1
+741	戴龙基	中文核心期刊要目总览(2008年版)	北京:北京大学出版社	NA	NA	NA	NA	1
+742	单文戈　	文献计量学指标在科技论文评价中的应用　　	中华医院管理杂志	2007	23	2	133-135	1
+743	单文戈	文献计量学指标在科技论文评价中的应用	中华医院管理杂志	2007		2	NA	1
+744	单玉丽	全球化视阈下的国际科技合作与我国对策	亚太经济	2011		6	NA	1
+745	党亚茹	期刊影响因子变异问题研究	资讯传播与图书馆学[台]	2002	9	1	37—44	1
+746	党亚茹	一类双向交流情报系统及其结构模型	情报学报	1998	17	4	312-316	1
+747	德鲁克,彼得	21世纪的管理挑战	北京:机械工业出版社	NA	NA	NA	NA	1
+748	德鲁克	管理的实践	北京:机械工业出版社	NA	NA	NA	NA	1
+749	邓发云	信息及信息服务的可信度研究	成都:西南交通大学出版社	NA	NA	NA	NA	1
+750	邓剑伟	我国马克思主义政治学研究现状、热点及趋势	上海行政学院学报	2011		4	NA	1
+751	邓珞华	词频分析	武汉大学学报(社会科学版)	1987		1	NA	1
+752	邓群	论期刊品牌的三重目的	出版科学	2010	18	4	NA	1
+753	邓三鸿	我国人文社会科学学术期刊的学科对比——基于CSSCI的分析	东岳论丛	2008		1	NA	1
+754	邓尚民	信息抽取系统的研究现状	现代图书情报技术	2006		3	55-58	1
+755	邓婷	纸质数据库和数字化数据库出版模型的对比	科技与出版	2007		10	NA	1
+756	狄玉峰	高原低氧运动对我国优秀马拉松员李柱宏等人机体血象指标的影响	首都体育学院学报	2011	23	5	NA	1
+757	丁华东	十年未档案文献编纂学学科发展的几点蠡测	档案学研究	2000		4	NA	1
+758	丁金昌	高职人才培养不可替代性的策略研究	中国高教研究	2010		6	NA	1
+759	丁文英	网络环境下大学生的信息素质教育	图书馆理论与实践	2008		2	NA	1
+760	丁兴富	远程教育的宏观理论	中国远程教育	2001		1	NA	1
+761	丁学东	文献计量学基础	北京:北京大学出版社	NA	NA	NA	NA	1
+762	丁学东	文献计量学基础	北京:北京大学出版社，1991	NA	NA	NA	NA	1
+763	丁学东	文献计量学基础	北京:北京大学出版社，1993:	NA	NA	NA	NA	1
+764	丁学东	文献计量学基础	北京大学出版社，1993	NA	NA	NA	NA	1
+765	丁学东	文献计量学基础	北京大学出版社，1993:54	NA	NA	NA	NA	1
+766	丁长康	我国近十年课程研究热点与反思——基于Cite Space的分析	现代教育管理	2015		3	NA	1
+767	董琳	使用文献计量方法开展学科评价	情报杂志	2009	28	9	NA	1
+768	董薇	图书馆服务高校智库建设的策略——“双一流”高校建设背景下的思考	智库理论与实践	2017	2	3	NA	1
+769	董文鸳	2002—2004年《情报科学》载文、作者与引文统计分析	情报科学	2005		9	NA	1
+770	董文鸳	2002—2004年《情报科学》载文、作者与引文统计分析	情报科学	2005	23	9	NA	1
+771	董小燕	2003年《情报科学》载文、作者及引文的统计分析	情报科学	2004		5	551-553	1
+772	杜宝荣	SCI收录我国科技期刊的分析与思考	中国科技期刊研究	1997	8	1	8	1
+773	杜万芬	向著者索要抽印本和期刊著者地址的作用	成都，1985	NA	NA	NA	NA	1
+774	杜友坚	近年来我国高校成人教育研究热点知识图谱及发展趋势研究——基于成人教育研究文献的共词分析	中国高教研究	2014		4	NA	1
+775	杜玉波	认清形势  突出重点  群策群力  努力开创我国专业学位研究生教育改革发展的新局面	学位与研究生教育	2011		6	NA	1
+776	杜育红	中国教育经济学三十年回顾与展望	清华大学教育研究	2008		6	NA	1
+777	段先娥	中国图书情报领域国际发文状况分析(2011-2015)	图书馆论坛	2017	37	5	NA	1
+778	段晓明	我国医学期刊近两年发表的眼底病研究论文情况分析	中华眼科杂志	2002		3	NA	1
+779	樊杰	现今中国区域发展值得关注的问题及其经济地理阐释	经济地理	2012	32	1	NA	1
+780	范并思	当代中国社会科学报刊文献分析	北京:华东师范大学出版社，2000:	NA	NA	NA	NA	1
+781	范并思	当代中国社会科学报刊文献分析	华东师范大学出版社，2000	NA	NA	NA	NA	1
+782	范并思	当代中国社会科学报刊文献分析	上海:华东师范大学出版社，2000:	NA	NA	NA	NA	1
+783	范并思	新世纪，图书馆学基础研究什么？	图书馆	2003		1	NA	1
+784	范并思	阅读推广的管理自觉	图书馆论坛	2015		10	NA	1
+785	范并思	阅读推广与图书馆学:基础理论问题分析	中国图书馆学报	2014		5	NA	1
+786	范并思	中国社会科学的发展与变革	浙江学刊	1999		3	71	1
+787	范柳	区域经济圈创业政策比较分析及启示	科技进步与对策	2017	34	13	NA	1
+788	范先佐	20世纪中国教育经济学发展的回顾与前瞻	华中师范大学学报（文科版）	1999		1	NA	1
+789	范笑仙	2006年中国高等教育研究热点问题评价——基于2006年高等教育核心期刊的关键词分析	中国高教研究	2007		6	NA	1
+790	方汉奇	中国新闻事业通史	北京:中国人民大学出版社，1996:	NA	NA	NA	NA	1
+791	方红玲	2010年SCIE收录眼科学期刊及其文献计量学指标统计分析	中国科技期刊研究	2012	23	5	NA	1
+792	方卿	图书营销学教程	长沙:湖南大学出版社	NA	NA	NA	NA	1
+793	方曙	洛特卡定律与分形理论	图书情报工作	1989		6	NA	1
+794	方小苏	1999年《图书情报工作》载文及作者统计分析	图书情报工作	2001		4	NA	1
+795	方永才	浙江大学SCI论文影响力的统计分析	浙江大学学报(工学版)	2004	38	8	NA	1
+796	方舟子	学术评价有新招	2007	NA	NA	NA	NA	1
+797	房宁	全国42%的农户加入了合作社	农民日报	3	21	NA	NA	1
+798	冯春明	对学术期刊评价中若干问题的思考	河北师范大学学报(哲学社会科学版)	2010		2	NA	1
+799	冯惠玲	档案学概论	北京:中国人民大学出版社	NA	NA	NA	NA	1
+800	冯明	企业绩效评估指标体系研究的回顾与思考	重庆商学院学报	1998		1	NA	1
+801	冯瑶	国内文献计量研究的特征分析	现代情报	2012	32	2	NA	1
+802	冯长根	学术期刊编辑应该承担起科技创新的历史责任	科技导报	2005	23	5	6-9	1
+803	冯祝斌	基于Web of Science的中国图书情报学科研成果调研与分析	图书情报知识	2013		4	NA	1
+804	福布斯中文网站	福布斯2012年家族企业调查报告	2013	NA	NA	NA	NA	1
+805	付晓霞	从2000—2009年我国在SCI收录期刊发表的论文数据看SCI对我国科技期刊的影响	编辑学报	2011	23	3	NA	1
+806	傅荣校	十年来(1995-2004)档案学热点问题分布——基于《档案学研究》、《档案学通讯》、《中国档案》论文分析	档案学通讯	2006		6	NA	1
+807	傅荣校	十年来(1995—2004)档案学热点问题分布——基于《档案学研究》、《档案学通讯》、《中国档案》论文分析	档案学通讯	2006		6	NA	1
+808	傅秀梅	生物制氢——能源、资源、环境与经济可持续发展策略	中国生物工程杂志	2007		2	NA	1
+809	盖斯勒，埃利泽	科学技术测度体系	北京:科学技术文献出版社，2003	NA	NA	NA	NA	1
+810	高红岩	战略管理学	北京:清华大学出版社，2007:	NA	NA	NA	NA	1
+811	高继平	专利研究文献的可视化分析	情报杂志	2009	28	7	NA	1
+812	高建群	期刊引文分析及其情报价值	图书情报工作	2004	48	1	NA	1
+813	高静	瑞典知识学校探微	上海教育科研	2008		10	NA	1
+814	高静美	组织变革研究体系的嬗变与中国维度的本土考量	管理世界	2010		9	NA	1
+815	高敏	从东汉时期入仕者与知名人士出生地的分布状况看东汉江南经济的发展	郑州大学学报（文科版）	2003		3	NA	1
+816	高小平	我国应急管理研究述评(上)	中国行政管理	2009		8	NA	1
+817	高小平	中国绩效管理的实践与理论	中国社会科学	2011		6	NA	1
+818	高智勇	数字化制造中的信息质量问题研究	计算机集成制造系统	2005		7	NA	1
+819	葛金国	教师文化通论	北京:北京师范大学出版社	NA	NA	NA	NA	1
+820	耿海英	共引分析方法及其应用研究:学位论文:北京	中国科学院研究生院,2007:3	NA	NA	NA	NA	1
+821	耿正萍	核心期刊概念的演变与作用	煤炭高等教育	2008		1	121-123	1
+822	耿志杰	情报学领域关键词同现网络结构研究	情报科学	2010		8	NA	1
+823	宫雪	利用不同类型引文探测研究前沿及比较研究	中华医学图书情报杂志	2010		4	NA	1
+824	龚放	2000-2004年中国教育研究热点与关键词——基于CSSCI的统计分析	高等教育研究	2006		9	NA	1
+825	龚放	2005～2006年我国教育学期刊影响力评价——基于CSSCI的统计分析	北京大学教育评论	2009		1	NA	1
+826	巩永强	基于词频分析法的情报学研究热点透析	图书馆学研究	2011		7	NA	1
+827	缑倩倩	中国沙尘暴源区及其治理研究述评	中国沙漠	2012	32	6	NA	1
+828	古松	中国竞技排球发展制约因素的研究	北京体育大学学报	2012	35	10	NA	1
+829	顾龙翔	国外卫星电视知识网络	电子技术	1985		10	NA	1
+830	顾英	从图书馆学情报学核心期刊发文看当前图书馆学研究热点问题	图书馆建设	2004		2	NA	1
+831	顾震宇	LED背光源的应用现状与前景展望	2006	NA	NA	NA	NA	1
+832	关于办好高等学校哲学社会科学学报的意见	NA	NA	NA	NA	NA	NA	1
+833	郭吉安	情报研究与创新	北京:科学出版社	NA	NA	NA	NA	1
+834	郭书菊	我国“开放存取”研究的文献计量分析	图书馆学刊	2008		4	NA	1
+835	郭文斌	我国学前教育研究热点知识图谱	学前教育研究	2014		1	NA	1
+836	郭晓钟	我国整合医学发展之路	中华医学信息导报	2014	29	23	NA	1
+837	国际现代建筑学会	雅典宪章	城市发展研究	2007		5	NA	1
+838	国家科学技术委员会	1996年中国科学技术指标	北京:科学技术文献出版社，1997	NA	NA	NA	NA	1
+839	国家科学技术委员会	科学技术期刊管理办法	中华人民共和国国务院公报	6	5	NA	NA	1
+840	国家自然科学基金委	国家自然科学基金创新研究群体项目管理办法	国家自然科学基金委	NA	NA	NA	NA	1
+841	国家自然科学基金委管理科学部	2003年管理科学类重要期刊工作交流会议纪要	管理科学学报	2003		3	NA	1
+842	国家自然科学基金委员会	2015年度国家自然科学基金项目指南	北京:科学出版社	NA	NA	NA	NA	1
+843	国家自然科学基金委员会	国家自然科学基金项目指南(2012)	北京:科学出版社	NA	NA	NA	NA	1
+844	国务院	国务院关于当前发展学前教育的若干意见	2010	NA	NA	NA	NA	1
+845	国务院	国务院关于加快发展体育产业促进体育消费的若干意见(国发〔2014〕46号)	2017	NA	NA	NA	NA	1
+846	海登海默,阿诺德·J	腐败的面貌:以比较眼光进行的探索	国际社会科学杂志	1997		3	NA	1
+847	韩丽风	1990-1995我国文献计量应用研究论文定量分析	图书情报工作	1997		8	NA	1
+848	韩梅	网络搜索引擎研究综述(1994—2004)	图书馆学研究	2005		10	NA	1
+849	韩明	“系统工程理论与实践”论文作者服从Lotka分布的统计分析	系统工程理论与实践	1999		6	NA	1
+850	韩圣龙	美国《大学与研究图书馆》评价	中国图书馆学报	1995		4	NA	1
+851	韩维栋	挖掘高被引论文有利于提高科技期刊的学术影响力	中国科技期刊研究	2010		4	NA	1
+852	韩维栋	挖掘高被引论文有利于提高科技期刊的学术影响力	中国科技期刊研究	2010	21	4	NA	1
+853	韩新峰	2002-2011年我国公共图书馆服务体系建设研究综述	图书馆建设	2012		12	NA	1
+854	韩秀兰	《中国图书馆学报》自引分析	中国图书馆学报	1996		6	69	1
+855	韩秀兰	十年来我院科研论文管理工作的效益分析	中华医学科研管理杂志	1998	11	1	NA	1
+856	杭敏	传媒经济学研究的历史、方法与范例	现代传播	2005		4	NA	1
+857	郝群	信息共享空间国内外研究进展及相关实践	中国图书馆学报	2008		3	NA	1
+858	郝云宏	国外知识网络的研究及其新进展	浙江工商大学学报	2007		6	NA	1
+859	何承志	从Medline收录情况看医科大学学报发展现状	医学信息学杂志	2009	30	10	NA	1
+860	何继善	论工程管理	中国工程科学	2005	7	10	NA	1
+861	何建新	南京农业大学学报论文及其引文的统计分析	南京农业大学学报	1993		3	102-109	1
+862	何峻	中国期刊出版及评价现状分析	广西民族大学学报(哲学社会科学版)	2011	33	5	NA	1
+863	何克抗	教育技术学	北京:北京师范大学出版社	NA	NA	NA	NA	1
+864	何明	云计算技术发展及应用探讨	电信科学	2010		5	NA	1
+865	何小清	引文分析法及综合性社会科学期刊评价	中国社会科学	2001		4	NA	1
+866	何燕芝	关于做好高校教代会提案工作的思考	当代教育实践与教学研究	2015		7	NA	1
+867	何中华	近年来国内哲学研究状况检讨——一个有限的观察和评论	文史哲	2007		3	NA	1
+868	核心素养研究课题组	中国学生发展核心素养	中国教育学刊	2016		10	NA	1
+869	贺德方	中外信息内容产业的对比分析	中国软科学	2005		11	NA	1
+870	贺贵才	知识产权保护与技术创新关系的理论分析	科研管理	2011	32	11	NA	1
+871	贺天平	回眸历史慨而慷	自然辩证法通讯	2003	25	3	NA	1
+872	贺颖	基于科学知识图谱的档案学基础理论进展研究(1999-2008年)	图书情报工作	2010		2	NA	1
+873	贺颖	基于科学知识图谱的档案学基础理论进展研究(1999—2008年)	图书情报工作	2010		1	NA	1
+874	贺自爱	研究起点与科学观察	石油与天然气地质	1997		4	NA	1
+875	洪自强	工作情景中差错概念与差错取向因素分析	心理科学	2000		5	NA	1
+876	侯海燕	当代国际科学学研究热点演进趋势知识图谱	科研管理	2006	27	3	NA	1
+877	侯海燕	基于知识图谱的国际科学计量学研究前沿计量分析	科研管理	2008		1	NA	1
+878	侯海燕	基于知识图谱的科学计量学进展的研究:学位论文	大连:大连理工大学,2006	NA	NA	NA	NA	1
+879	侯海燕	权威科学计量学家对科学的关注及贡献	情报杂志	2006	25	4	NA	1
+880	侯剑华	工商管理学科演进与前沿热点的可视化分析:学位论文	大连:大连理工大学,2009	NA	NA	NA	NA	1
+881	侯剑华	工商管理学科演进与前沿热点的可视化分析:学位论文	大连:大连理工大学,2009:18-20	NA	NA	NA	NA	1
+882	侯剑华	战略管理学前沿演进可视化研究	科学学研究（增刊）	2007		S1	NA	1
+883	侯剑华	战略管理学前沿演进可视化研究	科学学研究	2007		6	NA	1
+884	侯剑华	战略管理学前沿演进可视化研究	科学学研究	2007		A1	NA	1
+885	侯剑华	战略管理学在中国:历史、现状和未来:于文献信息可视化分析的视角	社会科学管理与评论	2013		1	NA	1
+886	侯剑华	智力资本管理的科学定位及其发展趋势探析	情报科学	2006	24	6	835-838	1
+887	侯钰	从科技论文的合著情况看90年代合作研究的发展	情报学报	1997	16	4	312-318	1
+888	候海燕	科学计量学知识图谱	大连:大连理工大学出版社	NA	NA	NA	NA	1
+889	胡鞍钢	腐败与社会不公——中国90年代后半期腐败经济损失的初步估计与分析	江苏社会科学	2001		3	NA	1
+890	胡德华	信息行为研究的可视化分析	图书馆杂志	2015		9	NA	1
+891	胡德鑫	中德顶尖研究型大学研究生国际化能力比较研究——以清华大学和柏林自由大学为例	研究生教育研究	2017		6	NA	1
+892	胡河宁	组织传播学——结构与关系的象征性互动	北京:北京大学出版社	NA	NA	NA	NA	1
+893	胡继东	关于学科馆员制度的建立与完善问题	图书情报知识	2002		3	NA	1
+894	胡锦光	关于中国宪法学研究方法的思考	浙江学刊	2005		4	NA	1
+895	胡锦涛	坚定不移沿着中国特色社会主义道路前进，为全面建成小康社会而奋斗——在中国共产党第十八次全国代表大会上的报告	2013	NA	NA	NA	NA	1
+896	胡名霞	动作控制与动作学习	台湾:金名图书有限公司	NA	NA	NA	NA	1
+897	胡明	情报检索语言“标引耦合”现象的原理及其应用研究	图书情报工作	1996		6	23-27、40	1
+898	胡明晖	我国科学基金制的演变、评价与政策建议	武汉理工大学学报（文科版）	2006	19	5	NA	1
+899	胡明铭	同行评议研究综述	中国科学基金	2005		4	NA	1
+900	胡铁生	我国微课发展的三个阶段及其启示	远程教育杂志	2013		4	NA	1
+901	胡玮	引文衰减率模型研究	图书情报工作	1997		10	15-18，33	1
+902	胡星斗	弱势群体经学简论	2012	NA	NA	NA	NA	1
+903	胡雅君	《国际图联杂志》述评	中国图书馆学报	1995		4	76-79	1
+904	胡延平	跨越数字鸿沟——面对第二次现代化的危机与挑战	北京:社会科学文献出版社	NA	NA	NA	NA	1
+905	胡燕	传统村落的概念和文化内涵	城市发展研究	2014	21	1	NA	1
+906	胡泳	2011中国网络舆论的三大变化	中国新闻周刊	2012		1	NA	1
+907	胡泽文	国内知识图谱应用研究综述	图书情报工作	2013	57	3	NA	1
+908	胡智锋	从“宣传品”、“作品”到“产品”——中国电视50年节目创新的三个发展阶段	现代传播(中国传媒大学学报)	2008		4	NA	1
+909	黄橙紫	科技英语词汇的统计特征	同济大学学报（社会科学版）	2003		2	NA	1
+910	黄国威	对大学生信息素质教育内容与方法的探讨	高校图书馆工作	2009		3	NA	1
+911	黄勤	批评性话语分析视角下的新闻翻译分析——以转述话语的翻译为例	外语与外语教学	2008		3	NA	1
+912	黄荣怀	面向信息化学习方式的电子教材设计与开发	开放教育研究	2012	18	3	NA	1
+913	黄如花	国内外科学数据元数据研究进展	图书与情报	2014		6	NA	1
+914	黄微	网络舆情场形成与极性演化机理研究	情报理论与实践	2016	39	12	NA	1
+915	黄维	中国教育经济学研究者合作网络的社会网络分析	现代大学教育	2010		2	NA	1
+916	黄晓斌	网络环境下的竞争情报	北京:经济管理出版社	NA	NA	NA	NA	1
+917	黄晓冬	Invisible web研究综述	情报科学	2004	22	9	1145-1148	1
+918	黄晓辉	当代世界经济与政治	福州:福建教育出版社，2003	NA	NA	NA	NA	1
+919	黄晓鹂	期刊工作文摘	北京:北京图书馆出版社，2001	NA	NA	NA	NA	1
+920	黄晓鹂	阅读疗法实证研究	北京:光明日报出版社	NA	NA	NA	NA	1
+921	黄新建	浅谈电子商务	中小企业管理与科技	2008		11上	NA	1
+922	黄长	网络环境下图书情报学科与实践的发展趋势	北京:社会科学文献出版社	NA	NA	NA	NA	1
+923	霍丽萍	网络环境下的文献计量学	图书情报工作	2001		11	NA	1
+924	吉鸿荣	90年代我国只读光盘检索研究述评	情报理论与实践	1998	21	3	184-186	1
+925	季丹	我国网络舆情研究的历史回顾与反思	上海交通大学学报(哲学社会科学版)	2012		4	NA	1
+926	季浏	我国新一轮基础教育体育课程改革10年回顾	上海体育学院学报	2011	35	3	NA	1
+927	加菲尔德，尤金	引文索引法的理论及应用	北京:北京图书馆出版社	NA	NA	NA	NA	1
+928	嘉茗	广博与深邃——记著名情报科学家王崇德	图书馆工作与研究	1992		1	NA	1
+929	江宁康	当前外国文学研究现状分析	外国文学评论	2006		3	17-21	1
+930	江水法	科技界精神文明概论	北京:经济管理出版社	NA	NA	NA	NA	1
+931	江信	世界农业科技革命新态势	江苏农机与农艺	1999		5	NA	1
+932	姜春林	《科技管理研究》1990—1998年刊发文章统计分析	科技管理研究	1999		4	NA	1
+933	姜春林	《科研管理》（1994—1998）载文的统计分析	科研管理	2000		2	NA	1
+934	姜春林	CSSCI管理学来源期刊引文网络结构分析	科学学与科学技术管理	2009		7	NA	1
+935	姜春林	基于CSSCI的我国管理学研究热点可视化分析	图书情报工作	2008		12	NA	1
+936	姜春林	基于CSSCI网络版2005年《情报科学》被引分析	情报科学	2007		3	NA	1
+937	姜春林	学术评价:同行评议抑或科学计量	中国高等教育	2014		Z3	NA	1
+938	姜静静	近10年我国《体育法》研究主题及进展分析	西安体育学院学报	2016	33	3	NA	1
+939	姜晓辉	中国人文社会科学核心期刊要览(2008年版)	北京:社会科学文献出版社	NA	NA	NA	NA	1
+940	姜言	杨福家:中英教育、科技合作前景广阔	科技信息	2001		12	NA	1
+941	蒋国华	科学计量学和情报计量学:今天和明天	科学学与科学技术管理	1997		10	NA	1
+942	蒋国华	科学计量学和情报计量学:今天和明天	科学学与科学技术管理	1997		7	NA	1
+943	蒋萍	“十一五”期间统计学国家社科基金项目分析	统计研究	2011		9	NA	1
+944	蒋胜益	数据挖掘原理与实践	北京:电子工业出版社	NA	NA	NA	NA	1
+945	蒋悟生	研究成果评价的重要工具:科学引文索引	情报杂志	2001		5	NA	1
+946	蒋勋	我国高职教育研究现状与发展路径研判——基于CSSCI(1998—2014)数据	西南民族大学学报(人文社会科学版)	2015		9	NA	1
+947	蒋颖	1995-2004年文献计量学研究的共词分析	情报学报	2006		4	NA	1
+948	蒋颖	1995-2004年文献计量学研究的共词分析	情报学报	2006	25	4	504-512	1
+949	焦晓静	知识图谱的概念辨析与学科定位研究	图书情报工作	2015		15	NA	1
+950	焦艳平	网络环境下的农业全文信息资源及其检索利用	中国农业信息快讯	2001		7	NA	1
+951	教育部	“211工程”和“985工程”	2011	NA	NA	NA	NA	1
+952	教育部	关于实施高等学校创新能力提升计划的意见	2013	NA	NA	NA	NA	1
+953	教育部	特殊教育提升计划(2014-2016年)	2017	NA	NA	NA	NA	1
+954	金碧辉	国际论文与国内论文合一统计方法研究	1999:261-269	NA	NA	NA	NA	1
+955	金碧辉	论期刊影响因子与论文学术质量的关系	中国科技期刊研究	2000	11	4	NA	1
+956	金东海	新机制以来中国农村义务教育财政体制的研究综述	社科纵横	2012		3	NA	1
+957	金恒江	新闻传播学领域的健康传播研究:谁做什么？引用谁和被谁引用？——以九本新闻传播类期刊收录的论文为例(2000-2016)	西南民族大学学报(人文社科版)	2017	38	9	NA	1
+958	金伟	《编辑学报》2001—2005年引文分析	编辑学报	2006	18	6	NA	1
+959	金永祥	PPP:探索实践中的选择	中国财经报	07	23	NA	NA	1
+960	金俣昕	共链分析用于管理咨询业竞争态势研究	情报杂志	2009		11	NA	1
+961	进学解	NA	NA	NA	NA	NA	NA	1
+962	靖继鹏	近三年情报学研究动态及发展趋势分析	情报资料工作	2017		1	NA	1
+963	靖培栋	关于科技文献老化的数学模型及老化率的计算	图书情报工作	1999		6	NA	1
+964	靖培栋	科技文献经典老化模型的新修正	情报学报	1999		1	NA	1
+965	琚琼	基于知识图谱的危机管理研究的可视化分析	现代情报	2014		5	NA	1
+966	鞠秀芳	《科技进步与对策》被引、载文及作者的统计分析	科技进步与对策	2007		5	NA	1
+967	卡普罗，拉斐尔	信息生态学进展	1989	NA	NA	NA	NA	1
+968	康建辉	我国数字出版产业发展中的版权保护问题研究	情报理论与实践	2012		1	NA	1
+969	柯平	2010年国外图书馆学情报学研究热点分析	情报科学	2011		9	NA	1
+970	柯平	2011-2012年国外图书馆学研究前沿与热点分析	情报科学	2013		6	NA	1
+971	柯永河	台湾临床心理学的滥觞、发展与愿景	应用心理研究	2008		40	NA	1
+972	科学技术部办公厅	陈小娅副部长在2012年地方基础研究工作会议上的讲话(摘编)	2014	NA	NA	NA	NA	1
+973	库恩,托马斯	科学革命的结构	北京:北京大学出版社	NA	NA	NA	NA	1
+974	匡文波	“新媒体”概念辨析	国际新闻界	2008		6	NA	1
+975	赖大仁	大众娱乐文化的一个“范本”——超女现象的文化读解	现代传播	2006		1	71	1
+976	赖欣巴哈	科学哲学的兴起	北京:商务印书馆	NA	NA	NA	NA	1
+977	朗诵真	竞争情报与企业竞争力	北京:华夏出版社，2001	NA	NA	NA	NA	1
+978	雷迭斯多夫，洛埃特	科学计量学的挑战:科学交流的发展、测度和自组织	北京:科学技术文献出版社，2003:	NA	NA	NA	NA	1
+979	黎纲榭	中国网络安全产业现状剖析与对策建议从产业之“火”到应对之“策”	信息安全与通信保密	2016		4	NA	1
+980	黎军	从美国参考咨询复兴讨论会看参考咨询的发展趋势	图书馆学研究	2009		12	NA	1
+981	李伯聪	工程哲学引论	郑州:大象出版社	NA	NA	NA	NA	1
+982	李博	基于文献计量学的科技实力评估的研究进展	图书馆论坛	2004	24	5	33-36	1
+983	李超	引用质量加权影响因子评价学术期刊研究——以CSSCI图书情报学期刊评价为例	大学图书馆学报	2012	30	1	NA	1
+984	李超平	观察与思考——图书馆学研究现状分析	中国图书馆学报	2006		2	NA	1
+985	李琛	“法与人文”的方法论意义——以著作权法为模型	中国社会科学	2007		3	NA	1
+986	李春田	标准化概论	北京:中国人民大学出版社	NA	NA	NA	NA	1
+987	李芳	国际学生体质健康领域的研究热点与前沿	首都体育学院学报	2014	26	1	NA	1
+988	李凤棠	我国科技期刊引文参考文献的现状与对策	中国科技期刊研究	1997	8	3	22	1
+989	李纲	网络计量学核心领域研究进展	情报理论与实践	2008	31	2	NA	1
+990	李国旗	基于物流热度的中国物流业空间格局	地理科学进展	2015	34	5	NA	1
+991	李海燕	近十年国外对中草药研究的关注点——基于高频主题词的共现聚类分析	情报学报	2009	28	3	NA	1
+992	李昊	中国土地生态安全研究进展与展望	干旱区资源与环境	2016	30	9	NA	1
+993	李红玲	技术预见:从方法的运用到系统的构建	科学学与科学技术管理	2006		12	NA	1
+994	李华伟	知识管理的理论与实践	北京:华艺出版社，2002	NA	NA	NA	NA	1
+995	李建辉	自引对科技期刊影响因子作用的量化研究	编辑学报	2007		2	NA	1
+996	李建辉	自引对科技期刊影响因子作用的量化研究	编辑学报	2007		2	157	1
+997	李江	链接分析研究综述	大学图书馆学报	2008	26	2	NA	1
+998	李杰	Cite Space:科技文本挖掘及可视化	北京:首都经济贸易大学出版社	NA	NA	NA	NA	1
+999	李杰	CiteSpace:科技文本挖掘及可视化	北京:首都经济贸易大学出版社	NA	NA	NA	NA	1
+1000	李京文	知识经济与决策科学	北京:社会科学文献出版社	NA	NA	NA	NA	1
+1001	李镜镜	移动出版的发展模式及其评价	科技与出版	2010		8	NA	1
+1002	李涓子	知识图谱:大数据语义链接的基石	2018	NA	NA	NA	NA	1
+1003	李珏	循证医学系统综述来源文献与检索策略的分析研究:硕士学位论文	长沙:中南大学，2003	NA	NA	NA	NA	1
+1004	李军	1998—1999年中文体育类核心期刊载文及引文分析	体育科学	2000	20	5	NA	1
+1005	李军	我国13种体育类核心期刊高被引学术论文及选题特色	上海体育学院学报	2009	33	5	NA	1
+1006	李君	综合区域环境影响下的农村居民点空间分布变化及影响因素分析	资源科学	2009	31	7	NA	1
+1007	李玲	功能材料与纳米技术	北京:化学工业出版社	NA	NA	NA	NA	1
+1008	李明华	信息交流与现代图书馆系统	北京:书目文献出版社，1996	NA	NA	NA	NA	1
+1009	李明华	中美图书馆界扩大交流合作走向21世纪	大学图书馆学报	1996	14	4	NA	1
+1010	李明子	专著《鹅掌楸属树种杂交育种与利用》的引文分析	农业图书情报学刊	2006	18	11	NA	1
+1011	李娜	SWOT分析应用于竞争情报活动的实例研究	情报理论与实践	2000	23	4	NA	1
+1012	李培林	从“农民的终结”到“村落的终结”	传承	2012		15	NA	1
+1013	李平	新常态下中国技术经济学前沿动态——评议2015年中国技术经济论坛	科技促进发展	2016		3	NA	1
+1014	李瑞波	基于Histcite工具的引文网络实证研究	情报科学	2015		10	NA	1
+1015	李韶红	自引与自引分析	图书馆	2001		6	39-43	1
+1016	李彤	模拟植物生长算法与知识创新的几点思考	管理科学学报	2010		13	NA	1
+1017	李文娟	近五年我国情报学研究知识图谱分析	情报科学	2014	32	1	NA	1
+1018	李文兰	中国情报学期刊论文关键词词频分析	情报科学	2005	23	1	NA	1
+1019	李小芬	体育舞蹈运动教程	北京:北京体育大学出版社	NA	NA	NA	NA	1
+1020	李鑫	地方高校学报发展问题浅析	中国科技期刊研究	2006	17	1	NA	1
+1021	李杏	基于SYS-GMM的中国人口结构变化与经济增长关系研究	统计研究	2012	29	4	NA	1
+1022	李旭东	图书馆与档案学硕、博士点	2010	NA	NA	NA	NA	1
+1023	李亚员	国内慕课(MOOC)研究现状述评:热点与趋势——基于2009-2014年CNKI所刊文献关键词的共词可视化分析	电化教育研究	2015		7	NA	1
+1024	李艳	技术竞争情报现状分析	情报学报	2006	02	NA	NA	1
+1025	李玉斌	网络学习行为研究的向度与分析	电化教育研究	2012		9	NA	1
+1026	李悦鸣	促进各类新型智库有序竞争	中国社会科学报	8	14	2	NA	1
+1027	李云霞	我国期刊评价研究现状的文献计量学分析	中国科技期刊研究	2008	19	6	NA	1
+1028	李运景	基于引文分析可视化的知识图谱构建研究	南京:东南大学出版社	NA	NA	NA	NA	1
+1029	李运景	引文分析可视化研究	情报学报	2007		2	NA	1
+1030	李镇西	从WJG创新商业模式看中国科技期刊的“突围”	中国科技期刊研究	2008	19	4	NA	1
+1031	李正元	对核心期刊和期刊源的基本认识:湖北省社会科学期刊研究会,2006:13	NA	NA	NA	NA	NA	1
+1032	李志欣	图像检索中语义映射方法综述	计算机辅助设计与图形学学报	2008		8	NA	1
+1033	李周炯	地方保护主义对中央与地方关系格局的影响	国家行政学院学报	2002		6	NA	1
+1034	郦金花	近5年我国图书馆学情报学研究之影响	情报学报	2004	23	5	NA	1
+1035	梁立明	词频分析法用于我国纳米科技研究动向分析	科学学研究	2003		2	NA	1
+1036	梁立明	科学计量学:指标·模型·应用	北京:科学出版社，1995	NA	NA	NA	NA	1
+1037	梁立明	科学计量学与信息计量学:从世界看中国—第7届ISSI大会后的思考	科研管理	2000	21	3	95—101	1
+1038	梁立明	科学计量学在科学基金管理中的应用	科研管理	1997	18	5	NA	1
+1039	梁立明	情报学家对科学的关注与解读（I）:情报学家关注科学的视角	情报学报	2002	21	6	656-663	1
+1040	梁秀娟	科学知识图谱研究综述	图书馆杂志	2009	28	6	NA	1
+1041	梁莹	企业竞争情报中的专利策略研究	情报理论与实践	2010	33	3	NA	1
+1042	廖玉玲	网络条件下企业技术创新合作行为分析:一个实验研究	科技进步与对策	2016	33	20	NA	1
+1043	林被甸	中文核心期刊要目总览	北京:北京大学出版社，1996	NA	NA	NA	NA	1
+1044	林被甸	中文核心期刊要目总览	北京大学出版社,1996	NA	NA	NA	NA	1
+1045	林传潮	羽毛球运动文化探源	福建体育科技	2007	26	2	NA	1
+1046	林海	信息检索发展浅析	科技情报开发与经济	2007	17	10	NA	1
+1047	林海青	数字图书馆的信息组织	中国图书馆学报	2000		1	NA	1
+1048	林航	用“天下”思考世界	中华读书报	06	29	10	NA	1
+1049	林聚任	社会网络分析:理论、方法与应用	北京:北京师范大学出版社	NA	NA	NA	NA	1
+1050	林琳	两岸青年编辑论道数字出版提升产品附加值助“一纸多赢”	通信信息报	06	20	A3	NA	1
+1051	林敏	生活瑜伽	北京:化学工业出版社	NA	NA	NA	NA	1
+1052	林墨	中国社会科学领域最具国际可见度的学科	2017	NA	NA	NA	NA	1
+1053	林松清	英文科技期刊编委遴选方法与措施:以《岩石力学与岩土工程学报》为例	中国科技期刊研究	2015	26	3	NA	1
+1054	林泰	反映社会变革，引导社会发展:把握社会思潮的构成要素	人民日报	2	17	NA	NA	1
+1055	凌斌	中国人文社会科学三十年(1978—2007):一个引证研究	清华大学学报(哲学社会科学版)	2009		1	NA	1
+1056	刘昶	欧洲新闻传播心理学批评:学术渊源与研究路经	现代传播	2014		11	NA	1
+1057	刘春丽	Web2	0环境下的科学计量学:选择性计量学	图书情报工作	2012	NA	NA	1
+1058	刘芳	宗教学期刊被引广度、转载及Web下载分析——基于CSSCI(2004-2006年)数据	西南民族大学学报（文科版）	2009		4	NA	1
+1059	刘芬	2012-2014年《情报科学》基金资助论文计量分析	农业网络信息	2017		8	NA	1
+1060	刘凤娟	《北京农业大学学报》引文分析	农业图书情报学刊	1997		2	19-22	1
+1061	刘红超	LED产业技术及研究进展	上海第二工业大学学报	2011	28	2	NA	1
+1062	刘华杰	整合两大传统:兼谈我们所理解的科学传播	南京社会科学	2002		10	NA	1
+1063	刘佳	中外图书情报学研究热点的可视化分析及对比分析	情报科学	2014		12	NA	1
+1064	刘嘉	元数据:理念与应用	中国图书馆学报	2001		5	NA	1
+1065	刘建华	卓越描绘:一种对卓越科学机构进行评价的方法	图书情报工作	2008		10	NA	1
+1066	刘精明	转型时期中国社会教育	沈阳:辽宁教育出版社	NA	NA	NA	NA	1
+1067	刘军	整体网分析——UCINET软件实用指南	上海:上海人民出版社	NA	NA	NA	NA	1
+1068	刘俊婉	经济学研究现状:基于CSSCI的评析	经济学家	2004		4	73-91	1
+1069	刘莉	1978-2007年我国大陆与我国台湾、韩国、日本高校SSCI论文的比较研究	高等教育研究	2009		12	NA	1
+1070	刘莉	改革开放三十年我国大陆SSCI论文定量研究:学位论文	上海:上海交通大学,2009	NA	NA	NA	NA	1
+1071	刘莉	中国大陆、中国台湾，日本，韩国发表SSCI论文的比较研究:1978—2007	情报杂志	2009	2	9	NA	1
+1072	刘茂生	我国图书馆学核心期刊1997—1998年发文选题及作者统计分析	图书情报工作	2000		4	26—30，95	1
+1073	刘明	个性化服务——图书馆服务的新阶段	图书馆学刊	2006		1	16-17	1
+1074	刘乃全	中国经济学如何研究协调发展	改革	2016		5	NA	1
+1075	刘宁南	2005年《情报科学》的文献计量学分析	情报科学	2006		2	NA	1
+1076	刘培一	中外学会期刊出版比较	中国科技期刊研究	2008		1	NA	1
+1077	刘培一	中外学会期刊出版比较	中国科技期刊研究	2008	19	1	NA	1
+1078	刘平量	《复印报刊资料》系列出版物的社会作用浅探	情报资料工作	1995		6	NA	1
+1079	刘萍	基于形式概念分析的学科知识结构探测——以图书情报学为例	图书情报工作	2014	58	18	NA	1
+1080	刘双阳	《现代大学教育》的核心竞争力研究:作者群分析	现代大学教育	2008		5	NA	1
+1081	刘炜	关联数据:概念、技术及应用展望	大学图书馆学报	2011		2	NA	1
+1082	刘先捍	素质教育评价初探	长沙:湖南教育出版社	NA	NA	NA	NA	1
+1083	刘晓敏	青年自我道德评价意识与抗诱惑行为的相关研究	北京:北京师范大学出版社，1993	NA	NA	NA	NA	1
+1084	刘雪立	2009年7347种SCIE期刊文献计量学指标统计分析	中国科技期刊研究	2011	22	1	NA	1
+1085	刘雅娟	用文献计量学评价基础研究的几项指标探讨——论文、引文和期刊影响因子	科研管理	2000		1	NA	1
+1086	刘艳华	全球重要信息计量学家的可视化分析——以作者共被引为视角	情报杂志	2012		1	NA	1
+1087	刘艳阳	SCI用作科研评价指标的思考——学科分布对指标公正性的影响	科研管理	2003		5	NA	1
+1088	刘艳阳	SCI用作科研评价指标的思考——学科分布对指标公正性的影响	科研管理	2003	24	5	NA	1
+1089	刘毅	国外舆论学研究的“知识图景”:热点、网络与结构——基于SSCI数据库(1994-2013)的知识图谱分析	新闻与传播研究	2015		5	NA	1
+1090	刘毅	近20年我国舆论学研究进展的知识图谱分析——基于CSSCI数据库(1994-2013)	情报杂志	2015		5	NA	1
+1091	刘毅	略论网络舆情的概念、特点、表达与传播	理论界	2007		1	NA	1
+1092	刘永胜	《中国图书馆学报》与《情报学报》比较研究	世界图书	1993		2	NA	1
+1093	刘永振	论非线性科学的“反常”思维及其方法论作用	系统辩证学学报	1997		3	NA	1
+1094	刘勇	论用期刊影响因子评价论文作者的逻辑前提与局限性	编辑学报	2007		2	NA	1
+1095	刘宇	“通往自由之路”:期刊评价价值取向的演化	南京大学学报(哲学·人文科学·社会科学)	2011		3	NA	1
+1096	刘玉照	社会科学文献计量理论与方法研究的数据库系统	图书馆工作与研究	2001		5	NA	1
+1097	刘则渊	国际科学计量学及其姊妹学科的计量与图谱	科技导报	2012		7	NA	1
+1098	刘则渊	科学知识图谱方法与应用	北京:人民出版社	NA	NA	NA	NA	1
+1099	刘则渊	科学知识图谱方法与应用	北京:人民出版社，2008	NA	NA	NA	NA	1
+1100	刘则渊	赵红州与中国科学计量学	科学学研究	1999		4	NA	1
+1101	刘占虎	新世纪以来中国反腐倡廉研究进展:议题与范式	中州学刊	2014		11	NA	1
+1102	刘仲林	跨学科研究:科学原创性成果的动力之源——以百年诺贝尔生理学和医学奖获奖成果为例	科学技术与辩证法	2005	22	6	NA	1
+1103	刘宗田	面向事件的本体研究	计算机科学	2009	36	11	NA	1
+1104	刘宗义	微信的传播、共享与意义建构:一个文献综述	重庆社会科学	2014		1	NA	1
+1105	龙花楼	论土地利用转型与乡村转型发展	地理科学进展	2012	31	2	NA	1
+1106	龙花楼	土地利用转型——土地利用/覆被变化综合研究的新途径	地理与地理信息科学	2003	19	1	NA	1
+1107	龙叶	1989—2006年我国图书馆联盟研究的文献计量分析	现代情报	2008		4	NA	1
+1108	娄策群	社会科学评价的文献计量理论与方法	华中师范大学出版社，1999	NA	NA	NA	NA	1
+1109	娄策群	社会科学评价的文献计量理论与方法	武汉:华中师范大学出版社，1999	NA	NA	NA	NA	1
+1110	娄策群	社会科学评价的文献计量学理论与方法	武汉:华中师范大学出版社	NA	NA	NA	NA	1
+1111	娄成武	西方国家电子政府发展理论研究综述	国家行政学院学报	2009		3	NA	1
+1112	卢金荣	信息生态理论研究进展	情报杂志	2007		3	NA	1
+1113	卢石	中文体育类核心期刊的评价现状及研究走向	体育科学	2006	26	2	82	1
+1114	卢馨	P2P网络借贷的运行模式与风险管控	改革	2015		2	NA	1
+1115	卢元镇	体育人文社会学的学科集成与研究前沿	体育学刊	2005	12	1	NA	1
+1116	陆宝益	我国有关信息污染研究的进展	图书与情报	2000		3	9-14	1
+1117	陆军	关于学科、学科建设等相关概念的讨论	清华大学教育研究	2004	25	6	NA	1
+1118	路阳	中国大陆台湾研究的现状与趋势——基于1991-2013年国家社科基金台湾研究立项项目的量化分析	台湾研究集刊	2013		5	NA	1
+1119	栾春娟	基于SCI的基因操作技术国际前沿分析	技术与创新管理	2009		1	NA	1
+1120	罗家德	社会网分析讲义	北京:社会科学文献出版社	NA	NA	NA	NA	1
+1121	罗建国	我国学位授权政策研究:学位论文	武汉:华中科技大学,2008	NA	NA	NA	NA	1
+1122	罗杰	影响因子核心期刊与论文学术质量	徐州教育学院学报	2005	20	4	NA	1
+1123	罗立国	专利检索网站比较研究	情报杂志	2012	31	3	NA	1
+1124	罗利	产学研合作对策模型研究	管理工程学报	2000		2	NA	1
+1125	罗式胜	从文献计量学、科学计量学到科学技术计量学——关于科学技术计量学的概念及其研究内容	图书馆论坛	2003		6	NA	1
+1126	罗式胜	篇名关键词链特征的统计分析及应用	中国图书馆学报	1995		1	27-29	1
+1127	罗式胜	文献计量学概论	北京:书目文献出版社，1986	NA	NA	NA	NA	1
+1128	罗式胜	文献计量学引论	北京:书目文献出版社，1986	NA	NA	NA	NA	1
+1129	罗式胜	文献计量学引论	北京:书目文献出版社，1986:	NA	NA	NA	NA	1
+1130	罗式胜	文献计量学引论	书目文献出版社，1986	NA	NA	NA	NA	1
+1131	罗云	我国高等教育研究学术群体可视化知识图谱构建与分析	高教探索	2015		3	NA	1
+1132	骆柳宁	广西民族学院学报（哲学社会科学版）引文分析	广西民族学院学报（哲学社会科学版）	2003		6	144-146	1
+1133	吕福谦	2001年《情报科学》载文、作者及引文的统计分析	情报科学	2003	21	11	NA	1
+1134	吕海洋	合著网络中作者的角色分析	情报理论与实践	2010		1	NA	1
+1135	吕建荣	西北大学与陕西6所部属高校科技创新能力的比较(2001—2005)	西北大学学报(自然科学版)	2007		2	NA	1
+1136	吕克义	海洋经济的迅速发展及其意义	世界经济	1983		1	NA	1
+1137	吕叔湘	当前语文教学中的两个迫切问题:吕叔湘全集	沈阳:辽宁教育出版社,2002:37-39	NA	NA	NA	NA	1
+1138	吕维善	面对社会老化挑战，加强老年保健对策	中国老年学杂志	1994	14	4	NA	1
+1139	马大正	关于构筑中国边疆学的断想	中国边疆史地研究	2003		3	NA	1
+1140	马费成	IRM-KM范式的情报学发展研究	武汉:武汉大学出版社	NA	NA	NA	NA	1
+1141	马费成	布拉德福—齐普夫分布系的概率模型	情报科学	1982		2	NA	1
+1142	马费成	布鲁克斯情报学理论研究(摘要)	图书情报知识	1983		4	NA	1
+1143	马费成	国内外知识管理研究热点——基于词频的统计分析	情报学报	2006		2	NA	1
+1144	马费成	国内外知识管理研究热点——基于词频的统计分析	情报学报	2006	25	2	NA	1
+1145	马费成	科学信息离散分布规律的研究——从文献单元到内容单元的实证分析（I）:总体框架	情报学报	1999	18	1	79-84	1
+1146	马费成	情报学的进展与深化	情报学报	1996	15	5	NA	1
+1147	马费成	信息资源开发与管理	北京:电子工业出版社	NA	NA	NA	NA	1
+1148	马少美	中国电子政务研究文献计量分析	情报科学	2009		8	NA	1
+1149	马文峰	知识检索研究	情报理论与实践	2006	29	2	NA	1
+1150	马晓京	民族旅游文化商品化与民族传统文化的发展	中南民族学院学报(人文社会科学版)	2006		6	NA	1
+1151	马宣建	从奥运战略到协调发展战略:中国、苏联有关体育政策发展变化的比较研究及启示	哈尔滨体育学院学报	1990	8	3	NA	1
+1152	马有才	创新型城市建设理论研究综述与展望——基于与产业集群升级互动的视角	商业时代	2012		9	NA	1
+1153	毛大胜	参考文献数量与论文质量的关系	中国科技期刊研究	2003	14	1	NA	1
+1154	毛俊玉	可穿戴设备为创意产业带来什么	2014	NA	NA	NA	NA	1
+1155	毛文明	美国《SCI》收录温州医学院论文分析	温州医学院学报	2008		5	NA	1
+1156	毛一国	我国学者担任国际社会科学学术期刊编委情况研究	中国出版	2015		16	NA	1
+1157	梅鲁海	浙江应用电子产业及人才培养研究	宁波职业技术学院学报	2010		1	NA	1
+1158	孟立军	对加强我国少数民族社区文化建设的思考	贵州民族研究	1996		4	NA	1
+1159	孟连生	引文分析方法在科技期刊评价工作中的应用	编辑学报	1999		4	NA	1
+1160	孟万金	论积极心理健康教育	教育研究	2008		5	NA	1
+1161	孟万金	人本特教宣言——改革开放30年暨《中国特殊教育》100期纪念	中国特殊教育	2008		10	NA	1
+1162	孟微	我国情报学科研合著网络研究及其特征参数分析	情报理论与实践	2009		8	NA	1
+1163	苗美娟	近五年我国公共文化服务研究综述	图书馆论坛	2016		2	NA	1
+1164	闵学勤	政府的强势与弱势:基于社会治理视角的思考与研究	上海行政学院学报	2010		3	NA	1
+1165	明均仁	我国基于技术接受模型的移动图书馆用户感知行为研究综述	图书馆论坛	2017		2	NA	1
+1166	缪其浩	竞争情报—国外的发展动向及其对我国的影响	情报理论与实践	1995		1	NA	1
+1167	缪小燕	从《学报》引文看期刊馆藏建设	农业图书情报学刊	1996		3	NA	1
+1168	牟兰	把握时代脉搏，满足读者阅读需求	图书馆	2007		5	NA	1
+1169	南京大学中国社会科学评价中心	文科信息查询的主要工具，社会科学研究评价的重要利器——中文社会科学引文索引	光明日报	03	14	B4	NA	1
+1170	南京医科大学图书馆	汤森路透在线培训:InCites讲座与在线演示	2012	NA	NA	NA	NA	1
+1171	倪丽娟	档案学研究热点分析——基于2004—2008年《档案学研究》、《档案学通讯》论文关键词的词频分析	档案学通讯	2010		1	NA	1
+1172	倪绍祥	区域土地资源优化配置及其可持续利用	农村生态环境	1999	15	2	NA	1
+1173	聂锦芳	澄清对马克思文本研究的三重误解:马克思主义哲学论丛,2015	NA	NA	NA	NA	NA	1
+1174	聂应高	国内图书情报领域“云”研究现状剖析——基于CNKI核心期刊的文献计量与内容分析	图书馆学研究	2015		16	NA	1
+1175	牛占文	基于精益生产的制造业企业管理创新模式探讨	天津大学学报(社会科学版)	2014	20	6	NA	1
+1176	欧石燕	本体与关联数据驱动的图书馆信息资源语义整合方法及其测评	图书情报工作	2014	58	2	NA	1
+1177	欧阳坚	文化产业政策与文化产业发展研究	北京:中国经济出版社	NA	NA	NA	NA	1
+1178	潘黎	国际高等教育研究代表人物和学术团体思想的可视化探析——基于《Higher Education》等8种SSCI期刊作者共被引的分析	中国高教研究	2012		6	NA	1
+1179	潘黎	近十年来教育研究的热点领域和前沿主题——基于八种教育学期刊2000—2009年刊载文献关键词共现知识图谱的计量分析	教育研究	2011		2	NA	1
+1180	庞景安	科学计量学研究方法论	北京:科学技术文献出版社，1999	NA	NA	NA	NA	1
+1181	庞景安	科学计量学研究方法论	科学技术文献出版社,1999	NA	NA	NA	NA	1
+1182	庞景安	科学计量研究方法论	北京:科学技术文献出版社，1999:	NA	NA	NA	NA	1
+1183	庞景安	科学计量研究方法论	北京:科学技术文献出版社，2002:	NA	NA	NA	NA	1
+1184	庞维国	我国大学生学习拖延的现状与成因研究	清华大学教育研究	2009		12	NA	1
+1185	彭国甫	深化中国政府绩效评估研究需要新的视野	湖南师范大学社会科学学报	2007		1	NA	1
+1186	彭红光	高校数字图书馆个性化服务系统研究:学位论文	广州:华南师范大学,2005	NA	NA	NA	NA	1
+1187	彭靖里	技术竞争情报研究与应用的起源、演化及其差距	图书情报工作	2009	53	4	NA	1
+1188	彭明辉	对《建筑结构学报》论文作者研究	建筑结构学报	1992	13	2	NA	1
+1189	彭希哲	人口因素与城市综合竞争力——对上海城市发展的一项研究	中国人口科学	2002		6	NA	1
+1190	彭晓东	SSCI收录的图书馆学情报学期刊研究	图书情报工作	2010		4	NA	1
+1191	彭晏飞	基于遗传算法和SVM的遥感图像检索	小型微型计算机系统	2016		4	NA	1
+1192	彭兆荣	旅游与人类学	思想战线	2008	34	4	NA	1
+1193	皮亚杰,让	儿童心理学	北京:商务印书馆	NA	NA	NA	NA	1
+1194	蒲永馨	特殊教育学	福州:福建教育出版社	NA	NA	NA	NA	1
+1195	普赖斯,D	大科学小科学	北京:世界科学出版社	NA	NA	NA	NA	1
+1196	齐二石	管理创新成功之路	北京:清华大学出版社	NA	NA	NA	NA	1
+1197	祁思妍	北京师范大学2001年博士论文参考文献引文分析	图书馆工作与研究	2002	24	S1	NA	1
+1198	钱贺进	“无用”论文激增现象透析	中国人才	2012		12	NA	1
+1199	钱家麟	世界油页岩资源利用和发展趋势	吉林大学学报(地球科学版)	2006		6	NA	1
+1200	钱军	情报研究方法的聚类分析	情报科学	2006		10	NA	1
+1201	钱学森	现代科学技术	人民日报	12	09	NA	NA	1
+1202	钱中文	文学理论现代性问题	文学评论	1999		2	NA	1
+1203	乔冬梅	国外学术交流开放存取发展综述	图书情报工作	2004		11	NA	1
+1204	秦长江	知识图谱——信息管理与知识管理的新领域	大学图书馆学报	2009	27	1	NA	1
+1205	秦长江	知识图谱——信息管理与知识管理的新领域	大学图书馆学报	2009	27	1	NA	1
+1206	清华同方知网(北京)技术有限公司	中国学术期刊文献评价统计分析系统	2008	NA	NA	NA	NA	1
+1207	邱均平	1999—2008年国内数字图书馆研究论文的计量分析	情报杂志	2010	29	2	NA	1
+1208	邱均平	2004年国内外情报学研究重点及其演进	图书馆论坛	2005	25	6	NA	1
+1209	邱均平	改革开放30年来我国情报学研究的回顾与展望(三)——情报学的发展阶段及趋势分析	图书情报研究	2009	2	2	NA	1
+1210	邱均平	国外图书情报领域可视化研究之分析	情报理论与实践	2013		1	NA	1
+1211	邱均平	海峡两岸图书情报学教育理念的比较研究	国家图书馆学刊	2007		2	NA	1
+1212	邱均平	基于CSSCI的国内知识管理领域作者共被引分析	情报科学	2011	10	29	NA	1
+1213	邱均平	基于CSSCI的图书馆、情报与档案管理一级学科文献计量评价研究	中国图书馆学报	2006		1	NA	1
+1214	邱均平	基于引文分析的竞争情报研究现状探析	情报学报	2010	29	4	NA	1
+1215	邱均平	基于知识图谱的知识网络研究可视化分析	情报科学	2013		12	NA	1
+1216	邱均平	基于资源本体的馆藏资源语义化研究	图书馆论坛	2013		6	NA	1
+1217	邱均平	美国《科学引文索引》与科学评价研究	科研管理	2003		4	NA	1
+1218	邱均平	网络信息计量学的文献计量规律及发展现状研究	图书馆论坛	2009		6	NA	1
+1219	邱均平	文献计量内容分析法	北京:国家图书馆出版社	NA	NA	NA	NA	1
+1220	邱均平	文献计量学	北京:科学技术文献出版社,1988	NA	NA	NA	NA	1
+1221	邱均平	文献计量学	武汉:武汉大学出版社，1985	NA	NA	NA	NA	1
+1222	邱均平	文献计量学的定义及其研究对象	图书馆学通讯	1986		2	NA	1
+1223	邱均平	我国高等教育质量研究论文的计量分析	中国高教研究	2013		2	NA	1
+1224	邱均平	我国文献计量学发展的回顾与展望	科学学研究	2003		2	NA	1
+1225	邱均平	信息计量学（十） 第十讲 计算机辅助文献信息计量分析方法与工具	情报理论与实践	2001		4	316-320	1
+1226	邱均平	信息计量学（一）:第一讲，信息计量学的兴起和发展	情报理论与实践	2000		1	75—80	1
+1227	邱均平	信息计量学(一)第一讲信息计量学的兴起和发展	情报理论与实践	2000		1	NA	1
+1228	邱均平	知识交流研究现状可视化分析	中国图书馆学报	2012	38	2	NA	1
+1229	邱均平	作者合作程度与科研产出的相关性分析——基于“图书情报档案学”高产作者的计量分析	科技进步与对策	2011	28	5	NA	1
+1230	邱均平	作者合作程度与科研产出的相关性分析——基于图书情报档案学高产作者的计量分析	科技进步与对策	2011		5	NA	1
+1231	邱俊平	信息计量学	武汉:武汉大学出版社	NA	NA	NA	NA	1
+1232	邱仁宗	成功之路——科学发现的模式	北京:人民出版社	NA	NA	NA	NA	1
+1233	屈宝强	近十年我国文献计量学研究述评	情报理论与实践	2003		5	423-425	1
+1234	屈华	我国非物质文化遗产理论研究述评	文学界(理论版)	2010		4	NA	1
+1235	全国高等学校学生信息咨询与就业指导中心	高等院校信息库	2008	NA	NA	NA	NA	1
+1236	全国哲学社会科学规划办公室	2012年度国家社会科学基金项目申报说明	2013	NA	NA	NA	NA	1
+1237	群众冬季运动推广普及计划(2016-2020年)	NA	NA	NA	NA	NA	NA	1
+1238	任汴	《中国科技期刊研究》论文及文献源评析	中国科技期刊研究	1999	10	4	267-268	1
+1239	任福珍	协同学理论与情报信息交流系统	图书情报工作	2001		8	NA	1
+1240	任贵生	欧盟缩小数字鸿沟的策略及对我们的启示	管理世界	2006		5	NA	1
+1241	任红娟	基于文献计量的科学知识图谱发展研究	情报杂志	2009	28	12	NA	1
+1242	任胜利	2014年我国英文版科技期刊发展回顾	科技与出版	2015		2	NA	1
+1243	任胜利	应慎重使用期刊的影响因子评价科研成果	科学通报	2000		2	NA	1
+1244	任胜利	应慎重使用期刊的影响因子评价科研成果	科学通报	2000	45	2	NA	1
+1245	任胜利	有关精品科技期刊发展战略的思考	编辑学报	2005	17	6	393-395	1
+1246	任树怀	信息共享空间在美国大学图书馆的发展与启示	大学图书馆学报	2006		3	NA	1
+1247	任越	从观念到理论——档案双元价值论的演变轨迹研究	档案学研究	2012		1	NA	1
+1248	任智军	科技文本的可视化分析研究	北京理工大学学报（文科版）	2007	9	1	NA	1
+1249	萨顿,乔治	科学的生命	上海:上海交通大学出版社	NA	NA	NA	NA	1
+1250	沙红	通过引文分析看我国教育理论发展的现状	教育理论与实践	1994		6	NA	1
+1251	沙勇忠	信息分析	北京:科学出版社	NA	NA	NA	NA	1
+1252	尚智丛	科学社会学——方法与理论基础	北京:高等教育出版社	NA	NA	NA	NA	1
+1253	佘双好	当代社会思潮的内涵、特征及其研究意义	学校党建与思想教育	2011		19	NA	1
+1254	佘燕云	教育神经科学研究进展	开放教育研究	2011	17	4	NA	1
+1255	舍恩伯格,迈尔	大数据时代	杭州:浙江人民出版社	NA	NA	NA	NA	1
+1256	沈建通	多元统计与社会网络分析法在知识图谱应用的实证研究	情报杂志	2009	28	8	NA	1
+1257	沈奎林	我国图书馆藏书结构研究论文的定量分析	图书馆	2011		3	NA	1
+1258	沈敏	我国医学期刊种类的现状及发展趋势	中国出版	2008		9	NA	1
+1259	沈筱彦	Web信息检索若干关联挖掘问题的研究:学位论文	北京:北京邮电大学,2009	NA	NA	NA	NA	1
+1260	盛小平	知识管理系统研究综述	图书馆	2003		1	36-57	1
+1261	师昌绪	“科学引文索引(SCI)”——国际上评定科研成果的一种方法	科学通报	1999	42	8	NA	1
+1262	师忠凯	国外知识管理方向学位论文定量分析	新世纪图书馆	2004		4	14-17	1
+1263	施拉姆,卡尔·J_	创业力	上海:上海交通大学出版社	NA	NA	NA	NA	1
+1264	施艳声	《中目》《报索》收录我国预防医学文献分析	医学情报工作	1996	17	4	NA	1
+1265	石俊敏	低碳发展的政策选择与区域响应	北京:科学出版社	NA	NA	NA	NA	1
+1266	石彭辉	基于社会网络分析的网络舆情实证研究	现代情报	2013	33	2	NA	1
+1267	司莉	国外科学数据管理与共享政策调查及对我国的启示	情报资料工作	2013		1	NA	1
+1268	四川省农业厅	发展乡村旅游带动1200万贫困人口脱贫	四川农业科技	2015	45	9	NA	1
+1269	宋健	制造业与现代化	工业工程	2003	6	1	1-10	1
+1270	宋宽峰	论证与解释——政治哲学导论	上海:复旦大学出版社	NA	NA	NA	NA	1
+1271	宋明武	信息素质论	北京:军事科学出版社	NA	NA	NA	NA	1
+1272	宋绍成	信息可视化的基本过程与主要研究领域	情报科学	2004		1	NA	1
+1273	苏力	从法学著述引证看中国法学——中国法学研究现状考察之二	中国法学	2003		2	NA	1
+1274	苏晓珂	基于内容的图像检索技术综述	信阳师范学院学报（自然科学版）	2005		4	478-480	1
+1275	苏新宁	图书馆、情报与文献学研究热点与趋势分析(2000—2004)——基于CSSCI的分析	情报学报	2007		3	NA	1
+1276	苏新宁	我国人文社会科学图书学术影响力分析	东岳论丛	2009		3	NA	1
+1277	苏新宁	中国人文社会科学期刊学术影响力报告（2009版）	北京:中国社会科学出版社	NA	NA	NA	NA	1
+1278	苏新宁	中国人文社会科学学术影响力报告（2000-2004）	北京:中国社会科学出版社，2007	NA	NA	NA	NA	1
+1279	苏新宁	中国人文社会科学学术影响力报告(2001)	北京:高等教育出版社	NA	NA	NA	NA	1
+1280	苏新宁	中国人文社会科学学术影响力报告	北京:中国社会科学出版社	NA	NA	NA	NA	1
+1281	苏新宁	中国人文社会科学学术影响力报告	北京:中国社会科学出版社，2006	NA	NA	NA	NA	1
+1282	苏新宁	中国人文社会科学学术影响力报告	北京:中国社会科学出版社，2006:	NA	NA	NA	NA	1
+1283	苏新宁	中国人文社会科学学术影响力研究报告	北京:中国社会科学出版社，2006	NA	NA	NA	NA	1
+1284	苏新宁	中国社会科学引文索引设计	情报学报	2000		4	NA	1
+1285	苏状	中国视觉文化传播研究发展综述	当代传播	2011		5	NA	1
+1286	孙玉玲	SCIE收录中国生物类期刊学术影响力分析——基于JCR的研究	现代情报	2007		6	NA	1
+1287	孙育华	《图书馆理论与实践》2006年—2008年载文、引文、作者及基金资助分析研究	图书馆理论与实践	2010		1	NA	1
+1288	孙振誉	信息分析导论	北京:清华大学出版社	NA	NA	NA	NA	1
+1289	孙中峰	技术预见在日本	世界科学	2002		7	41-43	1
+1290	谭玉	创客教育研究的现状、热点与趋势——基于2013-2016年CSSCI数据库刊载相关文献的知识图谱分析	现代教育技术	2017		5	NA	1
+1291	汤建民	基于中文数据库的知识图谱绘制方法及应用:以创新研究论文的分析为例	杭州:浙江大学出版社	NA	NA	NA	NA	1
+1292	汤建民	学科知识图谱的绘制及在学科发展监测与评价中的应用	情报理论与实践	2009		10	NA	1
+1293	唐品	《科学引文索引》及其在科研评价中的作用	图书与情报	2005		1	NA	1
+1294	唐雪琳	我国图书情报学研究生教育发展状况及策略探讨	图书情报工作	2004	48	4	NA	1
+1295	陶文昭	论中国学术话语权提升的基本因素	中共中央党校学报	2016		5	NA	1
+1296	滕星	多元文化社会与多元一体化教育	民族教育研究	1997		1	NA	1
+1297	田大芳	国内竞争情报领域高被引期刊论文的定量分析	现代情报	2009	29	7	NA	1
+1298	田授	哈尔滨医科大学年鉴（2001）	哈尔滨:哈尔滨医科大学，2002	NA	NA	NA	NA	1
+1299	田雪原	城镇化还是城市化	人口学刊	2013	35	6	NA	1
+1300	田野	中国体育科学学科发展综合报告(2006-2007)	体育科学	2007		4	NA	1
+1301	田秭援	哈尔滨医科大学年鉴（2001）	哈尔滨:哈尔滨医科大学，2002	NA	NA	NA	NA	1
+1302	托夫勒,阿尔文	第三次浪潮	北京:中信出版社	NA	NA	NA	NA	1
+1303	万锦堃	关注科学评价发展前沿，实践文献计量指标创新——《中国学术期刊综合引证报告》采用的三种文献计量新指标	数字图书馆论坛	2007		3	NA	1
+1304	万锦堃	中国学术期刊综合引证报告（2006版）	北京:科学出版社，2006	NA	NA	NA	NA	1
+1305	万锦堃	中国学术期刊综合引证报告（2007版）	北京:科学出版社，2007	NA	NA	NA	NA	1
+1306	万锦堃	中国学术期刊综合引证报告（2008版）	北京:科学出版社，2008	NA	NA	NA	NA	1
+1307	汪冰	我国文献计量学十年研究与发展(1979-1989)	情报科学	1992		1	NA	1
+1308	汪冰	我国文献计量学十年研究与发展(1979—1989)	情报科学	1992		1	NA	1
+1309	汪传雷	信息行为研究进展	图书情报工作	2011		S1	NA	1
+1310	汪基德	信息技术与深度学习:信息技术教育研究新进展——中国教育技术协会信息技术教育专业委员会第十三届学术年会综述	电化教育研究	2017		11	NA	1
+1311	汪克亮	基于环境压力的长江经济带工业生态效率研究	资源科学	2015	37	7	NA	1
+1312	王波	高校特色资源库构建模式研究	图书馆学研究	2009		9	NA	1
+1313	王波	阅读疗法	北京:海洋出版社	NA	NA	NA	NA	1
+1314	王崇德	文献计基学引论	广西师范大学出版社，1997	NA	NA	NA	NA	1
+1315	王崇德	文献计量学教程	天津:南开大学出版社，1990	NA	NA	NA	NA	1
+1316	王崇德	文献计量学引论	广西师范大学出版社，1997	NA	NA	NA	NA	1
+1317	王崇德	文献计量学引论	桂林:广西师范大学出版社	NA	NA	NA	NA	1
+1318	王春秀	学科主题演化定量分析的理论基础探析	现代情报	2008		6	NA	1
+1319	王聪	翻转课堂教学法在美国:历史、现状与课题	外国教育研究	2015		9	NA	1
+1320	王存文	高等工程教育如何回归工程实践	高等工程教育研究	2012		4	NA	1
+1321	王达	美国互联网金融的发展及中美互联网金融的比较——基于网络经济学视角的研究与思考	国际金融研究	2014	332	12	NA	1
+1322	王大中	建设世界一流大学的战略思考与实践	清华大学教育研究	2003		3	NA	1
+1323	王帆	从教育视角解析媒介素养与信息素养	电化教育研究	2007		3	NA	1
+1324	王芳	信息经济学体系探索	情报学报	2004	23	1	NA	1
+1325	王飞跃	社会计算与数字网络化社会的动态分析	科技导报	2005	23	9	NA	1
+1326	王枫	获取网络学术信息的障碍分析	科技情报开发与经济	2011		29	NA	1
+1327	王凤	简明语文知识辞典	武汉:湖北人民出版社，1983:481-483	NA	NA	NA	NA	1
+1328	王光荣	我国课程与教学论研究现状解析——基于CSSCI课程与教学论研究论文的计量分析	教育导刊	2011		3	NA	1
+1329	王海英	医学期刊学术质量分类评估的实践与分析	中国科技期刊研究	2015	26	12	NA	1
+1330	王宏鑫	关于网络信息老化研究的若干问题	情报理论与实践	2004	27	4	NA	1
+1331	王惠翔	《情报科学》载文被引分析	情报科学	2002	20	2	148-150	1
+1332	王继凯	新世纪以来红军长征研究述评	中共党史研究	2006		5	NA	1
+1333	王继民	我国数字图书馆研究论文(2005—2009)的统计分析	数字图书馆论坛	2010		3	NA	1
+1334	王佳飞	《经济科学》发文作者及引文定量分析	科技情报开发与经济	2004		11	58-59	1
+1335	王佳宁	习近平主持召开中央全面深化改革领导小组第十次会议	2015	NA	NA	NA	NA	1
+1336	王建秀	企业转型升级文献主题分析——基于英文文献的探讨	经济问题探索	2013		12	NA	1
+1337	王景辉	学术期刊载文的学术性评价	编辑学报（增刊）	2001		S1	NA	1
+1338	王景文	由对医学图书馆学论文的计量分析看我国医学图书馆学研究的发展	医学信息学杂志	2010		7	NA	1
+1339	王璟	基于知识图谱的《体育科学》研究前沿和热点	体育成人教育学刊	2011		3	NA	1
+1340	王璟	基于知识图谱的体育科学研究前沿和热点	体育成人教育学刊	2011	27	3	NA	1
+1341	王玖	由期刊论文合著率的变化谈不实合著署名现象	中国科技期刊研究	2003		2	NA	1
+1342	王军	中国经济学学术期刊的评价	世界经济	2010		12	NA	1
+1343	王来华	舆情研究概论理论、方法与现实热点	天津:天津社会科学出版社	NA	NA	NA	NA	1
+1344	王蕾	微课在教育领域的研究:回顾与反思——基于内容分析视角的现状和趋势分析	现代教育技术	2015		6	NA	1
+1345	王立名	科学技术期刊编辑教程	北京:人民军医出版社，1999:	NA	NA	NA	NA	1
+1346	王珉	学习毛泽东同志彻底的革命精神——读《毛泽东选集》第四卷的体会	政法研究	1960		Z1	NA	1
+1347	王琪	国际奥林匹克运动研究前沿的知识图谱分析	西安体育学院学报	2011	28	4	NA	1
+1348	王琪	科学知识图谱及其在体育科学研究中的应用	西安体育学院学报	2010	27	5	NA	1
+1349	王晴	我国MOOCs研究的网络结构与主题聚类——基于Cite Space Ⅲ的知识图谱分析	中国远程教育	2015		5	NA	1
+1350	王善	发展“更多更公平惠及全体人民”的“更好的教育”——学习习近平总书记有关促进教育公平重要讲话	中国校外教育旬刊	2015		9	NA	1
+1351	王仕军	低碳经济研究综述	开放导报	2009		5	NA	1
+1352	王寿兵	产业生态学	北京:化学工业出版社	NA	NA	NA	NA	1
+1353	王素琴	近十年来我国数字图书馆研究综述	现代情报	2005		8	NA	1
+1354	王雯	国外信息素养研究最新动态	高校图书馆工作	2009	29	4	NA	1
+1355	王晓光	基于文献计量的信息资源共享研究综述	情报理论与实践	2006		3	NA	1
+1356	王晓光	信息资源共享效率初探	情报科学	2003		11	NA	1
+1357	王晓光	语义出版的概念与形式	出版发行研究	2011		11	NA	1
+1358	王孝	《图书馆工作与研究》发展历程与特色研究——为创刊三十周年而作	图书馆工作与研究	2009		10	NA	1
+1359	王新才	中国目录学:理论、传统与发展	北京:国家图书馆出版社	NA	NA	NA	NA	1
+1360	王旭光	雾霾治理与经济发展探究	经济视角	2013		8	NA	1
+1361	王学东	基于专利视角的武汉市信息技术产业创新现状研究	现代情报	2017	37	9	NA	1
+1362	王学勤	SCI收录中国期刊的统计与分析	现代情报	2005		10	NA	1
+1363	王洵	科技文献的“半衰期”	情报科学	1980		4	NA	1
+1364	王雁	两次学术革命与大学的两次转型	浙江大学学报（文科版）	2005	35	3	NA	1
+1365	王燕津	“环境教育”概念演进的探寻与透析	比较教育研究	2003		1	NA	1
+1366	王业宁	正确评价基础研究成果	光明日报	01	13	NA	NA	1
+1367	王一川	语言的胜境——外国文学与语言学	海口:海南出版社	NA	NA	NA	NA	1
+1368	王一鸣	加快长江经济带开发开放的构想	中国软科学	1993		6	NA	1
+1369	王毅	近年来毛泽东思想研究述评	中共党史研究	2012		3	NA	1
+1370	王颖	大规模网络开放课程(MOOC)典型项目特征分析及启示	远程教育杂志	2013		4	NA	1
+1371	王颖鑫	ESI指标原理及计算	图书情报工作	2006		9	NA	1
+1372	王应宽	世界著名的三大农业数据库:AGRICOLA、AGRIS、CABI简介	2009	NA	NA	NA	NA	1
+1373	王瑜	知识工程中知识度量、推理与融合的若干关键技术研究:学位论文	上海:复旦大学,2004	NA	NA	NA	NA	1
+1374	王长生	不同逻辑背景对跆拳道运动员直觉思维效果的影响	北京体育大学学报	2009	32	1	NA	1
+1375	王知津	基于ACA方法的我国当代情报学研究领域的识别与变迁研究	情报学报	2012		12	NA	1
+1376	王知津	论知识组织的十大原则	国家图书馆学刊	2012	21	4	NA	1
+1377	王众托	知识管理	北京:科学出版社	NA	NA	NA	NA	1
+1378	王子舟	中国图书馆学教育九十年回望与反思	中国图书馆学报	2009		11	NA	1
+1379	维基百科	语义	2014	NA	NA	NA	NA	1
+1380	卫郭敏	宏观和微观辩证统一的科学整体演化图景——论科学中的稳定性和不确定性	科学学研究	2011		12	NA	1
+1381	魏峰	国内外心理契约研究的新进展	管理科学学报	2005	8	5	NA	1
+1382	魏海燕	中国专利的现状分析及技术创新思考	科技管理研究	2013		1	NA	1
+1383	魏奇锋	国内知识链研究的知识图谱分析	情报科学	2016	34	7	NA	1
+1384	魏瑞斌	社会网络分析在关键词网络分析中的实证研究	情报杂志	2009	28	9	NA	1
+1385	温有奎	网格技术将带来知识管理革命	情报资料工作	2002		25	NA	1
+1386	文庭孝	信息咨询与决策	北京:科学出版社	NA	NA	NA	NA	1
+1387	翁福元	教育政策社会学——教育政策与当地社会思潮之对话	台湾:五南图书出版公司	NA	NA	NA	NA	1
+1388	乌申斯基	人是教育的对象——教育人类学初探	北京:人民教育出版社	NA	NA	NA	NA	1
+1389	邬爱其	国外企业成长理论研究框架探析	外国经济与管理	2002	24	12	NA	1
+1390	邬宁芬	信息共享空间:大学图书馆的机遇与挑战	图书馆杂志	2005	24	11	NA	1
+1391	吴爱芝	信息技术进步与文献计量学发展	现代情报	2016	36	2	NA	1
+1392	吴爱芝	中文核心期刊的地理分布及其变动态势研究	大学图书馆学报	2015	33	3	NA	1
+1393	吴传钧	世纪之交的中国地理学	北京:人民教育出版社，1999:	NA	NA	NA	NA	1
+1394	吴华香	链接分析法——网络计量学方法初探	情报科学	2002		1	NA	1
+1395	吴建中	图书馆VS机构库——图书馆战略发展的再思考	中国图书馆学报	2004		5	NA	1
+1396	吴建中	新常态下图书馆联盟发展的新课题	新世纪图书馆	2015		1	NA	1
+1397	吴金希	公立产业技术研究院与新兴工业化经济体技术能力跃迁——来自台湾工业技术研究院的经验	清华大学学报(哲学社会科学版)	2014	29	3	NA	1
+1398	吴坤艳	1981-2009年比较图书馆学方法论研究综述	图书馆建设	2010		12	NA	1
+1399	吴漂生	从关键词词频看我国读者工作的发展	现代情报	2005		10	NA	1
+1400	吴彤	基础研究评价与国家目标	科学学研究	2002		4	NA	1
+1401	吴慰慈	图书馆学概论	北京:北京图书馆出版社	NA	NA	NA	NA	1
+1402	吴文桢	陕西医药卫生科技期刊审读研究	中国科技期刊研究	2009	20	2	NA	1
+1403	吴向文	2001-2015境内外教师教育研究文献计量分析及其启示	教师教育研究	2016		6	NA	1
+1404	吴炫	什么是真正的理论？	文艺理论研究	2010		4	NA	1
+1405	吴正荆	利用《中国科学引文索引》对我校部属重点学科学术带头人的调查分析	情报科学	1998	16	6	536-540	1
+1406	伍若梅	共词分析与共引分析方法比较研究	情报资料工作	2010		1	NA	1
+1407	伍秀芳	在线优先出版科技文章及其引用分析	中国科技期刊研究	2008	19	3	NA	1
+1408	伍旭升	30年中国畅销书史	北京:中国对外翻译出版公司	NA	NA	NA	NA	1
+1409	武京闽	学术期刊编辑规范需要完善和修改	清华大学学报（文科版）	2007		6	21	1
+1410	西蒙	管理决策新科学	北京:中国社会科学出版社，1982	NA	NA	NA	NA	1
+1411	习近平	决胜全面建成小康社会，夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报告	人民日报	10	28	3	NA	1
+1412	习近平	决胜全面建成小康社会夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报告	人民日报	10	28	NA	NA	1
+1413	习近平	决胜全面建成小康社会夺取新时代中国特色社会主义伟大胜利:党的十九大报告辅导读本	北京:人民出版社,2017	NA	NA	NA	NA	1
+1414	习近平	要让恐怖分子成为过街老鼠	2017	NA	NA	NA	NA	1
+1415	习近平	在全国宣传思想工作会议上的讲话	人民日报	8	20	NA	NA	1
+1416	习近平	在中央民族工作会议暨国务院第六次全国民族团结进步表彰大会发表重要讲话	2015	NA	NA	NA	NA	1
+1417	袭继红	国际合作对论文影响力提升的作用研究——以外科学为例	情报杂志	2015		1	NA	1
+1418	夏清华	商业生态系统“5C模型”与未来研究拓展	经济管理	2015		10	NA	1
+1419	夏征农	辞海(缩印版)	上海:上海辞书出版社	NA	NA	NA	NA	1
+1420	向坚	技术创新绩效评价研究综述	科技进步与对策	2011	28	6	NA	1
+1421	项峰	引领发展的第一动力——如何坚持创新发展	光明日报	1	29	NA	NA	1
+1422	肖沪卫	专利地图方法和应用	上海:上海交通大学出版社	NA	NA	NA	NA	1
+1423	肖珑	数字信息资源的检索与利用	北京:北京大学出版社	NA	NA	NA	NA	1
+1424	肖明	国内信息资源管理研究热点分析	情报科学	2011		4	NA	1
+1425	肖明	国外情报学研究前沿可视化分析:基于JASIS&T(2000—2009年)的引文耦合分析	图书情报工作网刊	2011		2	NA	1
+1426	肖明	基于词频分析的国内情报学研究热点(1998～2007)	情报杂志	2009		8	NA	1
+1427	肖瑞	浅谈社会化媒体的作用	教育理论与实践(学科版)	2011	31	10	NA	1
+1428	肖唐镖	主题、类型和规范:国内政治学研究的状况分析——以近十年复印报刊资料《政治学》中的论文为对象	北京行政学院学报	2005		2	NA	1
+1429	肖婉	混合学习研究领域的前沿、热点与趋势——基于Citespace知识图谱软件的量化研究	电化教育研究	2016		7	NA	1
+1430	谢彩霞	国际科学合作研究状况综述	科研管理	2008	29	3	NA	1
+1431	谢彩霞	科研合作及其科研生产力功能	科学技术与辩证法	2006	23	1	NA	1
+1432	谢海光	互联网内容及舆情深度分析模式	中国青年政治学院学报	2006	25	3	NA	1
+1433	谢康	企业知识分享  学习曲线与国家知识优势	管理科学学报	2002		2	NA	1
+1434	谢维和	我国应该建立自己的教育标准	教育研究	2001		11	NA	1
+1435	谢新洲	数字出版技术	北京:北京大学出版社	NA	NA	NA	NA	1
+1436	熊彼特	经济发展理论	北京:北京出版社	NA	NA	NA	NA	1
+1437	徐峰	认知计算及其对情报科学的影响	情报杂志	2009	28	6	NA	1
+1438	徐金城	清河流域水污染控制工程中英合作研究:第一阶段工作简介	北京水利科技	1990		2	NA	1
+1439	徐敏	新形势下科技情报工作模式的研究	北京理工大学学报(社会科学版)	2005		1	NA	1
+1440	徐文娟	关于中文SCI期刊的困惑与思考	中国科技期刊研究	2010	21	6	NA	1
+1441	徐晓鸽	国际新闻传播中的国家形象问题	新闻与传播研究	1996		2	NA	1
+1442	徐长山	科学研究艺术	北京:解放军出版社，1994	NA	NA	NA	NA	1
+1443	许昌淦	改进对我国科技期刊的评估	中国科技期刊研究	2009	20	5	NA	1
+1444	许海铃	互联网推荐系统比较研究	软件学报	2009		2	NA	1
+1445	许海云	基于专利功效矩阵的技术主题关联分析及核心专利挖掘	情报学报	2014	33	2	NA	1
+1446	许强	《沈阳农业大学学报》发文量及作者统计分析	沈阳农业大学学报（文科版）	2000		4	314-316	1
+1447	许序雅	民族文化内在特性论纲	社会科学	1988		11	NA	1
+1448	薛汉莉	中国跨省经济区科技创新能力评价与政策设计	情报杂志	2013	32	7	NA	1
+1449	颜昌学	科技论文评价不宜“以刊论文”	武汉科技大学学报(社会科学版)	2006		5	NA	1
+1450	彦军_	扬州大学学报（高校研究版）	2001	（3）	NA	NA	NA	1
+1451	杨炳儒	知识发现领域中当今面临的五类重大问题	中国工程科学	2009		4	NA	1
+1452	杨彩霞	《中国科技期刊研究》1998—2007年论文被引分析	中国科技期刊研究	2009	20	1	NA	1
+1453	杨德广	60年来中国高等教育大众化进程	现代大学教育	2009		6	NA	1
+1454	杨海玲	模糊层次分析法在图书馆总体服务质量评价中的应用	现代情报	2010		3	NA	1
+1455	杨华	2000年至2004年《中华物理医学与康复杂志》载文被引分析	中华物理医学与康复杂志	2006	28	1	NA	1
+1456	杨慧芸	对竞技体操相关文献的计量学研究	肇庆学院学报	2008		5	NA	1
+1457	杨建林	利用引文索引数据挖掘学科交叉信息	情报学报	2004	23	6	NA	1
+1458	杨颉	国际研究生教育现状与动态分析	学位与研究生教育	2005		8	NA	1
+1459	杨良斌	跨学科测度指标体系的构建研究	情报杂志	2009	28	7	NA	1
+1460	杨起金	情报学	北京:科学技术文献出版社，1988:	NA	NA	NA	NA	1
+1461	杨世明	论引文索引及评估功能	情报科学	2003		4	NA	1
+1462	杨思洛	基于引文分析的图书影响力研究——以图书情报领域为例	情报资料工作	2010		1	NA	1
+1463	杨思洛	知识图谱研究现状及趋势的可视化分析	情报资料作	2012		4	NA	1
+1464	杨文祥	全球化、信息化与构建和谐世界历史进程中的当代公共信息资源管理	情报科学	2008		3	NA	1
+1465	杨霞	档案服务社会化的六点展望	档案管理	2005		5	NA	1
+1466	杨现民	教育大数据的应用模式与政策建议	电化教育研究	2015		9	NA	1
+1467	杨雅芬	电子政务采纳研究述评:基于公民视角	2013	NA	NA	NA	NA	1
+1468	杨亚莉	政府绩效管理研究综述	科技情报开发与经济	2011		10	NA	1
+1469	杨芷英	思想政治教育心理学研究综述	思想理论教育导刊	2007		11	NA	1
+1470	杨祖国	中国专利被《SCI》来源刊论文引用情况的统计与分析	情报科学	1999	17	4	422—428	1
+1471	姚伟	国外知识交流研究进展	图书情报工作	2011		2	NA	1
+1472	姚远	科技期刊建学的社会基础及学科框架构想	编辑学报	2005	17	5	NA	1
+1473	叶芬斌	技术生态位与技术范式变迁	科学学研究	2012		3	NA	1
+1474	叶桂仓	文化影响与道路选择:我国高教研究学科化的差序格局解释	江苏高教	2017		3	NA	1
+1475	叶继元	学术期刊与学术规范	学术界	2005		4	NA	1
+1476	叶嘉安	中国城市化的第四波	城市规划	2006	30	增刊	NA	1
+1477	叶平浩	国内高等职业教育研究热点与前沿的可视化分析	中国高教研究	2012		9	NA	1
+1478	叶一舵	国内外关于亲子关系及其对儿童心理发展影响的研究	福建师范大学学报(社会科学版)	2002		2	NA	1
+1479	佚名	国务院关于基础教育改革与发展的决定(国发[2001]21号)	2017	NA	NA	NA	NA	1
+1480	易刚	全面参与国际金融体系改革，提高话语权	2011	NA	NA	NA	NA	1
+1481	殷企平	谈“互文性”	外国文学评论	1994		2	NA	1
+1482	殷玉新	自我导向本位教师专业发展:为何与何为	教育理论与实践	2016		7	NA	1
+1483	尹相旭	基于关键词统计的情报学研究现状分析	情报杂志	2009	28	11	NA	1
+1484	应倩	2004—2008年肿瘤学期刊学术影响力变化分析	中国科技期刊研究	2011	22	2	NA	1
+1485	游苏宁	“号脉”科技期刊	光明日报	01	16	16	NA	1
+1486	于光	1994-2002年《中华医院管理杂志》作者统计分析	中华医院管理杂志	2004	20	2	119-122	1
+1487	于光远	谈谈科学学:中国自然辩证法研究会通信,1979	NA	NA	NA	NA	NA	1
+1488	于光远	自然辩证法(数学和自然科学中的哲学问题)十二年(1956—1967)研究规划草案	自然辩证法(自然科学中的哲学问题)研究通讯	1956		1	NA	1
+1489	余菜花	中国低碳研究的知识图谱分析	资源科学	2012	34	10	NA	1
+1490	俞伟超	考古学是什么:俞伟超考古学理论文选	北京:中国社会科学出版社，1996	NA	NA	NA	NA	1
+1491	袁宝华	中国改革大辞典	海口:海南出版社	NA	NA	NA	NA	1
+1492	袁庚申	10年来体育学术期刊研究特征分析与发展展望	首都体育学院学报	2012	24	4	NA	1
+1493	袁军鹏	科学计量学高级教程	北京:科学技术文献出版社	NA	NA	NA	NA	1
+1494	袁莉	大规模开放在线课程的国际现状分析	开放教育研究	2013		3	NA	1
+1495	袁顺波	新世纪图书情报界图像检索研究总况探析——LISA数据库收录文献计量分析	图书情报工作	2005	49	9	40-43	1
+1496	袁振国	反思科学教育	中小学管理	1999		12	NA	1
+1497	岳洪江	管理科学知识扩散网络的结构研究	科学学研究	2008		4	NA	1
+1498	岳剑波	信息管理基础	北京:清华大学出版社	NA	NA	NA	NA	1
+1499	张玢	评价学术影响力的引证分析指标研究综述	医学信息学杂志	2010	31	12	NA	1
+1500	张德	组织行为学	北京:高等教育出版社	NA	NA	NA	NA	1
+1501	张福绥	近现代中国水产养殖业发展回顾与展望	世界科技研究与发展	2003		3	NA	1
+1502	张光宇	技术生态位理论综述	工业工程	2011		4	NA	1
+1503	张昊宇	基于“互联网＋”的传统行业与互联网整合研究——以消费者需求重构为视角	电子商务	2015		32	NA	1
+1504	张红丽	e-Science环境下面向用户科研过程的知识服务研究	情报资料工作	2009		3	NA	1
+1505	张会超	档案学形成时期的外来影响探究	图书情报知识	2010		2	NA	1
+1506	张慧敏	引文分析法的内涵及研究实证	编辑学报	2006	18	S1	NA	1
+1507	张甲	读者决策的图书馆藏书采购藏书建设2	0	中国图书馆学报	2011	NA	NA	1
+1508	张建合	《中国科技期刊研究》高被引论文特征分析	中国科技期刊研究	2011	22	2	NA	1
+1509	张建勋	云计算研究进展综述	计算机应用研究	2010		2	NA	1
+1510	张界明	利用文献计量指标提高科技期刊质量	科技与出版	2008		6	NA	1
+1511	张可云	区域经济政策——理论基础与欧盟国家实践	北京:中国轻工业出版社	NA	NA	NA	NA	1
+1512	张来武	论创新驱动发展	中国软科学	2013		1	NA	1
+1513	张磊	西方技术创新理论的产生与发展综述	科技与经济	2008	21	1	NA	1
+1514	张立厚	剪裁得体，异彩纷呈——评罗式胜教授《文献计量学概论》	图书与情报	1998		4	NA	1
+1515	张利华	国内外科研机构、高等院校的评价	科学对社会的影响	1995		1	NA	1
+1516	张莉	缩短发表时滞，提高论文的时效性	编辑学报	2003	15	5	NA	1
+1517	张明伟	Quick BASIC结构化程序设计	哈尔滨:哈尔滨出版社，1998:	NA	NA	NA	NA	1
+1518	张娜	DeSeCo	项目关于核心素养的研究及启示	教育科学研究	2013	NA	NA	1
+1519	张勤	词频分析法在学科发展动态研究中的应用综述	图书情报知识	2011		2	NA	1
+1520	张勤	国内知识管理结构研究探讨——以共词分析为方法	情报科学	2008		1	NA	1
+1521	张勤	国内知识管理研究结构探讨——以共词分析为方法	情报学报	2008	27	1	NA	1
+1522	张勤	国外知识管理研究范式——以共词分析为方法	管理科学学报	2007	10	6	NA	1
+1523	张琼	《中国临床心理学杂志》1998—2002年论文与作者定量分析	中国临床心理学杂志	2004	12	2	NA	1
+1524	张荣	新环境下同行评议的机制研究:硕士学位论文	武汉:武汉大学,2005	NA	NA	NA	NA	1
+1525	张士靖	信息素养领域演进路径、研究热点与前沿的可视化分析	大学图书馆学报	2010		5	NA	1
+1526	张枢盛	颠覆性创新演进、机理及路径选择研究	商业经济与管理	2013		5	NA	1
+1527	张顺堂	管理科学与工程的学科研究热点与选题	山东工商学院学报	2005		10	NA	1
+1528	张涛	我国民族教育研究的现状与反思:学位论文	重庆:西南大学,2012	NA	NA	NA	NA	1
+1529	张庭伟	1990年代中国城市空间结构的变化及其动力机制	城市规划	2001		7	NA	1
+1530	张威	我国翻译研究现状考察——基于国家社科基金项目（2000-2013）的统计与分析	外语教学与研究	2015		1	NA	1
+1531	张维迎	博弈与社会	北京:北京大学出版社	NA	NA	NA	NA	1
+1532	张维迎	中国电子政务研究报告(2006)	北京:北京大学出版社	NA	NA	NA	NA	1
+1533	张晓林	颠覆数字图书馆的大趋势	中国图书馆学报	2011		9	NA	1
+1534	张晓林	机构知识库的发展趋势与挑战	现代图书情报技术	2014		2	NA	1
+1535	张晓林	走向知识服务:寻找新世纪图书情报工作的生长点	中国图书馆学报	2000		5	NA	1
+1536	张新	管理信息系统	北京:机械工业出版社	NA	NA	NA	NA	1
+1537	张新明	以人为本的信息生态系统构建研究	情报理论与实践	2007	30	4	NA	1
+1538	张秀萍	社会网络在创新领域应用研究的知识图谱——基于CiteSpace的可视化分析	经济管理	2017		10	NA	1
+1539	张学军	对我国7672篇体育人文社会学硕士学位论文的调查分析	体育研究与教育	2012		5	NA	1
+1540	张燕蕾	智库:图书馆发展的新机遇	图书馆学研究	2009		11	NA	1
+1541	张洋	网络信息计量学的兴起及其哲学思考	情报杂志	2005	24	1	NA	1
+1542	张一兵	问题式、症候阅读与意识形态	北京:中央编译出版社	NA	NA	NA	NA	1
+1543	张志安	中国新闻传播学研究的国际发表现状与格局——基于SSCI数据库的研究	新闻与传播研究	2015	22	5	NA	1
+1544	张志强	“出版学”概念的历史考察	编辑学刊	2001		2	NA	1
+1545	张仲礼	近代上海城市研究	上海:上海文艺出版社	NA	NA	NA	NA	1
+1546	张子石	教育技术研究的生命周期及其实证分析	电化教育研究	2015		2	NA	1
+1547	张祖牟	学习障碍研究文献综述	教育科学研究	1997		2	NA	1
+1548	长江流域发展研究院课题组	长江经济带发展战略研究	华东师范大学学报:哲学社会科学版	1998		4	NA	1
+1549	赵宝煦	中国政治学百年历程	东南学术	2000		2	39-44	1
+1550	赵大良	不可思议的现象:网络传播与被引频次的相关性分析	2011	NA	NA	NA	NA	1
+1551	赵丹群	学术期刊评价理论的演变分析	情报资料工作	2013		2	NA	1
+1552	赵党志	共引分析——研究学科及其文献结构和特点的一种有效方法	情报杂志	1993		5	NA	1
+1553	赵刚　	关于中日韩科技合作的战略思考　　　　	中国科技论坛	2006		2	29-31	1
+1554	赵华	UG在我国的研究、应用现状及进展	现代情报	2008		10	NA	1
+1555	赵捷	《编辑学报》创刊20年论文引文分	编辑学报	2009	21	6	NA	1
+1556	赵俊芳	我国大学制度研究热点、趋势及理论基础的知识图谱分析	高等教育研究	2014		9	NA	1
+1557	赵美娣	高校图书馆科研产出及科研能力分析	大学图书馆学报	2007		2	NA	1
+1558	赵美娣	高校图书馆科研产出及科研能力分析	大学图书馆学报	2007	25	2	NA	1
+1559	赵鹏	高校数字图书馆网站建设的研究:学位论文	太原:山西大学,2007	NA	NA	NA	NA	1
+1560	赵蓉英	基于CiteSpace的智库建设研究可视化分析	重庆大学学报(社会科学版)	2016	22	3	NA	1
+1561	赵蓉英	图书馆学知识图谱分析	中国图书馆学报	2011		2	NA	1
+1562	赵微	学习困难儿童的发展与教育	北京:北京大学出版社	NA	NA	NA	NA	1
+1563	赵晓声	创客教育:信息时代催生创新的教育新形态	电化教育研究	2016		4	NA	1
+1564	赵筱媛	世界一流研究型大学中人文社会科学的作用及发展趋势	高等教育研究	2005		10	NA	1
+1565	赵秀君	十年来我国数字图书馆研究统计分析	图书情报工作	2005	49	8	NA	1
+1566	赵永红	高职院校微课教学策略探究	中小企业管理与科技(中旬刊)	2014		2	NA	1
+1567	赵玉鹏	基于知识图谱的美国《科学哲学》研究前沿和热点探讨	科学学研究	2008	26	6	NA	1
+1568	郑刚	中国创新地图——基于文献计量学的我国创新管理研究力量分布研究	科学学研究	2008		2	NA	1
+1569	郑杭生	中国人民大学中国社会发展研究报告	北京:中国人民大学出版社，2002	NA	NA	NA	NA	1
+1570	郑佳之	SCI收录对中国科技期刊国际化实质性影响初探	中国科技期刊研究	2010	20	4	NA	1
+1571	郑俊生	图书馆学科前沿研究分析	情报资料工作	2010		1	NA	1
+1572	郑士纯	桦川县志（卷6）	台北:国立故宫博物院	NA	NA	NA	NA	1
+1573	郑晓华	2005年《高校图书馆工作》载文、作者及引文统计分析	科技咨询导报	2007		9	NA	1
+1574	郑烨	基于知识图谱的国外政府信息公开研究可视化分析	情报科学	2014		8	NA	1
+1575	中共中央	中共中央关于全面深化改革若干重大问题的决定	人民日报	11	6	3	NA	1
+1576	中共中央办公厅	关于加强中国特色新型智库建设的意见	中华人民共和国国务院公报	2015		4	NA	1
+1577	中共中央国务院	中共中央国务院关于切实加强农业基础建设进一步促进农业发展农民增收的若干意见	2008	NA	NA	NA	NA	1
+1578	中国互联网络信息中心（CNNIC）	中国互联网络发展状况统计报告（第16次）	2005	NA	NA	NA	NA	1
+1579	中国互联网络信息中心	2009年中国搜索引擎用户行为研究报告	北京:中国互联网络信息中心,2009	NA	NA	NA	NA	1
+1580	中国互联网络信息中心	中国互联网络发展状况统计报告(2016年)	NA	NA	NA	NA	NA	1
+1581	中国互联网络中心	第39次《中国互联网络发展状况统计报告》	2017	NA	NA	NA	NA	1
+1582	中国科协调研宣传部	中国科技人力资源发展研究	北京:中国科学技术出版社	NA	NA	NA	NA	1
+1583	中国科学技术期刊编辑学会	科学技术期刊编辑教程	北京:人民军医出版社	NA	NA	NA	NA	1
+1584	中国科学技术协会调研宣传部	中国科技人力资源发展研究报告	北京:中国科学技术出版社	NA	NA	NA	NA	1
+1585	中国科学技术信息研究所	2000—2008年度中国科技论文统计与分析	北京:科学技术文献出版社	NA	NA	NA	NA	1
+1586	中国科学技术信息研究所	2003年版中国科技期刊引证报告	北京:中国科学技术信息研究所，2003:	NA	NA	NA	NA	1
+1587	中国科学技术信息研究所	2006年版中国期刊引证报告（扩刊版）	北京:科学技术文献出版社，2006	NA	NA	NA	NA	1
+1588	中国科学技术信息研究所	2006年度中国科技论文统计与分析	北京:科学技术文献出版社	NA	NA	NA	NA	1
+1589	中国科学技术信息研究所	2007年版中国科技期刊引证报告（核心板）	北京:科学技术文献出版社，2007	NA	NA	NA	NA	1
+1590	中国科学技术信息研究所	2009年版中国科技期刊引证报告(核心版)	北京:中国科学技术文献出版社	NA	NA	NA	NA	1
+1591	中国科学技术信息研究所	中国科技论文统计与分析	NA	NA	NA	NA	NA	1
+1592	中国科学院自然科学期刊编辑研究会研究小组	中国科学院科技期刊现状调查与分析	中国科技期刊研究	2006		3	NA	1
+1593	中国人民大学人文社会科学学术成果评价研究中心	复印报刊资料(2016)转载指数排名:哲学学科期刊排名	NA	NA	NA	NA	NA	1
+1594	中国社会科学研究评价中心_	2008	NA	NA	NA	NA	NA	1
+1595	中国社会科学研究评价中心	2008—2009年CSSCI来源期刊遴选结果公告	2007	NA	NA	NA	NA	1
+1596	中国社会科学院文献情报中心	社会科学新词典	重庆:重庆出版社	NA	NA	NA	NA	1
+1597	中国生态补偿机制与政策研究课题组	中国生态补偿机制与政策研究	北京:科学出版社	NA	NA	NA	NA	1
+1598	中国体育科学学会	2006—2007中国体育科学学科发展综合报告	北京:中国科学技术出版社	NA	NA	NA	NA	1
+1599	中国图书馆分类法编辑委员会	中国图书馆分类法	北京:书目文献出版社，1990	NA	NA	NA	NA	1
+1600	中国图书馆学会	图书馆服务宣言	中国图书馆学报	2008		6	NA	1
+1601	中国未来20年技术预见研究组	中国未来20年技术预见	北京:科学出版社	NA	NA	NA	NA	1
+1602	中国新闻网站	国务院印发中国未来十年儿童发展纲要(全文)	2013	NA	NA	NA	NA	1
+1603	中国学术期刊（光盘版）电子杂志社	西北大学学报（哲学社会科学版）学科引用情况统计表	NA	NA	NA	NA	NA	1
+1604	中国学术期刊（光盘版）电子杂志社	中国引文数据库	2006	NA	NA	NA	NA	1
+1605	中国学术期刊电子杂志社	中国期刊全文数据库	2005	NA	NA	NA	NA	1
+1606	钟秉枢	社会转型期我国竞技体育后备人才培养及其可持续发展	北京:北京体育大学出版社	NA	NA	NA	NA	1
+1607	钟辉新	国内近5年云计算研究文献统计与可视化分析——兼论基于“云”的数字图书馆研究热点	情报探索	2012		5	NA	1
+1608	钟伟金	共词分析法研究(一)——共词分析的过程与方式	情报杂志	2008		5	NA	1
+1609	周明	基于宏观视角的产业技术创新团队建设研究	科技进步与对策	2014		11	NA	1
+1610	周霞	国家社科基金论文产出与影响力分析——以2012年社会学论文为例	情报资料工作	2013		5	NA	1
+1611	周晓阳	产学研协同创新绩效评价文献综述	科技管理研究	2014		11	NA	1
+1612	周晓英	信息构建——情报学研究的新热点	情报资料工作	2002		5	NA	1
+1613	周鑫	人文社科类学术期刊发展现状探析——以江苏省社科学术期刊分析为例	西南民族大学学报(人文社会科学版)	2018		1	NA	1
+1614	周岩	中国文化创意产业理论研究现状分析:2005-2011	浙江树人大学学报(人文社会科学版)	2013		3	NA	1
+1615	周志峰	h指数视角的高校学术水平分析	情报杂志	2010		3	NA	1
+1616	朱翠兰	国内区域旅游合作研究综述与展望	乐山师范学院学报	2013	28	3	NA	1
+1617	朱高峰	论工程教育研究与改革	高等工程教育研究	2014		1	NA	1
+1618	朱国仁	我国大学生心理研究的现状及展望	心理学探新	1993		1	NA	1
+1619	朱江玲	中外专利信息网络检索与实例	北京:海洋出版社	NA	NA	NA	NA	1
+1620	朱玲	文献研究的途径	经济研究	2006		2	NA	1
+1621	朱宁	基于OA模式的前提条件和实现方式	情报理论与实践	2006		6	750—754	1
+1622	朱强	中文核心期刊要目总览(2008年版)	北京:北京大学出版社	NA	NA	NA	NA	1
+1623	朱强	中文核心期刊要目总阅(2008年版)	北京:北京大学出版社	NA	NA	NA	NA	1
+1624	朱宛宛	国际新格局下的干细胞研究发展与展望	中国科学院院刊	2009	24	3	NA	1
+1625	朱献有	中国科学计量指标:论文与引文统计	北京:中国科学院文献情报中心，1998	NA	NA	NA	NA	1
+1626	朱献有	中国科学计量指标:论文与引文统计	北京:中国科学院文献情报中心，1999	NA	NA	NA	NA	1
+1627	朱晓峰	生命周期方法论	科学学研究	2004	22	6	NA	1
+1628	朱旭峰	构建中国特色新型智库研究的理论框架	中国行政管理	2014		5	NA	1
+1629	朱毅麟	开展技术成熟度研究	航天标准化	2008		2	NA	1
+1630	朱兆良	我国农业面源污染的控制政策和措施	科技导报	2005		4	NA	1
+1631	祝蓓里	体育心理学新编	华东师范大学出版社，1995	NA	NA	NA	NA	1
+1632	祝西冰	中国家庭政策研究:回顾与相关问题探讨	社会科学研究	2013		4	NA	1
+1633	祝智庭	从美国博士学位论文元分析看教育技术研究趋向	电化教育研究	2002		12	NA	1
+1634	祝智庭	网络教育应用教程	北京:北京师范大学出版社	NA	NA	NA	NA	1
+1635	祝智庭	信息化教育中的逆序创新	电化教育研究	2014		3	NA	1
+1636	庄贵阳	低碳经济引领世界经济发展方向	世界环境	2008		2	NA	1
+1637	庄壮	敦煌音乐舞蹈研究的成果与发展趋势	人民音乐	1997		2	NA	1
+1638	宗乾进	2001—2010年我国图书馆学研究知识图谱——基于知识图谱的当代学科发展动向研究	国家图书馆学刊	2012		2	NA	1
+1639	邹志仁	中文社会科学引文索引（CSSCI）之研制、意义与功能	南京大学学报（文科版）	2000		4	NA	1

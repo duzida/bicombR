@@ -1,0 +1,1754 @@
+
+PT J
+AU 侯海燕, 
+AF 侯海燕, 
+TI Mapping of scientometrics:50 most influential scientometricians
+SO 科学学研究
+LA 
+DT Article
+DE 科学计量学; 科学计量学家; 科学知识图谱; 作者共被引地图
+AB 科学知识图谱:最有影响的50位科学计量学家
+C1 [侯海燕]大连理工大学.网络-信息-科学-经济计量实验.
+RP 
+FU 
+CR Garfield E, 1979, Current Contents, V46:5-10, P0
+   Schubert A, 2002, Scientometrics, V53):3-2, P0
+   Chen,Chaomei, 2002, ASIST, V0, P0
+   Small H, 1973, Journal of the America Society of Information Science, V24):265-26, P0
+   McCain KW, 1991, Journal of the American Society for Information Science, V42, P4):290-29
+   Persson O, 1900, Exploring the analytical potential of comparing citing and cited source items, V0, P0
+   White HD, 1998, Journal of the American Society for Information Science, V49):327-35, P0
+NR 7
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 25
+IS 030
+BP 404
+EP 406
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 朱唯唯, 
+   李俊, 
+   邵旭, 
+AF 朱唯唯, 
+   李俊, 
+   邵旭, 
+TI Hot topics and trend of researches on the science of physical education
+SO 体育学刊
+LA 
+DT Article
+DE 体育学; 标引关键词; 体育学研究热点; 文献计量学
+AB 体育学研究热点和研究趋势
+C1 [朱唯唯]南京大学.体育科学研究所/[李俊]南京大学.体育部/[邵旭]南京大学.中国社会科学研究评价中.
+RP 
+FU 
+CR Su,Xin-Ning, 2001, Online Information Eeview, V0, P0
+   加菲尔德，尤金, 1900, 引文索引法的理论及应用, V0, P0
+   王天军, 2001, 体育科学, V0, P0
+   程刚, 2001, 体育科学, V0, P0
+   邹继豪, 1900, 面向21世纪中国学校体育, V0, P0
+   卢元镇, 1900, 中国体育社会学, V0, P0
+   中国大百科全书出版社编辑部, 1900, 中国大百科全书·体育体育, V0, P0
+   杨俊林, 1998, 体育科学, V0, P0
+   郦金花, 2004, 情报学报, V0, P0
+   任保国, 2006, 体育学刊, V0, P0
+   钟旭, 2000, 情报学报, V0, P0
+   朱唯唯, 2005, 中国体育科技, V0, P0
+   苏新宁, 2006, 情报学报, V0, P0
+   [Anon], 2005, 国家社会科学基金项目历年资助表, V0, P0
+NR 15
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 14
+IS 020
+BP 20
+EP 24
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 李长玲, 
+   翟雪梅, 
+AF 李长玲, 
+   翟雪梅, 
+TI Study on knowledge management in China——based on analysis of theses
+SO 科学学研究
+LA 
+DT Article
+DE 知识管理; 学位论文; 统计分析; 文献计量学
+AB 我国知识管理研究现状——基于学位论文的统计分析
+C1 [李长玲]山东理工大学.科技信息研究所/[翟雪梅]山东理工大学.科技信息研究.
+RP 
+FU 
+CR 师忠凯, 2004, 新世纪图书馆, V0, P0
+   [Anon], 2006, 到哪里攻读硕士博士研究生, V0, P0
+   马费成, 2006, 情报学报, V0, P0
+NR 3
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 25
+IS 060
+BP 1188
+EP 1191
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 雪剑, 
+   叶赛英, 
+   薛志平, 
+AF 雪剑, 
+   叶赛英, 
+   薛志平, 
+TI Study on Papers Carried by ACTA MATHEMATICA SINICA(Chinese edition)
+SO 中国科技期刊研究
+LA 
+DT Article
+DE 数学学报; 文献计量学; 编发论文情况
+AB 《数学学报》（中文版）编发论文情况研究
+C1 [雪剑]浙江科技学院.理学院/[叶赛英]浙江科技学院.理学院/[薛志平]桂林电子工业大学.通信与信息工程.
+RP 
+FU 
+CR 邱均平, 1900, 文献计量学, V0, P0
+   熊琴而, 1994, 力学与实践, V0, P0
+   秦志强, 2001, 应用数学和力学, V0, P0
+   郭金彬, 1900, 中国传统数学思想史, V0, P0
+NR 4
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 18
+IS 010
+BP 69
+EP 72
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 曹晓萍, 
+   张芳琴, 
+AF 曹晓萍, 
+   张芳琴, 
+TI Quantitative Analysis on Articles Carried by Chinese Journal Research of Soil and Water Conservation from 2000 to 2005
+SO 中国科技期刊研究
+LA 
+DT Article
+DE 文献计量学; 戴文分析; 引文分析; 水土保持研究
+AB 《水土保持研究》2000—2005年文献计量分析
+C1 [曹晓萍]西北农林科技大学.水土保持研究编辑部/[张芳琴]咸阳市农牧局.
+RP 
+FU 
+CR 常文静, 2005, 编辑学报, V0, P0
+   黄莉娟, 2001, 情报学报, V0, P0
+   安秀芬, 2003, 中国科技期刊研究, V0, P0
+   段和平, 2004, 临床荟萃, V0, P0
+   吴鹭萍, 2005, 中国医学物理学杂志, V0, P0
+   丁学东, 1900, 文献计量学基础, V0, P0
+   窦春蕊, 2003, 中国科技期刊研究, V0, P0
+   张琼, 2004, 中国临床心理学杂志, V0, P0
+   史春杨, 2007, 中国科技期刊研究, V0, P0
+NR 10
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 15
+IS 040
+BP 605
+EP 607
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 彭绪梅, 
+   许振亮, 
+   刘元芳, 
+AF 彭绪梅, 
+   许振亮, 
+   刘元芳, 
+TI The Knowledge Mapping Analysis on the Research Status of international Entrepreneurial University
+SO 科学学与科学技术管理
+LA 
+DT Article
+DE 创业型大学; 知识图谱; 作者共引分析; 多维尺度分析; 聚类分析
+AB 国际创业型大学研究现状的知识图谱分析
+C1 [彭绪梅]大连理工大学.
+   [许振亮]大连理工大学.
+   [刘元芳]大连理工大学.
+RP 
+FU 
+CR 王雁, 2005, 浙江大学学报（文科版）, V0, P0
+   李世超, 2006, 科学学研究, V0, P0
+   燕凌, 2007, 高等教育研究, V0, P0
+   Small H, 1980, Information Processing and Management, V17:39-50, P0
+   White HD, 1998, Journal of the American Society for Information Science, V49:327-355, P0
+   McCain KW, 1990, Journal of the American Society for Information Science, V41, P6):433-44
+   彭宜新, 2003, 自然辩证法研究, V0, P0
+   Etzkowitz,Henry, 1900, Triple Helix, V0, P0
+   王雁, 2003, 高等教育研究, V0, P0
+NR 9
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 28
+IS 120
+BP 116
+EP 118
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 彭绪梅, 
+   许振亮, 
+   刘元芳, 
+   彭绪娟, 
+AF 彭绪梅, 
+   许振亮, 
+   刘元芳, 
+   彭绪娟, 
+TI International Research Highlights about Entrepreneurial University:A Study Using Co-word Visualisation of Scientometrics
+SO 清华大学教育研究
+LA 
+DT Article
+DE 创业型大学; 关键词共词分析; 科学计量学; 知识图谱
+AB 国外创业型大学研究热点探析:共词可视化视角
+C1 [彭绪梅]大连理工大学.21世纪发展研究中心/[许振亮]大连理工大学.21世纪发展研究中心/[刘元芳]大连理工大学.高等教育研究所/[彭绪娟]东北财经大学.职业技术学.
+RP 
+FU 
+CR OECD, 1900, 以知识为基础的经济, V0, P0
+   王雁, 2005, 浙江大学学报（文科版）, V0, P0
+   李世超, 2006, 科学学研究, V0, P0
+   燕凌, 2007, 高等教育研究, V0, P0
+   Small H, 1980, In formation Processing and Management, V17:39-50, P0
+   White HD, 1998, Journal of the American Society for Information Science, V49:327-355, P0
+   Cottrill CA, 1900, Co-citation analysis of the scientific literature of innovation research traditions, V0, P0
+   McCain KW, 1990, Journal of the American Society for Information Science, V6:433-443, P0
+   彭宜新, 2003, 自然辩证法研究, V0, P0
+   埃茨科威兹，亨利, 1900, 三螺旋:大学·产业·政府三元一体的创新战略, V0, P0
+   王雁, 2003, 高等教育研究, V0, P0
+NR 11
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 
+IS 060
+BP 95
+EP 100
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 舒正勇, 
+   贾空寒, 
+   贾玉文, 
+   董彦, 
+AF 舒正勇, 
+   贾空寒, 
+   贾玉文, 
+   董彦, 
+TI Bibliographic Coupling Analysis of 6 Core Journals of Library and Information Science
+SO 图书情报工作
+LA 
+DT Article
+DE 论文耦合; 著者耦合; 核心期刊; CNKI; 文献计量学
+AB 基于CNKI的2005年国内6种图书馆学情报学核心期刊论文耦合比较分析
+C1 [舒正勇]辽宁师范大学.管理学院/[贾空寒]辽宁师范大学.管理学院/[贾玉文]辽宁师范大学.管理学院/[董彦]辽宁师范大学.管理学.
+RP 
+FU 
+CR 罗式胜, 1900, 文献计量学引论, V0, P0
+   王学勤, 2006, 情报理论与实践, V0, P0
+NR 2
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 51
+IS 090
+BP 51
+EP 54
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 赵波, 
+   周传敬, 
+AF 赵波, 
+   周传敬, 
+TI Hirsch Index--A New Quantitative Indicator to Evaluate Academic Journal and Development of This Index
+SO 中国科技期刊研究
+LA 
+DT Article
+DE h指数; 文献计量学; 学术期刊评价; A指数; g指数
+AB 评价学术期刊的新文献计量指标——h指数及其发展
+C1 [赵波]北京大学.学报（医学版）编辑部/[周传敬]北京大学.学报（医学版）编辑.
+RP 
+FU 
+CR 方舟子, 2007, 学术评价有新招, V0, P0
+   Hirsch JE, 2005, PNAS, V102, P46):16569-1657
+   Braun T, 2007, A Hirsch-type index for journals, V0, P0
+   万锦堃, 1900, 中国学术期刊综合引证报告（2006版）, V0, P0
+   万锦堃, 2006, 评价与管理, V0, P0
+   刘红, 2006, 中国科技期刊研究, V0, P0
+   Rousseau R, 2007, A case study:evolution of JASIS' Hirsch index, V0, P0
+   Rousseau R, 2007, New developments related to the Hirsch index, V0, P0
+   金碧辉, 2006, 科学观察, V0, P0
+NR 9
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 18
+IS 050
+BP 775
+EP 777
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 陆宏弟, 
+   章黉, 
+AF 陆宏弟, 
+   章黉, 
+TI A Comparative Study of the Social Sciences and Humanities Researches between Universities in Hong Kong and Taiwan——Based on the Quantitative Analysis of the Literature Indexed in SSCI and A&HCI
+SO 情报科学
+LA 
+DT Article
+DE 社会科学研究; 定量分析; 文献计量学; 高等学校
+AB 港台高校人文社会科学研究现状比较——基于文献被SSCI、A&HCI收录情况的定量分析
+C1 [陆宏弟]上海交通大学.图书馆/[章黉]上海交通大学.外国语学.
+RP 
+FU 
+CR 范并思, 1900, 当代中国社会科学报刊文献分析, V0, P0
+   ISI, 2006, SSCI和A&HCI, V0, P0
+   任元彪, 2003, 自然辩证法研究, V0, P0
+   中国图书馆分类法编辑委员会, 1900, 中国图书馆分类法（第4版）, V0, P0
+NR 4
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 25
+IS 040
+BP 557
+EP 561
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 崔瑞琴, 
+AF 崔瑞琴, 
+TI 
+SO 图书馆理论与实践
+LA 
+DT Article
+DE 文献计量学; 引文分析; 机构评价; 网络计量学
+AB 对于文献计量学发展中若干问题的认识与思考
+C1 [崔瑞琴]中国科学院国家科学图书馆.
+RP 
+FU 
+CR 曹学艳, 2004, 图书情报工作, V0, P0
+   邱均平, 1900, 文献计量学, V0, P0
+   丁学东, 1900, 文献计量学基础, V0, P0
+   盖斯勒，埃利泽, 1900, 科学技术测度体系, V0, P0
+   雷迭斯多夫，洛埃特, 1900, 科学计量学的挑战:科学交流的发展、测度和自组织, V0, P0
+   谈大军, 2005, 情报理论与实践, V0, P0
+   金碧辉, 2004, 科学学与科学技术管理, V0, P0
+   邱均平, 2003, 科研管理, V0, P0
+   史兴卿, 2005, 情报科学, V0, P0
+   李红梅, 2001, 情报杂志, V0, P0
+   Vanraan AFJ, 2005, Scientometrics, V1, P0
+   高俊宽, 2005, 图书情报知识, V0, P0
+   马建华, 2003, 大学图书馆学报, V0, P0
+   李昌佳, 2000, 出版发行研究, V0, P0
+   文庭孝, 2005, 图书情报知识, V0, P0
+NR 15
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 
+IS 060
+BP 51
+EP 54
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 金炬, 
+   马峥, 
+   梁战平, 
+AF 金炬, 
+   马峥, 
+   梁战平, 
+TI An Analysis on China-US Cooperation in Science and Technology from the Perspective of China-US Co-authored Papers\' Status
+SO 科学学与科学技术管理
+LA 
+DT Article
+DE 科学引文索引; 文献计量学; 国际科技合作; 中美合著论文
+AB 从中美合著论文状况看中美科技合作
+C1 [金炬]北京大学.信息管理系/[马峥]中国科学技术信息研究所.
+   [梁战平]中国科学技术信息研究所.
+RP 
+FU 
+CR 雷迭斯多夫，洛埃特, 1900, 科学计量学的挑战:科学交流的发展、测度和自组织, V0, P0
+   Wagner,Caroline, 1900, Mapping global science using international co-authorships: A comparison of 1990 and 2000, V0, P0
+   Wagner,Caroline, 2005, International Journal of Technology and Globalisation(Geneve), V0, P0
+   Basu,Aparna, 2000, Scientometrics, V0, P0
+NR 6
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 
+IS 050
+BP 41
+EP 47
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 刘莎, 
+AF 刘莎, 
+TI To Analyze the Information of Quoted Passage From the Thesis Published in Huangzhong
+SO 黄钟：中国·武汉音乐学院学报
+LA 
+DT Article
+DE 黄钟; 引文分析; 文献信息; 文献计量学
+AB 《黄钟》刊发论文之引文的信息分析——以2003—2006年期刊为例
+C1 [刘莎]武汉音乐学院.黄钟编辑.
+RP 
+FU 
+CR 范并思, 1999, 浙江学刊, V0, P0
+   周淑芬, 1999, 情报资料工作, V0, P0
+NR 2
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 
+IS 030
+BP 80
+EP 90
+DI 
+PG 11
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 张晓琴, 
+   陈欣然, 
+   吴均, 
+AF 张晓琴, 
+   陈欣然, 
+   吴均, 
+TI Bibliometric Analysis on Development of Seven Chinese Sci-tech Journals on Aquatic Products
+SO 中国科技期刊研究
+LA 
+DT Article
+DE 水产类科技期刊; 文献计量学; 期刊评价
+AB 基于文献计量学分析7种水产类科技期刊的发展现状
+C1 [张晓琴]中国水产科学编辑部.
+   [陈欣然]中国水产科学编辑部.
+   [吴均]中国水产科学编辑部.
+RP 
+FU 
+CR 程维红, 2006, 中国科技期刊研究, V0, P0
+   中国科学技术信息研究所, 1900, 2004-2006年版《中国科技期刊引证报告》, V0, P0
+   Tirgerson DJ, 2005, British Medical Journal, V330:305-307, P0
+   张莉, 2003, 编辑学报, V0, P0
+   中华人民共和国国家科学技术委员会, 1994, 科技期刊学术类质量要求及其评估标准, V0, P0
+   韩志伟, 2004, 编辑学报, V0, P0
+   邱均平, 1900, 文献计量学, V0, P0
+   王晴, 2006, 西南民族大学学报（文科版）, V0, P0
+   于光, 2007, 中国科技期刊研究, V0, P0
+   李继晓, 2006, 中国科技期刊研究, V0, P0
+   姜思铄, 2006, 中国科技期刊研究, V0, P0
+   张九庆, 2006, 中国科技期刊研究, V0, P0
+   刘雪立, 1996, 中国科技期刊研究, V0, P0
+   王汉熙, 1999, 编辑学报, V0, P0
+NR 14
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 18
+IS 060
+BP 977
+EP 980
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 张月红, 
+AF 张月红, 
+TI HistCite:A Brand New Tool for Scientific Document Analysis
+SO 中国科技期刊研究
+LA 
+DT Article
+DE HistCite; 文献计量学; 文献分析工具
+AB HistCite——一个新的科学文献分析工具
+C1 [张月红]浙江大学.学报编辑.
+RP 
+FU 
+NR 0
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 18
+IS 060
+BP 1096
+EP 0
+DI 
+PG 0
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 叶波, 
+AF 叶波, 
+TI China\'s Research Institutes of International Politics and Their Regional Influence
+SO 世界经济与政治论坛
+LA 
+DT Article
+DE 国际政治; CSSCI; 文献计量学
+AB 中国国际政治研究机构和地区影响力分析——基于CSSCI的分析（2001—2005）
+C1 [叶波]南京大学.信息管理.
+RP 
+FU 
+CR 苏新宁, 1900, 中国人文社会科学学术影响力报告, V0, P0
+NR 5
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 
+IS 040
+BP 113
+EP 119
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 邵旭, 
+AF 邵旭, 
+TI Survey of China\'s International Politics Studies and Influence of Academic Journals
+SO 世界经济与政治论坛
+LA 
+DT Article
+DE 国际政治; CSSCI; 文献计量学
+AB 中国国际政治研究概况和期刊学术影响分析——基于CSSCI的分析（2001—2005）
+C1 [邵旭]南京大学.信息管理.
+RP 
+FU 
+CR 黄晓辉, 1900, 当代世界经济与政治, V0, P0
+   [Anon], 2007, 中文社会科学引文索引, V0, P0
+   苏新宁, 1900, 中国人文社会科学学术影响力报告, V0, P0
+NR 7
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 
+IS 040
+BP 96
+EP 103
+DI 
+PG 8
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 陈春, 
+   肖仙桃, 
+   孙成权, 
+AF 陈春, 
+   肖仙桃, 
+   孙成权, 
+TI The Application of Bibliometrics Analysis on the Technology Foresight in Japan
+SO 图书情报工作
+LA 
+DT Article
+DE 文献计量学; 引文分析; 内容分析; 技术预见
+AB 文献计量分析在日本技术预见中的应用
+C1 [陈春]中国科学院国家科学图书馆兰州分馆.
+   [肖仙桃]中国科学院国家科学图书馆兰州分馆.
+   [孙成权]中国科学院国家科学图书馆兰州分馆.
+RP 
+FU 
+CR 孙中峰, 2002, 世界科学, V0, P0
+   中国未来20年技术预见研究组, 1900, 中国未来20年技术预见, V0, P0
+   加菲尔德，尤金, 1900, 引文索引法的理论及应用, V0, P0
+   孙成权, 1900, 国际科学发展态势与中国科学的影响力, V0, P0
+NR 7
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 51
+IS 040
+BP 52
+EP 55
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 吴成福, 
+   毛卉, 
+   吴若旻, 
+AF 吴成福, 
+   毛卉, 
+   吴若旻, 
+TI Statistics and Analysis on the Citation of the Periodical \"Areal Research and Development\" in the Year of 2001-2005
+SO 地域研究与开发
+LA 
+DT Article
+DE 地域研究与开发; 学术论文; 被引频次; 文献计量学
+AB 《地域研究与开发》2001—2005年被引统计与分析
+C1 [吴成福]河南工业大学.学报编辑部/[毛卉]河南省科学院.地理研究所/[吴若旻]河南工业大学.粮油食品学.
+RP 
+FU 
+CR 中国学术期刊（光盘版）电子杂志社, 2006, 中国引文数据库, V0, P0
+   中国学术期刊（光盘版）电子杂志社, 2006, 中国期刊全文数据库, V0, P0
+   中国学术期刊（光盘版）电子杂志社, 2006, 中国博士学位论文全文数据库, V0, P0
+   中国学术期刊（光盘版）电子杂志社, 2006, 中国优秀硕士学位论文全文数据库, V0, P0
+   中国学术期刊（光盘版）电子杂志社, 2006, 中国重要会议论文全文数据库, V0, P0
+NR 5
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 26
+IS 030
+BP 125
+EP 127
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 胡智锋, 
+   李昆, 
+   陈鹏, 
+   李群, 
+   盛捷, 
+AF 胡智锋, 
+   李昆, 
+   陈鹏, 
+   李群, 
+   盛捷, 
+TI 
+SO 当代电影
+LA 
+DT Article
+DE 电视研究; 热点分析; 绿色收视率
+AB 2006年中国电视热点研究分析
+C1 [胡智锋]中国传媒大学.
+   [李昆]中国传媒大学.电视与新闻学院/[陈鹏]中国传媒大学.电视与新闻学院/[李群]中国传媒大学.电视与新闻学院/[盛捷]中国传媒大学.电视与新闻学.
+RP 
+FU 
+CR 赖大仁, 2006, 现代传播, V0, P0
+   王正伦, 2006, 荧屏内外, V0, P0
+   郭大轮, 2006, 中国电视, V0, P0
+   谢耕耘, 2006, 新闻界, V0, P0
+   游洁, 2006, 现代传播, V0, P0
+   叶端秀, 2006, 当代电影, V0, P0
+   侯薇, 2006, 当代电影, V0, P0
+   孟庆薇, 2006, 电视研究, V0, P0
+   陈芳, 2006, 中国电视, V0, P0
+   魏淑青, 2006, 电视研究, V0, P0
+   周思源, 2006, 中国电视, V0, P0
+   陈明, 2006, 视听界, V0, P0
+   陈娟, 2006, 电视研究, V0, P0
+   李向东, 2006, 电视研究, V0, P0
+   张艳秋, 2006, 电视研究, V0, P0
+   许志晖, 2006, 中国电视, V0, P0
+   卢锋, 2006, 电视研究, V0, P0
+   周星, 2006, 当代电视, V0, P0
+   李瑾, 2006, 中国电视, V0, P0
+   曹慎慎, 2006, 当代电视, V0, P0
+   李斌, 2006, 声屏世界, V0, P0
+   王雨萌, 2006, 中国电视, V0, P0
+   张东, 2006, 中国电视, V0, P0
+   盖琪, 2006, 当代电视, V0, P0
+   刘赋, 2006, 学习月刊, V0, P0
+   张琦, 2006, 当代电视, V0, P0
+   夏中南, 2006, 中国电视, V0, P0
+   李文秀, 2006, 中国电视, V0, P0
+   张斌, 2006, 现代传播, V0, P0
+   韩鸿, 2006, 中国电视, V0, P0
+   牛鸿英, 2006, 中国电视, V0, P0
+   谭天, 2006, 中国电视, V0, P0
+   胡智锋, 2006, 南方电视学刊, V0, P0
+   刘江华, 2006, 中国广播电视学刊, V0, P0
+   陈彤, 2006, 中国广播电视学刊, V0, P0
+   周鸿铎, 2006, 广告大观（媒介版）, V0, P0
+   夏文蓉, 2006, 广告大观（媒介版）, V0, P0
+   黄剑平, 2006, 广告大观（媒介版）, V0, P0
+   周兵, 2006, 现代传播, V0, P0
+   沈卫星, 2006, 现代传播, V0, P0
+   张长明, 2006, 中国广播电视学刊, V0, P0
+   朱羽君, 2006, 现代传播, V0, P0
+   林舟, 2006, 电视研究, V0, P0
+   胡智峰, 2006, 广告大观, V0, P0
+   张雅欣, 2006, 中国电视, V0, P0
+   时晨, 2006, 中国电视, V0, P0
+   陈丽, 2006, 现代电视技术, V0, P0
+   谭天, 2006, 中国电视, V0, P0
+   孙晓丽, 2006, 电视研究, V0, P0
+   王甫, 2006, 现代传播:中国传媒大学学报, V0, P0
+   胡忠青, 2006, 今传媒, V0, P0
+   [Anon], 2006, 现代传播, V（1）:1, P0
+   [Anon], 2006, 广告大观（综合版）, V（4）:116, P0
+   李兆丰, 2006, 广告大观（媒介版）, V0, P0
+   尼松多吉, 2006, 现代传播, V0, P0
+   关秀, 2005, 电视研究, V0, P0
+   [Anon], 2006, 荧屏内外, V（4）:10, P0
+   胡智锋, 2006, 电视研究, V0, P0
+   张振华, 2006, 电视研究, V0, P0
+   王永连, （57）, 南方电视学刊, V0, P50
+   蒋英, 2006, 北方传媒研究, V0, P0
+   李洪涛, （59）, 南方电视学刊, V0, P12
+   高扬, 2006, 广告大观（媒介版）, V0, P0
+   [Anon], 2006, 广告大观, V（1）:49, P0
+   李涛, 2006, 广告大观, V0, P0
+   梁晓涛, 2006, 电视研究, V0, P0
+   冉华, 2006, 广告大观, V0, P0
+   金越, 2006, 电视研究, V0, P0
+   杨丽媪, 2006, 广告大观, V0, P0
+   王保银, 2006, 中国广播电视学刊, V0, P0
+   陈玉鹏, 2006, 互联网周刊, V0, P0
+   才婉茹, 2006, 当代电视, V0, P0
+   陆地, 2006, 综艺周刊, V0, P0
+   欧阳国忠, 2006, 北方传媒研究, V0, P0
+   韩彪, 2006, 中国广播电视学刊, V0, P0
+   李磊, 2006, 中国广播影视, V0, P0
+NR 85
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 
+IS 020
+BP 117
+EP 123
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 刘则渊, 
+   梁永霞, 
+   庞杰, 
+AF 刘则渊, 
+   梁永霞, 
+   庞杰, 
+TI 
+SO 科技管理研究
+LA 
+DT Article
+DE 人因工程; 学术群体; 代表人物; 科学知识图谱; 作者共引图谱
+AB 国际人因工程主流学术群体及其代表人物
+C1 [刘则渊]大连理工大学.21世纪发展研究中心/[梁永霞]大连理工大学.21世纪发展研究中心/[庞杰]大连理工大学.21世纪发展研究中.
+RP 
+FU 
+CR 崔卫民, 2002, 南华大学学报（理工版）, V0, P0
+   周前祥, 1998, 航天医学与医学工程, V0, P0
+   杨树春, 1998, 核动力工程, V0, P0
+   刘则渊, 2006, 科学学研究, V0, P0
+   侯海燕, 2006, 科学学研究, V0, P0
+NR 5
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 27
+IS 070
+BP 252
+EP 254
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 陈文爱, 
+   杨璐, 
+   赵瑞刚, 
+AF 陈文爱, 
+   杨璐, 
+   赵瑞刚, 
+TI 
+SO 图书馆工作与研究
+LA 
+DT Article
+DE 研究机构; 科研论文; 文献计量学; 论文评价
+AB 简析科研产出的文献计量学评价方法
+C1 [陈文爱]西安财经学院.图书馆/[杨璐]解放军第四军医大学.图书馆/[赵瑞刚]解放军第四军医大学.图书.
+RP 
+FU 
+CR 丁学东, 1900, 文献计量学基础, V0, P0
+   崔明, 2006, 科技情报开发与经济, V0, P0
+   钱军, 1995, 医学图书馆通讯, V0, P0
+   白崇远, 1995, 图书馆工作与研究, V0, P0
+   范全青, 2006, 统计研究, V0, P0
+NR 5
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 
+IS 040
+BP 73
+EP 74
+DI 
+PG 2
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 邱均平, 
+   赵蓉英, 
+   马瑞敏, 
+   李晔君, 
+AF 邱均平, 
+   赵蓉英, 
+   马瑞敏, 
+   李晔君, 
+TI Theories and Practice in the Course Construction of Bibliometrics and Informetrics
+SO 图书情报知识
+LA 
+DT Article
+DE 文献计量学; 信息计量学; 课程建设
+AB 我国文献计量学信息计量学课程建设的理念与实践
+C1 [邱均平]武汉大学.信息管理学院/[赵蓉英]武汉大学.信息管理学院/[马瑞敏]武汉大学.信息管理学院/[李晔君]武汉大学.信息管理学.
+RP 
+FU 
+CR 邱均平, 1900, 文献计量学, V0, P0
+   邱均平, 1900, 信息计量学, V0, P0
+   宋丽萍, 2004, 图书情报工作, V0, P0
+   邱均平, 1997, 图书情报知识, V0, P0
+   张保明, 1986, 情报学报, V0, P0
+   王崇德, 1996, 情报理论与实践, V0, P0
+   邱均平, 1995, 中国图书馆学报, V0, P0
+NR 8
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 
+IS 030
+BP 56
+EP 59
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 陆宏弟, 
+AF 陆宏弟, 
+TI A Comparison between China and Japan on the Subject of the Present Conditions of Humanities and Social Sciences Studies in Colleges and Universities--A Quantitative Analysis Based on the Information Included in SSCI/A&HCI
+SO 日本学刊
+LA 
+DT Article
+DE 人文社会科学; 定量分析; 文献计量学; 高等学校; 中日比较
+AB 中日高校人文社会科学研究现状比较——SSCI、A&HCI收录情况的定量分析
+C1 [陆宏弟]上海交通大学.图书.
+RP 
+FU 
+CR 范并思, 1900, 当代中国社会科学报刊文献分析, V0, P0
+   中国学术期刊（光盘版）电子杂志社, 2006, 中国期刊全文数据库, V0, P0
+   [Anon], 2006, ISI, V0, P0
+   任元彪, 2003, 自然辩证法研究, V0, P0
+   中国图书馆分类法编辑委员会, 1900, 中国图书馆分类法, V0, P0
+NR 5
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 
+IS 010
+BP 136
+EP 146
+DI 
+PG 11
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 白云, 
+AF 白云, 
+TI China\'s International Politics Scholars and Influence of Their Works
+SO 世界经济与政治论坛
+LA 
+DT Article
+DE 国际政治; CSSCI; 文献计量学
+AB 中国国际政治研究学者及其论著影响力分析——基于CSSCI的分析（2001—2005）
+C1 [白云]南京大学.中国社会科学研究评价中.
+RP 
+FU 
+CR 邹志仁, 2000, 南京大学学报（文科版）, V0, P0
+   苏新宁, 1900, 中国人文社会科学学术影响力报告, V0, P0
+   龚放, 2006, 江苏高教, V0, P0
+   严强, 2006, 江海学刊, V0, P0
+   赵宪章, 2006, 文艺争鸣, V0, P0
+NR 6
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 
+IS 040
+BP 104
+EP 112
+DI 
+PG 9
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 钱晓明, 
+   朱庆华, 
+AF 钱晓明, 
+   朱庆华, 
+TI The current Research Status of Small-world and its Implication for Information Science Study
+SO 情报杂志
+LA 
+DT Article
+DE 小世界; 文献计量学; 情报学
+AB “小世界”研究现状分析及其对情报学研究的意义
+C1 [钱晓明]南京大学.信息管理系/[朱庆华]南京大学.信息管理.
+RP 
+FU 
+CR 陈光旨, 2004, 广西大学学报（自然科学版）, V0, P0
+   朱亚丽, 2005, 图书情报工作, V0, P0
+   司徒俊峰, 2004, 情报杂志, V0, P0
+   周晓英, 2006, 数字图书馆论坛, V0, P0
+   韩毅, 2006, 情报资料工作, V0, P0
+   刘则渊, 2005, 科技管理研究, V0, P0
+   任红娟, 2006, 情报科学, V0, P0
+   周涛, 2005, 物理, V0, P0
+   王婵娟, 2006, 情报科学, V0, P0
+   陈禹, 2005, 系统辩证学学报, V0, P0
+NR 10
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 26
+IS 120
+BP 81
+EP 83
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 关卫屏, 
+   游苏宁, 
+   付晓霞, 
+   李贵存, 
+AF 关卫屏, 
+   游苏宁, 
+   付晓霞, 
+   李贵存, 
+TI Analysis and Strategy for Chinese Medical Journals Self-citation
+SO 中国科技期刊研究
+LA 
+DT Article
+DE 文献计量学; 自引率; 临床医学; 药学; 中医学; 中药学
+AB 国内医药学相关专业期刊自引情况分析及其对策探讨
+C1 [关卫屏]中华医学会杂志社.中华儿科杂志编辑部/[游苏宁]中华医学会杂志社.
+   [付晓霞]中华医学会杂志社.中华儿科杂志编辑部/[李贵存]中华医学会杂志社.中华儿科杂志编辑.
+RP 
+FU 
+CR 任胜利, 2005, 编辑学报, V0, P0
+   莫京, 2005, 中国科技期刊研究, V0, P0
+   张玉华, 2005, 编辑学报, V0, P0
+   中国科学技术信息研究所, 1900, 中国科技期刊引证报告（2005年版）, V0, P0
+   中国科学技术信息研究所, 1900, 2004年度中国科技论文统计结果, V0, P0
+   侯向宇, 2004, 中国科技期刊研究, V0, P0
+   中国科学技术信息研究所, 1900, 中国科技期刊引证报告（2006年版）, V0, P0
+   梅平, 2003, 中国科技期刊研究, V0, P0
+NR 8
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 15
+IS 040
+BP 615
+EP 617
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 王静, 
+   王宏鑫, 
+AF 王静, 
+   王宏鑫, 
+TI Research on Lotka\'s Law
+SO 情报杂志
+LA 
+DT Article
+DE Lotka定律; 科学生产率; 文献计量学
+AB 关于Lotka定律的研究——纪念洛特卡定律创立80周年
+C1 [王静]华中师范大学.中国农村问题研究中心/[王宏鑫]信阳师范学院.图书.
+RP 
+FU 
+CR Lotka AJ, 1926, Journal of the Washington Academy of Sciences, V1926, P0
+   邱均平, 1900, 文献计量学, V0, P0
+   Egghe L, 1986, Scientometrics, V10, P0
+   Egghe L, 1994, JASIS, V45, P6
+   张贤澳, 1992, 情报理论与实践, V0, P0
+   方曙, 1989, 图书情报工作, V0, P0
+   王崇德, 1990, 情报学报, V0, P0
+   Leavens DH, 1953, Econometrics, V21, P0
+   王正兴, 1987, 情报学刊, V0, P0
+   杨峥嵘, 1987, 情报学刊, V0, P0
+   马克思, 1998, 政治经常学批判·导言:马克思恩格斯选集, V0, P0
+   刘大椿, 1985, 自然辩证法通讯, V0, P0
+NR 13
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 26
+IS 040
+BP 94
+EP 96
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 姜春林, 
+AF 姜春林, 
+TI Citation Analysis of Information Science by CSSCI in 2005
+SO 情报科学
+LA 
+DT Article
+DE CSSCI; 情报科学; 引文分析; 文献计量学
+AB 基于CSSCI网络版2005年《情报科学》被引分析
+C1 [姜春林]大连理工大学.21世纪发展研究中.
+RP 
+FU 
+CR 王惠翔, 2002, 情报科学, V0, P0
+   吴曼菊, 2002, 情报科学, V0, P0
+   吕福谦, 2003, 情报科学, V0, P0
+   房艳焱, 2004, 情报科学, V0, P0
+   董小燕, 2004, 情报科学, V0, P0
+   董文鸳, 2005, 情报科学, V0, P0
+   刘宁南, 2006, 情报科学, V0, P0
+   苏新宁, 2006, 情报学报, V0, P0
+NR 8
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 25
+IS 030
+BP 397
+EP 400
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 朱红, 
+   张洪亮, 
+AF 朱红, 
+   张洪亮, 
+TI Exploration of the Changes of Information Science Research from the Articles Published in Information Studies:Theory & Application
+SO 情报理论与实践
+LA 
+DT Article
+DE 情报学; 学科发展; 文献计量学
+AB 从《情报理论与实践》载文情况看情报学研究的嬗变
+C1 [朱红]山西财经大学.信息资源研究所/[张洪亮]山西大学.教育学.
+RP 
+FU 
+CR 成波, 2006, 情报理论与实践, V0, P0
+   庞佳, 2005, 情报理论与实践, V0, P0
+   彭靖里, 2005, 情报理论与实践, V0, P0
+   朱红, 1900, 信息资源管理导论, V0, P0
+   任道忠, 2006, 情报理论与实践, V0, P0
+   程文艳, 2003, 图书馆建设, V0, P0
+   刘旭旭, 2005, 情报理论与实践, V0, P0
+   黄文, 2005, 情报理论与实践, V0, P0
+NR 9
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 30
+IS 030
+BP 342
+EP 346
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 刘则渊, 
+   许振亮, 
+   庞杰, 
+   梁永霞, 
+   侯剑华, 
+   侯海燕, 
+AF 刘则渊, 
+   许振亮, 
+   庞杰, 
+   梁永霞, 
+   侯剑华, 
+   侯海燕, 
+TI Mapping modern engineering fronts and strategies of independence innovation in China
+SO 科学学研究
+LA 
+DT Article
+DE 工程前沿; 科学知识图谱; 自主创新策略
+AB 现代工程前沿图谱与中国自主创新策略
+C1 [刘则渊]大连理工大学.21世纪发展研究中心/[许振亮]大连理工大学.21世纪发展研究中心/[庞杰]大连理工大学.21世纪发展研究中心/[梁永霞]大连理工大学.21世纪发展研究中心/[侯剑华]大连理工大学.21世纪发展研究中心/[侯海燕]大连理工大学.21世纪发展研究中.
+RP 
+FU 
+CR Poser H, 1998, Techne, V4, P2
+   李伯聪, 1900, 工程哲学引论:我造物故我在, V0, P0
+   刘则渊, 1900, 现代科学技术与发展导论, V0, P0
+   Glanzel W, 1996, Scientometrics, V2):195-22, P0
+   刘云, 2001, 管理科学学报, V0, P0
+   Small H, 1973, Journal of the America Society of Information Science, V24):265-26, P0
+   McCain KW, 1991, Journal of the American Society of Information Science, V42, P4):290-29
+   米子川, 1900, 统计软件方法, V0, P0
+   许昌淦, 2004, 科学技术与工程, V0, P0
+   孔昌俊, 1900, 环境科学与工程概论, V0, P0
+   技术预见报告编委会, 1900, 技术预见报告2005, V0, P0
+   中国工程院, 1900, 美国国家工程院工程前沿, V0, P0
+   钱学森, 1957, 科学通报, V0, P0
+   布什，V, 1900, 科学:没有止境的前沿, V0, P0
+   司托克斯，DE, 1900, 基础科学与技术创新:巴斯德象限, V0, P0
+   刘则渊, 2005, 哈尔滨工业大学学报（文科版）, V0, P0
+   国务院, 2006, 国家中长期科学和技术发展规划纲要, V0, P0
+NR 19
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 25
+IS 020
+BP 193
+EP 203
+DI 
+PG 11
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 赵蓉英, 
+   张洋, 
+   邱均平, 
+AF 赵蓉英, 
+   张洋, 
+   邱均平, 
+TI A Study of Basic Issues in Webometrics
+SO 中国图书馆学报
+LA 
+DT Article
+DE 网络信息计量学; 网络文献; 计量学; 文献计量学
+AB 网络信息计量学基本问题研究
+C1 [赵蓉英]武汉大学.信息资源研究中心/[张洋]中山大学.资讯管理系/[邱均平]武汉大学.信息资源研究中.
+RP 
+FU 
+CR 张洋, 2005, 情报杂志, V0, P0
+   Boundaries AM, 1999, Webometrics and the Self-Organization of the Euroepan Information Society, V0, P0
+   李长忠, 2001, 图书情报工作, V0, P0
+   赵启民, 2003, 吉林师范大学学报（自然科学版）, V0, P0
+   李长忠, 2002, 情报科学, V0, P0
+   夏旭, 2001, 图书馆论坛, V0, P0
+   Thelwall M, 2005, Annual Review of Information Science and Technology, V39:81-135, P0
+   邱均平, 2000, 情报理论与实践, V0, P0
+   邱均平, 2005, 高校图书馆工作, V0, P0
+   蒋国华, 2001, 科学学研究, V0, P0
+   牟华, 2002, 情报资料工作, V0, P0
+   钟义信, 1900, 信息科学原理, V0, P0
+   马费成, 1900, 信息资源管理, V0, P0
+   阎建国, 2005, 河北科技图苑, V0, P0
+   姜仁珍, 2004, 现代情报, V0, P0
+   黄晓斌, 武汉大学, 网络文献的知识发现研究:博士学位论文, V0, P0
+   马费成, 1900, 信息管理学基础, V0, P0
+   方卿, 武汉大学, 基于网络的科学信息交流载体整合与过程重构研究:博士学位论文, V0, P0
+NR 20
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 33
+IS 050
+BP 59
+EP 62
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 陈大明, 
+   肖宏, 
+AF 陈大明, 
+   肖宏, 
+TI Bibliographic Research on Hepatitis B Literatures Based on ISI Web of Knowledge
+SO 中国科技期刊研究
+LA 
+DT Article
+DE 乙型肝炎; 文献计量学; 科技期刊
+AB 基于Web of Knowledge的乙型肝炎文献计量研究
+C1 [陈大明]中国科学院上海生命科学研究院.生命科学信息中心/[肖宏]中国科学院上海生命科学研究院.生命科学信息中.
+RP 
+FU 
+CR World Health Organization, 2006, United Nations:World Health Organization,2000, V0, P0
+NR 5
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 18
+IS 050
+BP 802
+EP 808
+DI 
+PG 7
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 金炬, 
+   武夷山, 
+   梁战平, 
+AF 金炬, 
+   武夷山, 
+   梁战平, 
+TI A Summary of Bibliometric Study on International Science and Technology Cooperation
+SO 图书情报工作
+LA 
+DT Article
+DE 科学引文索引; 合著分析法; 文献计量学; 国际科技合作
+AB 国际科技合作文献计量学研究综述——《科学计量学》（Scientometrics)期刊相关论文综述
+C1 [金炬]北京大学.信息管理系/[武夷山]中国科学技术信息研究所.
+   [梁战平]中国科学技术信息研究所.
+RP 
+FU 
+CR DeB Beaver D, 1978, Scientometrics, V1, P1):65-8
+   DeB Beaver D, 1978, Scientometrics, V1, P2):133-14
+   DeB Beaver D, 1978, Scientometrics, V1, P3):231-24
+   Kim,Ki-Wan, 2006, Scientometrics, V0, P0
+   Russell JM, 1995, Scientometrics, V34, P1):45-6
+   Long JS, 1985, Scientometrics, V7, P3-6):255-28
+   Leclerc M, 1994, Scientometrics, V31, P3):261-29
+   Pravdi N, 1986, Scientometrics, V10, P5-6):259-28
+   Basu A, 2001, Scientometrics, V52, P3):379-39
+   Braun T, 1996, Scientometrics, V36, P2):247-25
+   Wilson CS, 2004, Scientometrics, V59, P3):345-38
+   Alami JE, 1992, Scientometrics, V23, P1):249-26
+   Miquel JF, 1994, Scientometrics, V29, P2):271-29
+   Narvaez-Berthelemot N, 2002, Scientometrics, V54, P2):229-24
+   Gaillard J, 1992, Scientometrics, V23, P1):57-7
+   Narvaez-Berthelemot N, 1995, Scientometrics, V34, P1):37-4
+   Basu,Aparna, 2000, Scientometrics, V0, P0
+   Jacqueline L, 2002, Scientometrics, V53, P3):325-33
+   Wang,Yan, 2005, Scientometrics, V0, P0
+   Qin J, 1994, Scientometrics, V29, P2):219-23
+   Laurie A, 2000, Scientometrics, V49, P3):403-41
+   Bordons M, 1996, Scientometrics, V37, P2):279-29
+   Ma,Nan, 2005, Scientometrics, V0, P0
+   Katz JS, 1994, Scientometrics, V31, P1):31-4
+   Thorsteinsdottir OH, 2000, Scientometrics, V49, P1):145-16
+   Godin B, 1996, Scientometrics, V36, P1):59-6
+   Liang,Liming, 2002, Scientometrics, V0, P0
+   Zitt M, 2000, Scientometrics, V47, P3):627-65
+   Okubo Y, 1992, Scientometrics, V25, P2):321-35
+   Melin G, 1996, Scientometrics, V36, P3):363-37
+   Luukkonen,Terttu, 1993, Scientometrics, V0, P0
+NR 32
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 51
+IS 030
+BP 63
+EP 67
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 张洋, 
+AF 张洋, 
+TI The Significant Progress of \"Three-metrics\" Research in China——Evaluation of the Book \"Informetrics\" by Prof.Qiu Junping
+SO 图书情报知识
+LA 
+DT Article
+DE 信息计量学; 文献计量学; 科学计量学; 网络信息计量学
+AB 我国“三计学”研究的重要进展——评邱均平教授的《信息计量学》
+C1 [张洋]中山大学.资讯管理.
+RP 
+FU 
+CR 邱均平, 1900, 信息计量学, V0, P0
+   邱均平, 1900, 文献计量学, V0, P0
+   丁学东, 1900, 文献计量学基础, V0, P0
+   罗式胜, 1900, 文献计量学引论, V0, P0
+   王崇德, 1900, 文献计量学引论, V0, P0
+   梁立明, 1900, 科学计量学:指标·模型·应用, V0, P0
+   庞景安, 1900, 科学计量研究方法论, V0, P0
+   罗式胜, 1900, 科学技术活动指标与评价方法:科技计量学应用, V0, P0
+   Egghe L, 1900, 情报计量学引论, V0, P0
+   张洋, 2005, 情报杂志, V0, P0
+   Brookes BC, 1993, 情报科学, V（3）, P0
+NR 11
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2007
+VL 
+IS 030
+BP 106
+EP 108
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
