@@ -1,0 +1,40 @@
+
+PT J
+AU 梁战平, 
+AF 梁战平, 
+TI Historical COntribution of Information Science and Information Service
+SO 中国信息导报
+LA 
+DT Article
+DE 情报学; 信息爆炸; 情报服务; 文献计量学; 数字化信息资源; 中文数字资源
+AB 情报学和情报工作的历史性贡献
+C1 [梁战平]中国科学技术信息研究所.
+RP 
+FU 
+CR [Anon], 2001, 中信所建所45周年纪念文集（1956－2001）, V0, P0
+   Hahn,Trudi Bellardo, 2003, Bulletin of ASIST, V29, P4
+   国家科学技术委员会科技信息司, 1900, 中国科技信息事业创建40周年文集, V0, P0
+NR 3
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 2004
+VL 
+IS 020
+BP 23
+EP 0
+DI 
+PG 0
+WC 
+SC 
+GA 
+UT 
+ER

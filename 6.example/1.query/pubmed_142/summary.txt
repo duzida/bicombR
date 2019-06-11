@@ -1,0 +1,920 @@
+
+1: Maiti A, Qi Q, Peng X, Yan L, Takabe K, Hait NC. Class I histone deacetylase
+inhibitor suppresses vasculogenic mimicry by enhancing the expression of tumor
+suppressor and anti-angiogenesis genes in aggressive human TNBC cells. Int J
+Oncol. 2019 May 6. doi: 10.3892/ijo.2019.4796. [Epub ahead of print] PubMed PMID:
+31059004.
+
+
+2: Shi Y, Jin J, Wang X, Ji W, Guan X. DAXX, as a Tumor Suppressor, Impacts DNA
+Damage Repair and Sensitizes BRCA-Proficient TNBC Cells to PARP Inhibitors.
+Neoplasia. 2019 Apr 24;21(6):533-544. doi: 10.1016/j.neo.2019.04.001. [Epub ahead
+of print] PubMed PMID: 31029033; PubMed Central PMCID: PMC6484230.
+
+
+3: Ryan D, Paul BT, Koziol J, ElShamy WM. The pro- and anti-tumor roles of
+mesenchymal stem cells toward BRCA1-IRIS-overexpressing TNBC cells. Breast Cancer
+Res. 2019 Apr 24;21(1):53. doi: 10.1186/s13058-019-1131-2. PubMed PMID: 31014367;
+PubMed Central PMCID: PMC6480921.
+
+
+4: Niu L, Fan Q, Yan M, Wang L. LncRNA NRON downregulates lncRNA snaR and
+inhibits cancer cell proliferation in triple negative breast cancer (TNBC).
+Biosci Rep. 2019 Apr 17. pii: BSR20190468. doi: 10.1042/BSR20190468. [Epub ahead 
+of print] PubMed PMID: 30996114.
+
+
+5: He J, Lee HJ, Saha S, Ruan D, Guo H, Chan CH. Inhibition of USP2 eliminates
+cancer stem cells and enhances TNBC responsiveness to chemotherapy. Cell Death
+Dis. 2019 Mar 28;10(4):285. doi: 10.1038/s41419-019-1512-6. PubMed PMID:
+30918246; PubMed Central PMCID: PMC6437220.
+
+
+6: Perri M, Aiello F, Cione E, Carullo G, Amendola L, Mazzotta S, Caroleo MC.
+Investigation of TNBC in vitro Antiproliferative Effects of Versatile
+Pirrolo[1,2-a]quinoxaline Compounds. Front Mol Biosci. 2019 Mar 12;6:12. doi:
+10.3389/fmolb.2019.00012. eCollection 2019. PubMed PMID: 30915341; PubMed Central
+PMCID: PMC6423061.
+
+
+7: Atezolizumab Combo Approved for PD-L1-positive TNBC. Cancer Discov. 2019
+May;9(5):OF2. doi: 10.1158/2159-8290.CD-NB2019-038. Epub 2019 Mar 20. PubMed
+PMID: 30894361.
+
+
+8: Giró-Perafita A, Rabionet M, Planas M, Feliu L, Ciurana J, Ruiz-Martínez S,
+Puig T. EGCG-Derivative G28 Shows High Efficacy Inhibiting the
+Mammosphere-Forming Capacity of Sensitive and Resistant TNBC Models. Molecules.
+2019 Mar 15;24(6). pii: E1027. doi: 10.3390/molecules24061027. PubMed PMID:
+30875891; PubMed Central PMCID: PMC6471537.
+
+
+9: Uscanga-Perales GI, Santuario-Facio SK, Sanchez-Dominguez CN, Cardona-Huerta
+S, Muñoz-Maldonado GE, Ruiz-Flores P, Barcenas-Walls JR, Osuna-Rosales LE,
+Rojas-Martinez A, Gonzalez-Guerrero JF, Valero-Gomez J, Gomez-Macias GS,
+Barbosa-Quintana A, Barboza-Quintana O, Garza-Guajardo R, Ortiz-Lopez R. Genetic 
+alterations of triple negative breast cancer (TNBC) in women from Northeastern
+Mexico. Oncol Lett. 2019 Mar;17(3):3581-3588. doi: 10.3892/ol.2019.9984. Epub
+2019 Jan 29. PubMed PMID: 30867801; PubMed Central PMCID: PMC6396222.
+
+
+10: Ramalingam S, Ramamurthy VP, Gediya LK, Murigi FN, Purushottamachar P, Huang 
+W, Choi EY, Zhang Y, Vasaitis TS, Kane MA, Lapidus RG, Njar VCO. The Novel Mnk1/2
+Degrader and Apoptosis Inducer VNLG-152 Potently Inhibits TNBC Tumor Growth and
+Metastasis. Cancers (Basel). 2019 Mar 3;11(3). pii: E299. doi:
+10.3390/cancers11030299. PubMed PMID: 30832411; PubMed Central PMCID: PMC6468747.
+
+
+11: El-Layeh RA, Youness RA, Askary H, Abdelmotaal A, Assal RA. 36PStructural
+diversity of the cardenolide calotropin renders it as a targeted therapy for
+harnessing TNBC progression through tuning nitric oxide (NO) levels. Ann Oncol.
+2019 Feb 1;30(Supplement_1). pii: mdz026.007. doi: 10.1093/annonc/mdz026.007.
+PubMed PMID: 30810184.
+
+
+12: Rice SR, Feigenberg SJ, Hamza M, Molitoris JK, Bentzen SM, Tkaczuk KHR,
+Rosenblatt PM, Bellavance EC, Nichols EM. Trends in utilization of
+hypofractionated whole breast irradiation (HF-WBI) in triple negative breast
+cancer (TNBC): a national cancer database (NCDB) analysis. Breast Cancer Res
+Treat. 2019 Feb 22. doi: 10.1007/s10549-019-05150-x. [Epub ahead of print] PubMed
+PMID: 30796656.
+
+
+13: Wu C, Chen M, Zhang Q, Yu L, Zhu J, Gao X. Genomic and GeneChip expression
+profiling reveals the inhibitory effects of Amorphophalli Rhizoma in TNBC cells. 
+J Ethnopharmacol. 2019 May 10;235:206-218. doi: 10.1016/j.jep.2019.02.004. Epub
+2019 Feb 4. PubMed PMID: 30731183.
+
+
+14: Wu L, Meng F, Dong L, Block CJ, Mitchell AV, Wu J, Jang H, Chen W, Polin L,
+Yang Q, Dou QP, Wu G. Disulfiram and BKM120 in Combination with Chemotherapy
+Impede Tumor Progression and Delay Tumor Recurrence in Tumor Initiating Cell-Rich
+TNBC. Sci Rep. 2019 Jan 18;9(1):236. doi: 10.1038/s41598-018-35619-6. PubMed
+PMID: 30659204; PubMed Central PMCID: PMC6338744.
+
+
+15: López-Ozuna VM, Hachim IY, Hachim MY, Lebrun JJ, Ali S. Prolactin modulates
+TNBC aggressive phenotype limiting tumorigenesis. Endocr Relat Cancer. 2019 Jan
+1. pii: ERC-18-0523.R1. doi: 10.1530/ERC-18-0523. [Epub ahead of print] PubMed
+PMID: 30640712.
+
+
+16: Yi D, Xu L, Luo J, You X, Huang T, Zi Y, Li X, Wang R, Zhong Z, Tang X, Li A,
+Shi Y, Rao J, Zhang Y, Sang J. Germline TP53 and MSH6 mutations implicated in
+sporadic triple-negative breast cancer (TNBC): a preliminary study. Hum Genomics.
+2019 Jan 10;13(1):4. doi: 10.1186/s40246-018-0186-y. PubMed PMID: 30630526;
+PubMed Central PMCID: PMC6327518.
+
+
+17: Sidaway P. Setting dictates efficacy of pembrolizumab in TNBC. Nat Rev Clin
+Oncol. 2019 Feb;16(2):66. doi: 10.1038/s41571-018-0157-1. PubMed PMID: 30573793.
+
+
+18: PD-L1 Inhibitor Improves Survival in TNBC. Cancer Discov. 2019 Jan;9(1):OF5. 
+doi: 10.1158/2159-8290.CD-NB2018-154. Epub 2018 Nov 21. PubMed PMID: 30464002.
+
+
+19: Camorani S, Fedele M, Zannetti A, Cerchia L. TNBC Challenge: Oligonucleotide 
+Aptamers for New Imaging and Therapy Modalities. Pharmaceuticals (Basel). 2018
+Nov 13;11(4). pii: E123. doi: 10.3390/ph11040123. Review. PubMed PMID: 30428522; 
+PubMed Central PMCID: PMC6316260.
+
+
+20: Zhang L, Du Y, Xu S, Jiang Y, Yuan C, Zhou L, Ma X, Bai Y, Lu J, Ma J.
+DEPDC1, negatively regulated by miR-26b, facilitates cell proliferation via the
+up-regulation of FOXM1 expression in TNBC. Cancer Lett. 2019 Feb 1;442:242-251.
+doi: 10.1016/j.canlet.2018.11.003. Epub 2018 Nov 9. PubMed PMID: 30419349.
+
+
+21: Romero D. Benefit in patients with PD-L1-positive TNBC. Nat Rev Clin Oncol.
+2019 Jan;16(1):6. doi: 10.1038/s41571-018-0127-7. PubMed PMID: 30401935.
+
+
+22: Liu Y, Zhao Y, Wei Z, Tao L, Sheng X, Wang S, Chen J, Ruan J, Liu Z, Cao Y,
+Shan Y, Wang A, Chen W, Lu Y. Targeting Thioredoxin System with an Organosulfur
+Compound, Diallyl Trisulfide (DATS), Attenuates Progression and Metastasis of
+Triple-Negative Breast Cancer (TNBC). Cell Physiol Biochem. 2018;50(5):1945-1963.
+doi: 10.1159/000494874. Epub 2018 Nov 5. PubMed PMID: 30396169.
+
+
+23: Xiong G, Stewart RL, Chen J, Gao T, Scott TL, Samayoa LM, O'Connor K, Lane
+AN, Xu R. Collagen prolyl 4-hydroxylase 1 is essential for HIF-1α stabilization
+and TNBC chemoresistance. Nat Commun. 2018 Oct 26;9(1):4456. doi:
+10.1038/s41467-018-06893-9. PubMed PMID: 30367042; PubMed Central PMCID:
+PMC6203834.
+
+
+24: Chen L, Zhang J, Lyu Z, Chen Y, Ji X, Cao H, Jin M, Zhu J, Yang J, Ling R,
+Xing J, Ren T, Lyu Y. Positive feedback loop between mitochondrial fission and
+Notch signaling promotes survivin-mediated survival of TNBC cells. Cell Death
+Dis. 2018 Oct 15;9(11):1050. doi: 10.1038/s41419-018-1083-y. PubMed PMID:
+30323195; PubMed Central PMCID: PMC6189045.
+
+
+25: Huo J, Chen X, Zhang H, Hu Y, Jiang Y, Liu S, Zhang X. Bcl-3 promotes
+proliferation and chemosensitivity in BL1 subtype of TNBC cells. Acta Biochim
+Biophys Sin (Shanghai). 2018 Nov 1;50(11):1141-1149. doi: 10.1093/abbs/gmy117.
+PubMed PMID: 30289427.
+
+
+26: Kedan A, Verma N, Saroha A, Shreberk-Shaked M, Müller AK, Nair NU, Lev S.
+PYK2 negatively regulates the Hippo pathway in TNBC by stabilizing TAZ protein.
+Cell Death Dis. 2018 Sep 24;9(10):985. doi: 10.1038/s41419-018-1005-z. PubMed
+PMID: 30250159; PubMed Central PMCID: PMC6155151.
+
+
+27: Nguyen K, Yan Y, Yuan B, Dasgupta A, Sun J, Mu H, Do KA, Ueno NT, Andreeff M,
+Battula VL. ST8SIA1 Regulates Tumor Growth and Metastasis in TNBC by Activating
+the FAK-AKT-mTOR Signaling Pathway. Mol Cancer Ther. 2018 Dec;17(12):2689-2701.
+doi: 10.1158/1535-7163.MCT-18-0399. Epub 2018 Sep 20. PubMed PMID: 30237308;
+PubMed Central PMCID: PMC6279518.
+
+
+28: Karaayvaz M, Cristea S, Gillespie SM, Patel AP, Mylvaganam R, Luo CC, Specht 
+MC, Bernstein BE, Michor F, Ellisen LW. Unravelling subclonal heterogeneity and
+aggressive disease states in TNBC through single-cell RNA-seq. Nat Commun. 2018
+Sep 4;9(1):3588. doi: 10.1038/s41467-018-06052-0. PubMed PMID: 30181541; PubMed
+Central PMCID: PMC6123496.
+
+
+29: Wilson TR, Udyavar AR, Chang CW, Spoerke JM, Aimi J, Savage HM, Daemen A,
+O'Shaughnessy JA, Bourgon R, Lackner MR. Genomic Alterations Associated with
+Recurrence and TNBC Subtype in High-Risk Early Breast Cancers. Mol Cancer Res.
+2019 Jan;17(1):97-108. doi: 10.1158/1541-7786.MCR-18-0619. Epub 2018 Aug 31.
+PubMed PMID: 30171174.
+
+
+30: Aravind Kumar M, Naushad SM, Narasimgu N, Nagaraju Naik S, Kadali S, Shanker 
+U, Lakshmi Narasu M. Whole exome sequencing of breast cancer (TNBC) cases from
+India: association of MSH6 and BRIP1 variants with TNBC risk and oxidative DNA
+damage. Mol Biol Rep. 2018 Oct;45(5):1413-1419. doi: 10.1007/s11033-018-4307-4.
+Epub 2018 Aug 22. PubMed PMID: 30136158.
+
+
+31: Hilton J, Stober C, Mazzarello S, Vandermeer L, Fergusson D, Hutton B,
+Clemons M. Randomised feasibility trial to compare three standard of care
+chemotherapy regimens for early stage triple-negative breast cancer (REaCT-TNBC
+trial). PLoS One. 2018 Jul 24;13(7):e0199297. doi: 10.1371/journal.pone.0199297. 
+eCollection 2018. PubMed PMID: 30040817; PubMed Central PMCID: PMC6057636.
+
+
+32: Carey JPW, Keyomarsi K. Leveraging MYC as a therapeutic treatment option for 
+TNBC. Oncoscience. 2018 Jun 24;5(5-6):137-139. doi: 10.18632/oncoscience.424.
+eCollection 2018 May. PubMed PMID: 30035166; PubMed Central PMCID: PMC6049306.
+
+
+33: Ren C, Zhang G, Han F, Fu S, Cao Y, Zhang F, Zhang Q, Meslamani J, Xu Y, Ji
+D, Cao L, Zhou Q, Cheung KL, Sharma R, Babault N, Yi Z, Zhang W, Walsh MJ, Zeng
+L, Zhou MM. Spatially constrained tandem bromodomain inhibition bolsters
+sustained repression of BRD4 transcriptional activity for TNBC cell growth. Proc 
+Natl Acad Sci U S A. 2018 Jul 31;115(31):7949-7954. doi: 10.1073/pnas.1720000115.
+Epub 2018 Jul 16. PubMed PMID: 30012592; PubMed Central PMCID: PMC6077712.
+
+
+34: Regan Anderson TM, Ma S, Perez Kerkvliet C, Peng Y, Helle TM, Krutilina RI,
+Raj GV, Cidlowski JA, Ostrander JH, Schwertfeger KL, Seagroves TN, Lange CA.
+Taxol Induces Brk-dependent Prosurvival Phenotypes in TNBC Cells through an
+AhR/GR/HIF-driven Signaling Axis. Mol Cancer Res. 2018 Nov;16(11):1761-1772. doi:
+10.1158/1541-7786.MCR-18-0410. Epub 2018 Jul 10. PubMed PMID: 29991529; PubMed
+Central PMCID: PMC6214723.
+
+
+35: Han J, Yu J, Dai Y, Li J, Guo M, Song J, Zhou X. Overexpression of miR-361-5p
+in triple-negative breast cancer (TNBC) inhibits migration and invasion by
+targeting RQCD1 and inhibiting the EGFR/PI3K/Akt pathway. Bosn J Basic Med Sci.
+2019 Feb 12;19(1):52-59. doi: 10.17305/bjbms.2018.3399. PubMed PMID: 29924958;
+PubMed Central PMCID: PMC6387672.
+
+
+36: Kang DY, Sp N, Kim DH, Joung YH, Lee HG, Park YM, Yang YM. Salidroside
+inhibits migration, invasion and angiogenesis of MDA‑MB 231 TNBC cells by
+regulating EGFR/Jak2/STAT3 signaling via MMP2. Int J Oncol. 2018
+Aug;53(2):877-885. doi: 10.3892/ijo.2018.4430. Epub 2018 Jun 5. PubMed PMID:
+29901185.
+
+
+37: An Immunosuppressive Role for Eya3 in TNBC. Cancer Discov. 2018 Aug;8(8):OF8.
+doi: 10.1158/2159-8290.CD-NB2018-072. Epub 2018 Jun 8. PubMed PMID: 29884726.
+
+
+38: Xu X, Zhang L, He X, Zhang P, Sun C, Xu X, Lu Y, Li F. TGF-β plays a vital
+role in triple-negative breast cancer (TNBC) drug-resistance through regulating
+stemness, EMT and apoptosis. Biochem Biophys Res Commun. 2018 Jul
+7;502(1):160-165. doi: 10.1016/j.bbrc.2018.05.139. Epub 2018 May 24. PubMed PMID:
+29792857.
+
+
+39: Huang QD, Zheng SR, Cai YJ, Chen DL, Shen YY, Lin CQ, Hu XQ, Wang XH, Shi H, 
+Guo GL. IMP3 promotes TNBC stem cell property through miRNA-34a regulation. Eur
+Rev Med Pharmacol Sci. 2018 May;22(9):2688-2696. doi:
+10.26355/eurrev_201805_14965. PubMed PMID: 29771420.
+
+
+40: Park JH, Ahn JH, Kim SB. How shall we treat early triple-negative breast
+cancer (TNBC): from the current standard to upcoming immuno-molecular strategies.
+ESMO Open. 2018 May 3;3(Suppl 1):e000357. doi: 10.1136/esmoopen-2018-000357.
+eCollection 2018. Review. PubMed PMID: 29765774; PubMed Central PMCID:
+PMC5950702.
+
+
+41: Deng Q, Jiang G, Wu Y, Li J, Liang W, Chen L, Su Q, Li W, Du J, Wong CKC,
+Chen Z, Wang H. GPER/Hippo-YAP signal is involved in Bisphenol S induced
+migration of triple negative breast cancer (TNBC) cells. J Hazard Mater. 2018 Aug
+5;355:1-9. doi: 10.1016/j.jhazmat.2018.05.013. Epub 2018 May 8. PubMed PMID:
+29758456.
+
+
+42: Inhibiting PTPN12-Regulated RTKs May Be Therapeutic in TNBC. Cancer Discov.
+2018 May;8(5):530. doi: 10.1158/2159-8290.CD-RW2018-056. Epub 2018 Mar 30. PubMed
+PMID: 29602824.
+
+
+43: Cretella D, Ravelli A, Fumarola C, La Monica S, Digiacomo G, Cavazzoni A,
+Alfieri R, Biondi A, Generali D, Bonelli M, Petronini PG. The anti-tumor efficacy
+of CDK4/6 inhibition is enhanced by the combination with PI3K/AKT/mTOR inhibitors
+through impairment of glucose metabolism in TNBC cells. J Exp Clin Cancer Res.
+2018 Mar 27;37(1):72. doi: 10.1186/s13046-018-0741-3. PubMed PMID: 29587820;
+PubMed Central PMCID: PMC5872523.
+
+
+44: Faria M, Karami S, Granados-Principal S, Dey P, Verma A, Choi DS, Elemento O,
+Bawa-Khalfe T, Chang JC, Strom AM, Gustafsson JÅ. The ERβ4 variant induces
+transformation of the normal breast mammary epithelial cell line MCF-10A; the ERβ
+variants ERβ2 and ERβ5 increase aggressiveness of TNBC by regulation of hypoxic
+signaling. Oncotarget. 2018 Jan 10;9(15):12201-12211. doi:
+10.18632/oncotarget.24134. eCollection 2018 Feb 23. PubMed PMID: 29552303; PubMed
+Central PMCID: PMC5844739.
+
+
+45: Chen Y, Tang Y, Mao B, Li W, Jin H, Zhang L, Liu Z. Discovery of
+N-(Naphtho[1,2-b]Furan-5-Yl) Benzenesulfonamides as Novel Selective Inhibitors of
+Triple-Negative Breast Cancer (TNBC). Molecules. 2018 Mar 16;23(3). pii: E678.
+doi: 10.3390/molecules23030678. PubMed PMID: 29547591; PubMed Central PMCID:
+PMC6017705.
+
+
+46: Bowers LW, Rossi EL, McDonell SB, Doerstling SS, Khatib SA, Lineberger CG,
+Albright JE, Tang X, deGraffenried LA, Hursting SD. Leptin Signaling Mediates
+Obesity-Associated CSC Enrichment and EMT in Preclinical TNBC Models. Mol Cancer 
+Res. 2018 May;16(5):869-879. doi: 10.1158/1541-7786.MCR-17-0508. Epub 2018 Feb
+16. PubMed PMID: 29453319; PubMed Central PMCID: PMC5967653.
+
+
+47: Kwa MJ, Adams S. Checkpoint inhibitors in triple-negative breast cancer
+(TNBC): Where to go from here. Cancer. 2018 May 15;124(10):2086-2103. doi:
+10.1002/cncr.31272. Epub 2018 Feb 9. Review. PubMed PMID: 29424936.
+
+
+48: Rida P, Ogden A, Ellis IO, Varga Z, Wolff AC, Traina TA, Hatzis C, Palmer JR,
+Ambrosone CB, Lehmann BD, Nanda R, Montgomery Rice V, Brawley OW, Torres MA,
+Rakha E, Aneja R. First international TNBC conference meeting report. Breast
+Cancer Res Treat. 2018 Jun;169(3):407-412. doi: 10.1007/s10549-018-4692-3. Epub
+2018 Feb 8. PubMed PMID: 29417299; PubMed Central PMCID: PMC5955852.
+
+
+49: Cerbelli B, Pernazza A, Botticelli A, Fortunato L, Monti M, Sciattella P,
+Campagna D, Mazzuca F, Mauri M, Naso G, Marchetti P, d'Amati G, Costarelli L.
+PD-L1 Expression in TNBC: A Predictive Biomarker of Response to Neoadjuvant
+Chemotherapy? Biomed Res Int. 2017;2017:1750925. doi: 10.1155/2017/1750925. Epub 
+2017 Dec 14. PubMed PMID: 29387716; PubMed Central PMCID: PMC5745649.
+
+
+50: Moreira MP, da Conceição Braga L, Cassali GD, Silva LM. STAT3 as a promising 
+chemoresistance biomarker associated with the CD44(+/high)/CD24(-/low)/ALDH(+)
+BCSCs-like subset of the triple-negative breast cancer (TNBC) cell line. Exp Cell
+Res. 2018 Feb 15;363(2):283-290. doi: 10.1016/j.yexcr.2018.01.018. Epub 2018 Jan 
+17. PubMed PMID: 29352988.
+
+
+51: Yang M, Dang X, Tan Y, Wang M, Li X, Li G. I-7ab inhibited the growth of TNBC
+cells via targeting HDAC3 and promoting the acetylation of p53. Biomed
+Pharmacother. 2018 Mar;99:220-226. doi: 10.1016/j.biopha.2018.01.063. PubMed
+PMID: 29334665.
+
+
+52: Narrandes S, Huang S, Murphy L, Xu W. The exploration of contrasting pathways
+in Triple Negative Breast Cancer (TNBC). BMC Cancer. 2018 Jan 4;18(1):22. doi:
+10.1186/s12885-017-3939-4. PubMed PMID: 29301506; PubMed Central PMCID:
+PMC5753474.
+
+
+53: Wang L, Liu D, Wu X, Zeng Y, Li L, Hou Y, Li W, Liu Z. Long non-coding RNA
+(LncRNA) RMST in triple-negative breast cancer (TNBC): Expression analysis and
+biological roles research. J Cell Physiol. 2018 Oct;233(10):6603-6612. doi:
+10.1002/jcp.26311. Epub 2018 Apr 17. PubMed PMID: 29215701.
+
+
+54: Yang M, Li Y, Ruan Y, Lu Y, Lin D, Xie Y, Dong B, Dang Q, Quan C. CLDN6
+enhances chemoresistance to ADM via AF-6/ERKs pathway in TNBC cell line MDAMB231.
+Mol Cell Biochem. 2018 Jun;443(1-2):169-180. doi: 10.1007/s11010-017-3221-8. Epub
+2017 Nov 20. PubMed PMID: 29159771.
+
+
+55: Angelini G, Marini C, Iacconi C, Mazzotta D, Moretti M, Picano E, Morganti R.
+Magnetic resonance (MR) features in triple negative breast cancer (TNBC) vs
+receptor positive cancer (nTNBC). Clin Imaging. 2018 May - Jun;49:12-16. doi:
+10.1016/j.clinimag.2017.10.016. Epub 2017 Oct 27. PubMed PMID: 29120811.
+
+
+56: Wu C, Qiu S, Liu P, Ge Y, Gao X. Rhizoma Amorphophalli inhibits TNBC cell
+proliferation, migration, invasion and metastasis through the PI3K/Akt/mTOR
+pathway. J Ethnopharmacol. 2018 Jan 30;211:89-100. doi:
+10.1016/j.jep.2017.09.033. Epub 2017 Sep 27. PubMed PMID: 28962890.
+
+
+57: Jin K, Pandey NB, Popel AS. Crosstalk between stromal components and tumor
+cells of TNBC via secreted factors enhances tumor growth and metastasis.
+Oncotarget. 2017 Jul 21;8(36):60210-60222. doi: 10.18632/oncotarget.19417.
+eCollection 2017 Sep 1. PubMed PMID: 28947965; PubMed Central PMCID: PMC5601133.
+
+
+58: Aravind Kumar M, Singh V, Naushad SM, Shanker U, Lakshmi Narasu M.
+Microarray-based SNP genotyping to identify genetic risk factors of
+triple-negative breast cancer (TNBC) in South Indian population. Mol Cell
+Biochem. 2018 May;442(1-2):1-10. doi: 10.1007/s11010-017-3187-6. Epub 2017 Sep
+16. PubMed PMID: 28918577.
+
+
+59: Bassey-Archibong BI, Hercules SM, Rayner LGA, Skeete DHA, Smith Connell SP,
+Brain I, Daramola A, Banjo AAF, Byun JS, Gardner K, Dushoff J, Daniel JM. Kaiso
+is highly expressed in TNBC tissues of women of African ancestry compared to
+Caucasian women. Cancer Causes Control. 2017 Nov;28(11):1295-1304. doi:
+10.1007/s10552-017-0955-2. Epub 2017 Sep 8. PubMed PMID: 28887687; PubMed Central
+PMCID: PMC5681979.
+
+
+60: Brugnoli F, Grassilli S, Lanuti P, Marchisio M, Al-Qassab Y, Vezzali F,
+Capitani S, Bertagnolo V. Up-modulation of PLC-β2 reduces the number and
+malignancy of triple-negative breast tumor cells with a CD133(+)/EpCAM(+)
+phenotype: a promising target for preventing progression of TNBC. BMC Cancer.
+2017 Sep 4;17(1):617. doi: 10.1186/s12885-017-3592-y. PubMed PMID: 28870198;
+PubMed Central PMCID: PMC5584040.
+
+
+61: Sidaway P. Breast cancer: AKT inhibition effective against TNBC. Nat Rev Clin
+Oncol. 2017 Nov;14(11):648. doi: 10.1038/nrclinonc.2017.147. Epub 2017 Aug 31.
+PubMed PMID: 28857074.
+
+
+62: Brockwell NK, Owen KL, Zanker D, Spurling A, Rautela J, Duivenvoorden HM,
+Baschuk N, Caramia F, Loi S, Darcy PK, Lim E, Parker BS. Neoadjuvant Interferons:
+Critical for Effective PD-1-Based Immunotherapy in TNBC. Cancer Immunol Res. 2017
+Oct;5(10):871-884. doi: 10.1158/2326-6066.CIR-17-0150. Epub 2017 Aug 28. PubMed
+PMID: 28848054.
+
+
+63: Hosokawa Y, Masaki N, Takei S, Horikawa M, Matsushita S, Sugiyama E, Ogura H,
+Shiiya N, Setou M. Recurrent triple-negative breast cancer (TNBC) tissues contain
+a higher amount of phosphatidylcholine (32:1) than non-recurrent TNBC tissues.
+PLoS One. 2017 Aug 23;12(8):e0183724. doi: 10.1371/journal.pone.0183724.
+eCollection 2017. PubMed PMID: 28832678; PubMed Central PMCID: PMC5568295.
+
+
+64: Pitner MK, Taliaferro JM, Dalby KN, Bartholomeusz C. MELK: a potential novel 
+therapeutic target for TNBC and other aggressive malignancies. Expert Opin Ther
+Targets. 2017 Sep;21(9):849-859. doi: 10.1080/14728222.2017.1363183. Epub 2017
+Aug 16. Review. PubMed PMID: 28764577.
+
+
+65: Thiagarajan PS, Zheng Q, Bhagrath M, Mulkearns-Hubert EE, Myers MG, Lathia
+JD, Reizes O. STAT3 activation by leptin receptor is essential for TNBC stem cell
+maintenance. Endocr Relat Cancer. 2017 Aug;24(8):415-426. doi:
+10.1530/ERC-16-0349. PubMed PMID: 28729467; PubMed Central PMCID: PMC5551450.
+
+
+66: Wein L, Loi S. Mechanisms of resistance of chemotherapy in early-stage triple
+negative breast cancer (TNBC). Breast. 2017 Aug;34 Suppl 1:S27-S30. doi:
+10.1016/j.breast.2017.06.023. Epub 2017 Jun 28. Review. PubMed PMID: 28668293.
+
+
+67: Xue S, He L, Zhang X, Zhou J, Li F, Wang X. Expression of Jagged1/Notch3
+Signaling Pathway and their Relationship with the Tumor Angiogenesis in TNBC.
+Arch Med Res. 2017 Feb;48(2):169-179. doi: 10.1016/j.arcmed.2017.03.014. PubMed
+PMID: 28625320.
+
+
+68: Tomioka N, Azuma M, Ikarashi M, Yamamoto M, Sato M, Watanabe KI, Yamashiro K,
+Takahashi M. The therapeutic candidate for immune checkpoint inhibitors
+elucidated by the status of tumor-infiltrating lymphocytes (TILs) and programmed 
+death ligand 1 (PD-L1) expression in triple negative breast cancer (TNBC). Breast
+Cancer. 2018 Jan;25(1):34-42. doi: 10.1007/s12282-017-0781-0. Epub 2017 May 9.
+PubMed PMID: 28488168.
+
+
+69: Ma F, Li H, Li Y, Ding X, Wang H, Fan Y, Lin C, Qian H, Xu B. Aldehyde
+dehydrogenase 1 (ALDH1) expression is an independent prognostic factor in triple 
+negative breast cancer (TNBC). Medicine (Baltimore). 2017 Apr;96(14):e6561. doi: 
+10.1097/MD.0000000000006561. PubMed PMID: 28383433; PubMed Central PMCID:
+PMC5411217.
+
+
+70: Edupuganti R, Taliaferro JM, Wang Q, Xie X, Cho EJ, Vidhu F, Ren P, Anslyn
+EV, Bartholomeusz C, Dalby KN. Discovery of a potent inhibitor of MELK that
+inhibits expression of the anti-apoptotic protein Mcl-1 and TNBC cell growth.
+Bioorg Med Chem. 2017 May 1;25(9):2609-2616. doi: 10.1016/j.bmc.2017.03.018. Epub
+2017 Mar 10. PubMed PMID: 28351607.
+
+
+71: Jovanović B, Mayer IA, Mayer EL, Abramson VG, Bardia A, Sanders ME, Kuba MG, 
+Estrada MV, Beeler JS, Shaver TM, Johnson KC, Sanchez V, Rosenbluth JM, Dillon
+PM, Forero-Torres A, Chang JC, Meszoely IM, Grau AM, Lehmann BD, Shyr Y, Sheng Q,
+Chen SC, Arteaga CL, Pietenpol JA. A Randomized Phase II Neoadjuvant Study of
+Cisplatin, Paclitaxel With or Without Everolimus in Patients with Stage II/III
+Triple-Negative Breast Cancer (TNBC): Responses and Long-term Outcome Correlated 
+with Increased Frequency of DNA Damage Response Gene Mutations, TNBC Subtype, AR 
+Status, and Ki67. Clin Cancer Res. 2017 Aug 1;23(15):4035-4045. doi:
+10.1158/1078-0432.CCR-16-3055. Epub 2017 Mar 7. PubMed PMID: 28270498; PubMed
+Central PMCID: PMC5540799.
+
+
+72: Liedtke C, Rody A. Neoadjuvant Therapy for Patients with Triple Negative
+Breast Cancer (TNBC). Rev Recent Clin Trials. 2017;12(2):73-80. doi:
+10.2174/1574887112666170307095945. PubMed PMID: 28270088.
+
+
+73: Vadaparampil ST, Christie J, Donovan KA, Kim J, Augusto B, Kasting ML, Holt
+CL, Ashing K, Halbert CH, Pal T. Health-related quality of life in Black breast
+cancer survivors with and without triple-negative breast cancer (TNBC). Breast
+Cancer Res Treat. 2017 Jun;163(2):331-342. doi: 10.1007/s10549-017-4173-0. Epub
+2017 Mar 3. PubMed PMID: 28258353; PubMed Central PMCID: PMC5568024.
+
+
+74: Godugu C, Doddapaneni R, Singh M. Honokiol nanomicellar formulation produced 
+increased oral bioavailability and anticancer effects in triple negative breast
+cancer (TNBC). Colloids Surf B Biointerfaces. 2017 May 1;153:208-219. doi:
+10.1016/j.colsurfb.2017.01.038. Epub 2017 Jan 23. PubMed PMID: 28249200; PubMed
+Central PMCID: PMC5745346.
+
+
+75: Jackson JG, Lozano G. TNBC invasion: downstream of STAT3. Oncotarget. 2017
+Mar 28;8(13):20517-20518. doi: 10.18632/oncotarget.15259. PubMed PMID: 28199968; 
+PubMed Central PMCID: PMC5400520.
+
+
+76: Reed DE, Shokat KM. INPP4B and PTEN Loss Leads to PI-3,4-P2 Accumulation and 
+Inhibition of PI3K in TNBC. Mol Cancer Res. 2017 Jun;15(6):765-775. doi:
+10.1158/1541-7786.MCR-16-0183. Epub 2017 Feb 14. PubMed PMID: 28196852; PubMed
+Central PMCID: PMC5502826.
+
+
+77: Feng W, Liu S, Zhu R, Li B, Zhu Z, Yang J, Song C. SOX10 induced Nestin
+expression regulates cancer stem cell properties of TNBC cells. Biochem Biophys
+Res Commun. 2017 Apr 1;485(2):522-528. doi: 10.1016/j.bbrc.2017.02.014. Epub 2017
+Feb 9. PubMed PMID: 28189679.
+
+
+78: Alcantara VS, Lim GH, Lim SH, Sultana R, Lee JA. Incidence and prognosis of
+non-metastatic triple negative breast cancer (TNBC) among different races in
+Southeast Asia. J Surg Oncol. 2017 Apr;115(5):523-537. doi: 10.1002/jso.24559.
+Epub 2017 Feb 7. PubMed PMID: 28168712.
+
+
+79: Qian XL, Zhang J, Li PZ, Lang RG, Li WD, Sun H, Liu FF, Guo XJ, Gu F, Fu L.
+Dasatinib inhibits c-src phosphorylation and prevents the proliferation of
+Triple-Negative Breast Cancer (TNBC) cells which overexpress Syndecan-Binding
+Protein (SDCBP). PLoS One. 2017 Jan 31;12(1):e0171169. doi:
+10.1371/journal.pone.0171169. eCollection 2017. PubMed PMID: 28141839; PubMed
+Central PMCID: PMC5283743.
+
+
+80: Snowden E, Porter W, Hahn F, Ferguson M, Tong F, Parker JS, Middlebrook A,
+Ghanekar S, Dillmore WS, Blaesius R. Immunophenotyping and Transcriptomic
+Outcomes in PDX-Derived TNBC Tissue. Mol Cancer Res. 2017 Apr;15(4):429-438. doi:
+10.1158/1541-7786.MCR-16-0286-T. Epub 2016 Dec 30. PubMed PMID: 28039356.
+
+
+81: Song PY. Liquid biopsy testing in monitoring TNBC. MLO Med Lab Obs. 2017
+Jan;49(1):26. PubMed PMID: 30047683.
+
+
+82: Das S. Identification and targeting of microRNAs modulating acquired
+chemotherapy resistance in Triple negative breast cancer (TNBC): A better
+strategy to combat chemoresistance. Med Hypotheses. 2016 Nov;96:5-8. doi:
+10.1016/j.mehy.2016.09.004. Epub 2016 Sep 15. PubMed PMID: 27959276.
+
+
+83: Verma N, Müller AK, Kothari C, Panayotopoulou E, Kedan A, Selitrennik M,
+Mills GB, Nguyen LK, Shin S, Karn T, Holtrich U, Lev S. Targeting of PYK2
+Synergizes with EGFR Antagonists in Basal-like TNBC and Circumvents
+HER3-Associated Resistance via the NEDD4-NDRG1 Axis. Cancer Res. 2017 Jan
+1;77(1):86-99. doi: 10.1158/0008-5472.CAN-16-1797. Epub 2016 Oct 28. PubMed PMID:
+27793840.
+
+
+84: Hon JD, Singh B, Sahin A, Du G, Wang J, Wang VY, Deng FM, Zhang DY, Monaco
+ME, Lee P. Breast cancer molecular subtypes: from TNBC to QNBC. Am J Cancer Res. 
+2016 Sep 1;6(9):1864-1872. eCollection 2016. Review. PubMed PMID: 27725895;
+PubMed Central PMCID: PMC5043099.
+
+
+85: Bursts of Chromosome Changes Drive TNBC. Cancer Discov. 2016 Oct;6(10):1075. 
+Epub 2016 Sep 6. PubMed PMID: 27599500.
+
+
+86: Dai D, Chen B, Tang H, Wang B, Zhao Z, Xie X, Wei W. Nomograms for Predicting
+the Prognostic Value of Pre-Therapeutic CA15-3 and CEA Serum Levels in TNBC
+Patients. PLoS One. 2016 Aug 25;11(8):e0161902. doi:
+10.1371/journal.pone.0161902. eCollection 2016. PubMed PMID: 27561099; PubMed
+Central PMCID: PMC4999206.
+
+
+87: Kim JY, Jung HH, Ahn S, Bae S, Lee SK, Kim SW, Lee JE, Nam SJ, Ahn JS, Im YH,
+Park YH. The relationship between nuclear factor (NF)-κB family gene expression
+and prognosis in triple-negative breast cancer (TNBC) patients receiving adjuvant
+doxorubicin treatment. Sci Rep. 2016 Aug 22;6:31804. doi: 10.1038/srep31804.
+PubMed PMID: 27545642; PubMed Central PMCID: PMC4992884.
+
+
+88: Merrouche Y, Fabre J, Cure H, Garbar C, Fuselier C, Bastid J, Antonicelli F, 
+Al-Daccak R, Bensussan A, Giustiniani J. IL-17E synergizes with EGF and confers
+in vitro resistance to EGFR-targeted therapies in TNBC cells. Oncotarget. 2016
+Aug 16;7(33):53350-53361. doi: 10.18632/oncotarget.10804. PubMed PMID: 27462789; 
+PubMed Central PMCID: PMC5288192.
+
+
+89: Kim S, Park HS, Kim JY, Ryu J, Park S, Kim SI. Comparisons of Oncologic
+Outcomes between Triple-Negative Breast Cancer (TNBC) and Non-TNBC among Patients
+Treated with Breast-Conserving Therapy. Yonsei Med J. 2016 Sep;57(5):1192-8. doi:
+10.3349/ymj.2016.57.5.1192. PubMed PMID: 27401651; PubMed Central PMCID:
+PMC4960386.
+
+
+90: Prasad S, Efird JT, James SE, Walker PR, Zagar TM, Biswas T. Failure patterns
+and survival outcomes in triple negative breast cancer (TNBC): a 15 year
+comparison of 448 non-Hispanic black and white women. Springerplus. 2016 Jun
+17;5(1):756. doi: 10.1186/s40064-016-2444-6. eCollection 2016. PubMed PMID:
+27386241; PubMed Central PMCID: PMC4912515.
+
+
+91: Ollila DW, Golshan M, Boughey JC. How successful is NST in increasing
+breast-conserving surgery rates in TNBC patients? Bull Am Coll Surg. 2016
+Apr;101(4):40-2. PubMed PMID: 27337767.
+
+
+92: Beauperin M, Top S, Richard MA, Plażuk D, Pigeon P, Toma S, Poláčková V,
+Jaouen G. The length of the bridging chain in ansa-metallocenes influences their 
+antiproliferative activity against triple negative breast cancer cells (TNBC).
+Dalton Trans. 2016 Aug 16;45(33):13126-34. doi: 10.1039/c6dt01640e. PubMed PMID: 
+27276499.
+
+
+93: Young ED, Welch DR. Targeting the untargetable? Nodal expression in TNBC.
+Cell Cycle. 2016 Jun 2;15(11):1400. doi: 10.1080/15384101.2016.1166816. Epub 2016
+Mar 30. PubMed PMID: 27027858; PubMed Central PMCID: PMC4934075.
+
+
+94: Biswas T, Efird JT, Prasad S, James SE, Walker PR, Zagar TM. Inflammatory
+TNBC Breast Cancer: Demography and Clinical Outcome in a Large Cohort of Patients
+With TNBC. Clin Breast Cancer. 2016 Jun;16(3):212-6. doi:
+10.1016/j.clbc.2016.02.004. Epub 2016 Feb 13. PubMed PMID: 26988771.
+
+
+95: Agarwal G, Nanda G, Lal P, Mishra A, Agarwal A, Agrawal V, Krishnani N.
+Outcomes of Triple-Negative Breast Cancers (TNBC) Compared with Non-TNBC: Does
+the Survival Vary for All Stages? World J Surg. 2016 Jun;40(6):1362-72. doi:
+10.1007/s00268-016-3422-4. PubMed PMID: 26842691.
+
+
+96: Legembre P, Micheau O, Ségui B. Chemotherapy with ceramide in TNBC.
+Oncoscience. 2015 Aug 21;2(10):817-8. eCollection 2015. PubMed PMID: 26682260;
+PubMed Central PMCID: PMC4671935.
+
+
+97: O'Reilly EA, Gubbins L, Sharma S, Tully R, Guang MH, Weiner-Gorzel K,
+McCaffrey J, Harrison M, Furlong F, Kell M, McCann A. The fate of chemoresistance
+in triple negative breast cancer (TNBC). BBA Clin. 2015 Mar 12;3:257-75. doi:
+10.1016/j.bbacli.2015.03.003. eCollection 2015 Jun. Review. PubMed PMID:
+26676166; PubMed Central PMCID: PMC4661576.
+
+
+98: Sameni M, Tovar EA, Essenburg CJ, Chalasani A, Linklater ES, Borgman A,
+Cherba DM, Anbalagan A, Winn ME, Graveel CR, Sloane BF. Cabozantinib (XL184)
+Inhibits Growth and Invasion of Preclinical TNBC Models. Clin Cancer Res. 2016
+Feb 15;22(4):923-34. doi: 10.1158/1078-0432.CCR-15-0187. Epub 2015 Oct 2. PubMed 
+PMID: 26432786; PubMed Central PMCID: PMC5500174.
+
+
+99: Adams S, Goldstein LJ, Sparano JA, Demaria S, Badve SS. Tumor infiltrating
+lymphocytes (TILs) improve prognosis in patients with triple negative breast
+cancer (TNBC). Oncoimmunology. 2015 Jul 27;4(9):e985930. eCollection 2015 Sep.
+PubMed PMID: 26405612; PubMed Central PMCID: PMC4570112.
+
+
+100: Overholser J, Ambegaokar KH, Eze SM, Sanabria-Figueroa E, Nahta R,
+Bekaii-Saab T, Kaumaya PT. Anti-Tumor Effects of Peptide Therapeutic and Peptide 
+Vaccine Antibody Co-targeting HER-1 and HER-2 in Esophageal Cancer (EC) and HER-1
+and IGF-1R in Triple-Negative Breast Cancer (TNBC). Vaccines (Basel). 2015 Jul
+6;3(3):519-43. doi: 10.3390/vaccines3030519. PubMed PMID: 26350593; PubMed
+Central PMCID: PMC4586465.
+
+
+101: Castro NP, Salomon DS. Cripto-1 in TNBC. Aging (Albany NY). 2015
+Aug;7(8):515-6. PubMed PMID: 26298547; PubMed Central PMCID: PMC4586090.
+
+
+102: Campone M, Valo I, Jézéquel P, Moreau M, Boissard A, Campion L, Loussouarn
+D, Verriele V, Coqueret O, Guette C. Prediction of Recurrence and Survival for
+Triple-Negative Breast Cancer (TNBC) by a Protein Signature in Tissue Samples.
+Mol Cell Proteomics. 2015 Nov;14(11):2936-46. doi: 10.1074/mcp.M115.048967. Epub 
+2015 Jul 24. PubMed PMID: 26209610; PubMed Central PMCID: PMC4638037.
+
+
+103: Ricciardi GR, Adamo B, Ieni A, Licata L, Cardia R, Ferraro G, Franchina T,
+Tuccari G, Adamo V. Correction: Androgen Receptor (AR), E-Cadherin, and Ki-67 as 
+Emerging Targets and Novel Prognostic Markers in Triple-Negative Breast Cancer
+(TNBC) Patients. PLoS One. 2015 Jul 2;10(7):e0132647. doi:
+10.1371/journal.pone.0132647. eCollection 2015. PubMed PMID: 26135303; PubMed
+Central PMCID: PMC4489771.
+
+
+104: Millis SZ, Gatalica Z, Winkler J, Vranic S, Kimbrough J, Reddy S,
+O'Shaughnessy JA. Predictive Biomarker Profiling of > 6000 Breast Cancer Patients
+Shows Heterogeneity in TNBC, With Treatment Implications. Clin Breast Cancer.
+2015 Dec;15(6):473-481.e3. doi: 10.1016/j.clbc.2015.04.008. Epub 2015 Apr 28.
+PubMed PMID: 26051240.
+
+
+105: Ricciardi GR, Adamo B, Ieni A, Licata L, Cardia R, Ferraro G, Franchina T,
+Tuccari G, Adamo V. Androgen Receptor (AR), E-Cadherin, and Ki-67 as Emerging
+Targets and Novel Prognostic Markers in Triple-Negative Breast Cancer (TNBC)
+Patients. PLoS One. 2015 Jun 3;10(6):e0128368. doi: 10.1371/journal.pone.0128368.
+eCollection 2015. Erratum in: PLoS One. 2015;10(7):e0132647. PubMed PMID:
+26039245; PubMed Central PMCID: PMC4454487.
+
+
+106: Ren YQ, Fu F, Han J. MiR-27a modulates radiosensitivity of triple-negative
+breast cancer (TNBC) cells by targeting CDC27. Med Sci Monit. 2015 May
+6;21:1297-303. doi: 10.12659/MSM.893974. PubMed PMID: 25943633; PubMed Central
+PMCID: PMC4548742.
+
+
+107: Liu Y, Zhu P, Wang Y, Wei Z, Tao L, Zhu Z, Sheng X, Wang S, Ruan J, Liu Z,
+Cao Y, Shan Y, Sun L, Wang A, Chen W, Lu Y. Antimetastatic Therapies of the
+Polysulfide Diallyl Trisulfide against Triple-Negative Breast Cancer (TNBC) via
+Suppressing MMP2/9 by Blocking NF-κB and ERK/MAPK Signaling Pathways. PLoS One.
+2015 Apr 30;10(4):e0123781. doi: 10.1371/journal.pone.0123781. eCollection 2015. 
+PubMed PMID: 25927362; PubMed Central PMCID: PMC4415928.
+
+
+108: Immunotherapy Slows TNBC Progression. Cancer Discov. 2015 Jun;5(6):570. doi:
+10.1158/2159-8290.CD-NB2015-059. Epub 2015 Apr 21. PubMed PMID: 25898834.
+
+
+109: Tzeng HE, Yang L, Chen K, Wang Y, Liu YR, Pan SL, Gaur S, Hu S, Yen Y. The
+pan-PI3K inhibitor GDC-0941 activates canonical WNT signaling to confer
+resistance in TNBC cells: resistance reversal with WNT inhibitor. Oncotarget.
+2015 May 10;6(13):11061-73. PubMed PMID: 25857298; PubMed Central PMCID:
+PMC4484439.
+
+
+110: Shin M, Lee KE, Yang EG, Jeon H, Song HK. PEA-15 facilitates EGFR
+dephosphorylation via ERK sequestration at increased ER-PM contacts in TNBC
+cells. FEBS Lett. 2015 Apr 13;589(9):1033-9. doi: 10.1016/j.febslet.2015.03.009. 
+Epub 2015 Mar 18. PubMed PMID: 25796184.
+
+
+111: Baldassarre T, Watt K, Truesdell P, Meens J, Schneider MM, Sengupta SK,
+Craig AW. Endophilin A2 Promotes TNBC Cell Invasion and Tumor Metastasis. Mol
+Cancer Res. 2015 Jun;13(6):1044-55. doi: 10.1158/1541-7786.MCR-14-0573. Epub 2015
+Mar 17. PubMed PMID: 25784716.
+
+
+112: Roberti MP, Juliá EP, Rocca YS, Amat M, Bravo AI, Loza J, Coló F, Loza CM,
+Fabiano V, Maino M, Podhorzer A, Fainboim L, Barrio MM, Mordoh J, Levy EM.
+Overexpression of CD85j in TNBC patients inhibits Cetuximab-mediated NK-cell ADCC
+but can be restored with CD85j functional blockade. Eur J Immunol. 2015
+May;45(5):1560-9. doi: 10.1002/eji.201445353. Epub 2015 Apr 7. PubMed PMID:
+25726929.
+
+
+113: Engel JB. GHRH-antagonists in TNBC. Oncotarget. 2015 Feb 10;6(4):1898-9.
+PubMed PMID: 25655918; PubMed Central PMCID: PMC4385824.
+
+
+114: Zugazagoitia J, Pérez-Segura P, Manzano A, Blanco I, Vega A, Custodio A,
+Teulé A, Fachal L, Martínez B, González-Sarmiento R, Cruz-Hernández JJ,
+Chirivella I, Garcés V, Garre P, Romero A, Caldés T, Díaz-Rubio E, de la Hoya M. 
+Limited family structure and triple-negative breast cancer (TNBC) subtype as
+predictors of BRCA mutations in a genetic counseling cohort of early-onset
+sporadic breast cancers. Breast Cancer Res Treat. 2014 Nov;148(2):415-21. doi:
+10.1007/s10549-014-3167-4. Epub 2014 Oct 24. PubMed PMID: 25342642.
+
+
+115: Shin M, Yang EG, Song HK, Jeon H. Insulin activates EGFR by stimulating its 
+interaction with IGF-1R in low-EGFR-expressing TNBC cells. BMB Rep. 2015
+Jun;48(6):342-7. PubMed PMID: 25341922; PubMed Central PMCID: PMC4578621.
+
+
+116: Kwok CW, Treeck O, Buchholz S, Seitz S, Ortmann O, Engel JB. Receptors for
+luteinizing hormone-releasing hormone (GnRH) as therapeutic targets in triple
+negative breast cancers (TNBC). Target Oncol. 2015 Sep;10(3):365-73. doi:
+10.1007/s11523-014-0340-y. Epub 2014 Oct 9. PubMed PMID: 25293576.
+
+
+117: Jiao Q, Wu A, Shao G, Peng H, Wang M, Ji S, Liu P, Zhang J. The latest
+progress in research on triple negative breast cancer (TNBC): risk factors,
+possible therapeutic targets and prognostic markers. J Thorac Dis. 2014
+Sep;6(9):1329-35. doi: 10.3978/j.issn.2072-1439.2014.08.13. Review. PubMed PMID: 
+25276378; PubMed Central PMCID: PMC4178098.
+
+
+118: Zhou H, Mohamedali KA, Gonzalez-Angulo AM, Cao Y, Migliorini M, Cheung LH,
+LoBello J, Lei X, Qi Y, Hittelman WN, Winkles JA, Tran NL, Rosenblum MG.
+Development of human serine protease-based therapeutics targeting Fn14 and
+identification of Fn14 as a new target overexpressed in TNBC. Mol Cancer Ther.
+2014 Nov;13(11):2688-705. doi: 10.1158/1535-7163.MCT-14-0346. Epub 2014 Sep 19.
+PubMed PMID: 25239934; PubMed Central PMCID: PMC4276724.
+
+
+119: Ma F, Li H, Wang H, Shi X, Fan Y, Ding X, Lin C, Zhan Q, Qian H, Xu B.
+Enriched CD44(+)/CD24(-) population drives the aggressive phenotypes presented in
+triple-negative breast cancer (TNBC). Cancer Lett. 2014 Oct 28;353(2):153-9. doi:
+10.1016/j.canlet.2014.06.022. Epub 2014 Aug 14. PubMed PMID: 25130168.
+
+
+120: Tariq K, Farhangi A, Rana F. TNBC vs non-TNBC: A retrospective review of
+differences in mean age, family history, smoking history, and stage at diagnosis.
+Clin Adv Hematol Oncol. 2014 Jun;12(6):377-81. Review. PubMed PMID: 25003567.
+
+
+121: Moran MS. Should triple-negative breast cancer (TNBC) subtype affect
+local-regional therapy decision making? Am Soc Clin Oncol Educ Book. 2014:e32-6. 
+doi: 10.14694/EdBook_AM.2014.34.e32. Review. PubMed PMID: 24857120.
+
+
+122: Hutchinson L. Breast cancer: TNBC: can we treat the untargetable? Nat Rev
+Clin Oncol. 2014 Jul;11(7):379. doi: 10.1038/nrclinonc.2014.88. Epub 2014 May 20.
+PubMed PMID: 24840078.
+
+
+123: Awada A, Bondarenko IN, Bonneterre J, Nowara E, Ferrero JM, Bakshi AV, Wilke
+C, Piccart M; CT4002 study group. A randomized controlled phase II trial of a
+novel composition of paclitaxel embedded into neutral and cationic lipids
+targeting tumor endothelial cells in advanced triple-negative breast cancer
+(TNBC). Ann Oncol. 2014 Apr;25(4):824-31. doi: 10.1093/annonc/mdu025. PubMed
+PMID: 24667715.
+
+
+124: Tariq K, Rana F. TNBC vs. Non-TNBC: A Five-Year Retrospective Review of
+Differences in Mean Age, Family History, Smoking History and Stage at Diagnosis
+at an Inner City University Program. World J Oncol. 2013 Dec;4(6):241-247. doi:
+10.4021/wjon738w. Epub 2014 Jan 16. PubMed PMID: 29147364; PubMed Central PMCID: 
+PMC5649849.
+
+
+125: Zhang M, Zhang X, Zhao S, Wang Y, Di W, Zhao G, Yang M, Zhang Q. Prognostic 
+value of survivin and EGFR protein expression in triple-negative breast cancer
+(TNBC) patients. Target Oncol. 2014 Dec;9(4):349-57. PubMed PMID: 24233638.
+
+
+126: Ignatov T, Poehlmann A, Ignatov A, Schinlauer A, Costa SD, Roessner A,
+Kalinski T, Bischoff J. BRCA1 promoter methylation is a marker of better response
+to anthracycline-based therapy in sporadic TNBC. Breast Cancer Res Treat. 2013
+Sep;141(2):205-12. doi: 10.1007/s10549-013-2693-9. Epub 2013 Sep 13. PubMed PMID:
+24026861.
+
+
+127: Wiese DA, Thaiwong T, Yuzbasiyan-Gurkan V, Kiupel M. Feline mammary
+basal-like adenocarcinomas: a potential model for human triple-negative breast
+cancer (TNBC) with basal-like subtype. BMC Cancer. 2013 Sep 3;13:403. doi:
+10.1186/1471-2407-13-403. PubMed PMID: 24004841; PubMed Central PMCID:
+PMC3849986.
+
+
+128: Andrés R, Pajares I, Balmaña J, Llort G, Ramón Y Cajal T, Chirivella I,
+Aguirre E, Robles L, Lastra E, Pérez-Segura P, Bosch N, Yagüe C, Lerma E, Godino 
+J, Miramar MD, Moros M, Astier P, Saez B, Vidal MJ, Arcusa A, Ramón y Cajal S,
+Calvo MT, Tres A. Association of BRCA1 germline mutations in young onset
+triple-negative breast cancer (TNBC). Clin Transl Oncol. 2014 Mar;16(3):280-4.
+doi: 10.1007/s12094-013-1070-9. Epub 2013 Aug 27. PubMed PMID: 23982851.
+
+
+129: Greenup R, Buchanan A, Lorizio W, Rhoads K, Chan S, Leedom T, King R,
+McLennan J, Crawford B, Kelly Marcom P, Shelley Hwang E. Prevalence of BRCA
+mutations among women with triple-negative breast cancer (TNBC) in a genetic
+counseling cohort. Ann Surg Oncol. 2013 Oct;20(10):3254-8. doi:
+10.1245/s10434-013-3205-1. Epub 2013 Aug 22. PubMed PMID: 23975317.
+
+
+130: Park YH, Jung HH, Ahn JS, Im YH. Statin induces inhibition of triple
+negative breast cancer (TNBC) cells via PI3K pathway. Biochem Biophys Res Commun.
+2013 Sep 20;439(2):275-9. doi: 10.1016/j.bbrc.2013.08.043. Epub 2013 Aug 21.
+PubMed PMID: 23973711.
+
+
+131: Abdel-Fatah TM, Perry C, Dickinson P, Ball G, Moseley P, Madhusudan S, Ellis
+IO, Chan SY. Bcl2 is an independent prognostic marker of triple negative breast
+cancer (TNBC) and predicts response to anthracycline combination (ATC)
+chemotherapy (CT) in adjuvant and neoadjuvant settings. Ann Oncol. 2013
+Nov;24(11):2801-7. doi: 10.1093/annonc/mdt277. Epub 2013 Aug 1. PubMed PMID:
+23908177.
+
+
+132: Li CY, Zhang S, Zhang XB, Wang P, Hou GF, Zhang J. Clinicopathological and
+prognostic characteristics of triple- negative breast cancer (TNBC) in Chinese
+patients: a retrospective study. Asian Pac J Cancer Prev. 2013;14(6):3779-84.
+PubMed PMID: 23886182.
+
+
+133: Engel JB, Honig A, Kapp M, Hahne JC, Meyer SR, Dietl J, Segerer SE.
+Mechanisms of tumor immune escape in triple-negative breast cancers (TNBC) with
+and without mutated BRCA 1. Arch Gynecol Obstet. 2014 Jan;289(1):141-7. doi:
+10.1007/s00404-013-2922-9. Epub 2013 Jul 5. PubMed PMID: 23828443.
+
+
+134: Brouxhon SM, Kyrkanides S, Teng X, O'Banion MK, Clarke R, Byers S, Ma L.
+Soluble-E-cadherin activates HER and IAP family members in HER2+ and TNBC human
+breast cancers. Mol Carcinog. 2014 Nov;53(11):893-906. doi: 10.1002/mc.22048.
+Epub 2013 Jun 18. PubMed PMID: 23776059; PubMed Central PMCID: PMC4477712.
+
+
+135: Smolarz B, Zadrożny M, Duda-Szymańska J, Makowska M, Samulak D, Michalska
+MM, Mojs E, Bryś M, Forma E, Romanowicz-Makowska H. RAD51 genotype and
+triple-negative breast cancer (TNBC) risk in Polish women. Pol J Pathol. 2013
+Apr;64(1):39-43. PubMed PMID: 23625599.
+
+
+136: Zhao S, Ma W, Zhang M, Tang D, Shi Q, Xu S, Zhang X, Liu Y, Song Y, Liu L,
+Zhang Q. High expression of CD147 and MMP-9 is correlated with poor prognosis of 
+triple-negative breast cancer (TNBC) patients. Med Oncol. 2013 Mar;30(1):335.
+doi: 10.1007/s12032-012-0335-4. Epub 2012 Dec 22. PubMed PMID: 23263825; PubMed
+Central PMCID: PMC4059361.
+
+
+137: Oprea-Ilies G, Haus E, Sackett-Lundeen L, Liu Y, McLendon L, Busch R, Adams 
+A, Cohen C. Expression of melatonin receptors in triple negative breast cancer
+(TNBC) in African American and Caucasian women: relation to survival. Breast
+Cancer Res Treat. 2013 Feb;137(3):677-87. doi: 10.1007/s10549-012-2371-3. Epub
+2012 Dec 19. PubMed PMID: 23250547; PubMed Central PMCID: PMC3552359.
+
+
+138: von Minckwitz G, Martin M. Neoadjuvant treatments for triple-negative breast
+cancer (TNBC). Ann Oncol. 2012 Aug;23 Suppl 6:vi35-9. Review. PubMed PMID:
+23012300.
+
+
+139: Buchholz S, Seitz S, Engel JB, Montero A, Ortmann O, Perez R, Block NL,
+Schally AV. Search for novel therapies for triple negative breast cancers (TNBC):
+analogs of luteinizing hormone-releasing hormone (LHRH) and growth
+hormone-releasing hormone (GHRH). Horm Mol Biol Clin Investig. 2012 Apr
+1;9(1):87-94. doi: 10.1515/hmbci-2011-0002. PubMed PMID: 25961354.
+
+
+140: Kaur P, Nagaraja GM, Zheng H, Gizachew D, Galukande M, Krishnan S, Asea A. A
+mouse model for triple-negative breast cancer tumor-initiating cells (TNBC-TICs) 
+exhibits similar aggressive phenotype to the human disease. BMC Cancer. 2012 Mar 
+27;12:120. doi: 10.1186/1471-2407-12-120. PubMed PMID: 22452810; PubMed Central
+PMCID: PMC3340297.
+
+
+141: Cho EY, Chang MH, Choi YL, Lee JE, Nam SJ, Yang JH, Park YH, Ahn JS, Im YH. 
+Potential candidate biomarkers for heterogeneity in triple-negative breast cancer
+(TNBC). Cancer Chemother Pharmacol. 2011 Sep;68(3):753-61. doi:
+10.1007/s00280-010-1548-x. Epub 2010 Dec 18. PubMed PMID: 21170648.
+
+
+142: De Laurentiis M, Cianniello D, Caputo R, Stanzione B, Arpino G, Cinieri S,
+Lorusso V, De Placido S. Treatment of triple negative breast cancer (TNBC):
+current options and future perspectives. Cancer Treat Rev. 2010 Nov;36 Suppl
+3:S80-6. doi: 10.1016/S0305-7372(10)70025-6. Review. PubMed PMID: 21129616.
+

@@ -1,0 +1,1347 @@
+
+PT J
+AU 冯茜, 
+   陈强, 
+AF 冯茜, 
+   陈强, 
+TI Citation analysis of life science journals
+SO 情报学报
+LA 
+DT Article
+DE 生命科学; 专业期刊; 引文分析; 文献老化; 文献计量学
+AB 生命科学专业期刊引文分析
+C1 [冯茜]兰州大学.多媒体计算机研究所/[陈强].
+RP 
+FU 
+CR 丁学东, 1900, 文献计量学基础, V0, P0
+   侯钰, 1997, 情报学报, V0, P0
+   罗式胜, 1900, 文献计量学概论, V0, P0
+   庞景安, 1994, 情报理论与实践, V0, P0
+   邱均平, 1987, 情报学报, V0, P0
+   汪冰, 1992, 情报科学, V0, P0
+NR 6
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 18
+IS 030
+BP 283
+EP 287
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 章红, 
+AF 章红, 
+TI A Bibliometries Analysis of Foreign Materials Publications
+SO 江苏图书馆学报
+LA 
+DT Article
+DE 文献计量学; 核心出版社; 材料出版物
+AB 海外材料出版物的文献计量学分析
+C1 [章红]上海图书馆.
+RP 
+FU 
+CR 包昌火, 1900, 情报研究方法论, V0, P0
+   罗式胜, 1900, 文献计量学概论, V0, P0
+   王绍平, 1900, 图书情报词典, V0, P0
+   章红, 1900, 试论西文原版图书采购中的查重, V0, P0
+NR 4
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 
+IS 010
+BP 13
+EP 15
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 王恺荣, 
+AF 王恺荣, 
+TI 
+SO 情报杂志
+LA 
+DT Article
+DE 引文分析; 文献计量学; 文献指南
+AB 引文困惑——入门者指南
+C1 [王恺荣]河南师范大学.
+RP 
+FU 
+CR Frame,Barbara, 1996, Library Resources & Technical Services, V0, P0
+NR 1
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 18
+IS 030
+BP 79
+EP 80
+DI 
+PG 2
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 高嵩, 
+AF 高嵩, 
+TI Some Views on Researches on Bibliometrics
+SO 情报理论与实践
+LA 
+DT Article
+DE 文献计量学; 情报计量学; 计量元素; 计量媒体
+AB 对文献计量学研究的一些看法
+C1 [高嵩]北京邮电大学.图书.
+RP 
+FU 
+CR Qiu L, 1993, 国外情报科学, V（4）:42, P0
+   Wallace DP, 1989, 情报学刊, V（4）, P0
+   White HD, 1989, ARIST, V24, P0
+   艾克纳 AS, 1900, 经济学为什么还不是一门科学, V0, P0
+   刘廷元, 1994, 情报科学, V0, P0
+   庞景安, 1994, 情报理论与实践, V0, P0
+   邱均平, 1900, 文献计量学, V0, P0
+   邱均平, 1994, 情报学报, V0, P0
+   汪冰, 1994, 国外情报科学, V0, P0
+   王崇德, 1996, 情报理论与实践, V0, P0
+   俞培果, 1997, 中国图书馆学报, V0, P0
+   张智雄, 1995, 情报理论与实践, V0, P0
+   张智雄, 1996, 情报理论与实践, V0, P0
+   张智雄, 1996, 图书情报工作动态, V0, P0
+NR 18
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 22
+IS 020
+BP 75
+EP 77
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 马费成, 
+   陈锐, 
+AF 马费成, 
+   陈锐, 
+TI Study on the law of scattering distribution of scientific information---Demonstration analysis from document level to content level(V):the graphical description of scattering distribution of knowledge unit
+SO 情报学报
+LA 
+DT Article
+DE 科学信息; 离散分布; 知识单元; Logistic模型; 文献计量学
+AB 科学信息离散分布规律的研究——从文献单元到内容单元的实证分析（V）:知识单元离散分布的图形模拟
+C1 [马费成]武汉大学.传播与信息学院/[陈锐].
+RP 
+FU 
+CR Ratkowsky David A, 1900, 非线性回归模型:统一的实用方法, V0, P0
+   马费成, 1999, 情报学报, V0, P0
+   马费成, 1999, 情报学报, V0, P0
+NR 3
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 18
+IS 050
+BP 463
+EP 479
+DI 
+PG 17
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 康焕龙, 
+AF 康焕龙, 
+TI 
+SO 图书馆论坛
+LA 
+DT Article
+DE 文献计量学; 情报学家; 邱均平; 人物传记
+AB 解构情报，计量人生——邱均平教授素描
+C1 [康焕龙]张家口市人民政府.研究.
+RP 
+FU 
+NR 0
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 
+IS 010
+BP 73
+EP 76
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 马费成, 
+   陈锐, 
+AF 马费成, 
+   陈锐, 
+TI Study on the law of scattering distribution of scientific informaiton---Demonstration analysis from document level to content level(VI):The Zipf\'s distribution of knowledge unit
+SO 情报学报
+LA 
+DT Article
+DE 科学信息; 离散分布; 齐夫定律; 知识单元; 文献计量学
+AB 科学信息离散分布规律的研究——从文献单元到内容单元的实证分析（VI）:内容单元的齐夫分布
+C1 [马费成]武汉大学.传播与信息管理学院/[陈锐].
+RP 
+FU 
+CR 罗式胜, 1900, 文献计量学概论, V0, P0
+   马费成, 1999, 情报学报, V0, P0
+   王崇德, 1900, 文献计量学引论, V0, P0
+NR 3
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 18
+IS 060
+BP 549
+EP 566
+DI 
+PG 18
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 马费成, 
+   陈锐, 
+   袁红, 
+AF 马费成, 
+   陈锐, 
+   袁红, 
+TI Study on the law of scattering distribution of scientific information---Demonstration analysis from document level to content level(I):Overall research frame
+SO 情报学报
+LA 
+DT Article
+DE 科学信息; 离散分布; 布拉德福定律; 文献计量学
+AB 科学信息离散分布规律的研究——从文献单元到内容单元的实证分析（I）:总体研究框架
+C1 [马费成]武汉大学.图书情报学院/[陈锐].
+   [袁红].
+RP 
+FU 
+CR 埃格希，L, 1900, 情报计量学引论, V0, P0
+   马费成, 1996, 情报学报, V0, P0
+   米哈依诺夫，AN, 1900, 科学交流与情报学, V0, P0
+NR 6
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 18
+IS 010
+BP 79
+EP 84
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 逄大欣, 
+   李玉玲, 
+AF 逄大欣, 
+   李玉玲, 
+TI Role of National Index to Newspaper and Periodicals in Finding Materials Needed
+SO 中国科技期刊研究
+LA 
+DT Article
+DE 期刊; 文献计量学; 查新咨询; 全国报刊索引
+AB 《全国报刊索引》在查新咨询工作中的作用
+C1 [逄大欣]白求恩医科大学.图书馆/[李玉玲].
+RP 
+FU 
+CR 施艳声, 1996, 医学情报工作, V0, P0
+NR 1
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 10
+IS 040
+BP 277
+EP 278
+DI 
+PG 2
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 缪建兰, 
+   郭盈, 
+AF 缪建兰, 
+   郭盈, 
+TI Citation Statistics and Analysis on the Theses\"Journal of Nanjing Agricultural University\"
+SO 情报科学
+LA 
+DT Article
+DE 学报论文; 引文统计分析; 文献计量学; 文献信息量
+AB 我校学报论文的引文统计分析
+C1 [缪建兰]南京农业大学.图书馆/[郭盈].
+RP 
+FU 
+CR 何建新, 1993, 南京农业大学学报, V0, P0
+   李玲, 1997, 广西农业大学学报, V0, P0
+   李希孔, 1985, 图书情报工作, V0, P0
+   秦邦廉, 1997, 图书馆杂志, V0, P0
+   邱均平, 1900, 文献计量学, V0, P0
+   屈卫群, 1998, 农业图书情报学刊, V0, P0
+   王滨铸, 1998, 农业图书情报学刊, V0, P0
+   袁培国, 1998, 中国图书馆学报, V0, P0
+NR 8
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 17
+IS 020
+BP 188
+EP 192
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 黄慧薇, 
+   吴慧洁, 
+   赖益雯, 
+AF 黄慧薇, 
+   吴慧洁, 
+   赖益雯, 
+TI 
+SO 情报杂志
+LA 
+DT Article
+DE 布拉德福定律; 情报服务; 文献计量学
+AB 布拉德福定律及其近似计算在情报服务中的若干应用
+C1 [黄慧薇]湛江师范学院.
+   [吴慧洁].
+   [赖益雯].
+RP 
+FU 
+CR 丁学东, 1900, 文献计量学基础, V0, P0
+   邱均平, 1900, 文献计量学, V0, P0
+   王崇德, 1995, 图书情报工作, V0, P0
+NR 3
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 18
+IS 020
+BP 75
+EP 76
+DI 
+PG 2
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 马费成, 
+   陈锐, 
+AF 马费成, 
+   陈锐, 
+TI Study on the law of scattering distribution of scientific information---Demonstration analysis from document level to content level(II):Scattering distribution of document unit by frequency-rank analysis of Bradford\'s law
+SO 情报学报
+LA 
+DT Article
+DE 科学信息; 离散分布; 布拉德福定律; 文献计量学
+AB 科学信息离散分布规律的研究——从文献单元到内容单元的实证分析（II）:文献离散分布的布氏区域分析
+C1 [马费成]武汉大学.图书情报学院/[陈锐].
+RP 
+FU 
+CR 埃格希，L, 1900, 情报计量学引论, V0, P0
+   罗式胜, 1900, 文献计量学概论, V0, P0
+   马费成, 1999, 情报学报, V0, P0
+NR 3
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 18
+IS 020
+BP 171
+EP 182
+DI 
+PG 12
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 张于平, 
+AF 张于平, 
+TI 
+SO 图书馆论坛
+LA 
+DT Article
+DE 文献计量学; 医院; 科技论文评估
+AB 试用文献计量法评估医院科研状况
+C1 [张于平]中山医科大学.图书.
+RP 
+FU 
+CR 韩秀兰, 1998, 中华医学科研管理杂志, V0, P0
+   罗式胜, 1900, 文献计量学概论, V0, P0
+   薛万新, 1996, 情报杂志, V0, P0
+   朱腾, 1994, 医学情报工作, V0, P0
+NR 4
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 
+IS 030
+BP 47
+EP 48
+DI 
+PG 2
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 靖培栋, 
+   刘忠厚, 
+AF 靖培栋, 
+   刘忠厚, 
+TI A new amendment to the classical obsolescence models of scientific literature
+SO 情报学报
+LA 
+DT Article
+DE 科技文献; 文献老化; 负指数模型; 文献计量学
+AB 科技文献经典老化模型的新修正
+C1 [靖培栋]北京师范大学.信息技术与管理学系/[刘忠厚].
+RP 
+FU 
+CR Burton RE, 1960, American Documentation, V11:18-22, P0
+   丁学东, 1900, 文献计量学基础, V0, P0
+   龚义台, 1982, 图书情报工作, V0, P0
+   李宁, 1993, 情报学报, V0, P0
+   邱均平, 1900, 文献计量学, V0, P0
+   王崇德, 1983, 图书情报工作, V0, P0
+NR 9
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 18
+IS 010
+BP 85
+EP 90
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 邱均平, 
+AF 邱均平, 
+TI Development of Bibliometrics,Scientometrics and Informetrics
+SO 情报理论与实践
+LA 
+DT Article
+DE 文献计量学; 科学计量学; 情报计量学
+AB 文献计量学科学计量学情报计量学的发展
+C1 [邱均平]武汉大学.图书情报学.
+RP 
+FU 
+NR 0
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 22
+IS 030
+BP 217
+EP 219.
+DI 
+PG 0
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 李亚波, 
+   赵振萍, 
+   杨彪, 
+AF 李亚波, 
+   赵振萍, 
+   杨彪, 
+TI Study of the Utilization of Chinese Periodical Publications Stroed in Libraries According to the Quotations from JiLin Agriculture University Fearning
+SO 图书馆学研究
+LA 
+DT Article
+DE 馆藏中文期刊; 期刊利用; 文献计量学; 引文分析; 期刊资源建设
+AB 从《吉林农业大学学报》引文看馆藏中文期刊的利用
+C1 [李亚波].
+   [赵振萍].
+   [杨彪].
+RP 
+FU 
+CR 缪小燕, 1996, 农业图书情报学刊, V0, P0
+NR 2
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 
+IS 060
+BP 52
+EP 53
+DI 
+PG 2
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 张文华, 
+AF 张文华, 
+TI Tool of bibliometrics and the evaluation of scientific and technical articles and periodicals
+SO 情报学报
+LA 
+DT Article
+DE 文献计量学; 科技论文; 科技期刊; 期刊评价; 评价系统
+AB 文献计量工具与科技论文、科技期刊评价研究
+C1 [张文华]武汉工业大学.图书.
+RP 
+FU 
+CR 埃格希，L, 1900, 情报计量学引论, V0, P0
+   包锦章, 1997, 中国信息导报, V0, P0
+   陈江洪, 1997, 中国科技期刊研究, V0, P0
+   郭俊义, 1993, 情报学报, V0, P0
+   孟连生, 1997, 中国科技期刊研究, V0, P0
+   邱均平, 1987, 情报学报, V0, P0
+   王引斌, 1998, 情报学报, V0, P0
+   叶继元, 1997, 中国图书馆学报, V0, P0
+NR 10
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 18
+IS 030
+BP 278
+EP 282
+DI 
+PG 5
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 刘雅轩, 
+AF 刘雅轩, 
+TI An Unsuited \"Revision\"——Deliberating with Comrade Li Ming
+SO 图书情报工作
+LA 
+DT Article
+DE 文献计量学; 学术讨论; 洛特卡定律
+AB 不适宜的“修正”——与李明同志商榷
+C1 [刘雅轩]天津师范大学.情报科学研究.
+RP 
+FU 
+CR Davis TT, 1900, Analysis of Economic Time Series, V0, P0
+   Pao ML, 1986, Processing & Management, V21, P4):26-3
+   李明, 1998, 图书情报工作, V0, P0
+   王崇德, 1900, 情报科学原理, V0, P0
+   王崇德, 1900, 文献计量学引论, V0, P0
+   赵树塬, 1900, 线性代数, V0, P0
+NR 6
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 
+IS 050
+BP 56
+EP 58
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 李晓梅, 
+AF 李晓梅, 
+TI A Statistical Analysis of the Papers in Comparative Education Review
+SO 比较教育研究
+LA 
+DT Article
+DE 比较教育研究; 统计分析; 文献计量学
+AB 《比较教育研究》论文统计及分析
+C1 [李晓梅]天津大学.图书.
+RP 
+FU 
+CR 波斯特莱斯维特，T·N, 1900, 最新世界教育百科全书, V0, P0
+   邱均平, 1900, 文献计量学, V0, P0
+   苏建星, 1996, 内燃机学报, V0, P0
+   王娟萍, 1993, 中国生物医学工程学报, V0, P0
+   杨玉璞, 1998, 化工学报, V0, P0
+NR 5
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 
+IS 020
+BP 55
+EP 57
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 裴青, 
+   苏国民, 
+   广新菊, 
+AF 裴青, 
+   苏国民, 
+   广新菊, 
+TI The Statistical Analysis on Published Papers and Its Authors from 1985 to 1998 in Geography and Territorial Research Journal
+SO 地理学与国土研究
+LA 
+DT Article
+DE 载文统计分析; 作者统计分析; 学术期刊; 文献计量学
+AB 《地理学与国土研究》1985-1998年载文及作者统计分析
+C1 [裴青]河北省科学院.地理研究所/[苏国民]河北省计划委员会.
+   [广新菊].
+RP 
+FU 
+CR 林被甸, 1900, 中文核心期刊要目总览, V0, P0
+   刘东维, 1991, 中国科技期刊研究, V0, P0
+   邱均平, 1900, 文献计量学, V0, P0
+NR 3
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 15
+IS 020
+BP 92
+EP 95
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 石庆平, 
+   吴鸣, 
+AF 石庆平, 
+   吴鸣, 
+TI Investigation of Journals on Nanometer Science and Technology
+SO 情报理论与实践
+LA 
+DT Article
+DE 科技期刊; 纳米科学技术; 核心期刊; 文献计量学; 期刊论文
+AB 纳米科技期刊的分析与研究
+C1 [石庆平]大连铁道学院.图书馆/[吴鸣]中国科学院大连化学物理研究所.
+RP 
+FU 
+CR 罗式胜, 1900, 文献计量学引论, V0, P0
+   石庆平, 1997, 科学, V0, P0
+NR 3
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 22
+IS 030
+BP 178
+EP 179
+DI 
+PG 2
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 张其苏, 
+   蔡蓉华, 
+AF 张其苏, 
+   蔡蓉华, 
+TI Determination of the Number of the Core Journals
+SO 大学图书馆学报
+LA 
+DT Article
+DE 核心期刊; 文献计量学; 核心区
+AB 核心期刊数量的界定
+C1 [张其苏]北京大学.图书馆/[蔡蓉华].
+RP 
+FU 
+CR Bradford SC, 1934, Engineering, V137, P3550
+   Goffiman W, 1969, Nature, V1969, P221):1205-120
+   丁学东, 1900, 文献计量学基础, V0, P0
+   胡国亮, 1900, 科技期刊综合定量评价分类报告, V0, P0
+   林被甸, 1900, 中文核心期刊要目总览, V0, P0
+   罗式胜, 1900, 文献计量学引论, V0, P0
+   王崇德, 1900, 文献计量学引论, V0, P0
+   杨廷郊, 1984, 图书情报工作, V0, P0
+   赵来远, 1997, 情报学报, V0, P0
+   庄守经, 1900, 中文核心期刊要目总览, V0, P0
+NR 11
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 
+IS 030
+BP 1
+EP 6
+DI 
+PG 6
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 温晋方, 
+AF 温晋方, 
+TI A Bibliometrical Study of Foreign Languages and Their Teaching(1994.1-1999.6)
+SO 外语与外语教学
+LA 
+DT Article
+DE 外语期刊; 文献计量学研究; 语言学; 外语教学
+AB 《外语与外语教学》（1994.1-1999.6）的文献计量学研究
+C1 [温晋方]广州师范学院.外语.
+RP 
+FU 
+CR 陈向敏, 1997, 高校图书馆工作, V0, P0
+   陈向敏, 1997, 大学图书馆学报, V0, P0
+   丁学东, 1900, 文献计量学基础, V0, P0
+   林被甸, 1900, 中文核心期刊要目总览, V0, P0
+   邱均平, 1900, 文献计量学, V0, P0
+   田润民, 1998, 外语与外语教学, V0, P0
+   王崇德, 1900, 文献计量学引论, V0, P0
+   俞培果, 1998, 图书情报工作, V0, P0
+   袁培国, 1998, 中国图书馆学报, V0, P0
+NR 9
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 
+IS 100
+BP 36
+EP 43
+DI 
+PG 8
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 马费成, 
+   陈锐, 
+AF 马费成, 
+   陈锐, 
+TI Study on the law of scattering distribution of scientific information---Demonstration analysis from document level to content level(IV):Scattering distribution of knowledge unit by taking Bradford\'s frequency-rank analysis as the frame of reference
+SO 情报学报
+LA 
+DT Article
+DE 科学信息; 离散分布; 布拉德福定律; 知识单元; 文献计量学
+AB 科学信息离散分布规律的研究——从文献单元到内容单元的实证分析（IV）:以布氏区域分布为参照系的知识单元分布
+C1 [马费成]武汉大学.传播与信息学院/[陈锐].
+RP 
+FU 
+CR 马费成, 1999, 情报学报, V0, P0
+   马费成, 1999, 情报学报, V0, P0
+   马费成, 1999, 情报学报, V0, P0
+NR 3
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 18
+IS 040
+BP 376
+EP 383
+DI 
+PG 8
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 陈贤均, 
+   赵红刚, 
+   徐爱芹, 
+AF 陈贤均, 
+   赵红刚, 
+   徐爱芹, 
+TI Quantitative Analysis of 729 Papers on Antisenility Research
+SO 中国科技期刊研究
+LA 
+DT Article
+DE 抗衰老研究; 文献计量; 文献计量学方法; 抗衰老中药
+AB 抗衰老研究729篇文献计量分析
+C1 [陈贤均]咸宁医学院.生物学教研室/[赵红刚].
+   [徐爱芹].
+RP 
+FU 
+CR 吕维善, 1994, 中国老年学杂志, V0, P0
+   罗式胜, 1900, 文献计量学引论, V0, P0
+NR 2
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 10
+IS 010
+BP 35
+EP 37
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 刘春茂, 
+   徐久龄, 
+AF 刘春茂, 
+   徐久龄, 
+TI Deep Recall of Our Famous Information Scientist:Professor Wang Chongde
+SO 情报科学
+LA 
+DT Article
+DE 情报学; 理论研究; 文献计量学; 王崇德
+AB 深切缅怀我国著名情报科学家王崇德教授
+C1 [刘春茂]天津师范大学.信息产业学系/[徐久龄].
+RP 
+FU 
+CR 嘉茗, 1992, 图书馆工作与研究, V0, P0
+   李玉梅, 1998, 情报理论与实践, V0, P0
+   邱遇梅, 1989, 情报业务研究, V0, P0
+   舒雯, 1994, 晋图学刊, V0, P0
+   王崇德, 1998, 晋图学刊, V0, P0
+   王崇德, 1982, 图书情报工作, V0, P0
+   王崇德, 1994, 情报学刊, V0, P0
+   王崇德, 1986, 情报学刊, V0, P0
+   王崇德, 1985, 情报科学, V0, P0
+   王崇德, 1985, 情报学刊, V0, P0
+   王崇德, 1981, 情报科学, V0, P0
+   王崇德, 1983, 情报科学, V0, P0
+   王崇德, 1987, 情报科学, V0, P0
+   王崇德, 1986, 情报科学, V0, P0
+NR 14
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 17
+IS 040
+BP 361
+EP 364
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 徐亚男, 
+   张聿忠, 
+AF 徐亚男, 
+   张聿忠, 
+TI 
+SO 图书馆学研究
+LA 
+DT Article
+DE 语言学; 文字学; 文献计量学; 论文统计
+AB 期刊论文统计与分析（语言学、文字学）
+C1 [徐亚男].
+   [张聿忠].
+RP 
+FU 
+NR 0
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 
+IS 030
+BP 35
+EP 38
+DI 
+PG 4
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 曾英姿, 
+   张海, 
+AF 曾英姿, 
+   张海, 
+TI Citation Anlysis of Papers on Chemistry in Science of China in Recent 10 Years (Cont.)
+SO 情报理论与实践
+LA 
+DT Article
+DE 科技期刊; 期刊评价; 引文分析; 中国科学; 文献计量学
+AB 《中国科学》化学学科近十年引文分析（上）——一般指标分析
+C1 [曾英姿]四川大学.图书馆/[张海].
+RP 
+FU 
+CR 杜宝荣, 1997, 中国科技期刊研究, V0, P0
+   韩秀兰, 1998, 情报学报, V0, P0
+   李凤棠, 1997, 中国科技期刊研究, V0, P0
+   刘君玉, 1998, 情报理论与实践, V0, P0
+   邱均平, 1900, 文献计量学, V0, P0
+   王崇德, 1981, 情报科学, V0, P0
+   张惠民, 1997, 医学图书馆通讯, V0, P0
+   张旭, 1994, 河南财经学院学报, V0, P0
+   中国科技论文统计与分析课题组, 1997, 中国科技期刊研究, V0, P0
+   中国科学编辑部, 1998, 中国科学（B辑）, V0, P0
+NR 10
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 22
+IS 060
+BP 432
+EP 434
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 张红林, 
+AF 张红林, 
+TI Bibliometric Studies of Present Status and Development of Freshwater Acquaculture in China
+SO 中国科技期刊研究
+LA 
+DT Article
+DE 文献统计; 淡水养殖业; 水产动物; 文献计量学; 文献量
+AB 我国淡水养殖业现状与发展的文献计量学分析
+C1 [张红林]淡水渔业编辑部.
+RP 
+FU 
+CR 邱均平, 1900, 文献计量学, V0, P0
+NR 1
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 10
+IS 030
+BP 203
+EP 205
+DI 
+PG 3
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 何建新, 
+   胡方方, 
+AF 何建新, 
+   胡方方, 
+TI The value of author\'s affiliation and address
+SO 编辑学报
+LA 
+DT Article
+DE 著者地址; 情报价值; 情报交流; 情报检索; 文献计量学
+AB 论著者地址的情报价值
+C1 [何建新]南京农业大学.图书馆/[胡方方].
+RP 
+FU 
+CR 赖茂生, 1900, 科技文献检索, V0, P0
+   邹志仁, 1900, 情报学概论, V0, P0
+NR 4
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 11
+IS 010
+BP 13
+EP 14
+DI 
+PG 2
+WC 
+SC 
+GA 
+UT 
+ER
+
+PT J
+AU 胡俊荣, 
+   王安利, 
+AF 胡俊荣, 
+   王安利, 
+TI 
+SO 情报杂志
+LA 
+DT Article
+DE 水产学报; 日本水产学会志; 比较研究; 期刊评介; 文献计量学; 引文分析
+AB 中国《水产学报》与《日本水产学会志》的比较研究
+C1 [胡俊荣]河北大学.
+   [王安利].
+RP 
+FU 
+CR 陈宪权, 1984, 情报学刊, V0, P0
+   丁学东, 1900, 文献计量学基础, V0, P0
+   胡俊荣, 1996, 河北科技图苑, V0, P0
+   刘永胜, 1993, 世界图书, V0, P0
+   陆行素, 1995, 图书情报工作, V0, P0
+   王发生, 1989, 世界图书, V0, P0
+NR 6
+TC 0
+Z9 
+U1 
+U2 
+PU 
+PI 
+PA 
+SN 
+EI 
+J9 
+PD JUN-15
+PY 1999
+VL 18
+IS 010
+BP 71
+EP 72
+DI 
+PG 2
+WC 
+SC 
+GA 
+UT 
+ER
