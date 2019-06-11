@@ -1,1 +1,2 @@
 # bicombR
+bliographic Items Co-occurrenceMatrix Builder using R. As the basic tool for text mining, bicombR can read and analyze the document records of the internationally authoritative biomedical literature database PubMed, citation database ScienceCitationIndex (SCI), China Knowledge Network (CNKI) and CSSCI data, and allow users to Modify, increase. As a basic tool for text mining, this software system is expected to be widely and fully applied in intelligence analysis, contributing to the research and development of biomedicine and other disciplines.
