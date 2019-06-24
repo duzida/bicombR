@@ -3,7 +3,6 @@
 # 1.CSSCI
 #####################
 
-
 ## 1.1 数据准备
 ### 1.1.1 Create directory
 #### query：下载的原始数据和检索式一般放在query文件夹上
@@ -35,7 +34,10 @@ library(stringr)
 library(ggplot2)
 library(plotly)
 library(tidyr)
+<<<<<<< HEAD
 library(XML)
+=======
+>>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
 
 ### 1.1.3 set global options
 options(stringsAsFactors = FALSE)
@@ -83,7 +85,10 @@ cssci.parser <- function(cssci){
   
   ky <- cssci[str_detect(cssci, "【关 键 词】")]
   ky <- str_remove_all(ky, "^【关 键 词】")
+<<<<<<< HEAD
   ky <- tolower(ky)
+=======
+>>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
   ky <- str_split(ky, "/")
   
   r1 <- which(str_detect(cssci, "【参考文献】"))
@@ -97,7 +102,10 @@ cssci.parser <- function(cssci){
     refer <- NULL
     warning("CSSCi Reference Data error!")
   }
+<<<<<<< HEAD
   refer <- sapply(refer,  function(x)str_remove_all(x,"^\\d+\\."))
+=======
+>>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
   
   fd <- cssci[str_detect(cssci, "【基    金】")]
   
@@ -123,6 +131,13 @@ cssci.parser <- function(cssci){
   
 docAB <- cssci.parser(cssci = cssci)
 docAB@title[1:5]
+<<<<<<< HEAD
+=======
+#### 机构和作者是一一对应
+identical(sapply(docAB@author,length), sapply(docAB@organization,length))
+
+which(sapply(docAB@author,length) != sapply(docAB@organization,length))
+>>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
 
 ## 1.3 数据清洗
 ### 将文献类型为Newspaper、会议论文的筛除
@@ -136,6 +151,7 @@ docAB2 <- new("ABprofile", title = docAB@title[-index], author = docAB@author[-i
               ab = docAB@ab[-index], mh = docAB@mh[-index], ptype = docAB@ptype[-index], pmid = docAB@pmid[-index], 
               sh = docAB@sh[-index], majr = docAB@majr[-index])
 
+<<<<<<< HEAD
 #### 机构和作者是一一对应
 #### 如果作者和机构不对应的话，将机构list的第一个机构按照作者list长度重复
 if(!identical(sapply(docAB2@author, length), sapply(docAB2@organization, length))){
@@ -144,6 +160,8 @@ if(!identical(sapply(docAB2@author, length), sapply(docAB2@organization, length)
     docAB2@organization[[tmp[i]]] <- rep(docAB2@organization[[tmp[i]]][1], length(docAB2@author[[tmp[i]]]))
   }
 }
+=======
+>>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
 
 ### 将去重后的原始文摘数据保存
 dupti <- docAB@title[index]
@@ -243,6 +261,7 @@ author1_d <- as.tbl(as.data.frame(table(sapply(docAB2@author, function(x)x[1])),
   arrange(desc(Freq))%>% 
   rename(author=Var1)
 
+<<<<<<< HEAD
 author_d$orgranization <- sapply(author_d$author, function(x){
   tmp1 <- unlist(docAB2@author)
   tmp2 <- unlist(docAB2@organization)
@@ -308,10 +327,53 @@ reference_d$issue <- str_split(reference_d$Volume_issue, "\\(")
 write.table(reference_d, "./6.res/journal/reference_d.txt", quote = F, col.names = NA, sep = "\t")
 
 ### 1.4.4 keyword
+=======
+
+
+
+
+author_d$orgranization <- sapply(author_d$author, function(x){
+  # tmp <- match(x,docAB2@author)
+  # docAB2@organization[[tmp]][str_detect(docAB2@author[tmp], x)]
+  index <- sapply(docAB2@author, function(y)str_detect(y, x))
+  tmp <- docAB2@organization[index]
+  names(sort(table(unlist(tmp)), decreasing = T)[1])
+  # tmp <- as.data.frame(table(unlist(tmp)))%>% 
+  #   arrange(desc(Freq)) 
+  # as.character(tmp[1,1])
+})
+
+
+
+write.table(author_d, "./6.res/author/author_d.txt", quote = F, col.names = NA, sep = "\t")
+write.table(author1_d, "./6.res/author/author1_d.txt", quote = F, col.names = NA, sep = "\t")
+
+
+
+res_au_1$instruc <- sapply(res_au_1$Var1, function(x){
+  tmp <- cssci_wos[str_detect(cssci_wos, paste0("^C1 \\[", x, "\\]"))]
+  tmp <- str_remove(tmp, "/.*$")
+  tmp <- str_remove(tmp, "^C1 \\[.*\\]")
+  # tmp <- as.character(tmp)
+  tmp <- as.data.frame(table(tmp))%>% 
+    arrange(desc(Freq)) 
+  as.character(tmp[1,1])
+})
+res_au_1$instruc <- str_remove(res_au_1$instruc, "\\.$")
+### 1.4.3 reference
+
+
+### 1.4.5 描述性数据
+
+
+### 1.4.4 keyword
+
+>>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
 keyword_d <- as.tbl(as.data.frame(table(unlist(docAB2@keyword))))%>% 
   arrange(desc(Freq))%>% 
   rename(keyword=Var1)
 
+<<<<<<< HEAD
 #### 关键词同义词合并
 docAB2@keyword <- sapply(docAB2@keyword, function(x){
   # x <- str_replace_all(x, "科研成果转化", "科技成果转化")
@@ -320,15 +382,29 @@ docAB2@keyword <- sapply(docAB2@keyword, function(x){
   # x <- str_replace_all(x, "大学|高等学校|高等院校", "高校")
   ### 匹配双字节字符[^x00-xff];匹配中文字符[u4e00-u9fa5] 
   x <- str_replace_all(x, "citespace.*", "citespace")
+=======
+docAB2@keyword <- sapply(docAB2@keyword, function(x){
+  x <- str_replace_all(x, "科研成果转化", "科技成果转化")
+  x <- str_replace_all(x, "产学研结合", "产学研合作")
+  x <- str_replace_all(x, "科技创新", "技术创新")
+  x <- str_replace_all(x, "大学|高等学校|高等院校", "高校")
+  x <- str_replace_all(x, "高校技术转移", "大学技术转移")
+>>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
   x <- unique(x)
 })
 
 keyword_d <- as.tbl(as.data.frame(table(unlist(docAB2@keyword))))%>% 
+<<<<<<< HEAD
   arrange(desc(Freq))%>% 
   rename(keyword=Var1)
 
 keyword_d$keyword <- as.character(keyword_d$keyword)
 
+=======
+  arrange(docAB2@keywordsc(Freq))%>% 
+  rename(keyword=Var1)
+
+>>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
 write.table(keyword_d, "./6.res/keyword/keyword_d.txt", quote = F, col.names = NA, sep = "\t")
 
 as.tbl(as.data.frame(table(table(unlist(docAB2@keyword))))) %>% 
@@ -339,6 +415,7 @@ as.tbl(as.data.frame(table(table(unlist(docAB2@keyword))))) %>%
          # margin = list(b = 100), 
          showlegend = FALSE) 
 
+<<<<<<< HEAD
 ### 1.4.5 描述性数据
 #### 高产作者
 au_threshold <- 0.749*(author1_d$Freq[1]^0.5)
@@ -412,6 +489,8 @@ keyword_d2 <- data.frame(keyword=sapply(docAB2@keyword, function(x) paste0(x, co
   # dplyr::mutate(burst = burstindex(term = keyword, obj = docAB2, timewindow = year, field = "keyword"))
   
 
+=======
+>>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
 
 minfreq <- 10
 # 矩阵
@@ -442,6 +521,47 @@ write.table(as.matrix(com), "../../../result/关键词/2com.txt", sep = "\t", qu
 
 
 
+<<<<<<< HEAD
+=======
+#CR
+#1213
+cr <- cssci_wos[str_detect(cssci_wos, "^CR")]
+index_cr <- which(str_detect(cssci_wos, "^CR"))
+
+index_nr <- c()
+for(j in 1:length(index_cr)){
+  i <- index_cr[j]
+  index_nr[j] <- which(str_detect(cssci_wos[i:60125], "^NR"))[1]+i-1
+}
+# index_nr <- which(str_detect(cssci_wos, "^NR"))
+
+index_cr[1:10]
+index_nr[1:10]
+
+cr_all <- list()
+
+for(i in 1:length(index_cr)){
+  cr_all[[i]] <- cssci_wos[index_cr[i]:(index_nr[i]-1)]
+}
+
+cr_all[1:5]
+
+cr_all <- sapply(cr_all, function(x){
+  x[1] <- str_remove(x[1], "^CR ")
+  # x <- str_remove(x, ", $")
+  x <- str_remove(x, "^   ")
+  # names(x) <- NULL
+})
+
+res_cr <- as.tbl(as.data.frame(table(unlist(cr_all))))%>% 
+  arrange(desc(Freq))
+
+library(tidyr)
+res_cr$Var1 <- as.character(res_cr$Var1)
+res_cr$Var1 <- str_replace(res_cr$Var1, "(^\\w+), (\\w+, \\d+,)", "\\1_\\2")
+res_cr <- tidyr::separate(res_cr, col = 1, sep = ", ", into = c("author", "year", "journal", "V", "P"))
+write.table(res_cr, "../../result/期刊/res_cr.txt", quote = F, col.names = NA, sep = "\t")
+>>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
 
 
 #Cited reference CR
@@ -495,6 +615,7 @@ writeLines(cssci_wos, "cssci_wos.txt")
 
 length(unlist(str_extract_all(cr_all, ", Research Policy,")))
 
+<<<<<<< HEAD
 #####################
 # abstract(abs) from
 # 1.CNKI
@@ -570,3 +691,5 @@ setClass("ABprofile", representation(title = "character", author = "list",  orga
                                      fund = "character", fund_type = "list"))
 
 ### 
+=======
+>>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
