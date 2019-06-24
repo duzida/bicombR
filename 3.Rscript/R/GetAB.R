@@ -1,6 +1,6 @@
 #Get PubMed Abstracts
 setClass("eutils", 
-         representation = list(host = "character", db = "character", retmax = "character", 
+         slots = list(host = "character", db = "character", retmax = "character", 
                                rettype = "character", retmode = "character", email = "character", tool = "character"), 
          prototype = list(db = "pubmed", retmode = "xml", email = "gerhard.schofl%40gmail.com", tool = "reutils"))
 setClass("search", contains="eutils", 
