@@ -12,17 +12,19 @@ dir.create("./res", showWarnings = FALSE)
 options(stringsAsFactors = FALSE)
 
 # read data
+setwd("./1.query/notefirst/")
 cnkifilename <- dir()[str_detect(dir(),"CNKI-")]
 
 # notefirst format
-# ÎªÅÅ³ıÍ¬ÃûÏÖÏó£¬¼ÓÉÏµ¥Î»
-# ×÷ÕßÓëµ¥Î»ÎŞ·¨Æ¥Åä£¬»á´æÔÚ×÷Õß3¸öµ¥Î»2¸öµÄÇé¿ö
-# cnkiÖĞ£¬²»Í¬ÎÄÏ×ÀàĞÍ½Úµã±êÇ©ÊÇ²»Ò»ÑùµÄ
-# ×÷Õß·Ö¸ô·ûÓĞµÄÊÇ","
+# ä¸ºæ’é™¤åŒåç°è±¡ï¼ŒåŠ ä¸Šå•ä½
+# ä½œè€…ä¸å•ä½æ— æ³•åŒ¹é…ï¼Œä¼šå­˜åœ¨ä½œè€…3ä¸ªå•ä½2ä¸ªçš„æƒ…å†µ
+# cnkiä¸­ï¼Œä¸åŒæ–‡çŒ®ç±»å‹èŠ‚ç‚¹æ ‡ç­¾æ˜¯ä¸ä¸€æ ·çš„
+# ä½œè€…åˆ†éš”ç¬¦æœ‰çš„æ˜¯","
+# cnkiåœ¨å…³é”®è¯æœ‰çš„æ˜¯è‹±æ–‡ï¼Œå¤§å°å†™å¾—ç»Ÿä¸€ï¼Œç©ºæ ¼ä¸èƒ½å»é™¤
 
 
-setClass("cnkiAB", representation(ti = "character", year = "character", type = "character", 
-                                  au = "list", kw = "list", organization = "list", journal = "character"))
+setClass("cnkiAB", representation(ti = "character", year = "character", type = "character", au = "list", 
+                                  kw = "list", organization = "list", journal = "character", publisher = "character"))
 
 cnki.parser <- function(file){
   
@@ -75,7 +77,9 @@ cnki.parser <- function(file){
   
   KwList <- str_split(KwList, ";")
   
-  KwList <- sapply(KwList, function(x)str_remove_all(x, " "))
+  KwList <- sapply(KwList, function(x)str_to_lower(x))
+  
+  # KwList <- sapply(KwList, function(x)str_remove_all(x, " "))
   
   TEST = sd(c(length(Ti), length(Year), length(AuList), length(OrgList), length(KwList)))
   
@@ -85,7 +89,11 @@ cnki.parser <- function(file){
     return(profile)
   }else return("XML Document Error")
 }
+cnkifilename <- dir("1.query/NoteFirst/")
+setwd("./1.query/NoteFirst/")
 cnkiAB <- cnki.parser(cnkifilename)
+setwd("../../")
+getwd()
 
 table(cnkiAB@publisher)
 table(cnkiAB@type)
@@ -93,30 +101,52 @@ table(cnkiAB@year)
 
 any(cnkiAB@ti=="NO RES")
 any(cnkiAB@type=="NO RES")
-any(cnkiAB@au=="NO RES")# ±êÌâ,ÎÄÏ×ÀàĞÍ,×÷Õß½Úµã±êÇ©ÊÇÒ»ÖÂµÄ
+any(cnkiAB@au=="NO RES")# æ ‡é¢˜,æ–‡çŒ®ç±»å‹,ä½œè€…èŠ‚ç‚¹æ ‡ç­¾æ˜¯ä¸€è‡´çš„
 
 table(cnkiAB@type,cnkiAB@year)
 table(cnkiAB@type[cnkiAB@organization=="NO RES"])
 cnkiAB@ti[cnkiAB@type=="Newspaper"]
-which(cnkiAB@kw=="NO RES")
+which(cnkiAB@kw %in% c("å³°å‡åŠŸç‡æ¯”","æ­£äº¤é¢‘åˆ†å¤ç”¨","ç©ºé—´å…‰è°ƒåˆ¶å™¨","å³°å‡æ¯”","å…¨æ¯"))
+
+which(sapply(cnkiAB@kw, function(x) any(x %in% c("å³°å‡åŠŸç‡æ¯”","æ­£äº¤é¢‘åˆ†å¤ç”¨","ç©ºé—´å…‰è°ƒåˆ¶å™¨","å³°å‡æ¯”","å…¨æ¯"))))
 which(sapply(cnkiAB@au, length)-sapply(cnkiAB@organization, length)!=0)
 cnkiAB@au[6:7]
 cnkiAB@organization[6:7]
-### thsis£¬newspaper²»Í¬ÀàĞÍµÄÎÄÏ×ĞèÒª²»Í¬µÄÔªËØ±êÇ©
+### thsisï¼Œnewspaperä¸åŒç±»å‹çš„æ–‡çŒ®éœ€è¦ä¸åŒçš„å…ƒç´ æ ‡ç­¾
 
-# ½«ÎÄÏ×ÀàĞÍÎªNewspaperµÄÉ¸³ı
-# ½«ÎŞ×÷ÕßÎŞ¹Ø¼ü´ÊµÄÎÄÏ×ÌŞ³ı
+# åˆ é™¤ä¸ç¬¦åˆä¸»é¢˜çš„å…³é”®è¯
+index <- which(sapply(cnkiAB@kw, function(x) any(x %in% c("å³°å‡åŠŸç‡æ¯”","æ­£äº¤é¢‘åˆ†å¤ç”¨","æ¶²æ™¶ç©ºé—´å…‰è°ƒåˆ¶å™¨",
+                                                 "ç©ºé—´å…‰è°ƒåˆ¶å™¨","å³°å‡æ¯”","å…¨æ¯","ofdm","å…‰å­¦åˆ¶é€ ","æ¿€å…‰å…‰å­¦"))))
+# åˆå¹¶åŒä¹‰è¯
+cnkiAB@kw <- sapply(cnkiAB@kw, function(x){
+  x <- str_replace_all(x, "æ¿€å…‰é€‰åŒºç†”åŒ–\\(slm\\)", "æ¿€å…‰é€‰åŒºç†”åŒ–")
+  x <- str_replace_all(x, "é€‰æ‹©æ€§æ¿€å…‰ç†”åŒ–|é€‰åŒºæ¿€å…‰ç†”åŒ–|selective laser melting|slm|æ¿€å…‰é€‰åŒºç†”åŒ–æŠ€æœ¯|æ¿€å…‰é€‰åŒºç†”åŒ–æˆå½¢", "æ¿€å…‰é€‰åŒºç†”åŒ–")
+  x <- str_replace_all(x, "additive manufacturing", "å¢æåˆ¶é€ ")
+  x <- str_replace_all(x, "å¾®è§‚ç»„ç»‡|microstructure|å¾®è§‚ç»“æ„", "æ˜¾å¾®ç»„ç»‡")
+  x <- str_replace_all(x, "é€‰æ‹©æ˜ å°„", "é€‰æ‹©æ€§æ˜ å°„")
+  x <- str_replace_all(x, "å¿«é€Ÿæˆå½¢", "å¿«é€Ÿæˆå‹")
+  x <- str_replace_all(x, "alsi10mg$", "alsi10mgåˆé‡‘")
+  x <- str_replace_all(x, "mechanical properties", "æœºæ¢°æ€§èƒ½")
+  x <- str_remove_all(x, "of|in|as|on|for")
+  x <- x[x!=""]
+  x <- unique(x)
+})
+
+
+
+# å°†æ–‡çŒ®ç±»å‹ä¸ºNewspaperçš„ç­›é™¤
+# å°†æ— ä½œè€…æ— å…³é”®è¯çš„æ–‡çŒ®å‰”é™¤
 # index <- which(cnkiAB@au!="NO RES" & cnkiAB@kw!="NO RES" & cnkiAB@type!="Newspaper")
-index <- which(cnkiAB@publisher != "Çé±¨Ñ§±¨" & cnkiAB@year !="2018")
+# index <- which(cnkiAB@publisher != "æƒ…æŠ¥å­¦æŠ¥" & cnkiAB@year !="2018")
 
-cnki <- new("cnkiAB", ti = cnkiAB@ti[index], year = cnkiAB@year[index], 
-            type = cnkiAB@type[index], au = cnkiAB@au[index], 
-            organization = cnkiAB@organization[index],  kw = cnkiAB@kw[index], publisher = cnkiAB@publisher[index])
-
+cnki <- new("cnkiAB", ti = cnkiAB@ti[-index], year = cnkiAB@year[-index], 
+            type = cnkiAB@type[-index], au = cnkiAB@au[-index], 
+            organization = cnkiAB@organization[-index],  kw = cnkiAB@kw[-index], publisher = cnkiAB@publisher[-index])
+table(cnki@type)
 # cnki <- cnkiAB
 
-# Æµ´Î±í¼°¿ÉÊÓÍ¼
-# Äê´ú
+# é¢‘æ¬¡è¡¨åŠå¯è§†å›¾
+# å¹´ä»£
 d1 <- as.tbl(as.data.frame(table(cnki@year)))
 
 p1 <-  d1 %>% 
@@ -130,7 +160,7 @@ print(p1)
 write.table(d1, "res/year_freq.txt", row.names = F, quote = F, sep = "\t")
 
 
-# ºËĞÄ×÷Õß
+# æ ¸å¿ƒä½œè€…
 d3 <- as.tbl(as.data.frame(table(unlist(cnki@au)))) %>% 
   arrange(desc(Freq)) %>% 
   dplyr::rename(Author=Var1)
@@ -140,30 +170,40 @@ d3 <- d3[d3$Freq >= round(0.749*d3$Freq[1]^0.5),] %>% #2.247
   dplyr::rename(CoreAuthor=Author)
 write.table(d3, "./res/core_author_freq.txt", row.names = F, quote = F, sep = "\t")
 
-# ÆÚ¿¯
+# æœŸåˆŠ
 d2 <- as.tbl(as.data.frame(table(cnki@publisher, cnki@year)))%>% 
   arrange(desc(Var1))
 
 d3 <- reshape2::dcast(d2, Var1~Var2, value.var = "Freq")
 rownames(d3) <- d3$Var1
 d3 <- d3[,-1]
-d3$'×Ü¼Æ' <- rowSums(d3)
+d3$'æ€»è®¡' <- rowSums(d3)
 d3 <- rbind(d3, colSums(d3))
-rownames(d3)[10] <- "×Ü¼Æ"
+rownames(d3)[10] <- "æ€»è®¡"
 d3
 write.table(d3, "./res/journal.txt", col.names = NA, quote = F, sep = "\t")
 
-# ¸ßÆµ´Ê
+# é«˜é¢‘è¯
 for(i in 1:length(cnki@kw)){
-  cnki@kw[[i]] <- str_replace(cnki@kw[[i]], "¡¶Í¼ÊéÇé±¨¹¤×÷¡·", "Í¼ÊéÇé±¨¹¤×÷")
+  cnki@kw[[i]] <- str_replace(cnki@kw[[i]], "ã€Šå›¾ä¹¦æƒ…æŠ¥å·¥ä½œã€‹", "å›¾ä¹¦æƒ…æŠ¥å·¥ä½œ")
 }
+
+cnki@kw <- sapply(cnki@kw, function(x){
+  x <- str_replace_all(x, "æ¿€å…‰é€‰åŒºç†”åŒ–\\(æ¿€å…‰é€‰åŒºç†”åŒ–\\)", "æ¿€å…‰é€‰åŒºç†”åŒ–")
+  # x <- str_replace_all(x, "å¿«é€Ÿæˆå½¢", "å¿«é€Ÿæˆå‹")
+  # x <- str_replace_all(x, "å¾®è§‚ç»„ç»‡|microstructure|å¾®è§‚ç»“æ„", "æ˜¾å¾®ç»„ç»‡")
+  # x <- str_replace_all(x, "é€‰æ‹©æ˜ å°„", "é€‰æ‹©æ€§æ˜ å°„")
+  # x <- str_replace_all(x, "alsi10mg", "alsi10mgåˆé‡‘")
+  x <- unique(x)
+})
 
 d5 <- as.tbl(as.data.frame(table(unlist(cnki@kw)), stringsAsFactors = F)) %>% 
   arrange(desc(Freq)) %>% 
   dplyr::rename(Keyword=Var1)
-write.table(d5, "./res/¹Ø¼ü´ÊÍ³¼Æ.txt", row.names = F, quote = F, sep = "\t")
+write.table(d5, "./6.res/keyword/å…³é”®è¯ç»Ÿè®¡.txt", row.names = F, quote = F, sep = "\t")
 
-p2 <- as.data.frame(table(table(unlist(cnki@kw)))) %>% 
+
+p2 <- as.data.frame(table(table(unlist(cnkiAB@kw)))) %>% 
   dplyr::mutate(cumfreq=(cumsum(Freq)/sum(Freq))*100) %>% 
   plot_ly(x=~Var1, y=~cumfreq, type = 'scatter', mode = 'lines+markers') %>% 
   layout(xaxis = list(title = "the freq of keyword", tickangle = -45),
@@ -177,10 +217,10 @@ print(p2)
 d5_cum <- as.data.frame(table(table(unlist(cnki@kw)))) %>% 
   dplyr::mutate(cumfreq=(cumsum(Freq)/sum(Freq))*100)
 
-write.table(d5_cum, "./res/¸ßÆµ´ÊÀÛ»ı.txt", row.names = F, quote = F, sep = "\t")
+write.table(d5_cum, "./res/é«˜é¢‘è¯ç´¯ç§¯.txt", row.names = F, quote = F, sep = "\t")
 
-# threshold Ñ¡È¡
-minfreq.df <- as.tbl(as.data.frame(table(table(unlist(cnki@kw))), stringsAsFactors = F)) %>% 
+# threshold é€‰å–
+minfreq.df <- as.tbl(as.data.frame(table(table(unlist(cnkiAB@kw))), stringsAsFactors = F)) %>% 
   arrange(desc(as.integer(Var1))) %>% 
   dplyr::mutate(g1=cumsum(as.integer(Freq)*as.integer(Var1))) %>% 
   dplyr::mutate(g2=cumsum(as.integer(Freq))^2)
@@ -188,23 +228,23 @@ minfreq.df <- as.tbl(as.data.frame(table(table(unlist(cnki@kw))), stringsAsFacto
 minfreq <- as.integer(with(minfreq.df, Var1[which(g1 < g2)[1]-1]))
 d5_height <- d5[d5$Freq>minfreq,]
 
-translate <- readxl::read_xlsx("res/¸ßÆµ´ÊÖĞÓ¢ÎÄ¶ÔÕÕ.xlsx", col_names = F, sheet = 1)
+translate <- readxl::read_xlsx("res/é«˜é¢‘è¯ä¸­è‹±æ–‡å¯¹ç…§.xlsx", col_names = F, sheet = 1)
 word <- translate$X__1
 d6 <- filter(d5, Keyword %in% word)
 translate$Freq <- d5$Freq[match(translate$X__1, d5$Keyword)]
 translate <- arrange(translate, desc(Freq))
-colnames(translate) <- c("¸ßÆµ¹Ø¼ü´Ê_ÖĞÎÄ", "¸ßÆµ¹Ø¼ü´Ê_º«Óï", "¹Ø¼ü´ÊÆµ´Î")
-write.table(translate, "./res/¸ßÆµ¹Ø¼ü´Ê.txt", row.names = F, 
+colnames(translate) <- c("é«˜é¢‘å…³é”®è¯_ä¸­æ–‡", "é«˜é¢‘å…³é”®è¯_éŸ©è¯­", "å…³é”®è¯é¢‘æ¬¡")
+write.table(translate, "./res/é«˜é¢‘å…³é”®è¯.txt", row.names = F, 
             quote = F, sep = "\t", fileEncoding = "utf-8")
 
 
-#¸ßÆµ´Ê´ÊÔÆ
+#é«˜é¢‘è¯è¯äº‘
 # p5 <- wordcloud2::wordcloud2(d5_height)
 # print(p5)
 write.table(d5, "./res/keyword_freq.txt", row.names = F, quote = F, sep = "\t")
-write.table(d5_height, "./res/¸ßÆµ´Ê.txt", row.names = F, quote = F, sep = "\t")
+write.table(d5_height, "./res/é«˜é¢‘è¯.txt", row.names = F, quote = F, sep = "\t")
 
-# ¾ØÕó
+# çŸ©é˜µ
 term <- d5$Keyword
 term.list <- cnki@kw
 names(term.list) <- 1:length(term.list)
@@ -232,11 +272,11 @@ write.table(as.matrix(com), "./res/com.txt", sep = "\t", quote = F, col.names = 
 
 rownames(com)
 com2 <- com
-com2["Í¼Êé¹İ",] <- com2["¹«¹²Í¼Êé¹İ",]
-com2["ÒÆ¶¯Í¼Êé¹İ",] <- com["ÒÆ¶¯·şÎñ",]
-com2["ÎÄÏ×´«µİ",] <- com2["¹İ¼Ê»¥½è",]
+com2["å›¾ä¹¦é¦†",] <- com2["å…¬å…±å›¾ä¹¦é¦†",]
+com2["ç§»åŠ¨å›¾ä¹¦é¦†",] <- com["ç§»åŠ¨æœåŠ¡",]
+com2["æ–‡çŒ®ä¼ é€’",] <- com2["é¦†é™…äº’å€Ÿ",]
 
-# com2["ÒÆ¶¯Í¼Êé¹İ",] <- apply(com[c("ÒÆ¶¯Í¼Êé¹İ","ÒÆ¶¯·şÎñ"),],2,mean)
+# com2["ç§»åŠ¨å›¾ä¹¦é¦†",] <- apply(com[c("ç§»åŠ¨å›¾ä¹¦é¦†","ç§»åŠ¨æœåŠ¡"),],2,mean)
 
 
 write.table(as.matrix(com2), "./res/comm.txt", sep = "\t", quote = F, col.names = NA)
@@ -256,7 +296,7 @@ translate$X__2[match(rownames(com), translate$X__1)][c(2,3,22,55)] <-
 # dimnames(com) <- list(translate$X__2[match(rownames(com), translate$X__1)], 
                       # translate$X__2[match(rownames(com), translate$X__1)])
 
-com2 <- com[-match(c("Í¼Êé¹İ","´óÑ§Í¼Êé¹İ"), rownames(com)), -match(c("Í¼Êé¹İ","´óÑ§Í¼Êé¹İ"), rownames(com))]
+com2 <- com[-match(c("å›¾ä¹¦é¦†","å¤§å­¦å›¾ä¹¦é¦†"), rownames(com)), -match(c("å›¾ä¹¦é¦†","å¤§å­¦å›¾ä¹¦é¦†"), rownames(com))]
 
 g <- graph.adjacency(com2, mode = "undirected", weighted = T, diag = F)
 g
@@ -271,36 +311,36 @@ write.table(network, "./res/network.txt", sep = "\t",
             quote = F, col.names = T, row.names = F)
 
 dim(com2)
-cluster <- readxl::read_xlsx("res/toclient/SPSS ¾ÛÀà½á¹û.xlsx")
+cluster <- readxl::read_xlsx("res/toclient/SPSS èšç±»ç»“æœ.xlsx")
 cluster <- cluster[,c(2,4)]
 diag(com2) <- 0
-# Õ½ÂÔ×ø±ê <- data.frame(ÃÜ¶È=rep(0,6), ÏòĞÄ¶È=rep(0,6))
-Õ½ÂÔ×ø±ê <- sapply(1:6, function(i){
-  tmp1 <- mean(com2[cluster$¸ßÆµ¹Ø¼ü´Ê_ÖĞÎÄ[cluster$ËùÊôÀà±ğ==i],cluster$¸ßÆµ¹Ø¼ü´Ê_ÖĞÎÄ[cluster$ËùÊôÀà±ğ==i]])
-  tmp2 <- mean(com2[cluster$¸ßÆµ¹Ø¼ü´Ê_ÖĞÎÄ[cluster$ËùÊôÀà±ğ==i],cluster$¸ßÆµ¹Ø¼ü´Ê_ÖĞÎÄ[cluster$ËùÊôÀà±ğ!=i]])
+# æˆ˜ç•¥åæ ‡ <- data.frame(å¯†åº¦=rep(0,6), å‘å¿ƒåº¦=rep(0,6))
+æˆ˜ç•¥åæ ‡ <- sapply(1:6, function(i){
+  tmp1 <- mean(com2[cluster$é«˜é¢‘å…³é”®è¯_ä¸­æ–‡[cluster$æ‰€å±ç±»åˆ«==i],cluster$é«˜é¢‘å…³é”®è¯_ä¸­æ–‡[cluster$æ‰€å±ç±»åˆ«==i]])
+  tmp2 <- mean(com2[cluster$é«˜é¢‘å…³é”®è¯_ä¸­æ–‡[cluster$æ‰€å±ç±»åˆ«==i],cluster$é«˜é¢‘å…³é”®è¯_ä¸­æ–‡[cluster$æ‰€å±ç±»åˆ«!=i]])
   return(c(tmp1,tmp2))
 })
 
-Õ½ÂÔ×ø±ê <- t(Õ½ÂÔ×ø±ê)
-colnames(Õ½ÂÔ×ø±ê) <- c("ÃÜ¶È","ÏòĞÄ¶È")
-rownames(Õ½ÂÔ×ø±ê) <- paste0("ÀàÍÅ", 1:6)
-write.table(Õ½ÂÔ×ø±ê, "./res/toclient/Õ½ÂÔ×ø±ê.txt", sep = "\t", 
+æˆ˜ç•¥åæ ‡ <- t(æˆ˜ç•¥åæ ‡)
+colnames(æˆ˜ç•¥åæ ‡) <- c("å¯†åº¦","å‘å¿ƒåº¦")
+rownames(æˆ˜ç•¥åæ ‡) <- paste0("ç±»å›¢", 1:6)
+write.table(æˆ˜ç•¥åæ ‡, "./res/toclient/æˆ˜ç•¥åæ ‡.txt", sep = "\t", 
                 quote = F, col.names = NA)
 
 library(ggplot2)
-Õ½ÂÔ×ø±ê <- data.frame(Õ½ÂÔ×ø±ê)
-Õ½ÂÔ×ø±ê$cluster <- paste0("cluster", 1:6)
-colnames(Õ½ÂÔ×ø±ê) <- c("density", "centralization", "cluster")
-ggplot(Õ½ÂÔ×ø±ê, aes(x=density, y=centralization, color=cluster))+ geom_point(size=3,aes(shape=cluster))+ 
+æˆ˜ç•¥åæ ‡ <- data.frame(æˆ˜ç•¥åæ ‡)
+æˆ˜ç•¥åæ ‡$cluster <- paste0("cluster", 1:6)
+colnames(æˆ˜ç•¥åæ ‡) <- c("density", "centralization", "cluster")
+ggplot(æˆ˜ç•¥åæ ‡, aes(x=density, y=centralization, color=cluster))+ geom_point(size=3,aes(shape=cluster))+ 
   ylim(c(0.2,0.6))+
   geom_vline(aes(xintercept=mean(density)))+geom_hline(aes(yintercept=mean(centralization)))+ 
-  ggsave("res/toclient/Õ½ÂÔ×ø±êÍ¼.png")
+  ggsave("res/toclient/æˆ˜ç•¥åæ ‡å›¾.png")
   # guides(color=FALSE)
 # + geom_text(aes(label=cluster),colour="black",size=1)
 
 #
-cluster <- readxl::read_xlsx("res/toclient/SPSS ¾ÛÀà½á¹û.xlsx")
-t <- cluster$ËùÊôÀà±ğ[match(cluster$vertex, cluster$¸ßÆµ¹Ø¼ü´Ê_º«ÎÄ)]
+cluster <- readxl::read_xlsx("res/toclient/SPSS èšç±»ç»“æœ.xlsx")
+t <- cluster$æ‰€å±ç±»åˆ«[match(cluster$vertex, cluster$é«˜é¢‘å…³é”®è¯_éŸ©æ–‡)]
 t <- factor(t, labels = c("red", "yellow", "blue", "black", "lightblue", "green"))
 write.table(t,"./res/t.txt", sep = "\t", 
                 quote = F, col.names = F, row.names = F)

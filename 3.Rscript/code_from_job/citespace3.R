@@ -34,10 +34,7 @@ library(stringr)
 library(ggplot2)
 library(plotly)
 library(tidyr)
-<<<<<<< HEAD
 library(XML)
-=======
->>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
 
 ### 1.1.3 set global options
 options(stringsAsFactors = FALSE)
