@@ -732,12 +732,13 @@ writeLines(cnki, "./1.query/alldata.txt")
 ky <- cnki[str_detect(cnki, "K1 ")]
 ky <- str_remove_all(ky, "^K1 ")
 ky <- tolower(ky)
-ky <- str_split(ky, "/")
+ky <- str_remove(ky, ";$")
+ky <- str_split(ky, ";")
 
 keyword_d <- as.tbl(as.data.frame(table(unlist(ky))))%>% 
   arrange(desc(Freq))%>% 
   rename(keyword=Var1)
-
+keyword_d$keyword <- as.character(keyword_d$keyword)
 
 #### 关键词同义词合并
 docAB2@keyword <- sapply(docAB2@keyword, function(x){
@@ -758,20 +759,9 @@ docAB2@keyword <- sapply(docAB2@keyword, function(x){
   x <- unique(x)
 })
 
-keyword_d <- as.tbl(as.data.frame(table(unlist(docAB2@keyword))))%>% 
-  
-  arrange(desc(Freq))%>% 
-  rename(keyword=Var1)
-
-keyword_d$keyword <- as.character(keyword_d$keyword)
-
-arrange(docAB2@keywordsc(Freq))%>% 
-  rename(keyword=Var1)
-
-
 write.table(keyword_d, "./6.res/keyword/keyword_d.txt", quote = F, col.names = NA, sep = "\t")
 
-as.tbl(as.data.frame(table(table(unlist(docAB2@keyword))))) %>% 
+as.tbl(as.data.frame(table(table(unlist(ky))))) %>% 
   dplyr::mutate(cumfreq=(cumsum(Freq)/sum(Freq))*100) %>% 
   plot_ly(x=~Var1, y=~cumfreq, type = 'scatter', mode = 'lines+markers') %>% 
   layout(xaxis = list(title = "keyword Frequence", tickangle = -45),
