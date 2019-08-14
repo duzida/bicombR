@@ -13,8 +13,8 @@
 #### res：存放结果数据，包含作者、关键词、发文年代、期刊四个子文件夹
 ######## 未解决问题：怎么通过网络爬取批量下载cssci数据 ########
 
-#### 设定主工作目录的路径path,代码就放在这个文件夹下
-path <- "G:\\1.bicombR/6.example"
+#### set working direcory
+path <- "G:/study/1.bicombR/6.example"
 setwd(path)
 
 dir.create("./1.query", showWarnings = FALSE, recursive = T)
@@ -27,25 +27,30 @@ dir.create("./6.res/year", showWarnings = FALSE, recursive = T)
 dir.create("./6.res/keyword", showWarnings = FALSE, recursive = T)
 dir.create("./6.res/journal", showWarnings = FALSE, recursive = T)
 
-### 1.1.2 Load libraries
+
+### print session information
+sink("info.txt")
+sessionInfo()
+sink()
+###
+
+
+### load libraries
 library(Matrix)
 library(dplyr)
 library(stringr)
 library(ggplot2)
 library(plotly)
 library(tidyr)
-<<<<<<< HEAD
 library(XML)
-=======
->>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
 
-### 1.1.3 set global options
+### set global options
 options(stringsAsFactors = FALSE)
 options(encoding="utf-8")
 # Sys.setlocale("LC_ALL","Chinese") 
 
-### 1.1.4 检索下载完文献后，将query里的数据复制并重命名
-file.copy(dir("1.query/cssci_1804/", pattern = ".txt", full.names = T), "2.input/")
+### 1.1.4 检索下载完文献后，将query里的数据复制并重命名,可以根据pattern参数选定数据源样式
+file.copy(dir("1.query/cssci_1804/", pattern = "LY.*.txt", full.names = T), "2.input/")
 
 setwd("2.input/")
 filename <- dir("./")
@@ -55,13 +60,12 @@ setwd("../")
 
 ## 1.2 字段抽取
 #### 删除不止一个匹配项时，需要用str_remove_all，而不是str_remove
-#### fund 基金字段也是一篇文献对应多个基金，但是由于没有分析必要，因此
+#### fund 基金字段也是一篇文献对应多个基金，但是由于没有分析必要，因此只将其格式设置为character，而非list
 
 setClass("ABprofile", representation(title = "character", author = "list",  organization = "list", ab = "character", 
                                  year = "character", journal = "character", ptype = "character", keyword = "list", 
                                  mh = "list", sh = "list", majr = "list", pmid = "character", reference = "list", 
                                  fund = "character", fund_type = "list"))
-
 cssci.parser <- function(cssci){
   ti <- cssci[str_detect(cssci, "【来源篇名】")]
   ti <- str_remove(ti, "【.*】")
@@ -85,10 +89,7 @@ cssci.parser <- function(cssci){
   
   ky <- cssci[str_detect(cssci, "【关 键 词】")]
   ky <- str_remove_all(ky, "^【关 键 词】")
-<<<<<<< HEAD
   ky <- tolower(ky)
-=======
->>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
   ky <- str_split(ky, "/")
   
   r1 <- which(str_detect(cssci, "【参考文献】"))
@@ -102,10 +103,7 @@ cssci.parser <- function(cssci){
     refer <- NULL
     warning("CSSCi Reference Data error!")
   }
-<<<<<<< HEAD
   refer <- sapply(refer,  function(x)str_remove_all(x,"^\\d+\\."))
-=======
->>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
   
   fd <- cssci[str_detect(cssci, "【基    金】")]
   
@@ -131,13 +129,6 @@ cssci.parser <- function(cssci){
   
 docAB <- cssci.parser(cssci = cssci)
 docAB@title[1:5]
-<<<<<<< HEAD
-=======
-#### 机构和作者是一一对应
-identical(sapply(docAB@author,length), sapply(docAB@organization,length))
-
-which(sapply(docAB@author,length) != sapply(docAB@organization,length))
->>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
 
 ## 1.3 数据清洗
 ### 将文献类型为Newspaper、会议论文的筛除
@@ -151,17 +142,15 @@ docAB2 <- new("ABprofile", title = docAB@title[-index], author = docAB@author[-i
               ab = docAB@ab[-index], mh = docAB@mh[-index], ptype = docAB@ptype[-index], pmid = docAB@pmid[-index], 
               sh = docAB@sh[-index], majr = docAB@majr[-index])
 
-<<<<<<< HEAD
-#### 机构和作者是一一对应
+#### 机构和作者是否一一对应
 #### 如果作者和机构不对应的话，将机构list的第一个机构按照作者list长度重复
+
 if(!identical(sapply(docAB2@author, length), sapply(docAB2@organization, length))){
   tmp <- which(sapply(docAB2@author, length) != sapply(docAB2@organization, length))
   for(i in 1:length(tmp)){
     docAB2@organization[[tmp[i]]] <- rep(docAB2@organization[[tmp[i]]][1], length(docAB2@author[[tmp[i]]]))
   }
 }
-=======
->>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
 
 ### 将去重后的原始文摘数据保存
 dupti <- docAB@title[index]
@@ -178,10 +167,10 @@ for(i in 1:length(dupindex)){
   tmp2 <- c(tmp2, (dupindex[i]: (dupindex[i]+tmp[i]-1)))
 }
 
-length(cssci2[str_detect(cssci2, "【来源篇名】")]) == length(unique(cssci2[str_detect(cssci2, "【来源篇名】")]))
-
 cssci2 <- cssci[-tmp2]
-writeLines(cssci2, "./1.query/cssci_1804/alldata.txt")
+ifelse(length(cssci2[str_detect(cssci2, "【来源篇名】")]) == length(unique(cssci2[str_detect(cssci2, "【来源篇名】")]))
+,writeLines(cssci2, "./1.query/cssci_1804/alldata.txt"), print("still have duplicate title"))
+
 
 #### 更蠢的办法
 # ti <- cssci[str_detect(cssci, "【来源篇名】")]
@@ -231,6 +220,7 @@ writeLines(cssci2, "./1.query/cssci_1804/alldata.txt")
 ###############################
 # 发现download_3.txt在citespace中转换发生大规模丢失
 # 从第二届中国科学文献计量与评价研究学术研讨会在京举行后就全部丢失
+# 不能直接将input文件夹中的文件导入citespace进行分析，应该是预处理后的数据再做wos转换
 ###############################
 
 ## 1.4 数据统计
@@ -261,7 +251,7 @@ author1_d <- as.tbl(as.data.frame(table(sapply(docAB2@author, function(x)x[1])),
   arrange(desc(Freq))%>% 
   rename(author=Var1)
 
-<<<<<<< HEAD
+
 author_d$orgranization <- sapply(author_d$author, function(x){
   tmp1 <- unlist(docAB2@author)
   tmp2 <- unlist(docAB2@organization)
@@ -327,8 +317,6 @@ reference_d$issue <- str_split(reference_d$Volume_issue, "\\(")
 write.table(reference_d, "./6.res/journal/reference_d.txt", quote = F, col.names = NA, sep = "\t")
 
 ### 1.4.4 keyword
-=======
-
 
 
 
@@ -368,12 +356,12 @@ res_au_1$instruc <- str_remove(res_au_1$instruc, "\\.$")
 
 ### 1.4.4 keyword
 
->>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
+
 keyword_d <- as.tbl(as.data.frame(table(unlist(docAB2@keyword))))%>% 
   arrange(desc(Freq))%>% 
   rename(keyword=Var1)
 
-<<<<<<< HEAD
+
 #### 关键词同义词合并
 docAB2@keyword <- sapply(docAB2@keyword, function(x){
   # x <- str_replace_all(x, "科研成果转化", "科技成果转化")
@@ -381,30 +369,29 @@ docAB2@keyword <- sapply(docAB2@keyword, function(x){
   # x <- str_replace_all(x, "科技创新", "技术创新")
   # x <- str_replace_all(x, "大学|高等学校|高等院校", "高校")
   ### 匹配双字节字符[^x00-xff];匹配中文字符[u4e00-u9fa5] 
-  x <- str_replace_all(x, "citespace.*", "citespace")
-=======
+  x <- str_replace_all(x, "citespace.*", "citespace")})
+  
 docAB2@keyword <- sapply(docAB2@keyword, function(x){
   x <- str_replace_all(x, "科研成果转化", "科技成果转化")
   x <- str_replace_all(x, "产学研结合", "产学研合作")
   x <- str_replace_all(x, "科技创新", "技术创新")
   x <- str_replace_all(x, "大学|高等学校|高等院校", "高校")
   x <- str_replace_all(x, "高校技术转移", "大学技术转移")
->>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
+
   x <- unique(x)
 })
 
 keyword_d <- as.tbl(as.data.frame(table(unlist(docAB2@keyword))))%>% 
-<<<<<<< HEAD
+
   arrange(desc(Freq))%>% 
   rename(keyword=Var1)
 
 keyword_d$keyword <- as.character(keyword_d$keyword)
 
-=======
   arrange(docAB2@keywordsc(Freq))%>% 
   rename(keyword=Var1)
 
->>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
+
 write.table(keyword_d, "./6.res/keyword/keyword_d.txt", quote = F, col.names = NA, sep = "\t")
 
 as.tbl(as.data.frame(table(table(unlist(docAB2@keyword))))) %>% 
@@ -415,7 +402,7 @@ as.tbl(as.data.frame(table(table(unlist(docAB2@keyword))))) %>%
          # margin = list(b = 100), 
          showlegend = FALSE) 
 
-<<<<<<< HEAD
+
 ### 1.4.5 描述性数据
 #### 高产作者
 au_threshold <- 0.749*(author1_d$Freq[1]^0.5)
@@ -489,8 +476,7 @@ keyword_d2 <- data.frame(keyword=sapply(docAB2@keyword, function(x) paste0(x, co
   # dplyr::mutate(burst = burstindex(term = keyword, obj = docAB2, timewindow = year, field = "keyword"))
   
 
-=======
->>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
+
 
 minfreq <- 10
 # 矩阵
@@ -521,8 +507,6 @@ write.table(as.matrix(com), "../../../result/关键词/2com.txt", sep = "\t", qu
 
 
 
-<<<<<<< HEAD
-=======
 #CR
 #1213
 cr <- cssci_wos[str_detect(cssci_wos, "^CR")]
@@ -561,7 +545,7 @@ res_cr$Var1 <- as.character(res_cr$Var1)
 res_cr$Var1 <- str_replace(res_cr$Var1, "(^\\w+), (\\w+, \\d+,)", "\\1_\\2")
 res_cr <- tidyr::separate(res_cr, col = 1, sep = ", ", into = c("author", "year", "journal", "V", "P"))
 write.table(res_cr, "../../result/期刊/res_cr.txt", quote = F, col.names = NA, sep = "\t")
->>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
+
 
 
 #Cited reference CR
@@ -615,7 +599,7 @@ writeLines(cssci_wos, "cssci_wos.txt")
 
 length(unlist(str_extract_all(cr_all, ", Research Policy,")))
 
-<<<<<<< HEAD
+
 #####################
 # abstract(abs) from
 # 1.CNKI
@@ -690,6 +674,98 @@ setClass("ABprofile", representation(title = "character", author = "list",  orga
                                      mh = "list", sh = "list", majr = "list", pmid = "character", reference = "list", 
                                      fund = "character", fund_type = "list"))
 
-### 
-=======
->>>>>>> 6bc0600499739cbb91beab96f89a0e8d45e2f03a
+###
+#####################
+# abstract(abs) from
+# 2.CNKI
+#####################
+
+#### set working direcory
+path <- "G:/job/R_1000/"
+setwd(path)
+
+dir.create("./1.query", showWarnings = FALSE, recursive = T)
+dir.create("./2.input", showWarnings = FALSE, recursive = T)
+dir.create("./3.output", showWarnings = FALSE, recursive = T)
+dir.create("./4.process", showWarnings = FALSE, recursive = T)
+dir.create("./5.project", showWarnings = FALSE, recursive = T)
+dir.create("./6.res/author", showWarnings = FALSE, recursive = T)
+dir.create("./6.res/year", showWarnings = FALSE, recursive = T)
+dir.create("./6.res/keyword", showWarnings = FALSE, recursive = T)
+dir.create("./6.res/journal", showWarnings = FALSE, recursive = T)
+
+### print session information
+sink("info.txt")
+sessionInfo()
+sink()
+
+### load libraries
+library(Matrix)
+library(dplyr)
+library(stringr)
+library(ggplot2)
+library(plotly)
+library(tidyr)
+library(XML)
+
+### set global options
+options(stringsAsFactors = FALSE)
+options(encoding="utf-8")
+# Sys.setlocale("LC_ALL","Chinese") 
+
+### 1.1.4 检索下载完文献后，将query里的数据复制并重命名,可以根据pattern参数选定数据源样式
+file.copy(dir("1.query", pattern = "download.*.txt", full.names = T), "2.input/")
+
+##########
+#这个地方如果数据文件的编码不是utf-8会有warnings，且数据量不对，如utf-8-boom就需要转成utf-8
+#invalid input found on input connection 'download_3.txt' 这种警告一般是编码问题
+#incomplete final line found on 'download_10.txt' 这种警告需要在文件末尾加一行空行
+########## 
+setwd("2.input/")
+filename <- dir("./")
+cnki <- unlist(lapply(filename, readLines))
+file.rename(filename, paste0("download_", 1:length(filename), ".txt"))
+setwd("../")
+
+writeLines(cnki, "./1.query/alldata.txt")
+
+ky <- cnki[str_detect(cnki, "K1 ")]
+ky <- str_remove_all(ky, "^K1 ")
+ky <- tolower(ky)
+ky <- str_remove(ky, ";$")
+ky <- str_split(ky, ";")
+
+keyword_d <- as.tbl(as.data.frame(table(unlist(ky))))%>% 
+  arrange(desc(Freq))%>% 
+  rename(keyword=Var1)
+keyword_d$keyword <- as.character(keyword_d$keyword)
+
+#### 关键词同义词合并
+docAB2@keyword <- sapply(docAB2@keyword, function(x){
+  # x <- str_replace_all(x, "科研成果转化", "科技成果转化")
+  # x <- str_replace_all(x, "产学研结合", "产学研合作")
+  # x <- str_replace_all(x, "科技创新", "技术创新")
+  # x <- str_replace_all(x, "大学|高等学校|高等院校", "高校")
+  ### 匹配双字节字符[^x00-xff];匹配中文字符[u4e00-u9fa5] 
+  x <- str_replace_all(x, "citespace.*", "citespace")})
+
+docAB2@keyword <- sapply(docAB2@keyword, function(x){
+  x <- str_replace_all(x, "科研成果转化", "科技成果转化")
+  x <- str_replace_all(x, "产学研结合", "产学研合作")
+  x <- str_replace_all(x, "科技创新", "技术创新")
+  x <- str_replace_all(x, "大学|高等学校|高等院校", "高校")
+  x <- str_replace_all(x, "高校技术转移", "大学技术转移")
+  
+  x <- unique(x)
+})
+
+write.table(keyword_d, "./6.res/keyword/keyword_d.txt", quote = F, col.names = NA, sep = "\t")
+
+as.tbl(as.data.frame(table(table(unlist(ky))))) %>% 
+  dplyr::mutate(cumfreq=(cumsum(Freq)/sum(Freq))*100) %>% 
+  plot_ly(x=~Var1, y=~cumfreq, type = 'scatter', mode = 'lines+markers') %>% 
+  layout(xaxis = list(title = "keyword Frequence", tickangle = -45),
+         yaxis = list(title = "Cumulative Frequency(100%)"), 
+         # margin = list(b = 100), 
+         showlegend = FALSE) 
+
