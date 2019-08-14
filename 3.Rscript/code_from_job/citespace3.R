@@ -681,7 +681,7 @@ setClass("ABprofile", representation(title = "character", author = "list",  orga
 #####################
 
 #### set working direcory
-path <- "G:/job/R_1000/"
+path <- "E:/job/R_1000/"
 setwd(path)
 
 dir.create("./1.query", showWarnings = FALSE, recursive = T)
@@ -740,26 +740,31 @@ keyword_d <- as.tbl(as.data.frame(table(unlist(ky))))%>%
   rename(keyword=Var1)
 keyword_d$keyword <- as.character(keyword_d$keyword)
 
+write.table(keyword_d, "./6.res/keyword/keyword_d1.txt", quote = F, col.names = NA, sep = "\t")
+
 #### 关键词同义词合并
-docAB2@keyword <- sapply(docAB2@keyword, function(x){
+ky <- sapply(ky, function(x){
   # x <- str_replace_all(x, "科研成果转化", "科技成果转化")
   # x <- str_replace_all(x, "产学研结合", "产学研合作")
   # x <- str_replace_all(x, "科技创新", "技术创新")
   # x <- str_replace_all(x, "大学|高等学校|高等院校", "高校")
-  ### 匹配双字节字符[^x00-xff];匹配中文字符[u4e00-u9fa5] 
-  x <- str_replace_all(x, "citespace.*", "citespace")})
+  ### 匹配双字节字符[^x00-xff];匹配中文字符[u4e00-u9fa5]
+  x <- str_replace_all(x, "中华人民共和国", "中国")
+  x <- str_replace_all(x, "农户|农村居民", "农民")
+  x <- str_replace_all(x, "贫困农户", "贫困农民")
+  x <- str_replace_all(x, "贫困农村", "农村贫困")
+  x <- str_replace_all(x, "贫困学生", "贫困生")
+  x <- str_replace_all(x, "贫困成因", "贫困原因")
+  x <- str_replace_all(x, "贫困户|贫困群体|贫困人口", "贫困人口")
+  x <- str_replace_all(x, "贫困大学生", "高校贫困生")
+  x <- unique(x)})
 
-docAB2@keyword <- sapply(docAB2@keyword, function(x){
-  x <- str_replace_all(x, "科研成果转化", "科技成果转化")
-  x <- str_replace_all(x, "产学研结合", "产学研合作")
-  x <- str_replace_all(x, "科技创新", "技术创新")
-  x <- str_replace_all(x, "大学|高等学校|高等院校", "高校")
-  x <- str_replace_all(x, "高校技术转移", "大学技术转移")
-  
-  x <- unique(x)
-})
+keyword_d <- as.tbl(as.data.frame(table(unlist(ky))))%>% 
+  arrange(desc(Freq))%>% 
+  rename(keyword=Var1)
+keyword_d$keyword <- as.character(keyword_d$keyword)
 
-write.table(keyword_d, "./6.res/keyword/keyword_d.txt", quote = F, col.names = NA, sep = "\t")
+write.table(keyword_d, "./6.res/keyword/keyword_d2.txt", quote = F, col.names = NA, sep = "\t")
 
 as.tbl(as.data.frame(table(table(unlist(ky))))) %>% 
   dplyr::mutate(cumfreq=(cumsum(Freq)/sum(Freq))*100) %>% 
@@ -769,3 +774,34 @@ as.tbl(as.data.frame(table(table(unlist(ky))))) %>%
          # margin = list(b = 100), 
          showlegend = FALSE) 
 
+minfreq <- 20
+# 矩阵
+res_de <- keyword_d
+de.term <- res_de$keyword[res_de$Freq >= minfreq]
+# de.term <- intersect(readClipboard(), res_de$Var1)
+
+de <- ky
+
+de_term.list <- sapply(de, function(x)return(intersect(x, de.term)))
+de_term.list <- de_term.list[sapply(de_term.list, length)!=0]  
+
+de_term.list[1:5]
+
+tdm <- Matrix(0, nrow = length(de.term), ncol = length(de_term.list), dimnames = list(de.term, names(de_term.list)))
+for (i in 1:length(de_term.list)){
+  tdm[de_term.list[[i]], i] <- 1
+}
+
+write.table(as.matrix(tdm), "./6.res/keyword/tdm.txt", sep = "\t", quote = F, col.names = NA)
+
+
+com <- Matrix(0, nrow = length(de.term), ncol = length(de.term), dimnames = list(de.term, de.term))
+for (i in 1:length(de_term.list)){
+  com[de_term.list[[i]], de_term.list[[i]]] <- 1 + com[de_term.list[[i]], de_term.list[[i]]]
+}
+
+com[1:5, 1:5]
+write.table(as.matrix(com), "./6.res/keyword/com.txt", sep = "\t", quote = F, col.names = NA)
+
+library(igraph)
+net1 <- 
