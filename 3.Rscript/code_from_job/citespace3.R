@@ -13,7 +13,7 @@
 #### res：存放结果数据，包含作者、关键词、发文年代、期刊四个子文件夹
 ######## 未解决问题：怎么通过网络爬取批量下载cssci数据 ########
 
-#### 设定主工作目录的路径path,代码就放在这个文件夹下
+#### set working direcory
 path <- "G:/study/1.bicombR/6.example"
 setwd(path)
 
@@ -27,7 +27,15 @@ dir.create("./6.res/year", showWarnings = FALSE, recursive = T)
 dir.create("./6.res/keyword", showWarnings = FALSE, recursive = T)
 dir.create("./6.res/journal", showWarnings = FALSE, recursive = T)
 
-### 1.1.2 Load libraries
+
+### print session information
+sink("info.txt")
+sessionInfo()
+sink()
+###
+
+
+### load libraries
 library(Matrix)
 library(dplyr)
 library(stringr)
@@ -36,7 +44,7 @@ library(plotly)
 library(tidyr)
 library(XML)
 
-### 1.1.3 set global options
+### set global options
 options(stringsAsFactors = FALSE)
 options(encoding="utf-8")
 # Sys.setlocale("LC_ALL","Chinese") 
@@ -666,4 +674,108 @@ setClass("ABprofile", representation(title = "character", author = "list",  orga
                                      mh = "list", sh = "list", majr = "list", pmid = "character", reference = "list", 
                                      fund = "character", fund_type = "list"))
 
-### 
+###
+#####################
+# abstract(abs) from
+# 2.CNKI
+#####################
+
+#### set working direcory
+path <- "G:/job/R_1000/"
+setwd(path)
+
+dir.create("./1.query", showWarnings = FALSE, recursive = T)
+dir.create("./2.input", showWarnings = FALSE, recursive = T)
+dir.create("./3.output", showWarnings = FALSE, recursive = T)
+dir.create("./4.process", showWarnings = FALSE, recursive = T)
+dir.create("./5.project", showWarnings = FALSE, recursive = T)
+dir.create("./6.res/author", showWarnings = FALSE, recursive = T)
+dir.create("./6.res/year", showWarnings = FALSE, recursive = T)
+dir.create("./6.res/keyword", showWarnings = FALSE, recursive = T)
+dir.create("./6.res/journal", showWarnings = FALSE, recursive = T)
+
+### print session information
+sink("info.txt")
+sessionInfo()
+sink()
+
+### load libraries
+library(Matrix)
+library(dplyr)
+library(stringr)
+library(ggplot2)
+library(plotly)
+library(tidyr)
+library(XML)
+
+### set global options
+options(stringsAsFactors = FALSE)
+options(encoding="utf-8")
+# Sys.setlocale("LC_ALL","Chinese") 
+
+### 1.1.4 检索下载完文献后，将query里的数据复制并重命名,可以根据pattern参数选定数据源样式
+file.copy(dir("1.query", pattern = "download.*.txt", full.names = T), "2.input/")
+
+##########
+#这个地方如果数据文件的编码不是utf-8会有warnings，且数据量不对，如utf-8-boom就需要转成utf-8
+#invalid input found on input connection 'download_3.txt' 这种警告一般是编码问题
+#incomplete final line found on 'download_10.txt' 这种警告需要在文件末尾加一行空行
+########## 
+setwd("2.input/")
+filename <- dir("./")
+cnki <- unlist(lapply(filename, readLines))
+file.rename(filename, paste0("download_", 1:length(filename), ".txt"))
+setwd("../")
+
+writeLines(cnki, "./1.query/alldata.txt")
+
+ky <- cnki[str_detect(cnki, "K1 ")]
+ky <- str_remove_all(ky, "^K1 ")
+ky <- tolower(ky)
+ky <- str_split(ky, "/")
+
+keyword_d <- as.tbl(as.data.frame(table(unlist(ky))))%>% 
+  arrange(desc(Freq))%>% 
+  rename(keyword=Var1)
+
+
+#### 关键词同义词合并
+docAB2@keyword <- sapply(docAB2@keyword, function(x){
+  # x <- str_replace_all(x, "科研成果转化", "科技成果转化")
+  # x <- str_replace_all(x, "产学研结合", "产学研合作")
+  # x <- str_replace_all(x, "科技创新", "技术创新")
+  # x <- str_replace_all(x, "大学|高等学校|高等院校", "高校")
+  ### 匹配双字节字符[^x00-xff];匹配中文字符[u4e00-u9fa5] 
+  x <- str_replace_all(x, "citespace.*", "citespace")})
+
+docAB2@keyword <- sapply(docAB2@keyword, function(x){
+  x <- str_replace_all(x, "科研成果转化", "科技成果转化")
+  x <- str_replace_all(x, "产学研结合", "产学研合作")
+  x <- str_replace_all(x, "科技创新", "技术创新")
+  x <- str_replace_all(x, "大学|高等学校|高等院校", "高校")
+  x <- str_replace_all(x, "高校技术转移", "大学技术转移")
+  
+  x <- unique(x)
+})
+
+keyword_d <- as.tbl(as.data.frame(table(unlist(docAB2@keyword))))%>% 
+  
+  arrange(desc(Freq))%>% 
+  rename(keyword=Var1)
+
+keyword_d$keyword <- as.character(keyword_d$keyword)
+
+arrange(docAB2@keywordsc(Freq))%>% 
+  rename(keyword=Var1)
+
+
+write.table(keyword_d, "./6.res/keyword/keyword_d.txt", quote = F, col.names = NA, sep = "\t")
+
+as.tbl(as.data.frame(table(table(unlist(docAB2@keyword))))) %>% 
+  dplyr::mutate(cumfreq=(cumsum(Freq)/sum(Freq))*100) %>% 
+  plot_ly(x=~Var1, y=~cumfreq, type = 'scatter', mode = 'lines+markers') %>% 
+  layout(xaxis = list(title = "keyword Frequence", tickangle = -45),
+         yaxis = list(title = "Cumulative Frequency(100%)"), 
+         # margin = list(b = 100), 
+         showlegend = FALSE) 
+
