@@ -681,7 +681,7 @@ setClass("ABprofile", representation(title = "character", author = "list",  orga
 #####################
 
 #### set working direcory
-path <- "G:/job/R_1000/"
+path <- "E:/job/R_1000/"
 setwd(path)
 
 dir.create("./1.query", showWarnings = FALSE, recursive = T)
@@ -711,7 +711,7 @@ library(XML)
 ### set global options
 options(stringsAsFactors = FALSE)
 options(encoding="utf-8")
-# Sys.setlocale("LC_ALL","Chinese") 
+# Sys.setlocale("LC_ALL","Chinese")  
 
 ### 1.1.4 检索下载完文献后，将query里的数据复制并重命名,可以根据pattern参数选定数据源样式
 file.copy(dir("1.query", pattern = "download.*.txt", full.names = T), "2.input/")
@@ -831,17 +831,82 @@ diag(com)[1]
 rowSums(com)
 
 Eindex <- function(com){
+  # diag(Em) <- 1
+  # for(i in 1:(nrow(Em)-1)){
+  #   for(j in (i+1):nrow(Em)){
+  #     Em[i,j] <- round(com[i,j]^2/(diag(com)[i]*diag(com)[j]),5)
+  #   }
+  # }
   Em <- com
-  diag(Em) <- 1
-  for(i in 1:(nrow(Em)-1)){
-    for(j in (i+1):nrow(Em)){
-      Em[i,j] <- round(com[i,j]^2/(diag(com)[i]*diag(com)[j]),5)
-    }
-  }
+  diag(Em) <- 0
+  res <- summary(Em)
+  res$x <- round(res$x^2/(diag(com)[res$i]*diag(com)[res$j]),5)
+  
+  c1 <- res[which.max(res$x),]
+  c1 <- filter(res, j==c1$j) %>% 
+    arrange(desc(x)) %>% 
+    dplyr::slice(1:10)
+  
+  res2 <- filter(res, !(i %in%c1$i) & !(j %in% c1$i))
+  
+  c1 <- NULL
+  i <- 1
+  res2 <- res
+  
+  ##阈值为0.01，E指数小于0.01认为==0
+  c2 <- res2[which.max(res2$x),]
+  c2$x
+  c2 <- filter(res2, j==c2$j) %>% 
+    arrange(desc(x)) %>% 
+    dplyr::slice(1:9)
+  c2 <- filter(res2, i==c2$i) %>%
+    arrange(desc(x)) %>%
+    dplyr::slice(1:9)
+  res2 <- filter(res2, !(i %in%c(c2$i,c2$j)) & !(j %in% c(c2$i,c2$j)))
+  # head(res2)
+  c2$cluster <- i
+  i <- i+1
+  c1 <- rbind(c1,c2)
+
+  zbplot <-dplyr::group_by(c1, cluster) %>% 
+    summarise(density=mean(Em[unique(c(i,j)),unique(c(i,j))]), 
+              centrality=sum(Em[unique(c(i,j)),-unique(c(i,j))])) 
+  
+  res_cluster <- melt(c1, measure.vars = 1:2, id.vars = 4, value.name = "keyword.index") %>% 
+    dplyr::select(c(1,3)) %>% 
+    distinct_all() %>% 
+    arrange(cluster) %>% 
+    mutate(keyword = colnames(com)[keyword.index])
+  write.table(res_cluster, "./6.res/keyword/res_cluster.txt", sep = "\t", quote = F, col.names = NA)
+  
+  ggplot(zbplot,aes(x=centrality, y=density, fill=factor(cluster)))+ 
+    geom_point(size=3, shape=22)+ 
+    guides(fill=F)+ 
+    geom_hline(yintercept = mean(zbplot$density))+
+    geom_vline(xintercept = mean(zbplot$centrality))+
+    geom_label(aes(label=cluster))
+  
+  library(reshape2)
+  Em <- dcast(res, formula = i~j, value.var = "x", fill = 0)
+  Em <- Em[,-1]
+  rownames(Em) <- rownames(com)
+  colnames(Em) <- colnames(com)
+  Em <- as.matrix(Em)
   Em[lower.tri(Em)] <- Em[upper.tri(Em)] 
-  Em <- round(Em, 4)
+  write.table(Em, "./6.res/keyword/emindex.txt", sep = "\t", quote = F, col.names = NA)
+  
+  
+  Em <- as.matrix(Em)
+  diag(Em) <- 0
+  max(Em)
+  summary(Em)
+  Matrix::formatSpMatrix(Em)
+  # Em[lower.tri(Em)] <- Em[upper.tri(Em)] 
+  # Em <- round(Em, 4)
 }
 
 
 ?hclust()
 install.packages("factoextra")
+
+save(list=ls(), file = "citespace.Rdata")
