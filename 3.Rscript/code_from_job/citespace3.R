@@ -681,7 +681,7 @@ setClass("ABprofile", representation(title = "character", author = "list",  orga
 #####################
 
 #### set working direcory
-path <- "E:/job/R_1000/"
+path <- "G:/job/R_1000/"
 setwd(path)
 
 dir.create("./1.query", showWarnings = FALSE, recursive = T)
@@ -774,7 +774,7 @@ as.tbl(as.data.frame(table(table(unlist(ky))))) %>%
          # margin = list(b = 100), 
          showlegend = FALSE) 
 
-minfreq <- 20
+minfreq <- 10
 # 矩阵
 res_de <- keyword_d
 de.term <- res_de$keyword[res_de$Freq >= minfreq]
@@ -803,5 +803,45 @@ for (i in 1:length(de_term.list)){
 com[1:5, 1:5]
 write.table(as.matrix(com), "./6.res/keyword/com.txt", sep = "\t", quote = F, col.names = NA)
 
+com_citespace <- read.delim("5.project/network201x201.txt", header = FALSE, sep =" ")
+com_citespace <- as.matrix(com_citespace)
+com_citespace_label <- read.delim("5.project/network201x201Labels.txt", header = FALSE)[,1]
+com_citespace_label <- str_remove(com_citespace_label, "^@PHRASE")
+
+dimnames(com_citespace) <- list(com_citespace_label, com_citespace_label)
+com_citespace[1:5, 1:5]
+write.table(com_citespace, "./6.res/keyword/com_citespace.txt", sep = "\t", quote = F, col.names = NA)
+
 library(igraph)
-net1 <- 
+g1 <- graph.adjacency(com, mode = "undirected", weighted = T, diag = F)
+g2 <- graph.adjacency(com_citespace, mode = "undirected", weighted = T, diag = F)
+g1
+g2
+
+set.seed(1000)
+wc1 <- cluster_walktrap(g1, steps = 5)#0.49
+wc1
+groups(wc1)
+
+wc2 <- cluster_walktrap(g2, steps = 7)#0.49
+wc2
+groups(wc2)
+
+diag(com)[1]
+rowSums(com)
+
+Eindex <- function(com){
+  Em <- com
+  diag(Em) <- 1
+  for(i in 1:(nrow(Em)-1)){
+    for(j in (i+1):nrow(Em)){
+      Em[i,j] <- round(com[i,j]^2/(diag(com)[i]*diag(com)[j]),5)
+    }
+  }
+  Em[lower.tri(Em)] <- Em[upper.tri(Em)] 
+  Em <- round(Em, 4)
+}
+
+
+?hclust()
+install.packages("factoextra")
