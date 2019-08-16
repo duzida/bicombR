@@ -681,7 +681,7 @@ setClass("ABprofile", representation(title = "character", author = "list",  orga
 #####################
 
 #### set working direcory
-path <- "E:/job/R_1000/"
+path <- "G:/job/R_1000/"
 setwd(path)
 
 dir.create("./1.query", showWarnings = FALSE, recursive = T)
@@ -842,35 +842,33 @@ Eindex <- function(com){
   res <- summary(Em)
   res$x <- round(res$x^2/(diag(com)[res$i]*diag(com)[res$j]),5)
   
-  c1 <- res[which.max(res$x),]
-  c1 <- filter(res, j==c1$j) %>% 
-    arrange(desc(x)) %>% 
-    dplyr::slice(1:10)
-  
-  res2 <- filter(res, !(i %in%c1$i) & !(j %in% c1$i))
-  
   c1 <- NULL
   i <- 1
   res2 <- res
   
   ##阈值为0.01，E指数小于0.01认为==0
-  c2 <- res2[which.max(res2$x),]
-  c2$x
-  c2 <- filter(res2, j==c2$j) %>% 
-    arrange(desc(x)) %>% 
-    dplyr::slice(1:9)
-  c2 <- filter(res2, i==c2$i) %>%
-    arrange(desc(x)) %>%
-    dplyr::slice(1:9)
-  res2 <- filter(res2, !(i %in%c(c2$i,c2$j)) & !(j %in% c(c2$i,c2$j)))
-  # head(res2)
-  c2$cluster <- i
-  i <- i+1
-  c1 <- rbind(c1,c2)
-
-  zbplot <-dplyr::group_by(c1, cluster) %>% 
-    summarise(density=mean(Em[unique(c(i,j)),unique(c(i,j))]), 
-              centrality=sum(Em[unique(c(i,j)),-unique(c(i,j))])) 
+  while(max(res2$x)>=0.01){
+    c2 <- res2[which.max(res2$x),]
+    print(c2$x)
+    c2_1 <- filter(res2, j==c2$j) %>% 
+      arrange(desc(x)) %>% 
+      dplyr::slice(1:9)
+    c2_2 <- filter(res2, i==c2$i) %>%
+      arrange(desc(x)) %>%
+      dplyr::slice(1:9)
+    if(nrow(c2_1)>=nrow(c2_2)){
+      c2 <- c2_1
+    }else{
+      c2 <- c2_2
+    }
+    # c2 <- if_else(nrow(c2_1)>=nrow(c2_2), c2_1, c2_2)
+    res2 <- filter(res2, !(i %in%c(c2$i,c2$j)) & !(j %in% c(c2$i,c2$j)))
+    c2$cluster <- i
+    i <- i+1
+    c1 <- rbind(c1,c2)
+  }
+  
+  library(reshape2)
   
   res_cluster <- melt(c1, measure.vars = 1:2, id.vars = 4, value.name = "keyword.index") %>% 
     dplyr::select(c(1,3)) %>% 
@@ -879,14 +877,34 @@ Eindex <- function(com){
     mutate(keyword = colnames(com)[keyword.index])
   write.table(res_cluster, "./6.res/keyword/res_cluster.txt", sep = "\t", quote = F, col.names = NA)
   
+  zbplot <- dplyr::group_by(c1, cluster) %>% 
+    summarise(density=mean(Em[unique(c(i,j)),unique(c(i,j))]), 
+              centrality=sum(Em[unique(c(i,j)),-unique(c(i,j))])) 
+  zbplot[8:26,]
+  zbplot2 <- zbplot
+  write.table(zbplot2, "./6.res/keyword/zbplot2.txt", sep = "\t", quote = F, col.names = NA)
+  zbplot[14,3] <- zbplot[14,3]+100
+  zbplot[20,3] <- zbplot[20,3]+30
+  zbplot[25,3] <- zbplot[25,3]-20
+  zbplot[17,2] <- zbplot[17,2]+0.1
+  
+  
+  
   ggplot(zbplot,aes(x=centrality, y=density, fill=factor(cluster)))+ 
-    geom_point(size=3, shape=22)+ 
+    geom_point(size=12, shape=22, alpha = .8)+
     guides(fill=F)+ 
     geom_hline(yintercept = mean(zbplot$density))+
     geom_vline(xintercept = mean(zbplot$centrality))+
-    geom_label(aes(label=cluster))
+    geom_text(aes(label=cluster))+
+    annotate("text", 1000, 0.9, size = 10, label = "向心度")+ 
+    annotate("text", 270, 2.5, size = 10, label = "密\r\n度")+ 
+    theme(axis.text = element_blank(), axis.title = element_blank(), axis.ticks = element_blank())+ 
+    ggsave("./6.res/keyword/战略坐标图.png")
+    # geom_point(size=10, shape=22, alpha = .8)+ 
+    # geom_jitter(width=10,height=0.5)
+    # geom_label(aes(label=cluster))+
+    # geom_jitter(width=10,height=0.5)
   
-  library(reshape2)
   Em <- dcast(res, formula = i~j, value.var = "x", fill = 0)
   Em <- Em[,-1]
   rownames(Em) <- rownames(com)
@@ -895,14 +913,6 @@ Eindex <- function(com){
   Em[lower.tri(Em)] <- Em[upper.tri(Em)] 
   write.table(Em, "./6.res/keyword/emindex.txt", sep = "\t", quote = F, col.names = NA)
   
-  
-  Em <- as.matrix(Em)
-  diag(Em) <- 0
-  max(Em)
-  summary(Em)
-  Matrix::formatSpMatrix(Em)
-  # Em[lower.tri(Em)] <- Em[upper.tri(Em)] 
-  # Em <- round(Em, 4)
 }
 
 
