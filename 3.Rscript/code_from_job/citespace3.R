@@ -681,7 +681,7 @@ setClass("ABprofile", representation(title = "character", author = "list",  orga
 #####################
 
 #### set working direcory
-path <- "G:/job/R_1000/"
+path <- "E:/job/R_1000/"
 setwd(path)
 
 dir.create("./1.query", showWarnings = FALSE, recursive = T)
@@ -877,6 +877,13 @@ Eindex <- function(com){
     mutate(keyword = colnames(com)[keyword.index])
   write.table(res_cluster, "./6.res/keyword/res_cluster.txt", sep = "\t", quote = F, col.names = NA)
   
+  res_cluster$name <- rowSums(Em)[res_cluster$keyword.index]
+  
+  group_by(res_cluster, cluster) %>% 
+    mutate(N <- which.max(name))
+  
+  
+  
   zbplot <- dplyr::group_by(c1, cluster) %>% 
     summarise(density=mean(Em[unique(c(i,j)),unique(c(i,j))]), 
               centrality=sum(Em[unique(c(i,j)),-unique(c(i,j))])) 
@@ -888,7 +895,9 @@ Eindex <- function(com){
   zbplot[25,3] <- zbplot[25,3]-20
   zbplot[17,2] <- zbplot[17,2]+0.1
   
-  
+  zbplot3 <- zbplot
+  zbplot$density <- scale(zbplot$density)
+  zbplot$centrality <- scale(zbplot$centrality)
   
   ggplot(zbplot,aes(x=centrality, y=density, fill=factor(cluster)))+ 
     geom_point(size=12, shape=22, alpha = .8)+
@@ -896,9 +905,12 @@ Eindex <- function(com){
     geom_hline(yintercept = mean(zbplot$density))+
     geom_vline(xintercept = mean(zbplot$centrality))+
     geom_text(aes(label=cluster))+
-    annotate("text", 1000, 0.9, size = 10, label = "向心度")+ 
-    annotate("text", 270, 2.5, size = 10, label = "密\r\n度")+ 
-    theme(axis.text = element_blank(), axis.title = element_blank(), axis.ticks = element_blank())+ 
+    xlab("关注度")+ ylab("新颖度")+
+    # annotate("text", 2, -0.1, size = 10, label = "关注度")+ 
+    # annotate("text", -0.1, 2.5, size = 10, label = "新\r\n颖\r\n度")+ 
+    theme(axis.title = element_text(size = 25))+ 
+    scale_x_continuous(breaks = seq(-1,3.5,0.5))+
+    scale_y_continuous(breaks = seq(-1,3.5,0.5))+
     ggsave("./6.res/keyword/战略坐标图.png")
     # geom_point(size=10, shape=22, alpha = .8)+ 
     # geom_jitter(width=10,height=0.5)
