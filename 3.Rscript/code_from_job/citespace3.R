@@ -889,18 +889,19 @@ Eindex <- function(com){
               centrality=sum(Em[unique(c(i,j)),-unique(c(i,j))])) 
   zbplot[8:26,]
   zbplot2 <- zbplot
-  write.table(zbplot2, "./6.res/keyword/zbplot2.txt", sep = "\t", quote = F, col.names = NA)
+  write.table(zbplot, "./6.res/keyword/zbplot.txt", sep = "\t", quote = F, col.names = NA)
   zbplot[14,3] <- zbplot[14,3]+100
   zbplot[20,3] <- zbplot[20,3]+30
   zbplot[25,3] <- zbplot[25,3]-20
   zbplot[17,2] <- zbplot[17,2]+0.1
+  zbplot[25,3] <- zbplot[25,3]-0.05
   
   zbplot3 <- zbplot
   zbplot$density <- scale(zbplot$density)
   zbplot$centrality <- scale(zbplot$centrality)
   
   ggplot(zbplot,aes(x=centrality, y=density, fill=factor(cluster)))+ 
-    geom_point(size=12, shape=22, alpha = .8)+
+    geom_point(size=10, shape=22, alpha = .8)+
     guides(fill=F)+ 
     geom_hline(yintercept = mean(zbplot$density))+
     geom_vline(xintercept = mean(zbplot$centrality))+
@@ -908,7 +909,8 @@ Eindex <- function(com){
     xlab("关注度")+ ylab("新颖度")+
     # annotate("text", 2, -0.1, size = 10, label = "关注度")+ 
     # annotate("text", -0.1, 2.5, size = 10, label = "新\r\n颖\r\n度")+ 
-    theme(axis.title = element_text(size = 25))+ 
+    theme(axis.title = element_text(size = 25),  panel.grid.minor = element_blank(), 
+          panel.grid.major=element_blank(), panel.background = element_blank())+ 
     scale_x_continuous(breaks = seq(-1,3.5,0.5))+
     scale_y_continuous(breaks = seq(-1,3.5,0.5))+
     ggsave("./6.res/keyword/战略坐标图.png")
