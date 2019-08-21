@@ -934,3 +934,57 @@ Eindex <- function(com){
 install.packages("factoextra")
 
 save(list=ls(), file = "citespace.Rdata")
+
+#####################
+# abstract(abs) from
+# 2.CNKI
+#####################
+
+#### set working direcory
+path <- "G:/job/citespace5000/"
+setwd(path)
+
+dir.create("./1.query", showWarnings = FALSE, recursive = T)
+dir.create("./2.input", showWarnings = FALSE, recursive = T)
+dir.create("./3.output", showWarnings = FALSE, recursive = T)
+dir.create("./4.process", showWarnings = FALSE, recursive = T)
+dir.create("./5.project", showWarnings = FALSE, recursive = T)
+dir.create("./6.res/author", showWarnings = FALSE, recursive = T)
+dir.create("./6.res/year", showWarnings = FALSE, recursive = T)
+dir.create("./6.res/keyword", showWarnings = FALSE, recursive = T)
+dir.create("./6.res/journal", showWarnings = FALSE, recursive = T)
+
+### print session information
+sink("info.txt")
+sessionInfo()
+sink()
+
+### load libraries
+library(Matrix)
+library(dplyr)
+library(stringr)
+library(ggplot2)
+library(plotly)
+library(tidyr)
+library(XML)
+
+### set global options
+options(stringsAsFactors = FALSE)
+options(encoding="utf-8")
+# Sys.setlocale("LC_ALL","Chinese")  
+
+### 1.1.4 检索下载完文献后，将query里的数据复制并重命名,可以根据pattern参数选定数据源样式
+file.copy(dir("1.query", pattern = "download.*.txt", full.names = T), "2.input/")
+
+##########
+#这个地方如果数据文件的编码不是utf-8会有warnings，且数据量不对，如utf-8-boom就需要转成utf-8
+#invalid input found on input connection 'download_3.txt' 这种警告一般是编码问题
+#incomplete final line found on 'download_10.txt' 这种警告需要在文件末尾加一行空行
+########## 
+setwd("2.input/")
+filename <- dir("./")
+cnki <- unlist(lapply(filename, readLines))
+file.rename(filename, paste0("download_", 1:length(filename), ".txt"))
+setwd("../")
+
+writeLines(cnki, "./1.query/alldata.txt")
