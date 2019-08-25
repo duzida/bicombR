@@ -945,7 +945,7 @@ rm(list=ls())
 gc()
 
 #### set working direcory
-path <- "G:/job/citespace5000/"
+path <- "E:/job/citespace5000/"
 setwd(path)
 
 dir.create("./1.query", showWarnings = FALSE, recursive = T)
@@ -975,10 +975,10 @@ library(reshape2)
 
 ### set global options
 options(stringsAsFactors = FALSE)
-options(encoding="utf-8")
+# options(encoding="utf-8")
 # getOption("stringsAsFactors")
 # Sys.setlocale("LC_ALL","Chinese")
-# Sys.getlocale()
+locale <- Sys.getlocale()
 
 ### 1.1.4 检索下载完文献后，将query里的数据复制并重命名,可以根据pattern参数选定数据源样式
 file.copy(dir("1.query", pattern = "save.*.txt", full.names = T), "2.input/")
@@ -987,7 +987,8 @@ file.copy(dir("1.query", pattern = "save.*.txt", full.names = T), "2.input/")
 #这个地方如果数据文件的编码不是utf-8会有warnings，且数据量不对，如utf-8-boom就需要转成utf-8
 #invalid input found on input connection 'download_3.txt' 这种警告一般是编码问题
 #incomplete final line found on 'download_10.txt' 这种警告需要在文件末尾加一行空行
-#韩文没法读取，会报错，因此设置下语系Sys.setlocale("LC_ALL","Chinese")
+#韩文没法读取，会报错，因此设置下语系Sys.setlocale("LC_ALL","Chinese")[错误做法]
+#不要设定编码环境变量options(encoding="utf-8")，就可以正常读取
 ########## 
 setwd("2.input/")
 filename <- dir("./")
@@ -1005,48 +1006,72 @@ setClass("ABprofile", representation(title = "character", author = "list",  orga
                                      year = "character", journal = "character", ptype = "character", keyword = "list", 
                                      mh = "list", sh = "list", majr = "list", pmid = "character", reference = "list", 
                                      fund = "character", fund_type = "list"))
-wos.parser <- function(cssci){
-  ti <- cssci[str_detect(cssci, "【来源篇名】")]
-  ti <- str_remove(ti, "【.*】")
+wos.parser <- function(wos){
   
-  au <- cssci[str_detect(cssci, "【来源作者】")]
+  tmp <- c()
+  tmp2 <- c()
+  for(i in 1:length(dupindex)){
+    tmp[i] <- match("-----------------------------------------------------------------------", wos[dupindex[i]:length(wos)])
+    # wos2 <- wos2[-(dupindex[i]: (dupindex[i]+tmp-1))]
+    tmp2 <- c(tmp2, (dupindex[i]: (dupindex[i]+tmp[i]-1)))
+  }
+  
+  index1 <- str_which(wos, "^TI ")
+  index2 <- str_which(wos, "^SO ")
+  if(length(index1)<length(index2)){
+   index2 <- index2[1:length(index1)] 
+  }
+  if(length(index1)>length(index2)){
+   index2[(length(index2)+1):length(index1)] <- index1[(length(index2)+1):length(index1)]
+  }
+  for(i in length(index1)){
+    ti[i] <- str_flatten(wos[index1[i]:index2[i]], collapse = " ")
+  }
+  
+  
+  ti <- wos[str_detect(wos, "^TI([\\s\\S]*?)^SO")]
+  
+  
+  ti <- str_remove(ti, "^TI ")
+  
+  au <- wos[str_detect(wos, "【来源作者】")]
   au <- str_remove(au, "【来源作者】")
   au <- str_split(au, "/")
   
-  organ <- cssci[str_detect(cssci, "【机构名称】")]
+  organ <- wos[str_detect(wos, "【机构名称】")]
   organ <- str_remove(organ, "【机构名称】")
   organ <- str_split(organ, "/")
   organ <- sapply(organ, function(x)str_replace(x, "\\[.*\\](.*)\\..*$", "\\1"))
   
   
-  yr <- cssci[str_detect(cssci, "【年代卷期】")]
+  yr <- wos[str_detect(wos, "【年代卷期】")]
   yr <- str_replace_all(yr, "【年代卷期】(\\d+),.*$", "\\1")
   
-  jl <- cssci[str_detect(cssci, "【期    刊】")]
+  jl <- wos[str_detect(wos, "【期    刊】")]
   jl <- str_remove(jl, "【期    刊】")
   
   
-  ky <- cssci[str_detect(cssci, "【关 键 词】")]
+  ky <- wos[str_detect(wos, "【关 键 词】")]
   ky <- str_remove_all(ky, "^【关 键 词】")
   ky <- tolower(ky)
   ky <- str_split(ky, "/")
   
-  r1 <- which(str_detect(cssci, "【参考文献】"))
-  r2 <- which(str_detect(cssci, "-----------------------------------------------------------------------"))
+  r1 <- which(str_detect(wos, "【参考文献】"))
+  r2 <- which(str_detect(wos, "-----------------------------------------------------------------------"))
   refer <- list()
   if(length(r1)==length(r2)){
     for(i in 1:length(r1)){
-      ifelse(r1[i]+1==r2[i], refer[[i]]<-"", refer[[i]] <- cssci[(r1[i]+1):(r2[i]-1)])
+      ifelse(r1[i]+1==r2[i], refer[[i]]<-"", refer[[i]] <- wos[(r1[i]+1):(r2[i]-1)])
     }
   }else{
     refer <- NULL
-    warning("CSSCi Reference Data error!")
+    warning("wos Reference Data error!")
   }
   refer <- sapply(refer,  function(x)str_remove_all(x,"^\\d+\\."))
   
-  fd <- cssci[str_detect(cssci, "【基    金】")]
+  fd <- wos[str_detect(wos, "【基    金】")]
   
-  fund_tp <- cssci[str_detect(cssci, "【基金类别】")]
+  fund_tp <- wos[str_detect(wos, "【基金类别】")]
   fund_tp <- str_remove_all(fund_tp, "【基金类别】|/$")
   fund_tp <- str_split(fund_tp, "/")
   
@@ -1063,10 +1088,10 @@ wos.parser <- function(cssci){
     profile <- new("ABprofile", title = ti, author = au,  organization = organ, year = yr, journal = jl, 
                    keyword = ky, reference = refer, fund = fd, fund_type = fund_tp)
     return(profile)
-  }else return("CSSCI Document Error")
+  }else return("wos Document Error")
 }
 
-docAB <- cssci.parser(cssci = cssci)
+docAB <- wos.parser(wos = wos)
 docAB@title[1:5]
 
 ## 1.3 数据清洗
@@ -1093,7 +1118,7 @@ if(!identical(sapply(docAB2@author, length), sapply(docAB2@organization, length)
 
 ### 将去重后的原始文摘数据保存
 dupti <- docAB@title[index]
-dupindex <- sapply(paste0("【来源篇名】", dupti), function(x)which(str_detect(cssci, x)))
+dupindex <- sapply(paste0("【来源篇名】", dupti), function(x)which(str_detect(wos, x)))
 dupindex <- unlist(sapply(dupindex, function(x){
   ifelse(length(x)==1, x, x[-1])
 }))
@@ -1101,14 +1126,14 @@ dupindex <- unlist(sapply(dupindex, function(x){
 tmp <- c()
 tmp2 <- c()
 for(i in 1:length(dupindex)){
-  tmp[i] <- match("-----------------------------------------------------------------------", cssci[dupindex[i]:length(cssci)])
-  # cssci2 <- cssci2[-(dupindex[i]: (dupindex[i]+tmp-1))]
+  tmp[i] <- match("-----------------------------------------------------------------------", wos[dupindex[i]:length(wos)])
+  # wos2 <- wos2[-(dupindex[i]: (dupindex[i]+tmp-1))]
   tmp2 <- c(tmp2, (dupindex[i]: (dupindex[i]+tmp[i]-1)))
 }
 
-cssci2 <- cssci[-tmp2]
-ifelse(length(cssci2[str_detect(cssci2, "【来源篇名】")]) == length(unique(cssci2[str_detect(cssci2, "【来源篇名】")]))
-       ,writeLines(cssci2, "./1.query/cssci_1804/alldata.txt"), print("still have duplicate title"))
+wos2 <- wos[-tmp2]
+ifelse(length(wos2[str_detect(wos2, "【来源篇名】")]) == length(unique(wos2[str_detect(wos2, "【来源篇名】")]))
+       ,writeLines(wos2, "./1.query/wos_1804/alldata.txt"), print("still have duplicate title"))
 
 
 ###############################
@@ -1233,7 +1258,7 @@ write.table(author1_d, "./6.res/author/author1_d.txt", quote = F, col.names = NA
 
 
 res_au_1$instruc <- sapply(res_au_1$Var1, function(x){
-  tmp <- cssci_wos[str_detect(cssci_wos, paste0("^C1 \\[", x, "\\]"))]
+  tmp <- wos_wos[str_detect(wos_wos, paste0("^C1 \\[", x, "\\]"))]
   tmp <- str_remove(tmp, "/.*$")
   tmp <- str_remove(tmp, "^C1 \\[.*\\]")
   # tmp <- as.character(tmp)
