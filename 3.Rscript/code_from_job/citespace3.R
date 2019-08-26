@@ -945,7 +945,7 @@ rm(list=ls())
 gc()
 
 #### set working direcory
-path <- "E:/job/citespace5000/"
+path <- "G:/job/citespace5000/"
 setwd(path)
 
 dir.create("./1.query", showWarnings = FALSE, recursive = T)
@@ -1008,42 +1008,38 @@ setClass("ABprofile", representation(title = "character", author = "list",  orga
                                      fund = "character", fund_type = "list"))
 wos.parser <- function(wos){
   
-  tmp <- c()
-  tmp2 <- c()
-  for(i in 1:length(dupindex)){
-    tmp[i] <- match("-----------------------------------------------------------------------", wos[dupindex[i]:length(wos)])
-    # wos2 <- wos2[-(dupindex[i]: (dupindex[i]+tmp-1))]
-    tmp2 <- c(tmp2, (dupindex[i]: (dupindex[i]+tmp[i]-1)))
-  }
+  # index1 <- str_which(wos, "^TI ")
+  # index2 <- str_which(wos, "^SO ")
+  # if(length(index1)<length(index2)){
+  #   index2 <- index2[1:length(index1)] 
+  # }
+  # if(length(index1)>length(index2)){
+  #   index2[(length(index2)+1):length(index1)] <- index1[(length(index2)+1):length(index1)]
+  #  index2 <- index2[1:length(index1)] 
+  # }
+  # if(length(index1)>length(index2)){
+  #  index2[(length(index2)+1):length(index1)] <- index1[(length(index2)+1):length(index1)]
+  # }
+  # for(i in length(index1)){
+  #   ti[i] <- str_flatten(wos[index1[i]:index2[i]], collapse = " ")
+  # }
   
-  index1 <- str_which(wos, "^TI ")
-  index2 <- str_which(wos, "^SO ")
-  if(length(index1)<length(index2)){
-<<<<<<< HEAD
-    index2 <- index2[1:length(index1)] 
-  }
-  if(length(index1)>length(index2)){
-    index2[(length(index2)+1):length(index1)] <- index1[(length(index2)+1):length(index1)]
-=======
-   index2 <- index2[1:length(index1)] 
-  }
-  if(length(index1)>length(index2)){
-   index2[(length(index2)+1):length(index1)] <- index1[(length(index2)+1):length(index1)]
->>>>>>> 72a1addbc23b3b6ac6e77fc490c290dfdda2f7ae
-  }
-  for(i in length(index1)){
-    ti[i] <- str_flatten(wos[index1[i]:index2[i]], collapse = " ")
-  }
+  library(readr)
+  wos2 <- read_file("1.query/alldata.txt")
+  
+  field_extract <- function(file, field1,field2){
+    Pattern <- paste0("\r\n", field1, " ([\\s\\S]*?)\r\n", field2)
+    tmp <- str_replace_all(unlist(str_extract_all(file, Pattern)), Pattern, "\\1")
+    # tmp <- str_replace_all(tmp, "\r\n  ", "")
+    return(tmp)
+  } 
+  
+  ti <- field_extract(wos2, "TI", "SO")
+  ti <- str_replace_all(ti, "\r\n\\s+", " ")
+  au <-field_extract(wos2, "AU", "AF")
+  au <- str_split(au, "\r\n\\s+")
   
   
-  ti <- wos[str_detect(wos, "^TI([\\s\\S]*?)^SO")]
-  
-  
-  ti <- str_remove(ti, "^TI ")
-  
-  au <- wos[str_detect(wos, "【来源作者】")]
-  au <- str_remove(au, "【来源作者】")
-  au <- str_split(au, "/")
   
   organ <- wos[str_detect(wos, "【机构名称】")]
   organ <- str_remove(organ, "【机构名称】")
@@ -1054,7 +1050,7 @@ wos.parser <- function(wos){
   yr <- wos[str_detect(wos, "【年代卷期】")]
   yr <- str_replace_all(yr, "【年代卷期】(\\d+),.*$", "\\1")
   
-  jl <- wos[str_detect(wos, "【期    刊】")]
+  jl <- str_remove(unlist(str_extract_all(wos2, "\r\nSO.*")), "\r\nSO\\s+")
   jl <- str_remove(jl, "【期    刊】")
   
   
