@@ -1006,6 +1006,10 @@ setClass("ABprofile", representation(title = "character", author = "list",  orga
                                      year = "character", journal = "character", ptype = "character", keyword = "list", 
                                      mh = "list", sh = "list", majr = "list", pmid = "character", reference = "list", 
                                      fund = "character", fund_type = "list"))
+
+library(readr)
+wos2 <- read_file("1.query/alldata.txt")
+wos <- wos2
 wos.parser <- function(wos){
   
   # index1 <- str_which(wos, "^TI ")
@@ -1024,8 +1028,7 @@ wos.parser <- function(wos){
   #   ti[i] <- str_flatten(wos[index1[i]:index2[i]], collapse = " ")
   # }
   
-  library(readr)
-  wos2 <- read_file("1.query/alldata.txt")
+
   
   field_extract <- function(file, field1,field2){
     Pattern <- paste0("\r\n", field1, " ([\\s\\S]*?)\r\n", field2)
@@ -1034,9 +1037,10 @@ wos.parser <- function(wos){
     return(tmp)
   } 
   
-  ti <- field_extract(wos2, "TI", "SO")
+  ti <- field_extract(wos, "TI", "SO")
   ti <- str_replace_all(ti, "\r\n\\s+", " ")
-  au <-field_extract(wos2, "AU", "AF")
+  
+  au <-field_extract(wos, "AU", "AF")
   au <- str_split(au, "\r\n\\s+")
   
   
@@ -1051,7 +1055,6 @@ wos.parser <- function(wos){
   yr <- str_replace_all(yr, "【年代卷期】(\\d+),.*$", "\\1")
   
   jl <- str_remove(unlist(str_extract_all(wos2, "\r\nSO.*")), "\r\nSO\\s+")
-  jl <- str_remove(jl, "【期    刊】")
   
   
   ky <- wos[str_detect(wos, "【关 键 词】")]
