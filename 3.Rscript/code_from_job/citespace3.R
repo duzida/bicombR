@@ -1012,7 +1012,7 @@ library(readr)
 wos2 <- wos
 wos <- read_file("1.query/alldata.txt")
 wos <- unlist(str_split(wos, "\r\nER"))
-wos <- wos2[1:(length(wos2)-1)]
+wos <- wos[1:(length(wos)-1)]
 
 wos.parser <- function(wos){
   
@@ -1050,7 +1050,7 @@ wos.parser <- function(wos){
   
 
   
-  organ <- str_remove(str_extract(wos2, "\r\nRP.*"), "\r\nRP\\s+")
+  organ <- str_remove(str_extract(wos, "\r\nRP.*"), "\r\nRP\\s+")
   organ[1:10]
   
   yr <- wos[str_detect(wos, "【年代卷期】")]
