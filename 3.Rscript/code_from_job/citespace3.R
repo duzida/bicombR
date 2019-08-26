@@ -1019,10 +1019,17 @@ wos.parser <- function(wos){
   index1 <- str_which(wos, "^TI ")
   index2 <- str_which(wos, "^SO ")
   if(length(index1)<length(index2)){
+<<<<<<< HEAD
     index2 <- index2[1:length(index1)] 
   }
   if(length(index1)>length(index2)){
     index2[(length(index2)+1):length(index1)] <- index1[(length(index2)+1):length(index1)]
+=======
+   index2 <- index2[1:length(index1)] 
+  }
+  if(length(index1)>length(index2)){
+   index2[(length(index2)+1):length(index1)] <- index1[(length(index2)+1):length(index1)]
+>>>>>>> 72a1addbc23b3b6ac6e77fc490c290dfdda2f7ae
   }
   for(i in length(index1)){
     ti[i] <- str_flatten(wos[index1[i]:index2[i]], collapse = " ")
