@@ -945,7 +945,7 @@ rm(list=ls())
 gc()
 
 #### set working direcory
-path <- "G:/job/citespace5000/"
+path <- "E:/job/citespace5000/"
 setwd(path)
 
 dir.create("./1.query", showWarnings = FALSE, recursive = T)
@@ -972,6 +972,7 @@ library(plotly)
 library(tidyr)
 library(XML)
 library(reshape2)
+library(readr)
 
 ### set global options
 options(stringsAsFactors = FALSE)
@@ -1008,8 +1009,11 @@ setClass("ABprofile", representation(title = "character", author = "list",  orga
                                      fund = "character", fund_type = "list"))
 
 library(readr)
-wos2 <- read_file("1.query/alldata.txt")
-wos <- wos2
+wos2 <- wos
+wos <- read_file("1.query/alldata.txt")
+wos <- unlist(str_split(wos, "\r\nER"))
+wos <- wos2[1:(length(wos2)-1)]
+
 wos.parser <- function(wos){
   
   # index1 <- str_which(wos, "^TI ")
@@ -1028,8 +1032,6 @@ wos.parser <- function(wos){
   #   ti[i] <- str_flatten(wos[index1[i]:index2[i]], collapse = " ")
   # }
   
-
-  
   field_extract <- function(file, field1,field2){
     Pattern <- paste0("\r\n", field1, " ([\\s\\S]*?)\r\n", field2)
     tmp <- str_replace_all(unlist(str_extract_all(file, Pattern)), Pattern, "\\1")
@@ -1043,13 +1045,13 @@ wos.parser <- function(wos){
   au <-field_extract(wos, "AU", "AF")
   au <- str_split(au, "\r\n\\s+")
   
+  ti[1:10]
+  au[1:10]
   
+
   
-  organ <- wos[str_detect(wos, "【机构名称】")]
-  organ <- str_remove(organ, "【机构名称】")
-  organ <- str_split(organ, "/")
-  organ <- sapply(organ, function(x)str_replace(x, "\\[.*\\](.*)\\..*$", "\\1"))
-  
+  organ <- str_remove(str_extract(wos2, "\r\nRP.*"), "\r\nRP\\s+")
+  organ[1:10]
   
   yr <- wos[str_detect(wos, "【年代卷期】")]
   yr <- str_replace_all(yr, "【年代卷期】(\\d+),.*$", "\\1")
