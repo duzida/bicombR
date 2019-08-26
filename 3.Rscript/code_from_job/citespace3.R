@@ -63,9 +63,9 @@ setwd("../")
 #### fund 基金字段也是一篇文献对应多个基金，但是由于没有分析必要，因此只将其格式设置为character，而非list
 
 setClass("ABprofile", representation(title = "character", author = "list",  organization = "list", ab = "character", 
-                                 year = "character", journal = "character", ptype = "character", keyword = "list", 
-                                 mh = "list", sh = "list", majr = "list", pmid = "character", reference = "list", 
-                                 fund = "character", fund_type = "list"))
+                                     year = "character", journal = "character", ptype = "character", keyword = "list", 
+                                     mh = "list", sh = "list", majr = "list", pmid = "character", reference = "list", 
+                                     fund = "character", fund_type = "list"))
 cssci.parser <- function(cssci){
   ti <- cssci[str_detect(cssci, "【来源篇名】")]
   ti <- str_remove(ti, "【.*】")
@@ -78,14 +78,14 @@ cssci.parser <- function(cssci){
   organ <- str_remove(organ, "【机构名称】")
   organ <- str_split(organ, "/")
   organ <- sapply(organ, function(x)str_replace(x, "\\[.*\\](.*)\\..*$", "\\1"))
-
+  
   
   yr <- cssci[str_detect(cssci, "【年代卷期】")]
   yr <- str_replace_all(yr, "【年代卷期】(\\d+),.*$", "\\1")
   
   jl <- cssci[str_detect(cssci, "【期    刊】")]
   jl <- str_remove(jl, "【期    刊】")
-
+  
   
   ky <- cssci[str_detect(cssci, "【关 键 词】")]
   ky <- str_remove_all(ky, "^【关 键 词】")
@@ -126,7 +126,7 @@ cssci.parser <- function(cssci){
     return(profile)
   }else return("CSSCI Document Error")
 }
-  
+
 docAB <- cssci.parser(cssci = cssci)
 docAB@title[1:5]
 
@@ -169,7 +169,7 @@ for(i in 1:length(dupindex)){
 
 cssci2 <- cssci[-tmp2]
 ifelse(length(cssci2[str_detect(cssci2, "【来源篇名】")]) == length(unique(cssci2[str_detect(cssci2, "【来源篇名】")]))
-,writeLines(cssci2, "./1.query/cssci_1804/alldata.txt"), print("still have duplicate title"))
+       ,writeLines(cssci2, "./1.query/cssci_1804/alldata.txt"), print("still have duplicate title"))
 
 
 #### 更蠢的办法
@@ -370,25 +370,25 @@ docAB2@keyword <- sapply(docAB2@keyword, function(x){
   # x <- str_replace_all(x, "大学|高等学校|高等院校", "高校")
   ### 匹配双字节字符[^x00-xff];匹配中文字符[u4e00-u9fa5] 
   x <- str_replace_all(x, "citespace.*", "citespace")})
-  
+
 docAB2@keyword <- sapply(docAB2@keyword, function(x){
   x <- str_replace_all(x, "科研成果转化", "科技成果转化")
   x <- str_replace_all(x, "产学研结合", "产学研合作")
   x <- str_replace_all(x, "科技创新", "技术创新")
   x <- str_replace_all(x, "大学|高等学校|高等院校", "高校")
   x <- str_replace_all(x, "高校技术转移", "大学技术转移")
-
+  
   x <- unique(x)
 })
 
 keyword_d <- as.tbl(as.data.frame(table(unlist(docAB2@keyword))))%>% 
-
+  
   arrange(desc(Freq))%>% 
   rename(keyword=Var1)
 
 keyword_d$keyword <- as.character(keyword_d$keyword)
 
-  arrange(docAB2@keywordsc(Freq))%>% 
+arrange(docAB2@keywordsc(Freq))%>% 
   rename(keyword=Var1)
 
 
@@ -472,9 +472,9 @@ keyword_d2 <- data.frame(keyword=sapply(docAB2@keyword, function(x) paste0(x, co
   dplyr::mutate(sumfreq = sum(freq))%>% 
   arrange(desc(sumfreq),year)%>% 
   ungroup()
-  # slice(1:20)%>% 
-  # dplyr::mutate(burst = burstindex(term = keyword, obj = docAB2, timewindow = year, field = "keyword"))
-  
+# slice(1:20)%>% 
+# dplyr::mutate(burst = burstindex(term = keyword, obj = docAB2, timewindow = year, field = "keyword"))
+
 
 
 
@@ -914,10 +914,10 @@ Eindex <- function(com){
     scale_x_continuous(breaks = seq(-1,3.5,0.5))+
     scale_y_continuous(breaks = seq(-1,3.5,0.5))+
     ggsave("./6.res/keyword/战略坐标图.png")
-    # geom_point(size=10, shape=22, alpha = .8)+ 
-    # geom_jitter(width=10,height=0.5)
-    # geom_label(aes(label=cluster))+
-    # geom_jitter(width=10,height=0.5)
+  # geom_point(size=10, shape=22, alpha = .8)+ 
+  # geom_jitter(width=10,height=0.5)
+  # geom_label(aes(label=cluster))+
+  # geom_jitter(width=10,height=0.5)
   
   Em <- dcast(res, formula = i~j, value.var = "x", fill = 0)
   Em <- Em[,-1]
@@ -945,7 +945,7 @@ rm(list=ls())
 gc()
 
 #### set working direcory
-path <- "G:/job/citespace5000/"
+path <- "E:/job/citespace5000/"
 setwd(path)
 
 dir.create("./1.query", showWarnings = FALSE, recursive = T)
@@ -975,10 +975,10 @@ library(reshape2)
 
 ### set global options
 options(stringsAsFactors = FALSE)
-options(encoding="utf-8")
+# options(encoding="utf-8")
 # getOption("stringsAsFactors")
 # Sys.setlocale("LC_ALL","Chinese")
-# Sys.getlocale()
+locale <- Sys.getlocale()
 
 ### 1.1.4 检索下载完文献后，将query里的数据复制并重命名,可以根据pattern参数选定数据源样式
 file.copy(dir("1.query", pattern = "save.*.txt", full.names = T), "2.input/")
@@ -987,7 +987,8 @@ file.copy(dir("1.query", pattern = "save.*.txt", full.names = T), "2.input/")
 #这个地方如果数据文件的编码不是utf-8会有warnings，且数据量不对，如utf-8-boom就需要转成utf-8
 #invalid input found on input connection 'download_3.txt' 这种警告一般是编码问题
 #incomplete final line found on 'download_10.txt' 这种警告需要在文件末尾加一行空行
-#韩文没法读取，会报错，因此设置下语系Sys.setlocale("LC_ALL","Chinese")
+#韩文没法读取，会报错，因此设置下语系Sys.setlocale("LC_ALL","Chinese")[错误做法]
+#不要设定编码环境变量options(encoding="utf-8")，就可以正常读取
 ########## 
 setwd("2.input/")
 filename <- dir("./")
@@ -1006,8 +1007,32 @@ setClass("ABprofile", representation(title = "character", author = "list",  orga
                                      mh = "list", sh = "list", majr = "list", pmid = "character", reference = "list", 
                                      fund = "character", fund_type = "list"))
 wos.parser <- function(wos){
-  ti <- wos[str_detect(wos, "^TI ")]
-  ti <- str_remove(ti, "【.*】")
+  
+  tmp <- c()
+  tmp2 <- c()
+  for(i in 1:length(dupindex)){
+    tmp[i] <- match("-----------------------------------------------------------------------", wos[dupindex[i]:length(wos)])
+    # wos2 <- wos2[-(dupindex[i]: (dupindex[i]+tmp-1))]
+    tmp2 <- c(tmp2, (dupindex[i]: (dupindex[i]+tmp[i]-1)))
+  }
+  
+  index1 <- str_which(wos, "^TI ")
+  index2 <- str_which(wos, "^SO ")
+  if(length(index1)<length(index2)){
+    index2 <- index2[1:length(index1)] 
+  }
+  if(length(index1)>length(index2)){
+    index2[(length(index2)+1):length(index1)] <- index1[(length(index2)+1):length(index1)]
+  }
+  for(i in length(index1)){
+    ti[i] <- str_flatten(wos[index1[i]:index2[i]], collapse = " ")
+  }
+  
+  
+  ti <- wos[str_detect(wos, "^TI([\\s\\S]*?)^SO")]
+  
+  
+  ti <- str_remove(ti, "^TI ")
   
   au <- wos[str_detect(wos, "【来源作者】")]
   au <- str_remove(au, "【来源作者】")
@@ -1403,15 +1428,15 @@ write.table(as.matrix(com), "../../../result/关键词/2com.txt", sep = "\t", qu
 
 #CR
 #1213
-cr <- wos_wos[str_detect(wos_wos, "^CR")]
-index_cr <- which(str_detect(wos_wos, "^CR"))
+cr <- cssci_wos[str_detect(cssci_wos, "^CR")]
+index_cr <- which(str_detect(cssci_wos, "^CR"))
 
 index_nr <- c()
 for(j in 1:length(index_cr)){
   i <- index_cr[j]
-  index_nr[j] <- which(str_detect(wos_wos[i:60125], "^NR"))[1]+i-1
+  index_nr[j] <- which(str_detect(cssci_wos[i:60125], "^NR"))[1]+i-1
 }
-# index_nr <- which(str_detect(wos_wos, "^NR"))
+# index_nr <- which(str_detect(cssci_wos, "^NR"))
 
 index_cr[1:10]
 index_nr[1:10]
@@ -1419,7 +1444,7 @@ index_nr[1:10]
 cr_all <- list()
 
 for(i in 1:length(index_cr)){
-  cr_all[[i]] <- wos_wos[index_cr[i]:(index_nr[i]-1)]
+  cr_all[[i]] <- cssci_wos[index_cr[i]:(index_nr[i]-1)]
 }
 
 cr_all[1:5]
@@ -1444,15 +1469,15 @@ write.table(res_cr, "../../result/期刊/res_cr.txt", quote = F, col.names = NA,
 
 #Cited reference CR
 #40460
-# cr <- wos_wos[str_detect(wos_wos, "^CR")]
-index_cr <- which(str_detect(wos_wos, "^CR"))
+# cr <- cssci_wos[str_detect(cssci_wos, "^CR")]
+index_cr <- which(str_detect(cssci_wos, "^CR"))
 
 index_nr <- c()
 for(j in 1:length(index_cr)){
   i <- index_cr[j]
-  index_nr[j] <- which(str_detect(wos_wos[i:length(wos_wos)], "^NR"))[1]+i-1
+  index_nr[j] <- which(str_detect(cssci_wos[i:length(cssci_wos)], "^NR"))[1]+i-1
 }
-# index_nr <- which(str_detect(wos_wos, "^NR"))
+# index_nr <- which(str_detect(cssci_wos, "^NR"))
 
 index_cr[1:10]
 index_nr[1:10]
@@ -1460,7 +1485,7 @@ index_nr[1:10]
 cr_all <- list()
 
 for(i in 1:length(index_cr)){
-  cr_all[[i]] <- wos_wos[index_cr[i]:(index_nr[i]-1)]
+  cr_all[[i]] <- cssci_wos[index_cr[i]:(index_nr[i]-1)]
 }
 
 cr_all[1:5]
@@ -1489,6 +1514,6 @@ res_jr <- as.tbl(as.data.frame(table(tolower(res_cr$journal))))%>%
   arrange(desc(Freq))
 write.table(res_jr, "res/期刊/res_jr.txt", quote = F, col.names = NA, sep = "\t")
 
-writeLines(wos_wos, "wos_wos.txt")
+writeLines(cssci_wos, "cssci_wos.txt")
 
 length(unlist(str_extract_all(cr_all, ", Research Policy,")))
