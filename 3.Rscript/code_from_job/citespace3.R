@@ -1003,6 +1003,9 @@ writeLines(wos, "./1.query/alldata.txt")
 ## 1.2 字段抽取
 #### 删除不止一个匹配项时，需要用str_remove_all，而不是str_remove
 #### fund 基金字段也是一篇文献对应多个基金，但是由于没有分析必要，因此只将其格式设置为character，而非list
+#### wos的通讯作者地址字段是RP,全部作者地址字段是C1
+#### wos的关键词字段是DE,ID是wos给文章补充的关键词
+#### wos的来源期刊是SO
 setClass("ABprofile", representation(title = "character", author = "list",  organization = "list", ab = "character", 
                                      year = "character", journal = "character", ptype = "character", keyword = "list", 
                                      mh = "list", sh = "list", majr = "list", pmid = "character", reference = "list", 
@@ -1014,7 +1017,7 @@ wos <- read_file("1.query/alldata.txt")
 wos <- unlist(str_split(wos, "\r\nER"))
 wos <- wos[1:(length(wos)-1)]
 
-wos.parser <- function(wos){
+wos.parser <- function(wosfile){
   
   # index1 <- str_which(wos, "^TI ")
   # index2 <- str_which(wos, "^SO ")
@@ -1032,74 +1035,75 @@ wos.parser <- function(wos){
   #   ti[i] <- str_flatten(wos[index1[i]:index2[i]], collapse = " ")
   # }
   
-  field_extract <- function(file, field1,field2){
-    Pattern <- paste0("\r\n", field1, " ([\\s\\S]*?)\r\n", field2)
-    tmp <- str_replace_all(unlist(str_extract_all(file, Pattern)), Pattern, "\\1")
+  # 直接指定两个字段是错误的，因为有时候下一个字段不固定，如DE字段后面不一定肯定就是ID字段,
+  # 因此需要先找到第一个字段后面跟的字段是什么
+  # 正则很强大，不需要知道下一个字段是什么
+  field_extract <- function(file, field){
+    
+    Pattern <- paste0("\r\n", field, "\\s+([\\s\\S]*?)\r\n(\\w+)")
+    tmp <- str_replace(str_extract(wos, Pattern), Pattern, "\\1")
+    # Pattern <- paste0("\r\n", field1, " ([\\s\\S]*?)\r\n", field2)
+    ## tmp <- str_replace_all(unlist(str_extract_all(file, Pattern)), Pattern, "\\1")
+    # tmp <- str_replace_all(str_extract(file, Pattern), Pattern, "\\1")
     # tmp <- str_replace_all(tmp, "\r\n  ", "")
     return(tmp)
   } 
   
-  ti <- field_extract(wos, "TI", "SO")
+  ti <- field_extract(wos, "TI")
   ti <- str_replace_all(ti, "\r\n\\s+", " ")
   
-  au <-field_extract(wos, "AU", "AF")
+  au <- field_extract(wos, "AU")
   au <- str_split(au, "\r\n\\s+")
+  # ti[1:10]
+  # au[1:10]
   
-  ti[1:10]
-  au[1:10]
+  # organ <- str_remove(str_extract(wos, "\r\nRP.*"), "\r\nRP\\s+.*reprint author\\), ")
+  # RP是通讯作者
   
-
+  organ <- field_extract(wos, "C1")
+  organ <- str_split(organ, "\r\n\\s+")
+  # organ[1:10]
   
-  organ <- str_remove(str_extract(wos, "\r\nRP.*"), "\r\nRP\\s+")
-  organ[1:10]
+  yr <- str_remove(str_extract(wos, "\r\nPY .*"), "\r\nPY\\s+")
+  # yr[1:10]
+  # table(au, useNA = "always")
+  # any(is.na(au))
   
-  yr <- wos[str_detect(wos, "【年代卷期】")]
-  yr <- str_replace_all(yr, "【年代卷期】(\\d+),.*$", "\\1")
+  jl <- str_remove(str_extract(wos, "\r\nSO.*"), "\r\nSO\\s+")
+  # jl[1:10]
   
-  jl <- str_remove(unlist(str_extract_all(wos2, "\r\nSO.*")), "\r\nSO\\s+")
+  ky <- field_extract(wos, "DE")
+  ky <- str_to_lower(str_replace_all(ky, "\r\n\\s+", " "))
+  ky <- str_split(ky, "; ")
+  # ky[1:10]
   
+  refer <- field_extract(wos, "CR")
+  refer <- str_split(refer, "\r\n\\s+")
+  # refer[1:4]
   
-  ky <- wos[str_detect(wos, "【关 键 词】")]
-  ky <- str_remove_all(ky, "^【关 键 词】")
-  ky <- tolower(ky)
-  ky <- str_split(ky, "/")
+  ab <- field_extract(wos, "AB")
+  # ab[1:3]
   
-  r1 <- which(str_detect(wos, "【参考文献】"))
-  r2 <- which(str_detect(wos, "-----------------------------------------------------------------------"))
-  refer <- list()
-  if(length(r1)==length(r2)){
-    for(i in 1:length(r1)){
-      ifelse(r1[i]+1==r2[i], refer[[i]]<-"", refer[[i]] <- wos[(r1[i]+1):(r2[i]-1)])
-    }
-  }else{
-    refer <- NULL
-    warning("wos Reference Data error!")
-  }
-  refer <- sapply(refer,  function(x)str_remove_all(x,"^\\d+\\."))
+  pt <- field_extract(wos, "PT")
   
-  fd <- wos[str_detect(wos, "【基    金】")]
-  
-  fund_tp <- wos[str_detect(wos, "【基金类别】")]
-  fund_tp <- str_remove_all(fund_tp, "【基金类别】|/$")
-  fund_tp <- str_split(fund_tp, "/")
-  
+  ab <- field_extract(wos, "AB")
   
   TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl), 
-              length(ky), length(refer), length(fd), length(fund_tp)))
+              length(ky), length(refer), length(pt), length(ab)))
   
   
-  # ab = "character", ptype = "character", mh = "list", sh = "list", majr = "list", pmid = "character",
+  # fd,fund_tp, mh = "list", sh = "list", majr = "list", pmid = "character",
   # 这些字段都没有，不需要管
   
   
   if(TEST == 0){
     profile <- new("ABprofile", title = ti, author = au,  organization = organ, year = yr, journal = jl, 
-                   keyword = ky, reference = refer, fund = fd, fund_type = fund_tp)
+                   keyword = ky, reference = refer, ab = ab, ptype = pt)
     return(profile)
   }else return("wos Document Error")
 }
 
-docAB <- wos.parser(wos = wos)
+docAB <- wos.parser(wosfile = wos)
 docAB@title[1:5]
 
 ## 1.3 数据清洗
