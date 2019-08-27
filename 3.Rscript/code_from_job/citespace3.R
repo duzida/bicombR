@@ -13,8 +13,12 @@
 #### res：存放结果数据，包含作者、关键词、发文年代、期刊四个子文件夹
 ######## 未解决问题：怎么通过网络爬取批量下载cssci数据 ########
 
+#### clean environment
+rm(list=ls())
+gc()
+
 #### set working direcory
-path <- "G:/study/1.bicombR/6.example"
+path <- "E:/study/1.bicombR/6.example"
 setwd(path)
 
 dir.create("./1.query", showWarnings = FALSE, recursive = T)
@@ -43,6 +47,8 @@ library(ggplot2)
 library(plotly)
 library(tidyr)
 library(XML)
+library(reshape2)
+library(readr)
 
 ### set global options
 options(stringsAsFactors = FALSE)
@@ -57,6 +63,8 @@ filename <- dir("./")
 cssci <- unlist(lapply(filename, readLines))
 file.rename(filename, paste0("download_", 1:length(filename), ".txt"))
 setwd("../")
+
+writeLines(cssci, "./1.query/cnki_4473/alldata.txt")
 
 ## 1.2 字段抽取
 #### 删除不止一个匹配项时，需要用str_remove_all，而不是str_remove
@@ -127,6 +135,112 @@ cssci.parser <- function(cssci){
   }else return("CSSCI Document Error")
 }
 
+cssci2 <- cssci
+cssci <- read_file("1.query/cnki_4473/alldata.txt")
+#### 经过分割操作，使得每一篇文章相互独立，字段可以对应起来
+#### 文章内没有该字段的就是NA，字段的长度保持统一
+cssci <- unlist(str_split(cssci, "\r\n-+"))
+cssci <- cssci[1:(length(cssci)-1)]
+
+cssci.parser <- function(wosfile){
+  
+  # index1 <- str_which(wos, "^TI ")
+  # index2 <- str_which(wos, "^SO ")
+  # if(length(index1)<length(index2)){
+  #   index2 <- index2[1:length(index1)] 
+  # }
+  # if(length(index1)>length(index2)){
+  #   index2[(length(index2)+1):length(index1)] <- index1[(length(index2)+1):length(index1)]
+  #  index2 <- index2[1:length(index1)] 
+  # }
+  # if(length(index1)>length(index2)){
+  #  index2[(length(index2)+1):length(index1)] <- index1[(length(index2)+1):length(index1)]
+  # }
+  # for(i in length(index1)){
+  #   ti[i] <- str_flatten(wos[index1[i]:index2[i]], collapse = " ")
+  # }
+  
+  # 直接指定两个字段是错误的，因为有时候下一个字段不固定，如DE字段后面不一定肯定就是ID字段,
+  # 因此需要先找到第一个字段后面跟的字段是什么
+  # 正则很强大，不需要知道下一个字段是什么
+  field_extract <- function(file, field){
+    
+    Pattern <- paste0("\r\n", field, "\\s+([\\s\\S]*?)\r\n(\\w+)")
+    tmp <- str_replace(str_extract(wos, Pattern), Pattern, "\\1")
+    # Pattern <- paste0("\r\n", field1, " ([\\s\\S]*?)\r\n", field2)
+    ## tmp <- str_replace_all(unlist(str_extract_all(file, Pattern)), Pattern, "\\1")
+    # tmp <- str_replace_all(str_extract(file, Pattern), Pattern, "\\1")
+    # tmp <- str_replace_all(tmp, "\r\n  ", "")
+    return(tmp)
+  } 
+  
+  ti <- field_extract(wos, "TI")
+  ti <- str_replace_all(ti, "\r\n\\s+", " ")
+  
+  au <- field_extract(wos, "AU")
+  au <- str_split(au, "\r\n\\s+")
+  
+  # organ <- str_remove(str_extract(wos, "\r\nRP.*"), "\r\nRP\\s+.*reprint author\\), ")
+  # RP是通讯作者
+  organ <- field_extract(wos, "C1")
+  organ <- str_split(organ, "\r\n\\s+")
+  
+  yr <- str_remove(str_extract(wos, "\r\nPY .*"), "\r\nPY\\s+")
+  # table(au, useNA = "always")
+  # any(is.na(au))
+  
+  jl <- str_remove(str_extract(wos, "\r\nSO.*"), "\r\nSO\\s+")
+  # jl[1:10]
+  
+  ky <- field_extract(wos, "DE")
+  ky <- str_to_lower(str_replace_all(ky, "\r\n\\s+", " "))
+  ky <- str_split(ky, "; ")
+  # ky[1:10]
+  
+  refer <- field_extract(wos, "CR")
+  refer <- str_split(refer, "\r\n\\s+")
+  # refer[1:4]
+  
+  ab <- field_extract(wos, "AB")
+  # ab[1:3]
+  
+  pt <- field_extract(wos, "PT")
+  
+  ab <- field_extract(wos, "AB")
+  
+  TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl), 
+              length(ky), length(refer), length(pt), length(ab)))
+  
+  
+  # fd,fund_tp, mh = "list", sh = "list", majr = "list", pmid = "character",
+  # 这些字段都没有，不需要管
+  
+  
+  if(TEST == 0){
+    profile <- new("ABprofile", title = ti, author = au,  organization = organ, year = yr, journal = jl, 
+                   keyword = ky, reference = refer, ab = ab, ptype = pt)
+    return(profile)
+  }else return("wos Document Error")
+}
+
+docAB <- wos.parser(wosfile = wos)
+docAB@title[1:5]
+docAB@keyword[1:10]
+
+## 1.3 数据清洗
+### 将文献类型为Newspaper、会议论文的筛除
+### 将无作者无关键词的文献剔除
+### 将标题重复文献剔除掉
+#### wos的机构字段中含有作者信息，同一单位作者只重复一次地址,
+#### 不同单位会标注出来
+index <- which(duplicated(docAB@title))
+docAB2 <- wos.parser(wosfile = wos[-index])
+
+### 将去重后的原始文摘数据保存
+readr::write_file(str_flatten(wos[-index], collapse = "\r\nER"), "1.query/alldata2.txt")
+
+### 保持工作目录
+save(list = ls(), file = "wos.RData")
 docAB <- cssci.parser(cssci = cssci)
 docAB@title[1:5]
 
@@ -1011,9 +1125,10 @@ setClass("ABprofile", representation(title = "character", author = "list",  orga
                                      mh = "list", sh = "list", majr = "list", pmid = "character", reference = "list", 
                                      fund = "character", fund_type = "list"))
 
-library(readr)
 wos2 <- wos
 wos <- read_file("1.query/alldata.txt")
+#### 经过分割操作，使得每一篇文章相互独立，字段可以对应起来
+#### 文章内没有该字段的就是NA，字段的长度保持统一
 wos <- unlist(str_split(wos, "\r\nER"))
 wos <- wos[1:(length(wos)-1)]
 
@@ -1054,18 +1169,13 @@ wos.parser <- function(wosfile){
   
   au <- field_extract(wos, "AU")
   au <- str_split(au, "\r\n\\s+")
-  # ti[1:10]
-  # au[1:10]
   
   # organ <- str_remove(str_extract(wos, "\r\nRP.*"), "\r\nRP\\s+.*reprint author\\), ")
   # RP是通讯作者
-  
   organ <- field_extract(wos, "C1")
   organ <- str_split(organ, "\r\n\\s+")
-  # organ[1:10]
   
   yr <- str_remove(str_extract(wos, "\r\nPY .*"), "\r\nPY\\s+")
-  # yr[1:10]
   # table(au, useNA = "always")
   # any(is.na(au))
   
@@ -1105,54 +1215,22 @@ wos.parser <- function(wosfile){
 
 docAB <- wos.parser(wosfile = wos)
 docAB@title[1:5]
+docAB@keyword[1:10]
 
 ## 1.3 数据清洗
 ### 将文献类型为Newspaper、会议论文的筛除
 ### 将无作者无关键词的文献剔除
 ### 将标题重复文献剔除掉
-index <- which(duplicated(docAB@title) | docAB@author=="" | docAB@keyword=="")
-
-docAB2 <- new("ABprofile", title = docAB@title[-index], author = docAB@author[-index],  organization = docAB@organization[-index], 
-              year = docAB@year[-index], journal = docAB@journal[-index], keyword = docAB@keyword[-index], 
-              reference = docAB@reference[-index], fund = docAB@fund[-index], fund_type = docAB@fund_type[-index], 
-              ab = docAB@ab[-index], mh = docAB@mh[-index], ptype = docAB@ptype[-index], pmid = docAB@pmid[-index], 
-              sh = docAB@sh[-index], majr = docAB@majr[-index])
-
-#### 机构和作者是否一一对应
-#### 如果作者和机构不对应的话，将机构list的第一个机构按照作者list长度重复
-
-if(!identical(sapply(docAB2@author, length), sapply(docAB2@organization, length))){
-  tmp <- which(sapply(docAB2@author, length) != sapply(docAB2@organization, length))
-  for(i in 1:length(tmp)){
-    docAB2@organization[[tmp[i]]] <- rep(docAB2@organization[[tmp[i]]][1], length(docAB2@author[[tmp[i]]]))
-  }
-}
+#### wos的机构字段中含有作者信息，同一单位作者只重复一次地址,
+#### 不同单位会标注出来
+index <- which(duplicated(docAB@title))
+docAB2 <- wos.parser(wosfile = wos[-index])
 
 ### 将去重后的原始文摘数据保存
-dupti <- docAB@title[index]
-dupindex <- sapply(paste0("【来源篇名】", dupti), function(x)which(str_detect(wos, x)))
-dupindex <- unlist(sapply(dupindex, function(x){
-  ifelse(length(x)==1, x, x[-1])
-}))
+readr::write_file(str_flatten(wos[-index], collapse = "\r\nER"), "1.query/alldata2.txt")
 
-tmp <- c()
-tmp2 <- c()
-for(i in 1:length(dupindex)){
-  tmp[i] <- match("-----------------------------------------------------------------------", wos[dupindex[i]:length(wos)])
-  # wos2 <- wos2[-(dupindex[i]: (dupindex[i]+tmp-1))]
-  tmp2 <- c(tmp2, (dupindex[i]: (dupindex[i]+tmp[i]-1)))
-}
-
-wos2 <- wos[-tmp2]
-ifelse(length(wos2[str_detect(wos2, "【来源篇名】")]) == length(unique(wos2[str_detect(wos2, "【来源篇名】")]))
-       ,writeLines(wos2, "./1.query/wos_1804/alldata.txt"), print("still have duplicate title"))
-
-
-###############################
-# 发现download_3.txt在citespace中转换发生大规模丢失
-# 从第二届中国科学文献计量与评价研究学术研讨会在京举行后就全部丢失
-# 不能直接将input文件夹中的文件导入citespace进行分析，应该是预处理后的数据再做wos转换
-###############################
+### 保持工作目录
+save(list = ls(), file = "wos.RData")
 
 ## 1.4 数据统计
 ### 1.4.1 year
