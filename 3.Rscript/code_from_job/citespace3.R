@@ -7,7 +7,7 @@ rm(list=ls())
 gc()
 
 ## 1.2 set working direcory
-path <- "G:/study/1.bicombR/6.example"
+path <- "E:/study/1.bicombR/6.example"
 setwd(path)
 
 ## 1.3 print session information
@@ -69,6 +69,7 @@ locale <- Sys.getlocale()
 # 不要设定编码环境变量options(encoding="utf-8")，就可以正常读取
 # 经过str_split分割操作，使得每一篇文章相互独立，字段可以对应起来
 # 文章内没有该字段的就是NA，字段的长度保持统一
+# 在笔记本上cssci数据库也不需要设定utf-8，str_conv(csscidoc[1], "gbk")
 ########## 
 file_conv <- function(filepath, db="WOS"){
   db <- match.arg(db, c("WOS", "PUBMED", "CNKI", "CSSCI"))
@@ -90,9 +91,9 @@ file_conv <- function(filepath, db="WOS"){
   setwd("2.input/")
   filename <- dir("./")
   doc <- unlist(lapply(filename, readLines))
-  if(db %in% c("CSSCI")){
-    doc <- str_conv(doc, "utf-8")
-  }
+  # if(db %in% c("CSSCI")){
+  #   doc <- str_conv(doc, "utf-8")
+  # }
   file.rename(filename, paste0("download_", 1:length(filename), ".txt"))
   setwd("../")
   
@@ -107,25 +108,30 @@ file_conv <- function(filepath, db="WOS"){
 }
 
 csscidoc <- file_conv(filepath = "1.query/cssci_1804/", db = "CSSCI")
-wosdoc <- file_conv(filepath = "G:/job/citespace5000/1.query/", db = "WOS")
-cnkidoc <- file_conv(filepath = "1.query/cnki_5391/", db = "CNKI")
+wosdoc <- file_conv(filepath = "E:/job/citespace5000/wos/1.query/", db = "WOS")
+cnkidoc <- file_conv(filepath = "E:/job/citespace5000/cnki/1.query/Refworks/", db = "CNKI")
 pubmeddoc <- file_conv(filepath = "1.query/pubmed_142", db = "PUBMED")
 
+save(list = ls(), file = "doc.RData")
 #####################
 # 3. Data preprocessing 
 #####################
 
 ## 3.1 abstract extract
+########## 各个字段的格式和按照文章分解，利用正则
 #### 删除不止一个匹配项时，需要用str_remove_all，而不是str_remove
 #### cssci的fund 基金字段也是一篇文献对应多个基金，但是由于没有分析必要，因此只将其格式设置为character，而非list
 #### wos的通讯作者地址字段是RP,全部作者地址字段是C1
 #### wos的关键词字段是DE,ID是wos给文章补充的关键词
 #### wos的来源期刊是SO
-
-setClass("ABprofile", representation(title = "character", author = "list",  organization = "list", ab = "character", 
-                                     year = "character", journal = "character", ptype = "character", keyword = "list", 
-                                     mh = "list", sh = "list", majr = "list", pmid = "character", reference = "list", 
-                                     fund = "character", fund_type = "list"))
+####直接指定两个字段是错误的，因为有时候下一个字段不固定，如DE字段后面不一定肯定就是ID字段,
+#### 因此需要先找到第一个字段后面跟的字段是什么
+#### 正则很强大，不需要知道下一个字段是什么
+########## 
+# setClass("ABprofile", representation(title = "character", author = "list",  organization = "list", ab = "character", 
+                                     # year = "character", journal = "character", ptype = "character", keyword = "list", 
+                                     # mh = "list", sh = "list", majr = "list", pmid = "character", reference = "list", 
+                                     # fund = "character", fund_type = "list"))
 
 setClass("ABprofile", 
          slots = list(title = "character", author = "list",  organization = "list", year = "character", 
@@ -139,31 +145,17 @@ setClass("AB_PUBMED", contains="ABprofile",
 setClass("AB_CNKI", contains="ABprofile", 
          slots = list(ab = "character", ptype = "character", keyword = "list"))
 
+# setClass("db", slots = list(type = "character"))
+# setGeneric("AB_parse", function(obj,...) standardGeneric("AB_parse"))
+# setMethod("AB_parse", signature(object = "character"), function(obj,db,...){
+#   print("da")
+# })
+
 wos.parser <- function(wosfile){
   
-  # index1 <- str_which(wos, "^TI ")
-  # index2 <- str_which(wos, "^SO ")
-  # if(length(index1)<length(index2)){
-  #   index2 <- index2[1:length(index1)] 
-  # }
-  # if(length(index1)>length(index2)){
-  #   index2[(length(index2)+1):length(index1)] <- index1[(length(index2)+1):length(index1)]
-  #  index2 <- index2[1:length(index1)] 
-  # }
-  # if(length(index1)>length(index2)){
-  #  index2[(length(index2)+1):length(index1)] <- index1[(length(index2)+1):length(index1)]
-  # }
-  # for(i in length(index1)){
-  #   ti[i] <- str_flatten(wos[index1[i]:index2[i]], collapse = " ")
-  # }
-  
-  # 直接指定两个字段是错误的，因为有时候下一个字段不固定，如DE字段后面不一定肯定就是ID字段,
-  # 因此需要先找到第一个字段后面跟的字段是什么
-  # 正则很强大，不需要知道下一个字段是什么
   field_extract <- function(file, field){
-    
     Pattern <- paste0("\r\n", field, "\\s+([\\s\\S]*?)\r\n(\\w+)")
-    tmp <- str_replace(str_extract(wos, Pattern), Pattern, "\\1")
+    tmp <- str_replace(str_extract(file, Pattern), Pattern, "\\1")
     # Pattern <- paste0("\r\n", field1, " ([\\s\\S]*?)\r\n", field2)
     ## tmp <- str_replace_all(unlist(str_extract_all(file, Pattern)), Pattern, "\\1")
     # tmp <- str_replace_all(str_extract(file, Pattern), Pattern, "\\1")
@@ -171,39 +163,39 @@ wos.parser <- function(wosfile){
     return(tmp)
   } 
   
-  ti <- field_extract(wos, "TI")
+  ti <- field_extract(wosfile, "TI")
   ti <- str_replace_all(ti, "\r\n\\s+", " ")
   
-  au <- field_extract(wos, "AU")
+  au <- field_extract(wosfile, "AU")
   au <- str_split(au, "\r\n\\s+")
   
-  # organ <- str_remove(str_extract(wos, "\r\nRP.*"), "\r\nRP\\s+.*reprint author\\), ")
+  # organ <- str_remove(str_extract(wosfile, "\r\nRP.*"), "\r\nRP\\s+.*reprint author\\), ")
   # RP是通讯作者
-  organ <- field_extract(wos, "C1")
+  organ <- field_extract(wosfile, "C1")
   organ <- str_split(organ, "\r\n\\s+")
   
-  yr <- str_remove(str_extract(wos, "\r\nPY .*"), "\r\nPY\\s+")
+  yr <- str_remove(str_extract(wosfile, "\r\nPY .*"), "\r\nPY\\s+")
   # table(au, useNA = "always")
   # any(is.na(au))
   
-  jl <- str_remove(str_extract(wos, "\r\nSO.*"), "\r\nSO\\s+")
+  jl <- str_remove(str_extract(wosfile, "\r\nSO.*"), "\r\nSO\\s+")
   # jl[1:10]
   
-  ky <- field_extract(wos, "DE")
+  ky <- field_extract(wosfile, "DE")
   ky <- str_to_lower(str_replace_all(ky, "\r\n\\s+", " "))
   ky <- str_split(ky, "; ")
   # ky[1:10]
   
-  refer <- field_extract(wos, "CR")
+  refer <- field_extract(wosfile, "CR")
   refer <- str_split(refer, "\r\n\\s+")
   # refer[1:4]
   
-  ab <- field_extract(wos, "AB")
+  ab <- field_extract(wosfile, "AB")
   # ab[1:3]
   
-  pt <- field_extract(wos, "PT")
+  pt <- field_extract(wosfile, "PT")
   
-  ab <- field_extract(wos, "AB")
+  ab <- field_extract(wosfile, "AB")
   
   TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl), 
               length(ky), length(refer), length(pt), length(ab)))
@@ -214,34 +206,16 @@ wos.parser <- function(wosfile){
   
   
   if(TEST == 0){
-    profile <- new("ABprofile", title = ti, author = au,  organization = organ, year = yr, journal = jl, 
+    profile <- new("AB_WOS", title = ti, author = au,  organization = organ, year = yr, journal = jl, 
                    keyword = ky, reference = refer, ab = ab, ptype = pt)
     return(profile)
   }else return("wos Document Error")
 }
 
+cnki.parser <- function(cnkifile){
+  
+}
 
-
-
-### 1.1.4 检索下载完文献后，将query里的数据复制并重命名,可以根据pattern参数选定数据源样式
-file.copy(dir("1.query/cssci_1804/", pattern = "LY.*.txt", full.names = T), "2.input/")
-
-setwd("2.input/")
-filename <- dir("./")
-cssci <- unlist(lapply(filename, readLines))
-file.rename(filename, paste0("download_", 1:length(filename), ".txt"))
-setwd("../")
-
-writeLines(cssci, "./1.query/cnki_4473/alldata.txt")
-
-## 1.2 字段抽取
-#### 删除不止一个匹配项时，需要用str_remove_all，而不是str_remove
-#### fund 基金字段也是一篇文献对应多个基金，但是由于没有分析必要，因此只将其格式设置为character，而非list
-
-setClass("ABprofile", representation(title = "character", author = "list",  organization = "list", ab = "character", 
-                                     year = "character", journal = "character", ptype = "character", keyword = "list", 
-                                     mh = "list", sh = "list", majr = "list", pmid = "character", reference = "list", 
-                                     fund = "character", fund_type = "list"))
 cssci.parser <- function(cssci){
   ti <- cssci[str_detect(cssci, "【来源篇名】")]
   ti <- str_remove(ti, "【.*】")
@@ -303,97 +277,10 @@ cssci.parser <- function(cssci){
   }else return("CSSCI Document Error")
 }
 
-cssci2 <- cssci
-cssci <- read_file("1.query/cnki_4473/alldata.txt")
-#### 经过分割操作，使得每一篇文章相互独立，字段可以对应起来
-#### 文章内没有该字段的就是NA，字段的长度保持统一
-cssci <- unlist(str_split(cssci, "\r\n-+"))
-cssci <- cssci[1:(length(cssci)-1)]
+WOS_profile <- wos.parser(wosfile = wosdoc)
+WOS_profile@keyword[1:5]
 
-cssci.parser <- function(wosfile){
-  
-  # index1 <- str_which(wos, "^TI ")
-  # index2 <- str_which(wos, "^SO ")
-  # if(length(index1)<length(index2)){
-  #   index2 <- index2[1:length(index1)] 
-  # }
-  # if(length(index1)>length(index2)){
-  #   index2[(length(index2)+1):length(index1)] <- index1[(length(index2)+1):length(index1)]
-  #  index2 <- index2[1:length(index1)] 
-  # }
-  # if(length(index1)>length(index2)){
-  #  index2[(length(index2)+1):length(index1)] <- index1[(length(index2)+1):length(index1)]
-  # }
-  # for(i in length(index1)){
-  #   ti[i] <- str_flatten(wos[index1[i]:index2[i]], collapse = " ")
-  # }
-  
-  # 直接指定两个字段是错误的，因为有时候下一个字段不固定，如DE字段后面不一定肯定就是ID字段,
-  # 因此需要先找到第一个字段后面跟的字段是什么
-  # 正则很强大，不需要知道下一个字段是什么
-  field_extract <- function(file, field){
-    
-    Pattern <- paste0("\r\n", field, "\\s+([\\s\\S]*?)\r\n(\\w+)")
-    tmp <- str_replace(str_extract(wos, Pattern), Pattern, "\\1")
-    # Pattern <- paste0("\r\n", field1, " ([\\s\\S]*?)\r\n", field2)
-    ## tmp <- str_replace_all(unlist(str_extract_all(file, Pattern)), Pattern, "\\1")
-    # tmp <- str_replace_all(str_extract(file, Pattern), Pattern, "\\1")
-    # tmp <- str_replace_all(tmp, "\r\n  ", "")
-    return(tmp)
-  } 
-  
-  ti <- field_extract(wos, "TI")
-  ti <- str_replace_all(ti, "\r\n\\s+", " ")
-  
-  au <- field_extract(wos, "AU")
-  au <- str_split(au, "\r\n\\s+")
-  
-  # organ <- str_remove(str_extract(wos, "\r\nRP.*"), "\r\nRP\\s+.*reprint author\\), ")
-  # RP是通讯作者
-  organ <- field_extract(wos, "C1")
-  organ <- str_split(organ, "\r\n\\s+")
-  
-  yr <- str_remove(str_extract(wos, "\r\nPY .*"), "\r\nPY\\s+")
-  # table(au, useNA = "always")
-  # any(is.na(au))
-  
-  jl <- str_remove(str_extract(wos, "\r\nSO.*"), "\r\nSO\\s+")
-  # jl[1:10]
-  
-  ky <- field_extract(wos, "DE")
-  ky <- str_to_lower(str_replace_all(ky, "\r\n\\s+", " "))
-  ky <- str_split(ky, "; ")
-  # ky[1:10]
-  
-  refer <- field_extract(wos, "CR")
-  refer <- str_split(refer, "\r\n\\s+")
-  # refer[1:4]
-  
-  ab <- field_extract(wos, "AB")
-  # ab[1:3]
-  
-  pt <- field_extract(wos, "PT")
-  
-  ab <- field_extract(wos, "AB")
-  
-  TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl), 
-              length(ky), length(refer), length(pt), length(ab)))
-  
-  
-  # fd,fund_tp, mh = "list", sh = "list", majr = "list", pmid = "character",
-  # 这些字段都没有，不需要管
-  
-  
-  if(TEST == 0){
-    profile <- new("ABprofile", title = ti, author = au,  organization = organ, year = yr, journal = jl, 
-                   keyword = ky, reference = refer, ab = ab, ptype = pt)
-    return(profile)
-  }else return("wos Document Error")
-}
 
-docAB <- wos.parser(wosfile = wos)
-docAB@title[1:5]
-docAB@keyword[1:10]
 
 ## 1.3 数据清洗
 ### 将文献类型为Newspaper、会议论文的筛除
