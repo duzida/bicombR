@@ -127,6 +127,13 @@ save(list = ls(), file = "doc.RData")
 ####直接指定两个字段是错误的，因为有时候下一个字段不固定，如DE字段后面不一定肯定就是ID字段,
 #### 因此需要先找到第一个字段后面跟的字段是什么
 #### 正则很强大，不需要知道下一个字段是什么
+#### cnki
+#### 为排除同名现象，加上单位
+#### 作者与单位无法匹配，会存在作者3个单位2个的情况
+#### cnki中，不同文献类型节点标签是不一样的
+#### 作者分隔符有的是","
+#### cnki在关键词有的是英文，大小写得统一，空格不能去除
+#### cnki字段内容没有时，字段标题还有
 ########## 
 # setClass("ABprofile", representation(title = "character", author = "list",  organization = "list", ab = "character", 
                                      # year = "character", journal = "character", ptype = "character", keyword = "list", 
@@ -151,17 +158,16 @@ setClass("AB_CNKI", contains="ABprofile",
 #   print("da")
 # })
 
+field_extract <- function(file, field){
+  Pattern <- paste0("\r\n", field, "\\s+([\\s\\S]*?)\r\n(\\w+)")
+  tmp <- str_replace(str_extract(file, Pattern), Pattern, "\\1")
+  # Pattern <- paste0("\r\n", field1, " ([\\s\\S]*?)\r\n", field2)
+  ## tmp <- str_replace_all(unlist(str_extract_all(file, Pattern)), Pattern, "\\1")
+  # tmp <- str_replace_all(str_extract(file, Pattern), Pattern, "\\1")
+  # tmp <- str_replace_all(tmp, "\r\n  ", "")
+  return(tmp)
+} 
 wos.parser <- function(wosfile){
-  
-  field_extract <- function(file, field){
-    Pattern <- paste0("\r\n", field, "\\s+([\\s\\S]*?)\r\n(\\w+)")
-    tmp <- str_replace(str_extract(file, Pattern), Pattern, "\\1")
-    # Pattern <- paste0("\r\n", field1, " ([\\s\\S]*?)\r\n", field2)
-    ## tmp <- str_replace_all(unlist(str_extract_all(file, Pattern)), Pattern, "\\1")
-    # tmp <- str_replace_all(str_extract(file, Pattern), Pattern, "\\1")
-    # tmp <- str_replace_all(tmp, "\r\n  ", "")
-    return(tmp)
-  } 
   
   ti <- field_extract(wosfile, "TI")
   ti <- str_replace_all(ti, "\r\n\\s+", " ")
@@ -212,18 +218,7 @@ wos.parser <- function(wosfile){
 
 cnki.parser <- function(cnkifile){
   
-  field_extract <- function(file, field){
-    Pattern <- paste0("\r\n", field, "\\s+([\\s\\S]*?)\r\n(\\w+)")
-    tmp <- str_replace(str_extract(file, Pattern), Pattern, "\\1")
-    # Pattern <- paste0("\r\n", field1, " ([\\s\\S]*?)\r\n", field2)
-    ## tmp <- str_replace_all(unlist(str_extract_all(file, Pattern)), Pattern, "\\1")
-    # tmp <- str_replace_all(str_extract(file, Pattern), Pattern, "\\1")
-    # tmp <- str_replace_all(tmp, "\r\n  ", "")
-    return(tmp)
-  } 
-  
   ti <- field_extract(cnkifile, "T1")
-  # ti <- str_replace_all(ti, "\r\n\\s+", " ")
   
   au <- field_extract(cnkifile, "A1")
   au <- str_remove(au, ";$")
@@ -238,16 +233,15 @@ cnki.parser <- function(cnkifile){
   # any(is.na(au))
   
   jl <- str_remove(str_extract(cnkifile, "\r\nJF.*"), "\r\nJF\\s+")
-  # jl[1:10]
   
-  ky <- str_replace(str_extract(cnkifile, "\r\nK1.*"), 
-                    "\r\nK1\\s+(.*[^;]);?$", "\\1")
+  # ky <- str_replace(str_extract(cnkifile, "\r\nK1.*"), "\r\nK1\\s+(.*[^;]);?$", "\\1")
+  ky <- str_remove_all(str_extract(cnkifile, "\r\nK1.*"), "\r\nK1\\s+")
+  ky <- str_remove_all(ky,"[“”’‘]|;$")
+  ky <- str_replace_all(ky, ",", ";")
   ky <- str_to_lower(ky)
   ky <- str_split(ky, ";")
-  # ky[1:10]
   
   ab <- field_extract(cnkifile, "AB")
-  # ab[1:3]
   
   pt <- field_extract(cnkifile, "RT")
   
@@ -322,12 +316,10 @@ cssci.parser <- function(cssci){
   }else return("CSSCI Document Error")
 }
 
-WOS_profile <- wos.parser(wosfile = wosdoc)
-WOS_profile@keyword[1:5]
+wos_profile <- wos.parser(wosfile = wosdoc)
+wos_profile@keyword[1:5]
 cnki_profile <- cnki.parser(cnkifile = cnkidoc)
 cnki_profile@keyword[1:5]
-
-
 
 ## 1.3 数据清洗
 ### 将文献类型为Newspaper、会议论文的筛除
@@ -896,41 +888,6 @@ setClass("ABprofile", representation(title = "character", author = "list",  orga
 # 2.CNKI
 #####################
 
-#### set working direcory
-path <- "E:/job/R_1000/"
-setwd(path)
-
-dir.create("./1.query", showWarnings = FALSE, recursive = T)
-dir.create("./2.input", showWarnings = FALSE, recursive = T)
-dir.create("./3.output", showWarnings = FALSE, recursive = T)
-dir.create("./4.process", showWarnings = FALSE, recursive = T)
-dir.create("./5.project", showWarnings = FALSE, recursive = T)
-dir.create("./6.res/author", showWarnings = FALSE, recursive = T)
-dir.create("./6.res/year", showWarnings = FALSE, recursive = T)
-dir.create("./6.res/keyword", showWarnings = FALSE, recursive = T)
-dir.create("./6.res/journal", showWarnings = FALSE, recursive = T)
-
-### print session information
-sink("info.txt")
-sessionInfo()
-sink()
-
-### load libraries
-library(Matrix)
-library(dplyr)
-library(stringr)
-library(ggplot2)
-library(plotly)
-library(tidyr)
-library(XML)
-
-### set global options
-options(stringsAsFactors = FALSE)
-options(encoding="utf-8")
-# Sys.setlocale("LC_ALL","Chinese")  
-
-### 1.1.4 检索下载完文献后，将query里的数据复制并重命名,可以根据pattern参数选定数据源样式
-file.copy(dir("1.query", pattern = "download.*.txt", full.names = T), "2.input/")
 
 ##########
 #这个地方如果数据文件的编码不是utf-8会有warnings，且数据量不对，如utf-8-boom就需要转成utf-8
