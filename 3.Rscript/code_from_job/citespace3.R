@@ -195,8 +195,6 @@ wos.parser <- function(wosfile){
   
   pt <- field_extract(wosfile, "PT")
   
-  ab <- field_extract(wosfile, "AB")
-  
   TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl), 
               length(ky), length(refer), length(pt), length(ab)))
   
@@ -214,6 +212,53 @@ wos.parser <- function(wosfile){
 
 cnki.parser <- function(cnkifile){
   
+  field_extract <- function(file, field){
+    Pattern <- paste0("\r\n", field, "\\s+([\\s\\S]*?)\r\n(\\w+)")
+    tmp <- str_replace(str_extract(file, Pattern), Pattern, "\\1")
+    # Pattern <- paste0("\r\n", field1, " ([\\s\\S]*?)\r\n", field2)
+    ## tmp <- str_replace_all(unlist(str_extract_all(file, Pattern)), Pattern, "\\1")
+    # tmp <- str_replace_all(str_extract(file, Pattern), Pattern, "\\1")
+    # tmp <- str_replace_all(tmp, "\r\n  ", "")
+    return(tmp)
+  } 
+  
+  ti <- field_extract(cnkifile, "T1")
+  # ti <- str_replace_all(ti, "\r\n\\s+", " ")
+  
+  au <- field_extract(cnkifile, "A1")
+  au <- str_remove(au, ";$")
+  au <- str_split(au, ";")
+  
+  organ <- field_extract(cnkifile, "AD")
+  organ <- str_remove(organ, ";$")
+  organ <- str_split(organ, ";")
+  
+  yr <- str_remove(str_extract(cnkifile, "\r\nYR .*"), "\r\nYR\\s+")
+  # table(au, useNA = "always")
+  # any(is.na(au))
+  
+  jl <- str_remove(str_extract(cnkifile, "\r\nJF.*"), "\r\nJF\\s+")
+  # jl[1:10]
+  
+  ky <- str_replace(str_extract(cnkifile, "\r\nK1.*"), 
+                    "\r\nK1\\s+(.*[^;]);?$", "\\1")
+  ky <- str_to_lower(ky)
+  ky <- str_split(ky, ";")
+  # ky[1:10]
+  
+  ab <- field_extract(cnkifile, "AB")
+  # ab[1:3]
+  
+  pt <- field_extract(cnkifile, "RT")
+  
+  TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl), 
+              length(ky), length(pt), length(ab)))
+  
+  if(TEST == 0){
+    profile <- new("AB_CNKI", title = ti, author = au,  organization = organ, year = yr, journal = jl, 
+                   keyword = ky, ab = ab, ptype = pt)
+    return(profile)
+  }else return("CNKI Document Error")
 }
 
 cssci.parser <- function(cssci){
@@ -279,6 +324,8 @@ cssci.parser <- function(cssci){
 
 WOS_profile <- wos.parser(wosfile = wosdoc)
 WOS_profile@keyword[1:5]
+cnki_profile <- cnki.parser(cnkifile = cnkidoc)
+cnki_profile@keyword[1:5]
 
 
 
