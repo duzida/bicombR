@@ -1,25 +1,29 @@
 #####################
-# abstract(abs) from
-# 1.CSSCI
+# 1. 环境准备
 #####################
 
-## 1.1 数据准备
-### 1.1.1 Create directory
-#### query：下载的原始数据和检索式一般放在query文件夹上
-#### input：从cssci中下载的数据，并将文件名以download_1.txt形式命名
-#### output: 在citespace中将cssci格式的数据转换成wos格式数据，保存到output文件夹
-#### process: 在citespace中去重后的数据，并将文件名以download1998u55pt1.txt形式命名
-#### project：在citespace中新建的项目存入此文件夹内
-#### res：存放结果数据，包含作者、关键词、发文年代、期刊四个子文件夹
-######## 未解决问题：怎么通过网络爬取批量下载cssci数据 ########
-
-#### clean environment
+## 1.1 clear environment
 rm(list=ls())
 gc()
 
-#### set working direcory
-path <- "E:/study/1.bicombR/6.example"
+## 1.2 set working direcory
+path <- "G:/study/1.bicombR/6.example"
 setwd(path)
+
+## 1.3 print session information
+sink("info.txt")
+sessionInfo()
+sink()
+
+## 1.4 create directory
+### query：下载的原始数据和检索式一般放在query文件夹上
+### input：从cssci中下载的数据，并将文件名以download_1.txt形式命名
+### output: 在citespace中将cssci格式的数据转换成wos格式数据，保存到output文件夹
+### process: 在citespace中去重后的数据，并将文件名以download1998u55pt1.txt形式命名
+### project：在citespace中新建的项目存入此文件夹内
+### res：存放结果数据，包含作者、关键词、发文年代、期刊四个子文件夹
+######## 未解决问题：怎么通过网络爬取批量下载cssci数据 ########
+######## 未解决问题：怎么通过网络爬取批量下载wos数据 ########
 
 dir.create("./1.query", showWarnings = FALSE, recursive = T)
 dir.create("./2.input", showWarnings = FALSE, recursive = T)
@@ -31,15 +35,7 @@ dir.create("./6.res/year", showWarnings = FALSE, recursive = T)
 dir.create("./6.res/keyword", showWarnings = FALSE, recursive = T)
 dir.create("./6.res/journal", showWarnings = FALSE, recursive = T)
 
-
-### print session information
-sink("info.txt")
-sessionInfo()
-sink()
-###
-
-
-### load libraries
+## 1.5 load libraries
 library(Matrix)
 library(dplyr)
 library(stringr)
@@ -50,10 +46,182 @@ library(XML)
 library(reshape2)
 library(readr)
 
-### set global options
+## 1.6 set global options
 options(stringsAsFactors = FALSE)
-options(encoding="utf-8")
-# Sys.setlocale("LC_ALL","Chinese") 
+
+# options(encoding="utf-8")
+# getOption("stringsAsFactors")
+# Sys.setlocale("LC_ALL","Chinese")
+locale <- Sys.getlocale()
+
+#####################
+# 2. File reading 
+#####################
+
+########## 文件读取的问题：编码，语系，分隔文件
+# 下载文献后，将query里的数据复制并重命名,可以根据pattern参数选定数据源样式
+# WOS读取文件时不能设定编码为encoding==“utf-8”
+# CSSCI读取文件时候必须设定编码为utf-8 
+# 这个地方如果数据文件的编码不是utf-8会有warnings，且数据量不对，如utf-8-boom就需要转成utf-8
+# invalid input found on input connection 'download_3.txt' 这种警告一般是编码问题
+# incomplete final line found on 'download_10.txt' 这种警告需要在文件末尾加一行空行
+# 韩文没法读取，会报错，因此设置下语系Sys.setlocale("LC_ALL","Chinese")[错误做法]
+# 不要设定编码环境变量options(encoding="utf-8")，就可以正常读取
+# 经过str_split分割操作，使得每一篇文章相互独立，字段可以对应起来
+# 文章内没有该字段的就是NA，字段的长度保持统一
+########## 
+file_conv <- function(filepath, db="WOS"){
+  db <- match.arg(db, c("WOS", "PUBMED", "CNKI", "CSSCI"))
+  absep <- switch (db,
+    WOS = "ER", 
+    PUBMED = "SO",
+    CSSCI = "-+",
+    CNKI = "DS"
+  )
+  filepattern <- switch (db,
+                WOS = "save.*.txt", 
+                PUBMED = "MEDLINE.*.txt",
+                CSSCI = "LY.*.txt",
+                CNKI = "CNKI.*.txt"
+  )
+  
+  file.copy(dir(filepath, pattern = filepattern, full.names = T), "./2.input/")
+  
+  setwd("2.input/")
+  filename <- dir("./")
+  doc <- unlist(lapply(filename, readLines))
+  if(db %in% c("CSSCI")){
+    doc <- str_conv(doc, "utf-8")
+  }
+  file.rename(filename, paste0("download_", 1:length(filename), ".txt"))
+  setwd("../")
+  
+  writeLines(doc, "./1.query/alldata.txt")
+  
+  doc <- read_file("1.query/alldata.txt")
+  doc <- unlist(str_split(doc, paste0("\r\n", absep)))
+  doc <- doc[1:(length(doc)-1)]
+  
+  print(paste0("The number of documents is ", length(doc)))
+  return(doc)
+}
+
+csscidoc <- file_conv(filepath = "1.query/cssci_1804/", db = "CSSCI")
+wosdoc <- file_conv(filepath = "G:/job/citespace5000/1.query/", db = "WOS")
+cnkidoc <- file_conv(filepath = "1.query/cnki_5391/", db = "CNKI")
+pubmeddoc <- file_conv(filepath = "1.query/pubmed_142", db = "PUBMED")
+
+#####################
+# 3. Data preprocessing 
+#####################
+
+## 3.1 abstract extract
+#### 删除不止一个匹配项时，需要用str_remove_all，而不是str_remove
+#### cssci的fund 基金字段也是一篇文献对应多个基金，但是由于没有分析必要，因此只将其格式设置为character，而非list
+#### wos的通讯作者地址字段是RP,全部作者地址字段是C1
+#### wos的关键词字段是DE,ID是wos给文章补充的关键词
+#### wos的来源期刊是SO
+
+setClass("ABprofile", representation(title = "character", author = "list",  organization = "list", ab = "character", 
+                                     year = "character", journal = "character", ptype = "character", keyword = "list", 
+                                     mh = "list", sh = "list", majr = "list", pmid = "character", reference = "list", 
+                                     fund = "character", fund_type = "list"))
+
+setClass("ABprofile", 
+         slots = list(title = "character", author = "list",  organization = "list", year = "character", 
+                      journal = "character"))
+setClass("AB_WOS", contains="ABprofile", 
+         slots = list(ab = "character", ptype = "character", reference = "list", keyword = "list"))
+setClass("AB_CSSCI", contains="ABprofile", 
+         slots = list(fund = "character", fund_type = "list", reference = "list", keyword = "list"))
+setClass("AB_PUBMED", contains="ABprofile", 
+         slots = list(ab = "character", mh = "list", sh = "list", majr = "list", pmid = "character"))
+setClass("AB_CNKI", contains="ABprofile", 
+         slots = list(ab = "character", ptype = "character", keyword = "list"))
+
+wos.parser <- function(wosfile){
+  
+  # index1 <- str_which(wos, "^TI ")
+  # index2 <- str_which(wos, "^SO ")
+  # if(length(index1)<length(index2)){
+  #   index2 <- index2[1:length(index1)] 
+  # }
+  # if(length(index1)>length(index2)){
+  #   index2[(length(index2)+1):length(index1)] <- index1[(length(index2)+1):length(index1)]
+  #  index2 <- index2[1:length(index1)] 
+  # }
+  # if(length(index1)>length(index2)){
+  #  index2[(length(index2)+1):length(index1)] <- index1[(length(index2)+1):length(index1)]
+  # }
+  # for(i in length(index1)){
+  #   ti[i] <- str_flatten(wos[index1[i]:index2[i]], collapse = " ")
+  # }
+  
+  # 直接指定两个字段是错误的，因为有时候下一个字段不固定，如DE字段后面不一定肯定就是ID字段,
+  # 因此需要先找到第一个字段后面跟的字段是什么
+  # 正则很强大，不需要知道下一个字段是什么
+  field_extract <- function(file, field){
+    
+    Pattern <- paste0("\r\n", field, "\\s+([\\s\\S]*?)\r\n(\\w+)")
+    tmp <- str_replace(str_extract(wos, Pattern), Pattern, "\\1")
+    # Pattern <- paste0("\r\n", field1, " ([\\s\\S]*?)\r\n", field2)
+    ## tmp <- str_replace_all(unlist(str_extract_all(file, Pattern)), Pattern, "\\1")
+    # tmp <- str_replace_all(str_extract(file, Pattern), Pattern, "\\1")
+    # tmp <- str_replace_all(tmp, "\r\n  ", "")
+    return(tmp)
+  } 
+  
+  ti <- field_extract(wos, "TI")
+  ti <- str_replace_all(ti, "\r\n\\s+", " ")
+  
+  au <- field_extract(wos, "AU")
+  au <- str_split(au, "\r\n\\s+")
+  
+  # organ <- str_remove(str_extract(wos, "\r\nRP.*"), "\r\nRP\\s+.*reprint author\\), ")
+  # RP是通讯作者
+  organ <- field_extract(wos, "C1")
+  organ <- str_split(organ, "\r\n\\s+")
+  
+  yr <- str_remove(str_extract(wos, "\r\nPY .*"), "\r\nPY\\s+")
+  # table(au, useNA = "always")
+  # any(is.na(au))
+  
+  jl <- str_remove(str_extract(wos, "\r\nSO.*"), "\r\nSO\\s+")
+  # jl[1:10]
+  
+  ky <- field_extract(wos, "DE")
+  ky <- str_to_lower(str_replace_all(ky, "\r\n\\s+", " "))
+  ky <- str_split(ky, "; ")
+  # ky[1:10]
+  
+  refer <- field_extract(wos, "CR")
+  refer <- str_split(refer, "\r\n\\s+")
+  # refer[1:4]
+  
+  ab <- field_extract(wos, "AB")
+  # ab[1:3]
+  
+  pt <- field_extract(wos, "PT")
+  
+  ab <- field_extract(wos, "AB")
+  
+  TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl), 
+              length(ky), length(refer), length(pt), length(ab)))
+  
+  
+  # fd,fund_tp, mh = "list", sh = "list", majr = "list", pmid = "character",
+  # 这些字段都没有，不需要管
+  
+  
+  if(TEST == 0){
+    profile <- new("ABprofile", title = ti, author = au,  organization = organ, year = yr, journal = jl, 
+                   keyword = ky, reference = refer, ab = ab, ptype = pt)
+    return(profile)
+  }else return("wos Document Error")
+}
+
+
+
 
 ### 1.1.4 检索下载完文献后，将query里的数据复制并重命名,可以根据pattern参数选定数据源样式
 file.copy(dir("1.query/cssci_1804/", pattern = "LY.*.txt", full.names = T), "2.input/")
@@ -1059,7 +1227,7 @@ rm(list=ls())
 gc()
 
 #### set working direcory
-path <- "E:/job/citespace5000/"
+path <- "G:/job/citespace5000/"
 setwd(path)
 
 dir.create("./1.query", showWarnings = FALSE, recursive = T)
