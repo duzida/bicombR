@@ -255,32 +255,27 @@ cnki.parser <- function(cnkifile){
   }else return("CNKI Document Error")
 }
 
-cssci.parser <- function(cssci){
+cssci.parser <- function(csscifile){
+  ti <- str_remove_all(str_extract(csscifile, 
+          "【来源篇名】[\\s\\S]*?\r\n"), "【来源篇名】|\r\n$")
   
-  ti <- field_extract(cnkifile, "【来源篇名】")
-  ti <- cssci[str_detect(cssci, "【来源篇名】")]
-  ti <- str_remove(ti, "【.*】")
-  
-  au <- cssci[str_detect(cssci, "【来源作者】")]
-  au <- str_remove(au, "【来源作者】")
+  au <- str_remove_all(str_extract(csscifile, 
+        "【来源作者】[\\s\\S]*?\r\n"), "【来源篇名】|\r\n$")
   au <- str_split(au, "/")
   
-  organ <- cssci[str_detect(cssci, "【机构名称】")]
-  organ <- str_remove(organ, "【机构名称】")
+  organ <- str_remove_all(str_extract(csscifile, 
+          "【机构名称】[\\s\\S]*?\r\n"), "【机构名称】|\r\n$|\\[\w*\\]|\\.\\w*")
   organ <- str_split(organ, "/")
-  organ <- sapply(organ, function(x)str_replace(x, "\\[.*\\](.*)\\..*$", "\\1"))
   
+  yr <- str_remove_all(str_extract(csscifile, 
+        "【年代卷期】[\\s\\S]*?\r\n"), "【年代卷期】|,.*$")
   
-  yr <- cssci[str_detect(cssci, "【年代卷期】")]
-  yr <- str_replace_all(yr, "【年代卷期】(\\d+),.*$", "\\1")
+  jl <- str_remove_all(str_extract(csscifile, 
+        "【期    刊】[\\s\\S]*?\r\n"), "【期    刊】|\r\n$")
   
-  jl <- cssci[str_detect(cssci, "【期    刊】")]
-  jl <- str_remove(jl, "【期    刊】")
-  
-  
-  ky <- cssci[str_detect(cssci, "【关 键 词】")]
-  ky <- str_remove_all(ky, "^【关 键 词】")
-  ky <- tolower(ky)
+  ky <- str_remove_all(str_extract(csscifile, 
+        "【关 键 词】[\\s\\S]*?\r\n"), "【关 键 词】|\r\n$")
+  ky <- str_to_lower(ky)
   ky <- str_split(ky, "/")
   
   r1 <- which(str_detect(cssci, "【参考文献】"))
