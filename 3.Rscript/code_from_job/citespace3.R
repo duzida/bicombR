@@ -256,6 +256,8 @@ cnki.parser <- function(cnkifile){
 }
 
 cssci.parser <- function(cssci){
+  
+  ti <- field_extract(cnkifile, "【来源篇名】")
   ti <- cssci[str_detect(cssci, "【来源篇名】")]
   ti <- str_remove(ti, "【.*】")
   
