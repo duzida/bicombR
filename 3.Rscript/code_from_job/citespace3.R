@@ -7,7 +7,7 @@ rm(list=ls())
 gc()
 
 ## 1.2 set working direcory
-path <- "E:/study/1.bicombR/6.example"
+path <- "G:/study/1.bicombR/6.example"
 setwd(path)
 
 ## 1.3 print session information
@@ -81,7 +81,7 @@ file_conv <- function(filepath, db="WOS"){
   )
   filepattern <- switch (db,
                 WOS = "save.*.txt", 
-                PUBMED = "MEDLINE.*.txt",
+                PUBMED = "pubmed.*.txt",
                 CSSCI = "LY.*.txt",
                 CNKI = "CNKI.*.txt"
   )
@@ -108,13 +108,13 @@ file_conv <- function(filepath, db="WOS"){
 }
 
 csscidoc <- file_conv(filepath = "1.query/cssci_1804/", db = "CSSCI")
-wosdoc <- file_conv(filepath = "E:/job/citespace5000/wos/1.query/", db = "WOS")
-cnkidoc <- file_conv(filepath = "E:/job/citespace5000/cnki/1.query/Refworks/", db = "CNKI")
-pubmeddoc <- file_conv(filepath = "1.query/pubmed_142", db = "PUBMED")
+wosdoc <- file_conv(filepath = "G:/job/citespace5000/wos/1.query/", db = "WOS")
+cnkidoc <- file_conv(filepath = "G:/job/citespace5000/cnki/1.query/Refworks/", db = "CNKI")
+pubmeddoc <- file_conv(filepath = "1.query/pubmed_375", db = "PUBMED")
 
 save(list = ls(), file = "doc.RData")
 #####################
-# 3. Data preprocessing 
+# 3. Data preprocess
 #####################
 
 ## 3.1 abstract extract
@@ -134,6 +134,10 @@ save(list = ls(), file = "doc.RData")
 #### 作者分隔符有的是","
 #### cnki在关键词有的是英文，大小写得统一，空格不能去除
 #### cnki字段内容没有时，字段标题还有
+#### pubmed
+#### pubmed的medline格式AD,AU，MH还有MAJR都分开不同行的
+#### 一行数据AU:\r\nAU.*
+#### 多行数局AD:\r\nAD\\s+- [\\s\\S]*?\r\n\\w
 ########## 
 # setClass("ABprofile", representation(title = "character", author = "list",  organization = "list", ab = "character", 
                                      # year = "character", journal = "character", ptype = "character", keyword = "list", 
@@ -148,7 +152,7 @@ setClass("AB_WOS", contains="ABprofile",
 setClass("AB_CSSCI", contains="ABprofile", 
          slots = list(fund = "character", fund_type = "list", reference = "list", keyword = "list"))
 setClass("AB_PUBMED", contains="ABprofile", 
-         slots = list(ab = "character", mh = "list", sh = "list", majr = "list", pmid = "character"))
+         slots = list(ab = "character", ptype = "character", mh = "list", sh = "list", majr = "list", pmid = "character"))
 setClass("AB_CNKI", contains="ABprofile", 
          slots = list(ab = "character", ptype = "character", keyword = "list"))
 
@@ -167,6 +171,7 @@ field_extract <- function(file, field){
   # tmp <- str_replace_all(tmp, "\r\n  ", "")
   return(tmp)
 } 
+
 wos.parser <- function(wosfile){
   
   ti <- field_extract(wosfile, "TI")
@@ -215,7 +220,6 @@ wos.parser <- function(wosfile){
     return(profile)
   }else return("wos Document Error")
 }
-
 cnki.parser <- function(cnkifile){
   
   ti <- field_extract(cnkifile, "T1")
@@ -254,69 +258,106 @@ cnki.parser <- function(cnkifile){
     return(profile)
   }else return("CNKI Document Error")
 }
-
 cssci.parser <- function(csscifile){
-  ti <- str_remove_all(str_extract(csscifile, 
-          "【来源篇名】[\\s\\S]*?\r\n"), "【来源篇名】|\r\n$")
   
-  au <- str_remove_all(str_extract(csscifile, 
-        "【来源作者】[\\s\\S]*?\r\n"), "【来源篇名】|\r\n$")
+  ti <- str_remove_all(str_extract(csscifile, "【来源篇名】[\\s\\S]*?\r\n"), "【来源篇名】|\r\n$")
+  
+  au <- str_remove_all(str_extract(csscifile, "【来源作者】[\\s\\S]*?\r\n"), "【来源篇名】|\r\n$")
   au <- str_split(au, "/")
   
-  organ <- str_remove_all(str_extract(csscifile, 
-          "【机构名称】[\\s\\S]*?\r\n"), "【机构名称】|\r\n$|\\[\w*\\]|\\.\\w*")
+  organ <- str_remove_all(str_extract(csscifile, "【机构名称】[\\s\\S]*?\r\n"), "【机构名称】|\r\n$|\\[\\w*\\]|\\.\\w*")
   organ <- str_split(organ, "/")
   
-  yr <- str_remove_all(str_extract(csscifile, 
-        "【年代卷期】[\\s\\S]*?\r\n"), "【年代卷期】|,.*$")
+  yr <- str_remove_all(str_extract(csscifile, "【年代卷期】[\\s\\S]*?\r\n"), "【年代卷期】|,.*$")
   
-  jl <- str_remove_all(str_extract(csscifile, 
-        "【期    刊】[\\s\\S]*?\r\n"), "【期    刊】|\r\n$")
+  jl <- str_remove_all(str_extract(csscifile, "【期    刊】[\\s\\S]*?\r\n"), "【期    刊】|\r\n$")
   
-  ky <- str_remove_all(str_extract(csscifile, 
-        "【关 键 词】[\\s\\S]*?\r\n"), "【关 键 词】|\r\n$")
+  ky <- str_remove_all(str_extract(csscifile, "【关 键 词】[\\s\\S]*?\r\n"), "【关 键 词】|\r\n$")
   ky <- str_to_lower(ky)
   ky <- str_split(ky, "/")
   
-  r1 <- which(str_detect(cssci, "【参考文献】"))
-  r2 <- which(str_detect(cssci, "-----------------------------------------------------------------------"))
-  refer <- list()
-  if(length(r1)==length(r2)){
-    for(i in 1:length(r1)){
-      ifelse(r1[i]+1==r2[i], refer[[i]]<-"", refer[[i]] <- cssci[(r1[i]+1):(r2[i]-1)])
-    }
-  }else{
-    refer <- NULL
-    warning("CSSCi Reference Data error!")
-  }
-  refer <- sapply(refer,  function(x)str_remove_all(x,"^\\d+\\."))
+  refer <- str_remove_all(str_extract(csscifile, "【参考文献】[\\s\\S]*"), "【参考文献】\r\n")
+  refer <- str_split(refer, "\r\n")
+  # r1 <- which(str_detect(cssci, "【参考文献】"))
+  # r2 <- which(str_detect(cssci, "-----------------------------------------------------------------------"))
+  # refer <- list()
+  # if(length(r1)==length(r2)){
+  #   for(i in 1:length(r1)){
+  #     ifelse(r1[i]+1==r2[i], refer[[i]]<-"", refer[[i]] <- cssci[(r1[i]+1):(r2[i]-1)])
+  #   }
+  # }else{
+  #   refer <- NULL
+  #   warning("CSSCi Reference Data error!")
+  # }
+  # refer <- sapply(refer,  function(x)str_remove_all(x,"^\\d+\\."))
   
-  fd <- cssci[str_detect(cssci, "【基    金】")]
+  fd <- str_remove_all(str_extract(csscifile, "【基    金】[\\s\\S]*?\r\n"), "【基    金】|\r\n$")
   
-  fund_tp <- cssci[str_detect(cssci, "【基金类别】")]
-  fund_tp <- str_remove_all(fund_tp, "【基金类别】|/$")
+  fund_tp <- str_remove_all(str_extract(csscifile, "【基金类别】[\\s\\S]*?\r\n"), "【基金类别】|/\r\n$")
   fund_tp <- str_split(fund_tp, "/")
-  
   
   TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl), 
               length(ky), length(refer), length(fd), length(fund_tp)))
   
-  
   # ab = "character", ptype = "character", mh = "list", sh = "list", majr = "list", pmid = "character",
   # 这些字段都没有，不需要管
   
-  
   if(TEST == 0){
-    profile <- new("ABprofile", title = ti, author = au,  organization = organ, year = yr, journal = jl, 
+    profile <- new("AB_CSSCI", title = ti, author = au,  organization = organ, year = yr, journal = jl, 
                    keyword = ky, reference = refer, fund = fd, fund_type = fund_tp)
     return(profile)
   }else return("CSSCI Document Error")
+}
+pubmed.parser <- function(pubmedfile){
+  ti <- field_extract(pubmedfile, "TI")
+  ti <- str_replace_all(ti, "\r\n\\s+", " ")
+  
+  au <- str_extract_all(pubmedfile, "\r\nAU.*")
+  au <- sapply(au, function(x)str_remove_all(x,"\r\nAU\\s+-|\r\n"))
+  
+  organ <- str_extract_all(pubmedfile, "\r\nAD\\s+- [\\s\\S]*?\r\n\\w")
+  organ <- sapply(au, function(x)str_remove_all(x,"\r\nAD\\s+-|\r\n.*$|\r\n\\s+"))
+  
+  yr <- str_extract(str_extract(pubmedfile, "\r\nDP.*"), "\\d{4}")
+  
+  jl <- str_remove(str_extract(pubmedfile, "\r\nTA.*"), "\r\nTA\\s+-")
+  
+  pmid <- str_remove(str_extract(pubmedfile, "\r\nPMID.*"), "\r\nPMID-\\s+")
+  
+  
+  mh <- str_extract_all(pubmedfile, "\r\nMH.*")
+  mh <- sapply(mh, function(x)str_remove_all(x, "\r\nMH\\s+-|\\*|\r\n$|/.*\r\n$"))
+  
+  majr <- str_extract_all(pubmedfile, "\r\nMH.*\\*.*\r\n")
+  majr <- sapply(majr, function(x)str_remove_all(x, "\r\nMH\\s+-|\\*|\r\n$|/.*\r\n$"))
+  
+  au <- sapply(au, function(x)str_remove_all(x,"\r\nAU\\s+-|\r\n"))
+  
+  ky <- field_extract(wosfile, "DE")
+  ky <- str_to_lower(str_replace_all(ky, "\r\n\\s+", " "))
+  ky <- str_split(ky, "; ")
+  
+  ab <- field_extract(pubmedfile, "AB")
+  ab <- str_replace_all(ab, "\r\n\\s+", " ")
+  
+  pt <- str_remove(str_extract(pubmedfile, "\r\nPT.*"), "\r\nTA\\s+-")
+  
+  TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl), 
+              length(ky), length(refer), length(pt), length(ab)))
+  
+  if(TEST == 0){
+    profile <- new("AB_WOS", title = ti, author = au,  organization = organ, year = yr, journal = jl, 
+                   keyword = ky, reference = refer, ab = ab, ptype = pt)
+    return(profile)
+  }else return("wos Document Error")
 }
 
 wos_profile <- wos.parser(wosfile = wosdoc)
 wos_profile@keyword[1:5]
 cnki_profile <- cnki.parser(cnkifile = cnkidoc)
 cnki_profile@keyword[1:5]
+cssci_profile <- cssci.parser(csscifile = csscidoc)
+cssci_profile@keyword[1:5]
 
 ## 1.3 数据清洗
 ### 将文献类型为Newspaper、会议论文的筛除
@@ -329,11 +370,6 @@ docAB2 <- wos.parser(wosfile = wos[-index])
 
 ### 将去重后的原始文摘数据保存
 readr::write_file(str_flatten(wos[-index], collapse = "\r\nER"), "1.query/alldata2.txt")
-
-### 保持工作目录
-save(list = ls(), file = "wos.RData")
-docAB <- cssci.parser(cssci = cssci)
-docAB@title[1:5]
 
 ## 1.3 数据清洗
 ### 将文献类型为Newspaper、会议论文的筛除
