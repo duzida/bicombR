@@ -1596,7 +1596,7 @@ res_cr <- tidyr::separate(res_cr, col = 1, sep = ", ", into = c("author", "year"
 write.table(res_cr, "res/期刊/res_cr.txt", quote = F, col.names = NA, sep = "\t")
 
 #总引文数
-length(unlist(cr_all))
+length(unlist(cr_all))d
 
 res_jr <- as.tbl(as.data.frame(table(tolower(res_cr$journal))))%>% 
   arrange(desc(Freq))
