@@ -917,7 +917,7 @@ for(j in 1:length(index_cr)){
 }
 # index_nr <- which(str_detect(cssci_wos, "^NR"))
 
-index_cr[1:10]d
+index_cr[1:10]
 index_nr[1:10]
 
 cr_all <- list()
