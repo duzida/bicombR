@@ -55,13 +55,13 @@ options(stringsAsFactors = FALSE)
 locale <- Sys.getlocale()
 
 #####################
-# 2. File reading 
+# 2. File reading
 #####################
 
 ########## 文件读取的问题：编码，语系，分隔文件
 # 下载文献后，将query里的数据复制并重命名,可以根据pattern参数选定数据源样式
 # WOS读取文件时不能设定编码为encoding==“utf-8”
-# CSSCI读取文件时候必须设定编码为utf-8 
+# CSSCI读取文件时候必须设定编码为utf-8
 # 这个地方如果数据文件的编码不是utf-8会有warnings，且数据量不对，如utf-8-boom就需要转成utf-8
 # invalid input found on input connection 'download_3.txt' 这种警告一般是编码问题
 # incomplete final line found on 'download_10.txt' 这种警告需要在文件末尾加一行空行
@@ -70,20 +70,20 @@ locale <- Sys.getlocale()
 # 经过str_split分割操作，使得每一篇文章相互独立，字段可以对应起来
 # 文章内没有该字段的就是NA，字段的长度保持统一
 # 在笔记本上cssci数据库也不需要设定utf-8，str_conv(csscidoc[1], "gbk")
-########## 
+##########
 file_conv <- function(filepath, db="WOS"){
   db <- match.arg(db, c("WOS", "PUBMED", "CNKI", "CSSCI"))
   absep <- switch (db,
-    WOS = "ER", 
-    PUBMED = "SO",
-    CSSCI = "-+",
-    CNKI = "DS"
+                   WOS = "ER",
+                   PUBMED = "SO",
+                   CSSCI = "-+",
+                   CNKI = "DS"
   )
   filepattern <- switch (db,
-                WOS = "save.*.txt", 
-                PUBMED = "pubmed.*.txt",
-                CSSCI = "LY.*.txt",
-                CNKI = "CNKI.*.txt"
+                         WOS = "save.*.txt",
+                         PUBMED = "pubmed.*.txt",
+                         CSSCI = "LY.*.txt",
+                         CNKI = "CNKI.*.txt"
   )
   
   file.copy(dir(filepath, pattern = filepattern, full.names = T), "./2.input/")
@@ -102,6 +102,7 @@ file_conv <- function(filepath, db="WOS"){
   doc <- read_file("1.query/alldata.txt")
   doc <- unlist(str_split(doc, paste0("\r\n", absep)))
   doc <- doc[1:(length(doc)-1)]
+  doc[1] <- str_c("\r\n",doc[1])
   
   print(paste0("The number of documents is ", length(doc)))
   return(doc)
@@ -109,10 +110,12 @@ file_conv <- function(filepath, db="WOS"){
 
 csscidoc <- file_conv(filepath = "1.query/cssci_1804/", db = "CSSCI")
 wosdoc <- file_conv(filepath = "G:/job/citespace5000/wos/1.query/", db = "WOS")
-cnkidoc <- file_conv(filepath = "G:/job/citespace5000/cnki/1.query/Refworks/", db = "CNKI")
-pubmeddoc <- file_conv(filepath = "1.query/pubmed_375", db = "PUBMED")
+# cnkidoc <- file_conv(filepath = "G:/job/citespace5000/cnki/1.query/Refworks/", db = "CNKI")
+cnkidoc <- file_conv(filepath = "1.query/cnki_750/Refworks/", db = "CNKI")
+pubmeddoc <- file_conv(filepath = "1.query/pubmed_375/", db = "PUBMED")
 
 save(list = ls(), file = "doc.RData")
+load("doc.RData")
 #####################
 # 3. Data preprocess
 #####################
@@ -138,22 +141,27 @@ save(list = ls(), file = "doc.RData")
 #### pubmed的medline格式AD,AU，MH还有MAJR都分开不同行的
 #### 一行数据AU:\r\nAU.*
 #### 多行数局AD:\r\nAD\\s+- [\\s\\S]*?\r\n\\w
-#### 空字段如何处理：表现形式有""、list()、NA、NULL：统一用NA表示
-########## 
-# setClass("ABprofile", representation(TI = "character", author = "list",  AD = "list", ab = "character", 
-                                     # PDAT = "character", journal = "character", ptype = "character", keyword = "list", 
-                                     # mh = "list", sh = "list", majr = "list", pmid = "character", reference = "list", 
-                                     # fund = "character", fund_type = "list"))
+#### 空字段如何处理：表现形式有""、list()、character(0)、NA、NULL：统一用NA表示
+#### str_extract 匹配不到数据返回NA
+#### str_extract_all 匹配不到数据返回list形式的character(0)
+#### str_split 返回list对象，str_split(NA，sep)返回NA；
+#### str_split(character(0)，sep)返回list()
+###
+##########
+# setClass("ABprofile", representation(TI = "character", author = "list",  AD = "list", ab = "character",
+# PDAT = "character", journal = "character", ptype = "character", keyword = "list",
+# mh = "list", sh = "list", majr = "list", pmid = "character", reference = "list",
+# fund = "character", fund_type = "list"))
 
-setClass("ABprofile", 
+setClass("ABprofile",
          slots = list(TI = "character", AU = "list",  AD = "list", PDAT = "character", JL = "character"))
-setClass("AB_WOS", contains="ABprofile", 
+setClass("AB_WOS", contains="ABprofile",
          slots = list(AB = "character", PT = "character", CR = "list", KW = "list"))
-setClass("AB_CSSCI", contains="ABprofile", 
+setClass("AB_CSSCI", contains="ABprofile",
          slots = list(Fund = "character", Fund_type = "list", CR = "list", KW = "list"))
-setClass("AB_PUBMED", contains="ABprofile", 
+setClass("AB_PUBMED", contains="ABprofile",
          slots = list(AB = "character", PT = "character", MH = "list", SH = "list", SMH = "list", MAJR = "list", PMID = "character"))
-setClass("AB_CNKI", contains="ABprofile", 
+setClass("AB_CNKI", contains="ABprofile",
          slots = list(AB = "character", PT = "character", KW = "list"))
 
 # setClass("db", slots = list(type = "character"))
@@ -170,52 +178,60 @@ field_extract <- function(file, field){
   # tmp <- str_replace_all(str_extract(file, Pattern), Pattern, "\\1")
   # tmp <- str_replace_all(tmp, "\r\n  ", "")
   return(tmp)
-} 
+}
 
 wos.parser <- function(wosfile){
   
   ti <- field_extract(wosfile, "TI")
   ti <- str_replace_all(ti, "\r\n\\s+", " ")
+  ti[ti==""] <- NA
   
   au <- field_extract(wosfile, "AU")
+  au[au==""] <- NA
   au <- str_split(au, "\r\n\\s+")
   
   # organ <- str_remove(str_extract(wosfile, "\r\nRP.*"), "\r\nRP\\s+.*reprint author\\), ")
   # RP是通讯作者
   organ <- field_extract(wosfile, "C1")
+  organ[organ==""] <- NA
   organ <- str_split(organ, "\r\n\\s+")
   
   yr <- str_remove(str_extract(wosfile, "\r\nPY .*"), "\r\nPY\\s+")
+  yr[yr==""] <- NA
   # table(au, useNA = "always")
   # any(is.na(au))
   
   jl <- str_remove(str_extract(wosfile, "\r\nSO.*"), "\r\nSO\\s+")
-  # jl[1:10]
+  jl[jl==""] <- NA
   
   ky <- field_extract(wosfile, "DE")
   ky <- str_to_lower(str_replace_all(ky, "\r\n\\s+", " "))
+  ky[ky==""] <- NA
   ky <- str_split(ky, "; ")
   # ky[1:10]
   
   refer <- field_extract(wosfile, "CR")
+  refer[refer==""] <- NA
   refer <- str_split(refer, "\r\n\\s+")
   # refer[1:4]
   
   ab <- field_extract(wosfile, "AB")
+  ab[ab==""] <- NA
   # ab[1:3]
   
   pt <- field_extract(wosfile, "PT")
+  pt[pt==""] <- NA
+  pt <- str_replace(pt, "J", "Journal Article")
   
-  TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl), 
+  TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl),
               length(ky), length(refer), length(pt), length(ab)))
   
   
   # fd,fund_tp, mh = "list", sh = "list", majr = "list", pmid = "character",
   # 这些字段都没有，不需要管
   
-  
   if(TEST == 0){
-    profile <- new("AB_WOS", TI = ti, AU = au,  AD = organ, PDAT = yr, JL = jl, 
+    profile <- new("AB_WOS", TI = ti, AU = au,  AD = organ, PDAT = yr, JL = jl,
                    KW = ky, CR = refer, AB = ab, PT = pt)
     return(profile)
   }else return("WOS Document Error")
@@ -223,37 +239,45 @@ wos.parser <- function(wosfile){
 cnki.parser <- function(cnkifile){
   
   ti <- field_extract(cnkifile, "T1")
+  ti[ti==""] <- NA
   
   au <- field_extract(cnkifile, "A1")
   au <- str_remove(au, ";$")
+  au[au==""] <- NA
   au <- str_split(au, ";")
   
   organ <- field_extract(cnkifile, "AD")
   organ <- str_remove(organ, ";$")
+  organ[organ==""] <- NA
   organ <- str_split(organ, ";")
   
   yr <- str_remove(str_extract(cnkifile, "\r\nYR .*"), "\r\nYR\\s+")
+  yr[yr==""] <- NA
   # table(au, useNA = "always")
   # any(is.na(au))
   
   jl <- str_remove(str_extract(cnkifile, "\r\nJF.*"), "\r\nJF\\s+")
+  jl[jl==""] <- NA
   
   # ky <- str_replace(str_extract(cnkifile, "\r\nK1.*"), "\r\nK1\\s+(.*[^;]);?$", "\\1")
   ky <- str_remove_all(str_extract(cnkifile, "\r\nK1.*"), "\r\nK1\\s+")
   ky <- str_remove_all(ky,"[“”’‘]|;$")
   ky <- str_replace_all(ky, ",", ";")
   ky <- str_to_lower(ky)
+  ky[ky==""] <- NA
   ky <- str_split(ky, ";")
   
   ab <- field_extract(cnkifile, "AB")
+  ab[ab==""] <- NA
   
   pt <- field_extract(cnkifile, "RT")
+  pt[pt==""] <- NA
   
-  TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl), 
+  TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl),
               length(ky), length(pt), length(ab)))
   
   if(TEST == 0){
-    profile <- new("AB_CNKI", TI = ti, AU = au,  AD = organ, PDAT = yr, JL = jl, 
+    profile <- new("AB_CNKI", TI = ti, AU = au,  AD = organ, PDAT = yr, JL = jl,
                    KW = ky, AB = ab, PT = pt)
     return(profile)
   }else return("CNKI Document Error")
@@ -261,22 +285,29 @@ cnki.parser <- function(cnkifile){
 cssci.parser <- function(csscifile){
   
   ti <- str_remove_all(str_extract(csscifile, "【来源篇名】[\\s\\S]*?\r\n"), "【来源篇名】|\r\n$")
+  ti[ti==""] <- NA
   
   au <- str_remove_all(str_extract(csscifile, "【来源作者】[\\s\\S]*?\r\n"), "【来源作者】|\r\n$")
+  au[au==""] <- NA
   au <- str_split(au, "/")
   
   organ <- str_remove_all(str_extract(csscifile, "【机构名称】[\\s\\S]*?\r\n"), "【机构名称】|\r\n$|\\[\\w*\\]|\\.\\w*")
+  organ[organ==""] <- NA
   organ <- str_split(organ, "/")
   
   yr <- str_remove_all(str_extract(csscifile, "【年代卷期】[\\s\\S]*?\r\n"), "【年代卷期】|,.*\r\n$")
+  yr[yr==""] <- NA
   
   jl <- str_remove_all(str_extract(csscifile, "【期    刊】[\\s\\S]*?\r\n"), "【期    刊】|\r\n$")
+  jl[jl==""] <- NA
   
   ky <- str_remove_all(str_extract(csscifile, "【关 键 词】[\\s\\S]*?\r\n"), "【关 键 词】|\r\n$")
+  ky[ky==""] <- NA
   ky <- str_to_lower(ky)
   ky <- str_split(ky, "/")
   
   refer <- str_remove_all(str_extract(csscifile, "【参考文献】[\\s\\S]*"), "【参考文献】\r\n")
+  refer[refer==""] <- NA
   refer <- str_split(refer, "\r\n")
   refer <- sapply(refer, function(x)str_remove(x,"^\\d+\\."))
   # r1 <- which(str_detect(cssci, "【参考文献】"))
@@ -293,18 +324,20 @@ cssci.parser <- function(csscifile){
   # refer <- sapply(refer,  function(x)str_remove_all(x,"^\\d+\\."))
   
   fd <- str_remove_all(str_extract(csscifile, "【基    金】[\\s\\S]*?\r\n"), "【基    金】|\r\n$")
+  fd[fd==""] <- NA
   
   fund_tp <- str_remove_all(str_extract(csscifile, "【基金类别】[\\s\\S]*?\r\n"), "【基金类别】|/\r\n$|\r\n")
+  fund_tp[fund_tp==""] <- NA
   fund_tp <- str_split(fund_tp, "/")
   
-  TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl), 
+  TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl),
               length(ky), length(refer), length(fd), length(fund_tp)))
   
   # ab = "character", ptype = "character", mh = "list", sh = "list", majr = "list", pmid = "character",
   # 这些字段都没有，不需要管
   
   if(TEST == 0){
-    profile <- new("AB_CSSCI", TI = ti, AU = au,  AD = organ, PDAT = yr, JL = jl, 
+    profile <- new("AB_CSSCI", TI = ti, AU = au,  AD = organ, PDAT = yr, JL = jl,
                    KW = ky, CR = refer, Fund = fd, Fund_type = fund_tp)
     return(profile)
   }else return("CSSCI Document Error")
@@ -313,122 +346,274 @@ pubmed.parser <- function(pubmedfile){
   ti <- field_extract(pubmedfile, "TI")
   ti <- str_replace_all(ti, "\r\n\\s+", " ")
   ti <- str_remove_all(ti,"^-\\s+")
+  ti[ti==""] <- NA
   
   au <- str_extract_all(pubmedfile, "\r\nAU\\s+.*")
   au <- sapply(au, function(x)str_remove_all(x,"\r\nAU\\s+-\\s+|\r\n"))
+  au <- lapply(au, function(x){
+    if(identical(x, character(0))){
+      NA
+    }else{
+      x
+    }
+  })
   
   organ <- str_extract_all(pubmedfile, "\r\nAD\\s+- [\\s\\S]*?\r\n\\w")
   organ <- sapply(organ, function(x)str_remove_all(x,"\r\nAD\\s+-\\s|\r\n.*$|\r\n\\s+"))
+  organ <- lapply(organ, function(x){
+    if(identical(x, character(0))){
+      NA
+    }else{
+      x
+    }
+  })
   
   yr <- str_extract(str_extract(pubmedfile, "\r\nDP.*"), "\\d{4}")
+  yr[yr==""] <- NA
   
   jl <- str_remove(str_extract(pubmedfile, "\r\nTA.*"), "\r\nTA\\s+-")
+  jl[jl==""] <- NA
   
   pmid <- str_remove(str_extract(pubmedfile, "\r\nPMID.*"), "\r\nPMID-\\s+")
+  pmid[pmid==""] <- NA
   
   mh <- str_extract_all(pubmedfile, "\r\nMH\\s+.*")
+  mh <- lapply(mh, function(x){
+    if(identical(x, character(0))){
+      NA
+    }else{
+      x
+    }
+  })
   mh <- sapply(mh, function(x)str_to_lower(str_remove_all(x, "\r\nMH\\s+-\\s+|\\*|/.*$")))
   
   
   majr <- str_extract_all(pubmedfile, "\r\nMH.*\\*.*")
   majr <- sapply(majr, function(x)str_to_lower(str_remove_all(x, "\r\nMH\\s+-\\s+|\\*|/.*$")))
+  majr <- lapply(majr, function(x){
+    if(identical(x, character(0))){
+      NA
+    }else{
+      x
+    }
+  })
   
   sh <- str_extract_all(pubmedfile, "\r\nMH\\s+.*/.*")
+  sh <- lapply(sh, function(x){
+    if(identical(x, character(0))){
+      NA
+    }else{
+      x
+    }
+  })
   # 为了体现主题词和副主题词间的搭配关系，不仅单独把副主题词抽取出来，而且保留原始的方式
-  smh <- sapply(sh, function(x)str_to_lower(str_remove_all(x, "\r\nMH\\s+-\\s")))
-  sh <- sapply(sh, function(x)unlist(str_split(str_to_lower(str_remove_all(str_extract(x, "/[^\r]*"),"\\*|^/")), "/")))
+  smh <- lapply(sh, function(x)str_to_lower(str_remove_all(x, "\r\nMH\\s+-\\s")))
+  sh <- lapply(sh, function(x)unlist(str_split(str_to_lower(str_remove_all(str_extract(x, "/[^\r]*"),"\\*|^/")), "/")))
   
   ab <- field_extract(pubmedfile, "AB")
   ab <- str_replace_all(ab, "\r\n\\s+", " ")
   ab <- str_remove_all(ab, "^-\\s+")
+  ab[ab==""] <- NA
   
   pt <- str_remove(str_extract(pubmedfile, "\r\nPT.*"), "\r\nPT\\s+-\\s+")
+  pt[pt==""] <- NA
   
-  TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl), 
+  TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl),
               length(pmid), length(mh), length(majr), length(sh), length(smh), length(ab), length(pt)))
   
   if(TEST == 0){
-    profile <- new("AB_PUBMED", TI = ti, AU = au,  AD = organ, PDAT = yr, JL = jl, 
+    profile <- new("AB_PUBMED", TI = ti, AU = au,  AD = organ, PDAT = yr, JL = jl,
                    MH = mh, MAJR = majr, AB = ab, PT = pt, SH=sh, SMH=smh, PMID=pmid)
     return(profile)
   }else return("PubMed Document Error")
 }
+parserAB <- function(docfile, db="PUBMED"){
+  db <- match.arg(db, c("WOS", "PUBMED", "CNKI", "CSSCI"))
+  res <- switch (db,
+                 WOS = wos.parser(docfile),
+                 PUBMED = pubmed.parser(docfile),
+                 CSSCI = cssci.parser(docfile),
+                 CNKI = cnki.parser(docfile)
+  )
+  return(res)
+}
 
-wos_profile <- wos.parser(wosfile = wosdoc)
+cnkixml.parser <- function(file){
+  
+  # doc <- xmlTreeParse(file, useInternalNodes = T, encoding = "UTF-8")
+  
+  Parser <- function(xmlnodeset, path){
+    sapply(xmlnodeset, function(x){
+      temp = xpathSApply(x, path, xmlValue)
+      if(length(temp)==0){
+        return("NO RES")
+      }else{
+        if(temp==""){
+          return("NO RES")
+        }else{
+          return(temp)
+        }
+      }
+    })
+  }
+  
+  Bibliography <- unlist(sapply(file, function(x){
+    doc <- xmlTreeParse(x, useInternalNodes = T, encoding = "UTF-8")
+    Bibliography <- getNodeSet(doc, "//Bibliography")
+    return(Bibliography)
+  }))
+  
+  # Bibliography <- getNodeSet(doc, "//Bibliography")
+  
+  Ti <- Parser(Bibliography, ".//PrimaryTI//TI[@Lang='zh-CHS']")
+  names(Ti) <- NULL
+  
+  Year <- Parser(Bibliography, ".//Year")
+  names(Year) <- NULL
+  
+  Type <- Parser(Bibliography, ".//Type")
+  names(Type) <- NULL
+  
+  Publisher <- Parser(Bibliography, ".//Publisher")
+  names(Publisher) <- NULL
+  
+  AuList <- str_remove_all(Parser(Bibliography, ".//Authors//FullName"), "\\n")
+  AuList <- str_remove_all(AuList, ";$")
+  AuList <- str_split(AuList, ";|,")
+  
+  # AuList <- str_split(str_remove(Parser(Bibliography, ".//Authors//FullName"), ";$|\\n"), ";")
+  
+  OrgList <- str_split(str_remove(Parser(Bibliography, ".//Authors//AD"), ";$"), ";")
+  
+  KwList <- str_split(str_remove(Parser(Bibliography, ".//Keywords//Keyword[@Lang='zh-CHS']"), ";$"), ";;")
+  
+  KwList <- str_split(KwList, ";")
+  
+  KwList <- sapply(KwList, function(x)str_remove_all(x, " "))
+  
+  TEST = sd(c(length(Ti), length(Year), length(AuList), length(OrgList), length(KwList)))
+  
+  if(TEST == 0){
+    profile <- new("cnkiAB", ti = Ti, year = Year, type = Type,
+                   au = AuList, AD = OrgList,  kw = KwList, publisher = Publisher)
+    return(profile)
+  }else return("XML Document Error")
+}
+
+wos_profile <- parserAB(wosdoc, db = "WOS")
 wos_profile@KW[1:5]
-cnki_profile <- cnki.parser(cnkifile = cnkidoc)
+cnki_profile <- parserAB(cnkidoc, db = "CNKI")
 cnki_profile@KW[1:5]
-cssci_profile <- cssci.parser(csscifile = csscidoc)
+cssci_profile <- parserAB(csscidoc, db = "CSSCI")
 cssci_profile@KW[1:5]
-pubmed_profile <- pubmed.parser(pubmedfile = pubmeddoc)
-pubmed_profile@MH[16]
+pubmed_profile <- parserAB(pubmeddoc, db = "PUBMED")
+pubmed_profile@MH[1:25]
 
 save(cnki_profile, wos_profile, pubmed_profile, cssci_profile, file = "profile.RData")
 
-## 1.3 数据清洗
+## 3.2 data clear
+### data filter:将不符合研究条件的数据和标题重复数据剔除
 ### 将文献类型为Newspaper、会议论文的筛除
 ### 将无作者无关键词的文献剔除
 ### 将标题重复文献剔除掉
 #### wos的机构字段中含有作者信息，同一单位作者只重复一次地址,
 #### 不同单位会标注出来
-index <- which(duplicated(wos@TI))
-docAB2 <- wos.parser(wosfile = wos[-index])
-
-### 将去重后的原始文摘数据保存
-readr::write_file(str_flatten(wos[-index], collapse = "\r\nER"), "1.query/alldata2.txt")
-
-## 1.3 数据清洗
-### 将文献类型为Newspaper、会议论文的筛除
-### 将无作者无关键词的文献剔除
-### 将标题重复文献剔除掉
-index <- which(duplicated(docAB@TI) | docAB@author=="" | docAB@keyword=="")
-
-docAB2 <- new("ABprofile", TI = docAB@TI[-index], author = docAB@author[-index],  AD = docAB@AD[-index], 
-              year = docAB@year[-index], journal = docAB@journal[-index], keyword = docAB@keyword[-index], 
-              reference = docAB@reference[-index], fund = docAB@fund[-index], fund_type = docAB@fund_type[-index], 
-              ab = docAB@ab[-index], mh = docAB@mh[-index], ptype = docAB@ptype[-index], pmid = docAB@pmid[-index], 
-              sh = docAB@sh[-index], majr = docAB@majr[-index])
-
-#### 机构和作者是否一一对应
+### 机构和作者对应处理
 #### 如果作者和机构不对应的话，将机构list的第一个机构按照作者list长度重复
-
-if(!identical(sapply(docAB2@author, length), sapply(docAB2@AD, length))){
-  tmp <- which(sapply(docAB2@author, length) != sapply(docAB2@AD, length))
-  for(i in 1:length(tmp)){
-    docAB2@AD[[tmp[i]]] <- rep(docAB2@AD[[tmp[i]]][1], length(docAB2@author[[tmp[i]]]))
+### 将清洗后的文摘数据保存
+setGeneric("ABfilter", function(obj,...) standardGeneric("ABfilter"))
+setMethod("ABfilter", signature(obj = "ABprofile"), function(obj,docfile,db){
+  if("PT" %in% slotNames(obj)){
+    index1 <- which(obj@PT=="Journal Article")
+    if(length(index1)==0){
+      stop("Miss Journal Article")
+    }
+    if(length(index1) %in% (1:length(obj@PT))){
+      docfile <- docfile[index1]
+      obj <- parserAB(docfile, db = db)
+    }
   }
-}
+  
+  index2 <- which(duplicated(obj@TI))
+  if(length(index2)!=0){
+    docfile <- docfile[-index2]
+    obj <- parserAB(docfile, db = db)
+  }
+  
+  if(db=="CNKI"){
+    if(!identical(sapply(obj@AU, length), sapply(obj@AD, length))){
+      tmp <- which(sapply(obj@AU, length) != sapply(obj@AD, length))
+      for(i in 1:length(tmp)){
+        obj@AD[[tmp[i]]] <- rep(obj@AD[[tmp[i]]][1], length(obj@AU[[tmp[i]]]))
+      }
+    }
+  }
+  ## 将清洗后的文摘数据保存
+  readr::write_file(x = str_flatten(docfile, collapse = "\r\nER"),
+                    path = paste0("1.query/", db,".txt"))
+  return(obj)
+  
+})
 
-### 将去重后的原始文摘数据保存
-dupti <- docAB@TI[index]
-dupindex <- sapply(paste0("【来源篇名】", dupti), function(x)which(str_detect(cssci, x)))
-dupindex <- unlist(sapply(dupindex, function(x){
-  ifelse(length(x)==1, x, x[-1])
-}))
-
-tmp <- c()
-tmp2 <- c()
-for(i in 1:length(dupindex)){
-  tmp[i] <- match("-----------------------------------------------------------------------", cssci[dupindex[i]:length(cssci)])
-  # cssci2 <- cssci2[-(dupindex[i]: (dupindex[i]+tmp-1))]
-  tmp2 <- c(tmp2, (dupindex[i]: (dupindex[i]+tmp[i]-1)))
-}
-
-cssci2 <- cssci[-tmp2]
-ifelse(length(cssci2[str_detect(cssci2, "【来源篇名】")]) == length(unique(cssci2[str_detect(cssci2, "【来源篇名】")]))
-       ,writeLines(cssci2, "./1.query/cssci_1804/alldata.txt"), print("still have duplicate TI"))
+docAB <- ABfilter(obj = cnki_profile, docfile = cnkidoc, db = "CNKI")
+docAB2 <- ABfilter(obj = wos_profile, docfile = wosdoc, db = "WOS")
+docAB3 <- ABfilter(obj = cssci_profile, docfile = csscidoc, db = "CSSCI")
+docAB4 <- ABfilter(obj = pubmed_profile, docfile = pubmeddoc, db = "PUBMED")
+# index3 <- which(duplicated(cnki_profile@TI) | is.na(cnki_profile@AU) | is.na(cnki_profile@KW))
 
 
-#### 更蠢的办法
+# docAB2 <- new("ABprofile", TI = docAB@TI[-index], author = docAB@author[-index],  AD = docAB@AD[-index],
+#               year = docAB@year[-index], journal = docAB@journal[-index], keyword = docAB@keyword[-index],
+#               reference = docAB@reference[-index], fund = docAB@fund[-index], fund_type = docAB@fund_type[-index],
+#               ab = docAB@ab[-index], mh = docAB@mh[-index], ptype = docAB@ptype[-index], pmid = docAB@pmid[-index],
+#               sh = docAB@sh[-index], majr = docAB@majr[-index])
+
+### 3.2.3 Synonym merger 同义词合并
+ABprofile@KW[1:10]
+ABprofile@KW <- sapply(ABprofile@KW, function(x){
+  x <- str_replace_all(x, "科研成果转化", "科技成果转化")
+  x <- str_replace_all(x, "产学研结合", "产学研合作")
+  x <- str_replace_all(x, "科技创新", "技术创新")
+  x <- str_replace_all(x, "大学|高等学校|高等院校", "高校")
+  x <- str_replace_all(x, "高校技术转移", "大学技术转移")
+  
+  x <- unique(x)
+})
+
+# ## 3.4 将清洗后的文摘数据保存
+# readr::write_file(str_flatten(wosdoc[-index2], collapse = "\r\nER"), "1.query/alldata_wos.txt")
+# readr::write_file(str_flatten(cnkidoc[-index1], collapse = "\r\nER"), "1.query/alldata_cnki.txt")
+
+### 将清洗后的文摘数据保存方法2
+# dupti <- docAB@TI[index]
+# dupindex <- sapply(paste0("【来源篇名】", dupti), function(x)which(str_detect(cssci, x)))
+# dupindex <- unlist(sapply(dupindex, function(x){
+#   ifelse(length(x)==1, x, x[-1])
+# }))
+#
+# tmp <- c()
+# tmp2 <- c()
+# for(i in 1:length(dupindex)){
+#   tmp[i] <- match("-----------------------------------------------------------------------", cssci[dupindex[i]:length(cssci)])
+#   # cssci2 <- cssci2[-(dupindex[i]: (dupindex[i]+tmp-1))]
+#   tmp2 <- c(tmp2, (dupindex[i]: (dupindex[i]+tmp[i]-1)))
+# }
+#
+# cssci2 <- cssci[-tmp2]
+# ifelse(length(cssci2[str_detect(cssci2, "【来源篇名】")]) == length(unique(cssci2[str_detect(cssci2, "【来源篇名】")]))
+#        ,writeLines(cssci2, "./1.query/cssci_1804/alldata.txt"), print("still have duplicate TI"))
+#
+
+#### 将清洗后的文摘数据保存方法3
 # ti <- cssci[str_detect(cssci, "【来源篇名】")]
 # ti2 <- unique(ti)
-# 
+#
 # duplicated(ti)
-# 
+#
 # dupti <- ti[-match(ti2, ti)]
-# 
+#
 # dupindex <- match(dupti, cssci)
-# 
+#
 # tmp <- c()
 # tmp2 <- c()
 # for(i in 1:length(dupindex)){
@@ -436,19 +621,19 @@ ifelse(length(cssci2[str_detect(cssci2, "【来源篇名】")]) == length(unique
 #   # cssci2 <- cssci2[-(dupindex[i]: (dupindex[i]+tmp-1))]
 #   tmp2 <- c(tmp2, (dupindex[i]: (dupindex[i]+tmp[i]-1)))
 # }
-# 
-# 
+#
+#
 # cssci2 <- cssci[-tmp2]
 # length(cssci2[str_detect(cssci2, "【来源篇名】")])
 # length(unique(cssci2[str_detect(cssci2, "【来源篇名】")]))
-# 
+#
 # ti2 <- cssci2[str_detect(cssci2, "【来源篇名】")]
 # ti22 <- unique(ti2)
-# 
+#
 # dupti <- ti2[-match(ti22, ti2)]
-# 
+#
 # dupindex <- match(dupti, cssci2)
-# 
+#
 # tmp <- c()
 # tmp2 <- c()
 # for(i in 1:length(dupindex)){
@@ -456,13 +641,12 @@ ifelse(length(cssci2[str_detect(cssci2, "【来源篇名】")]) == length(unique
 #   # cssci2 <- cssci2[-(dupindex[i]: (dupindex[i]+tmp-1))]
 #   tmp2 <- c(tmp2, (dupindex[i]: (dupindex[i]+tmp[i]-1)))
 # }
-# 
+#
 # cssci2 <- cssci2[-tmp2]
-# 
+#
 # # unique 4702
 # rm(tmp,tmp2,ti2,ti22,dupti,dupindex)
 # writeLines(cssci2, "alldata.txt")
-
 
 ###############################
 # 发现download_3.txt在citespace中转换发生大规模丢失
@@ -479,23 +663,23 @@ colnames(year_d) <-  c("year", "count")
 year_d$year <- as.factor(year_d$year)
 
 #### 用抽取出的数据
-year_d <- as.data.frame(table(docAB2@year))%>% 
-  arrange(Var1)%>% 
+year_d <- as.data.frame(table(docAB@PDAT))%>%
+  arrange(Var1)%>%
   rename(year=Var1, count=Freq)
 
-write.table(year_d,"./6.res/year/year_d.txt", quote = F, col.names = NA, sep = "\t") 
+write.table(year_d,"./6.res/year/year_d.txt", quote = F, col.names = NA, sep = "\t")
 
-ggplot(year_d, aes(x=year, y=count, group=1))+ geom_point(color="#56B4E9",size=5)+ 
-  geom_line()+ xlab("年份/年")+ ylab("发文数量/篇")+ 
+ggplot(year_d, aes(x=year, y=count, group=1))+ geom_point(color="#56B4E9",size=5)+
+  geom_line()+ xlab("年份/年")+ ylab("发文数量/篇")+
   geom_text(aes(label=count), vjust=0.5, hjust=1)+ ggsave("./6.res/year/year.png")
 
 ### 1.4.2 author/AD
-author_d <- as.tbl(as.data.frame(table(unlist(docAB2@author)), stringsAsFactors = FALSE))%>% 
-  arrange(desc(Freq))%>% 
+author_d <- as.tbl(as.data.frame(table(unlist(docAB2@author)), stringsAsFactors = FALSE))%>%
+  arrange(desc(Freq))%>%
   rename(author=Var1)
 
-author1_d <- as.tbl(as.data.frame(table(sapply(docAB2@author, function(x)x[1])), stringsAsFactors = FALSE))%>% 
-  arrange(desc(Freq))%>% 
+author1_d <- as.tbl(as.data.frame(table(sapply(docAB2@author, function(x)x[1])), stringsAsFactors = FALSE))%>%
+  arrange(desc(Freq))%>%
   rename(author=Var1)
 
 
@@ -511,20 +695,20 @@ author1_d$AD <- sapply(author1_d$author, function(x){
 })
 
 
-author_d <- data.frame(author=unlist(docAB2@author), AD=unlist(docAB2@AD))%>% 
-  dplyr::group_by(author, AD)%>% 
-  dplyr::mutate(freq = n())%>% 
-  arrange(desc(freq))%>% 
+author_d <- data.frame(author=unlist(docAB2@author), AD=unlist(docAB2@AD))%>%
+  dplyr::group_by(author, AD)%>%
+  dplyr::mutate(freq = n())%>%
+  arrange(desc(freq))%>%
   ungroup()%>%
   unique()
 
 author$author <- as.character(author1$author1)
 author$AD <- as.character(author1$AD)
 
-author1 <- data.frame(author1=sapply(docAB2@author, function(y)y[[1]]), AD=sapply(docAB2@AD, function(y)y[[1]]))%>% 
-  dplyr::group_by(author1, AD)%>% 
-  dplyr::mutate(freq = n())%>% 
-  arrange(desc(freq))%>% 
+author1 <- data.frame(author1=sapply(docAB2@author, function(y)y[[1]]), AD=sapply(docAB2@AD, function(y)y[[1]]))%>%
+  dplyr::group_by(author1, AD)%>%
+  dplyr::mutate(freq = n())%>%
+  arrange(desc(freq))%>%
   ungroup()%>%
   unique()
 
@@ -532,8 +716,8 @@ author1$author1 <- as.character(author1$author1)
 author1$AD <- as.character(author1$AD)
 
 
-AD_d <- as.tbl(as.data.frame(table(unlist(docAB2@AD)), stringsAsFactors = FALSE))%>% 
-  arrange(desc(Freq))%>% 
+AD_d <- as.tbl(as.data.frame(table(unlist(docAB2@AD)), stringsAsFactors = FALSE))%>%
+  arrange(desc(Freq))%>%
   rename(AD=Var1)
 
 write.table(author_d, "./6.res/author/author_d.txt", quote = F, col.names = NA, sep = "\t")
@@ -541,8 +725,8 @@ write.table(author1_d, "./6.res/author/author1_d.txt", quote = F, col.names = NA
 write.table(AD_d, "./6.res/author/AD_d.txt", quote = F, col.names = NA, sep = "\t")
 
 ### 1.4.3 reference
-reference_d <- as.tbl(as.data.frame(table(sapply(docAB2@reference, function(x)x[1])), stringsAsFactors = FALSE))%>% 
-  arrange(desc(Freq))%>% 
+reference_d <- as.tbl(as.data.frame(table(sapply(docAB2@reference, function(x)x[1])), stringsAsFactors = FALSE))%>%
+  arrange(desc(Freq))%>%
   rename(reference=Var1)
 
 reference_d$reference <- sapply(reference_d$reference, function(x){
@@ -573,8 +757,8 @@ author_d$orgranization <- sapply(author_d$author, function(x){
   index <- sapply(docAB2@author, function(y)str_detect(y, x))
   tmp <- docAB2@AD[index]
   names(sort(table(unlist(tmp)), decreasing = T)[1])
-  # tmp <- as.data.frame(table(unlist(tmp)))%>% 
-  #   arrange(desc(Freq)) 
+  # tmp <- as.data.frame(table(unlist(tmp)))%>%
+  #   arrange(desc(Freq))
   # as.character(tmp[1,1])
 })
 
@@ -583,71 +767,40 @@ author_d$orgranization <- sapply(author_d$author, function(x){
 write.table(author_d, "./6.res/author/author_d.txt", quote = F, col.names = NA, sep = "\t")
 write.table(author1_d, "./6.res/author/author1_d.txt", quote = F, col.names = NA, sep = "\t")
 
-
-
 res_au_1$instruc <- sapply(res_au_1$Var1, function(x){
   tmp <- cssci_wos[str_detect(cssci_wos, paste0("^C1 \\[", x, "\\]"))]
   tmp <- str_remove(tmp, "/.*$")
   tmp <- str_remove(tmp, "^C1 \\[.*\\]")
   # tmp <- as.character(tmp)
-  tmp <- as.data.frame(table(tmp))%>% 
-    arrange(desc(Freq)) 
+  tmp <- as.data.frame(table(tmp))%>%
+    arrange(desc(Freq))
   as.character(tmp[1,1])
 })
 res_au_1$instruc <- str_remove(res_au_1$instruc, "\\.$")
 ### 1.4.3 reference
 
 
-### 1.4.5 描述性数据
-
-
-### 1.4.4 keyword
-
-
-keyword_d <- as.tbl(as.data.frame(table(unlist(docAB2@keyword))))%>% 
-  arrange(desc(Freq))%>% 
+keyword_d <- as.tbl(as.data.frame(table(unlist(docAB@KW))))%>%
+  arrange(desc(Freq))%>%
   rename(keyword=Var1)
 
-
-#### 关键词同义词合并
-docAB2@keyword <- sapply(docAB2@keyword, function(x){
-  # x <- str_replace_all(x, "科研成果转化", "科技成果转化")
-  # x <- str_replace_all(x, "产学研结合", "产学研合作")
-  # x <- str_replace_all(x, "科技创新", "技术创新")
-  # x <- str_replace_all(x, "大学|高等学校|高等院校", "高校")
-  ### 匹配双字节字符[^x00-xff];匹配中文字符[u4e00-u9fa5] 
-  x <- str_replace_all(x, "citespace.*", "citespace")})
-
-docAB2@keyword <- sapply(docAB2@keyword, function(x){
-  x <- str_replace_all(x, "科研成果转化", "科技成果转化")
-  x <- str_replace_all(x, "产学研结合", "产学研合作")
-  x <- str_replace_all(x, "科技创新", "技术创新")
-  x <- str_replace_all(x, "大学|高等学校|高等院校", "高校")
-  x <- str_replace_all(x, "高校技术转移", "大学技术转移")
-  
-  x <- unique(x)
-})
-
-keyword_d <- as.tbl(as.data.frame(table(unlist(docAB2@keyword))))%>% 
-  
-  arrange(desc(Freq))%>% 
-  rename(keyword=Var1)
+wordcloud
 
 keyword_d$keyword <- as.character(keyword_d$keyword)
 
-arrange(docAB2@keywordsc(Freq))%>% 
+arrange(docAB2@keywordsc(Freq))%>%
   rename(keyword=Var1)
 
 
 write.table(keyword_d, "./6.res/keyword/keyword_d.txt", quote = F, col.names = NA, sep = "\t")
 
-as.tbl(as.data.frame(table(table(unlist(docAB2@keyword))))) %>% 
-  dplyr::mutate(cumfreq=(cumsum(Freq)/sum(Freq))*100) %>% 
-  plot_ly(x=~Var1, y=~cumfreq, type = 'scatter', mode = 'lines+markers') %>% 
+as.tbl(as.data.frame(table(table(unlist(docAB2@keyword))))) %>%
+  dplyr::mutate(cumfreq=(cumsum(Freq)/sum(Freq))*100) %>%
+  plot_ly(x=~Var1, y=~cumfreq, type = 'scatter', mode = 'lines+markers') %>%
   layout(xaxis = list(TI = "keyword Frequence", tickangle = -45),
-         yaxis = list(TI = "Cumulative Frequency(100%)"), 
-         # margin = list(b = 100), 
-         showlegend = FALSE) 
+         yaxis = list(TI = "Cumulative Frequency(100%)"),
+         # margin = list(b = 100),
+         showlegend = FALSE)
 
 
 ### 1.4.5 描述性数据
@@ -655,8 +808,8 @@ as.tbl(as.data.frame(table(table(unlist(docAB2@keyword))))) %>%
 au_threshold <- 0.749*(author1_d$Freq[1]^0.5)
 core_author <- filter(author1_d, Freq >= au_threshold)
 
-au_info <- data.frame(article_num = sum(author1_d$Freq), author_num = nrow(author_d), author1_num = nrow(author1_d), 
-                      au_threshold, core_author_num = nrow(core_author), core_author_sum = sum(core_author$Freq), 
+au_info <- data.frame(article_num = sum(author1_d$Freq), author_num = nrow(author_d), author1_num = nrow(author1_d),
+                      au_threshold, core_author_num = nrow(core_author), core_author_sum = sum(core_author$Freq),
                       core_author_aver = mean(core_author$Freq))
 
 au_info <- dplyr::mutate(au_info, au_cooperation = author_num/article_num)
@@ -708,18 +861,18 @@ burstindex(term = "知识图谱", obj = docAB2, timewindow = 2006, field = "keyw
 sapply(as.character(keyword_d$keyword[1:30]), function(x) burstindex(term = x, obj = docAB2, timewindow = 2018, field = "keyword"))
 sapply(1998:2018, function(x)burstindex(term = "知识图谱", obj = docAB2, timewindow = x, field = "keyword"))
 
-keyword_d2 <- data.frame(keyword=sapply(docAB2@keyword, function(x) paste0(x, collapse = ",")), 
-                         year=docAB2@year,stringsAsFactors = F)%>% 
-  tidyr::separate_rows(keyword, sep=",")%>% 
-  dplyr::group_by(keyword, year)%>% 
-  dplyr::mutate(freq = n())%>% 
+keyword_d2 <- data.frame(keyword=sapply(docAB2@keyword, function(x) paste0(x, collapse = ",")),
+                         year=docAB2@year,stringsAsFactors = F)%>%
+  tidyr::separate_rows(keyword, sep=",")%>%
+  dplyr::group_by(keyword, year)%>%
+  dplyr::mutate(freq = n())%>%
   ungroup()%>%
-  unique()%>% 
+  unique()%>%
   group_by(keyword)%>%
-  dplyr::mutate(sumfreq = sum(freq))%>% 
-  arrange(desc(sumfreq),year)%>% 
+  dplyr::mutate(sumfreq = sum(freq))%>%
+  arrange(desc(sumfreq),year)%>%
   ungroup()
-# slice(1:20)%>% 
+# slice(1:20)%>%
 # dplyr::mutate(burst = burstindex(term = keyword, obj = docAB2, timewindow = year, field = "keyword"))
 
 
@@ -784,7 +937,7 @@ cr_all <- sapply(cr_all, function(x){
   # names(x) <- NULL
 })
 
-res_cr <- as.tbl(as.data.frame(table(unlist(cr_all))))%>% 
+res_cr <- as.tbl(as.data.frame(table(unlist(cr_all))))%>%
   arrange(desc(Freq))
 
 library(tidyr)
@@ -825,7 +978,7 @@ cr_all <- sapply(cr_all, function(x){
   # names(x) <- NULL
 })
 
-res_cr <- as.tbl(as.data.frame(table(unlist(cr_all))))%>% 
+res_cr <- as.tbl(as.data.frame(table(unlist(cr_all))))%>%
   arrange(desc(Freq))
 
 library(tidyr)
@@ -838,7 +991,7 @@ write.table(res_cr, "res/期刊/res_cr.txt", quote = F, col.names = NA, sep = "\
 #总引文数
 length(unlist(cr_all))
 
-res_jr <- as.tbl(as.data.frame(table(tolower(res_cr$journal))))%>% 
+res_jr <- as.tbl(as.data.frame(table(tolower(res_cr$journal))))%>%
   arrange(desc(Freq))
 write.table(res_jr, "res/期刊/res_jr.txt", quote = F, col.names = NA, sep = "\t")
 
@@ -851,88 +1004,18 @@ length(unlist(str_extract_all(cr_all, ", Research Policy,")))
 # abstract(abs) from
 # 1.CNKI
 #####################
-cnki.parser <- function(file){
-  
-  # doc <- xmlTreeParse(file, useInternalNodes = T, encoding = "UTF-8")
-  
-  Parser <- function(xmlnodeset, path){
-    sapply(xmlnodeset, function(x){
-      temp = xpathSApply(x, path, xmlValue)
-      if(length(temp)==0){
-        return("NO RES")
-      }else{
-        if(temp==""){
-          return("NO RES")
-        }else{
-          return(temp)
-        }
-      }
-    })
-  }
-  
-  Bibliography <- unlist(sapply(file, function(x){
-    doc <- xmlTreeParse(x, useInternalNodes = T, encoding = "UTF-8")
-    Bibliography <- getNodeSet(doc, "//Bibliography")
-    return(Bibliography)
-  }))
-  
-  # Bibliography <- getNodeSet(doc, "//Bibliography")
-  
-  Ti <- Parser(Bibliography, ".//PrimaryTI//TI[@Lang='zh-CHS']")
-  names(Ti) <- NULL
-  
-  Year <- Parser(Bibliography, ".//Year")
-  names(Year) <- NULL
-  
-  Type <- Parser(Bibliography, ".//Type")
-  names(Type) <- NULL
-  
-  Publisher <- Parser(Bibliography, ".//Publisher")
-  names(Publisher) <- NULL
-  
-  AuList <- str_remove_all(Parser(Bibliography, ".//Authors//FullName"), "\\n")
-  AuList <- str_remove_all(AuList, ";$")
-  AuList <- str_split(AuList, ";|,")
-  
-  # AuList <- str_split(str_remove(Parser(Bibliography, ".//Authors//FullName"), ";$|\\n"), ";")
-  
-  OrgList <- str_split(str_remove(Parser(Bibliography, ".//Authors//AD"), ";$"), ";")
-  
-  KwList <- str_split(str_remove(Parser(Bibliography, ".//Keywords//Keyword[@Lang='zh-CHS']"), ";$"), ";;")
-  
-  KwList <- str_split(KwList, ";")
-  
-  KwList <- sapply(KwList, function(x)str_remove_all(x, " "))
-  
-  TEST = sd(c(length(Ti), length(Year), length(AuList), length(OrgList), length(KwList)))
-  
-  if(TEST == 0){
-    profile <- new("cnkiAB", ti = Ti, year = Year, type = Type, 
-                   au = AuList, AD = OrgList,  kw = KwList, publisher = Publisher)
-    return(profile)
-  }else return("XML Document Error")
-}
+
 
 cnki <- xmlTreeParse("1.query/cnki_4473/CNKI-636942361833293750.txt", useInternalNodes = T, encoding = "UTF-8")
 cnkiAB <- cnki.parser(cnkifilename)
 
-setClass("ABprofile", representation(TI = "character", author = "list",  AD = "list", ab = "character", 
-                                     year = "character", journal = "character", ptype = "character", keyword = "list", 
-                                     mh = "list", sh = "list", majr = "list", pmid = "character", reference = "list", 
-                                     fund = "character", fund_type = "list"))
-
-###
-#####################
-# abstract(abs) from
-# 2.CNKI
-#####################
 
 
 ##########
 #这个地方如果数据文件的编码不是utf-8会有warnings，且数据量不对，如utf-8-boom就需要转成utf-8
 #invalid input found on input connection 'download_3.txt' 这种警告一般是编码问题
 #incomplete final line found on 'download_10.txt' 这种警告需要在文件末尾加一行空行
-########## 
+##########
 setwd("2.input/")
 filename <- dir("./")
 cnki <- unlist(lapply(filename, readLines))
@@ -947,8 +1030,8 @@ ky <- tolower(ky)
 ky <- str_remove(ky, ";$")
 ky <- str_split(ky, ";")
 
-keyword_d <- as.tbl(as.data.frame(table(unlist(ky))))%>% 
-  arrange(desc(Freq))%>% 
+keyword_d <- as.tbl(as.data.frame(table(unlist(ky))))%>%
+  arrange(desc(Freq))%>%
   rename(keyword=Var1)
 keyword_d$keyword <- as.character(keyword_d$keyword)
 
@@ -971,20 +1054,20 @@ ky <- sapply(ky, function(x){
   x <- str_replace_all(x, "贫困大学生", "高校贫困生")
   x <- unique(x)})
 
-keyword_d <- as.tbl(as.data.frame(table(unlist(ky))))%>% 
-  arrange(desc(Freq))%>% 
+keyword_d <- as.tbl(as.data.frame(table(unlist(ky))))%>%
+  arrange(desc(Freq))%>%
   rename(keyword=Var1)
 keyword_d$keyword <- as.character(keyword_d$keyword)
 
 write.table(keyword_d, "./6.res/keyword/keyword_d2.txt", quote = F, col.names = NA, sep = "\t")
 
-as.tbl(as.data.frame(table(table(unlist(ky))))) %>% 
-  dplyr::mutate(cumfreq=(cumsum(Freq)/sum(Freq))*100) %>% 
-  plot_ly(x=~Var1, y=~cumfreq, type = 'scatter', mode = 'lines+markers') %>% 
+as.tbl(as.data.frame(table(table(unlist(ky))))) %>%
+  dplyr::mutate(cumfreq=(cumsum(Freq)/sum(Freq))*100) %>%
+  plot_ly(x=~Var1, y=~cumfreq, type = 'scatter', mode = 'lines+markers') %>%
   layout(xaxis = list(TI = "keyword Frequence", tickangle = -45),
-         yaxis = list(TI = "Cumulative Frequency(100%)"), 
-         # margin = list(b = 100), 
-         showlegend = FALSE) 
+         yaxis = list(TI = "Cumulative Frequency(100%)"),
+         # margin = list(b = 100),
+         showlegend = FALSE)
 
 minfreq <- 10
 # 矩阵
@@ -1062,8 +1145,8 @@ Eindex <- function(com){
   while(max(res2$x)>=0.01){
     c2 <- res2[which.max(res2$x),]
     print(c2$x)
-    c2_1 <- filter(res2, j==c2$j) %>% 
-      arrange(desc(x)) %>% 
+    c2_1 <- filter(res2, j==c2$j) %>%
+      arrange(desc(x)) %>%
       dplyr::slice(1:9)
     c2_2 <- filter(res2, i==c2$i) %>%
       arrange(desc(x)) %>%
@@ -1082,23 +1165,23 @@ Eindex <- function(com){
   
   library(reshape2)
   
-  res_cluster <- melt(c1, measure.vars = 1:2, id.vars = 4, value.name = "keyword.index") %>% 
-    dplyr::select(c(1,3)) %>% 
-    distinct_all() %>% 
-    arrange(cluster) %>% 
+  res_cluster <- melt(c1, measure.vars = 1:2, id.vars = 4, value.name = "keyword.index") %>%
+    dplyr::select(c(1,3)) %>%
+    distinct_all() %>%
+    arrange(cluster) %>%
     mutate(keyword = colnames(com)[keyword.index])
   write.table(res_cluster, "./6.res/keyword/res_cluster.txt", sep = "\t", quote = F, col.names = NA)
   
   res_cluster$name <- rowSums(Em)[res_cluster$keyword.index]
   
-  group_by(res_cluster, cluster) %>% 
+  group_by(res_cluster, cluster) %>%
     mutate(N <- which.max(name))
   
   
   
-  zbplot <- dplyr::group_by(c1, cluster) %>% 
-    summarise(density=mean(Em[unique(c(i,j)),unique(c(i,j))]), 
-              centrality=sum(Em[unique(c(i,j)),-unique(c(i,j))])) 
+  zbplot <- dplyr::group_by(c1, cluster) %>%
+    summarise(density=mean(Em[unique(c(i,j)),unique(c(i,j))]),
+              centrality=sum(Em[unique(c(i,j)),-unique(c(i,j))]))
   zbplot[8:26,]
   zbplot2 <- zbplot
   write.table(zbplot, "./6.res/keyword/zbplot.txt", sep = "\t", quote = F, col.names = NA)
@@ -1112,21 +1195,21 @@ Eindex <- function(com){
   zbplot$density <- scale(zbplot$density)
   zbplot$centrality <- scale(zbplot$centrality)
   
-  ggplot(zbplot,aes(x=centrality, y=density, fill=factor(cluster)))+ 
+  ggplot(zbplot,aes(x=centrality, y=density, fill=factor(cluster)))+
     geom_point(size=10, shape=22, alpha = .8)+
-    guides(fill=F)+ 
+    guides(fill=F)+
     geom_hline(yintercept = mean(zbplot$density))+
     geom_vline(xintercept = mean(zbplot$centrality))+
     geom_text(aes(label=cluster))+
     xlab("关注度")+ ylab("新颖度")+
-    # annotate("text", 2, -0.1, size = 10, label = "关注度")+ 
-    # annotate("text", -0.1, 2.5, size = 10, label = "新\r\n颖\r\n度")+ 
-    theme(axis.TI = element_text(size = 25),  panel.grid.minor = element_blank(), 
-          panel.grid.major=element_blank(), panel.background = element_blank())+ 
+    # annotate("text", 2, -0.1, size = 10, label = "关注度")+
+    # annotate("text", -0.1, 2.5, size = 10, label = "新\r\n颖\r\n度")+
+    theme(axis.TI = element_text(size = 25),  panel.grid.minor = element_blank(),
+          panel.grid.major=element_blank(), panel.background = element_blank())+
     scale_x_continuous(breaks = seq(-1,3.5,0.5))+
     scale_y_continuous(breaks = seq(-1,3.5,0.5))+
     ggsave("./6.res/keyword/战略坐标图.png")
-  # geom_point(size=10, shape=22, alpha = .8)+ 
+  # geom_point(size=10, shape=22, alpha = .8)+
   # geom_jitter(width=10,height=0.5)
   # geom_label(aes(label=cluster))+
   # geom_jitter(width=10,height=0.5)
@@ -1136,7 +1219,7 @@ Eindex <- function(com){
   rownames(Em) <- rownames(com)
   colnames(Em) <- colnames(com)
   Em <- as.matrix(Em)
-  Em[lower.tri(Em)] <- Em[upper.tri(Em)] 
+  Em[lower.tri(Em)] <- Em[upper.tri(Em)]
   write.table(Em, "./6.res/keyword/emindex.txt", sep = "\t", quote = F, col.names = NA)
   
 }
@@ -1147,188 +1230,7 @@ install.packages("factoextra")
 
 save(list=ls(), file = "citespace.Rdata")
 
-#####################
-# abstract(abs) from
-# 3.wos
-#####################
 
-#### clean environment
-rm(list=ls())
-gc()
-
-#### set working direcory
-path <- "G:/job/citespace5000/"
-setwd(path)
-
-dir.create("./1.query", showWarnings = FALSE, recursive = T)
-dir.create("./2.input", showWarnings = FALSE, recursive = T)
-dir.create("./3.output", showWarnings = FALSE, recursive = T)
-dir.create("./4.process", showWarnings = FALSE, recursive = T)
-dir.create("./5.project", showWarnings = FALSE, recursive = T)
-dir.create("./6.res/author", showWarnings = FALSE, recursive = T)
-dir.create("./6.res/year", showWarnings = FALSE, recursive = T)
-dir.create("./6.res/keyword", showWarnings = FALSE, recursive = T)
-dir.create("./6.res/journal", showWarnings = FALSE, recursive = T)
-
-### print session information
-sink("info.txt")
-sessionInfo()
-sink()
-
-### load libraries
-library(Matrix)
-library(dplyr)
-library(stringr)
-library(ggplot2)
-library(plotly)
-library(tidyr)
-library(XML)
-library(reshape2)
-library(readr)
-
-### set global options
-options(stringsAsFactors = FALSE)
-# options(encoding="utf-8")
-# getOption("stringsAsFactors")
-# Sys.setlocale("LC_ALL","Chinese")
-locale <- Sys.getlocale()
-
-### 1.1.4 检索下载完文献后，将query里的数据复制并重命名,可以根据pattern参数选定数据源样式
-file.copy(dir("1.query", pattern = "save.*.txt", full.names = T), "2.input/")
-
-##########
-#这个地方如果数据文件的编码不是utf-8会有warnings，且数据量不对，如utf-8-boom就需要转成utf-8
-#invalid input found on input connection 'download_3.txt' 这种警告一般是编码问题
-#incomplete final line found on 'download_10.txt' 这种警告需要在文件末尾加一行空行
-#韩文没法读取，会报错，因此设置下语系Sys.setlocale("LC_ALL","Chinese")[错误做法]
-#不要设定编码环境变量options(encoding="utf-8")，就可以正常读取
-########## 
-setwd("2.input/")
-filename <- dir("./")
-wos <- unlist(lapply(filename, readLines))
-file.rename(filename, paste0("download_", 1:length(filename), ".txt"))
-setwd("../")
-
-writeLines(wos, "./1.query/alldata.txt")
-
-
-## 1.2 字段抽取
-#### 删除不止一个匹配项时，需要用str_remove_all，而不是str_remove
-#### fund 基金字段也是一篇文献对应多个基金，但是由于没有分析必要，因此只将其格式设置为character，而非list
-#### wos的通讯作者地址字段是RP,全部作者地址字段是C1
-#### wos的关键词字段是DE,ID是wos给文章补充的关键词
-#### wos的来源期刊是SO
-setClass("ABprofile", representation(TI = "character", author = "list",  AD = "list", ab = "character", 
-                                     year = "character", journal = "character", ptype = "character", keyword = "list", 
-                                     mh = "list", sh = "list", majr = "list", pmid = "character", reference = "list", 
-                                     fund = "character", fund_type = "list"))
-
-wos2 <- wos
-wos <- read_file("1.query/alldata.txt")
-#### 经过分割操作，使得每一篇文章相互独立，字段可以对应起来
-#### 文章内没有该字段的就是NA，字段的长度保持统一
-wos <- unlist(str_split(wos, "\r\nER"))
-wos <- wos[1:(length(wos)-1)]
-
-wos.parser <- function(wosfile){
-  
-  # index1 <- str_which(wos, "^TI ")
-  # index2 <- str_which(wos, "^SO ")
-  # if(length(index1)<length(index2)){
-  #   index2 <- index2[1:length(index1)] 
-  # }
-  # if(length(index1)>length(index2)){
-  #   index2[(length(index2)+1):length(index1)] <- index1[(length(index2)+1):length(index1)]
-  #  index2 <- index2[1:length(index1)] 
-  # }
-  # if(length(index1)>length(index2)){
-  #  index2[(length(index2)+1):length(index1)] <- index1[(length(index2)+1):length(index1)]
-  # }
-  # for(i in length(index1)){
-  #   ti[i] <- str_flatten(wos[index1[i]:index2[i]], collapse = " ")
-  # }
-  
-  # 直接指定两个字段是错误的，因为有时候下一个字段不固定，如DE字段后面不一定肯定就是ID字段,
-  # 因此需要先找到第一个字段后面跟的字段是什么
-  # 正则很强大，不需要知道下一个字段是什么
-  field_extract <- function(file, field){
-    
-    Pattern <- paste0("\r\n", field, "\\s+([\\s\\S]*?)\r\n(\\w+)")
-    tmp <- str_replace(str_extract(wos, Pattern), Pattern, "\\1")
-    # Pattern <- paste0("\r\n", field1, " ([\\s\\S]*?)\r\n", field2)
-    ## tmp <- str_replace_all(unlist(str_extract_all(file, Pattern)), Pattern, "\\1")
-    # tmp <- str_replace_all(str_extract(file, Pattern), Pattern, "\\1")
-    # tmp <- str_replace_all(tmp, "\r\n  ", "")
-    return(tmp)
-  } 
-  
-  ti <- field_extract(wos, "TI")
-  ti <- str_replace_all(ti, "\r\n\\s+", " ")
-  
-  au <- field_extract(wos, "AU")
-  au <- str_split(au, "\r\n\\s+")
-  
-  # organ <- str_remove(str_extract(wos, "\r\nRP.*"), "\r\nRP\\s+.*reprint author\\), ")
-  # RP是通讯作者
-  organ <- field_extract(wos, "C1")
-  organ <- str_split(organ, "\r\n\\s+")
-  
-  yr <- str_remove(str_extract(wos, "\r\nPY .*"), "\r\nPY\\s+")
-  # table(au, useNA = "always")
-  # any(is.na(au))
-  
-  jl <- str_remove(str_extract(wos, "\r\nSO.*"), "\r\nSO\\s+")
-  # jl[1:10]
-  
-  ky <- field_extract(wos, "DE")
-  ky <- str_to_lower(str_replace_all(ky, "\r\n\\s+", " "))
-  ky <- str_split(ky, "; ")
-  # ky[1:10]
-  
-  refer <- field_extract(wos, "CR")
-  refer <- str_split(refer, "\r\n\\s+")
-  # refer[1:4]
-  
-  ab <- field_extract(wos, "AB")
-  # ab[1:3]
-  
-  pt <- field_extract(wos, "PT")
-  
-  ab <- field_extract(wos, "AB")
-  
-  TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl), 
-              length(ky), length(refer), length(pt), length(ab)))
-  
-  
-  # fd,fund_tp, mh = "list", sh = "list", majr = "list", pmid = "character",
-  # 这些字段都没有，不需要管
-  
-  
-  if(TEST == 0){
-    profile <- new("ABprofile", TI = ti, author = au,  AD = organ, year = yr, journal = jl, 
-                   keyword = ky, reference = refer, ab = ab, ptype = pt)
-    return(profile)
-  }else return("wos Document Error")
-}
-
-docAB <- wos.parser(wosfile = wos)
-docAB@TI[1:5]
-docAB@keyword[1:10]
-
-## 1.3 数据清洗
-### 将文献类型为Newspaper、会议论文的筛除
-### 将无作者无关键词的文献剔除
-### 将标题重复文献剔除掉
-#### wos的机构字段中含有作者信息，同一单位作者只重复一次地址,
-#### 不同单位会标注出来
-index <- which(duplicated(docAB@TI))
-docAB2 <- wos.parser(wosfile = wos[-index])
-
-### 将去重后的原始文摘数据保存
-readr::write_file(str_flatten(wos[-index], collapse = "\r\nER"), "1.query/alldata2.txt")
-
-### 保持工作目录
-save(list = ls(), file = "wos.RData")
 
 ## 1.4 数据统计
 ### 1.4.1 year
@@ -1339,23 +1241,23 @@ colnames(year_d) <-  c("year", "count")
 year_d$year <- as.factor(year_d$year)
 
 #### 用抽取出的数据
-year_d <- as.data.frame(table(docAB2@year))%>% 
-  arrange(Var1)%>% 
+year_d <- as.data.frame(table(docAB2@year))%>%
+  arrange(Var1)%>%
   rename(year=Var1, count=Freq)
 
-write.table(year_d,"./6.res/year/year_d.txt", quote = F, col.names = NA, sep = "\t") 
+write.table(year_d,"./6.res/year/year_d.txt", quote = F, col.names = NA, sep = "\t")
 
-ggplot(year_d, aes(x=year, y=count, group=1))+ geom_point(color="#56B4E9",size=5)+ 
-  geom_line()+ xlab("年份/年")+ ylab("发文数量/篇")+ 
+ggplot(year_d, aes(x=year, y=count, group=1))+ geom_point(color="#56B4E9",size=5)+
+  geom_line()+ xlab("年份/年")+ ylab("发文数量/篇")+
   geom_text(aes(label=count), vjust=0.5, hjust=1)+ ggsave("./6.res/year/year.png")
 
 ### 1.4.2 author/AD
-author_d <- as.tbl(as.data.frame(table(unlist(docAB2@author)), stringsAsFactors = FALSE))%>% 
-  arrange(desc(Freq))%>% 
+author_d <- as.tbl(as.data.frame(table(unlist(docAB2@author)), stringsAsFactors = FALSE))%>%
+  arrange(desc(Freq))%>%
   rename(author=Var1)
 
-author1_d <- as.tbl(as.data.frame(table(sapply(docAB2@author, function(x)x[1])), stringsAsFactors = FALSE))%>% 
-  arrange(desc(Freq))%>% 
+author1_d <- as.tbl(as.data.frame(table(sapply(docAB2@author, function(x)x[1])), stringsAsFactors = FALSE))%>%
+  arrange(desc(Freq))%>%
   rename(author=Var1)
 
 
@@ -1371,20 +1273,20 @@ author1_d$AD <- sapply(author1_d$author, function(x){
 })
 
 
-author_d <- data.frame(author=unlist(docAB2@author), AD=unlist(docAB2@AD))%>% 
-  dplyr::group_by(author, AD)%>% 
-  dplyr::mutate(freq = n())%>% 
-  arrange(desc(freq))%>% 
+author_d <- data.frame(author=unlist(docAB2@author), AD=unlist(docAB2@AD))%>%
+  dplyr::group_by(author, AD)%>%
+  dplyr::mutate(freq = n())%>%
+  arrange(desc(freq))%>%
   ungroup()%>%
   unique()
 
 author$author <- as.character(author1$author1)
 author$AD <- as.character(author1$AD)
 
-author1 <- data.frame(author1=sapply(docAB2@author, function(y)y[[1]]), AD=sapply(docAB2@AD, function(y)y[[1]]))%>% 
-  dplyr::group_by(author1, AD)%>% 
-  dplyr::mutate(freq = n())%>% 
-  arrange(desc(freq))%>% 
+author1 <- data.frame(author1=sapply(docAB2@author, function(y)y[[1]]), AD=sapply(docAB2@AD, function(y)y[[1]]))%>%
+  dplyr::group_by(author1, AD)%>%
+  dplyr::mutate(freq = n())%>%
+  arrange(desc(freq))%>%
   ungroup()%>%
   unique()
 
@@ -1392,8 +1294,8 @@ author1$author1 <- as.character(author1$author1)
 author1$AD <- as.character(author1$AD)
 
 
-AD_d <- as.tbl(as.data.frame(table(unlist(docAB2@AD)), stringsAsFactors = FALSE))%>% 
-  arrange(desc(Freq))%>% 
+AD_d <- as.tbl(as.data.frame(table(unlist(docAB2@AD)), stringsAsFactors = FALSE))%>%
+  arrange(desc(Freq))%>%
   rename(AD=Var1)
 
 write.table(author_d, "./6.res/author/author_d.txt", quote = F, col.names = NA, sep = "\t")
@@ -1401,8 +1303,8 @@ write.table(author1_d, "./6.res/author/author1_d.txt", quote = F, col.names = NA
 write.table(AD_d, "./6.res/author/AD_d.txt", quote = F, col.names = NA, sep = "\t")
 
 ### 1.4.3 reference
-reference_d <- as.tbl(as.data.frame(table(sapply(docAB2@reference, function(x)x[1])), stringsAsFactors = FALSE))%>% 
-  arrange(desc(Freq))%>% 
+reference_d <- as.tbl(as.data.frame(table(sapply(docAB2@reference, function(x)x[1])), stringsAsFactors = FALSE))%>%
+  arrange(desc(Freq))%>%
   rename(reference=Var1)
 
 reference_d$reference <- sapply(reference_d$reference, function(x){
@@ -1433,8 +1335,8 @@ author_d$orgranization <- sapply(author_d$author, function(x){
   index <- sapply(docAB2@author, function(y)str_detect(y, x))
   tmp <- docAB2@AD[index]
   names(sort(table(unlist(tmp)), decreasing = T)[1])
-  # tmp <- as.data.frame(table(unlist(tmp)))%>% 
-  #   arrange(desc(Freq)) 
+  # tmp <- as.data.frame(table(unlist(tmp)))%>%
+  #   arrange(desc(Freq))
   # as.character(tmp[1,1])
 })
 
@@ -1450,8 +1352,8 @@ res_au_1$instruc <- sapply(res_au_1$Var1, function(x){
   tmp <- str_remove(tmp, "/.*$")
   tmp <- str_remove(tmp, "^C1 \\[.*\\]")
   # tmp <- as.character(tmp)
-  tmp <- as.data.frame(table(tmp))%>% 
-    arrange(desc(Freq)) 
+  tmp <- as.data.frame(table(tmp))%>%
+    arrange(desc(Freq))
   as.character(tmp[1,1])
 })
 res_au_1$instruc <- str_remove(res_au_1$instruc, "\\.$")
@@ -1464,8 +1366,8 @@ res_au_1$instruc <- str_remove(res_au_1$instruc, "\\.$")
 ### 1.4.4 keyword
 
 
-keyword_d <- as.tbl(as.data.frame(table(unlist(docAB2@keyword))))%>% 
-  arrange(desc(Freq))%>% 
+keyword_d <- as.tbl(as.data.frame(table(unlist(docAB2@keyword))))%>%
+  arrange(desc(Freq))%>%
   rename(keyword=Var1)
 
 
@@ -1475,7 +1377,7 @@ docAB2@keyword <- sapply(docAB2@keyword, function(x){
   # x <- str_replace_all(x, "产学研结合", "产学研合作")
   # x <- str_replace_all(x, "科技创新", "技术创新")
   # x <- str_replace_all(x, "大学|高等学校|高等院校", "高校")
-  ### 匹配双字节字符[^x00-xff];匹配中文字符[u4e00-u9fa5] 
+  ### 匹配双字节字符[^x00-xff];匹配中文字符[u4e00-u9fa5]
   x <- str_replace_all(x, "citespace.*", "citespace")})
 
 docAB2@keyword <- sapply(docAB2@keyword, function(x){
@@ -1488,26 +1390,26 @@ docAB2@keyword <- sapply(docAB2@keyword, function(x){
   x <- unique(x)
 })
 
-keyword_d <- as.tbl(as.data.frame(table(unlist(docAB2@keyword))))%>% 
+keyword_d <- as.tbl(as.data.frame(table(unlist(docAB2@keyword))))%>%
   
-  arrange(desc(Freq))%>% 
+  arrange(desc(Freq))%>%
   rename(keyword=Var1)
 
 keyword_d$keyword <- as.character(keyword_d$keyword)
 
-arrange(docAB2@keywordsc(Freq))%>% 
+arrange(docAB2@keywordsc(Freq))%>%
   rename(keyword=Var1)
 
 
 write.table(keyword_d, "./6.res/keyword/keyword_d.txt", quote = F, col.names = NA, sep = "\t")
 
-as.tbl(as.data.frame(table(table(unlist(docAB2@keyword))))) %>% 
-  dplyr::mutate(cumfreq=(cumsum(Freq)/sum(Freq))*100) %>% 
-  plot_ly(x=~Var1, y=~cumfreq, type = 'scatter', mode = 'lines+markers') %>% 
+as.tbl(as.data.frame(table(table(unlist(docAB2@keyword))))) %>%
+  dplyr::mutate(cumfreq=(cumsum(Freq)/sum(Freq))*100) %>%
+  plot_ly(x=~Var1, y=~cumfreq, type = 'scatter', mode = 'lines+markers') %>%
   layout(xaxis = list(TI = "keyword Frequence", tickangle = -45),
-         yaxis = list(TI = "Cumulative Frequency(100%)"), 
-         # margin = list(b = 100), 
-         showlegend = FALSE) 
+         yaxis = list(TI = "Cumulative Frequency(100%)"),
+         # margin = list(b = 100),
+         showlegend = FALSE)
 
 
 ### 1.4.5 描述性数据
@@ -1515,8 +1417,8 @@ as.tbl(as.data.frame(table(table(unlist(docAB2@keyword))))) %>%
 au_threshold <- 0.749*(author1_d$Freq[1]^0.5)
 core_author <- filter(author1_d, Freq >= au_threshold)
 
-au_info <- data.frame(article_num = sum(author1_d$Freq), author_num = nrow(author_d), author1_num = nrow(author1_d), 
-                      au_threshold, core_author_num = nrow(core_author), core_author_sum = sum(core_author$Freq), 
+au_info <- data.frame(article_num = sum(author1_d$Freq), author_num = nrow(author_d), author1_num = nrow(author1_d),
+                      au_threshold, core_author_num = nrow(core_author), core_author_sum = sum(core_author$Freq),
                       core_author_aver = mean(core_author$Freq))
 
 au_info <- dplyr::mutate(au_info, au_cooperation = author_num/article_num)
@@ -1568,18 +1470,18 @@ burstindex(term = "知识图谱", obj = docAB2, timewindow = 2006, field = "keyw
 sapply(as.character(keyword_d$keyword[1:30]), function(x) burstindex(term = x, obj = docAB2, timewindow = 2018, field = "keyword"))
 sapply(1998:2018, function(x)burstindex(term = "知识图谱", obj = docAB2, timewindow = x, field = "keyword"))
 
-keyword_d2 <- data.frame(keyword=sapply(docAB2@keyword, function(x) paste0(x, collapse = ",")), 
-                         year=docAB2@year,stringsAsFactors = F)%>% 
-  tidyr::separate_rows(keyword, sep=",")%>% 
-  dplyr::group_by(keyword, year)%>% 
-  dplyr::mutate(freq = n())%>% 
+keyword_d2 <- data.frame(keyword=sapply(docAB2@keyword, function(x) paste0(x, collapse = ",")),
+                         year=docAB2@year,stringsAsFactors = F)%>%
+  tidyr::separate_rows(keyword, sep=",")%>%
+  dplyr::group_by(keyword, year)%>%
+  dplyr::mutate(freq = n())%>%
   ungroup()%>%
-  unique()%>% 
+  unique()%>%
   group_by(keyword)%>%
-  dplyr::mutate(sumfreq = sum(freq))%>% 
-  arrange(desc(sumfreq),year)%>% 
+  dplyr::mutate(sumfreq = sum(freq))%>%
+  arrange(desc(sumfreq),year)%>%
   ungroup()
-# slice(1:20)%>% 
+# slice(1:20)%>%
 # dplyr::mutate(burst = burstindex(term = keyword, obj = docAB2, timewindow = year, field = "keyword"))
 
 
@@ -1644,7 +1546,7 @@ cr_all <- sapply(cr_all, function(x){
   # names(x) <- NULL
 })
 
-res_cr <- as.tbl(as.data.frame(table(unlist(cr_all))))%>% 
+res_cr <- as.tbl(as.data.frame(table(unlist(cr_all))))%>%
   arrange(desc(Freq))
 
 library(tidyr)
@@ -1685,7 +1587,7 @@ cr_all <- sapply(cr_all, function(x){
   # names(x) <- NULL
 })
 
-res_cr <- as.tbl(as.data.frame(table(unlist(cr_all))))%>% 
+res_cr <- as.tbl(as.data.frame(table(unlist(cr_all))))%>%
   arrange(desc(Freq))
 
 library(tidyr)
@@ -1698,7 +1600,7 @@ write.table(res_cr, "res/期刊/res_cr.txt", quote = F, col.names = NA, sep = "\
 #总引文数
 length(unlist(cr_all))
 
-res_jr <- as.tbl(as.data.frame(table(tolower(res_cr$journal))))%>% 
+res_jr <- as.tbl(as.data.frame(table(tolower(res_cr$journal))))%>%
   arrange(desc(Freq))
 write.table(res_jr, "res/期刊/res_jr.txt", quote = F, col.names = NA, sep = "\t")
 
