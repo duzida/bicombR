@@ -110,8 +110,8 @@ file_conv <- function(filepath, db="WOS"){
 
 csscidoc <- file_conv(filepath = "1.query/cssci_1804/", db = "CSSCI")
 wosdoc <- file_conv(filepath = "G:/job/citespace5000/wos/1.query/", db = "WOS")
-# cnkidoc <- file_conv(filepath = "G:/job/citespace5000/cnki/1.query/Refworks/", db = "CNKI")
-cnkidoc <- file_conv(filepath = "1.query/cnki_750/Refworks/", db = "CNKI")
+cnkidoc <- file_conv(filepath = "G:/job/citespace5000/cnki/1.query/Refworks/", db = "CNKI")
+# cnkidoc <- file_conv(filepath = "1.query/cnki_750/Refworks/", db = "CNKI")
 pubmeddoc <- file_conv(filepath = "1.query/pubmed_375/", db = "PUBMED")
 
 save(list = ls(), file = "doc.RData")
@@ -550,17 +550,107 @@ setMethod("ABfilter", signature(obj = "ABprofile"), function(obj,docfile,db){
   }
   ## 将清洗后的文摘数据保存
   readr::write_file(x = str_flatten(docfile, collapse = "\r\nER"),
-                    path = paste0("1.query/", db,".txt"))
+                    path = paste0("1.query/", db,".txt"), append = F)
   return(obj)
   
 })
+
 
 docAB <- ABfilter(obj = cnki_profile, docfile = cnkidoc, db = "CNKI")
 docAB2 <- ABfilter(obj = wos_profile, docfile = wosdoc, db = "WOS")
 docAB3 <- ABfilter(obj = cssci_profile, docfile = csscidoc, db = "CSSCI")
 docAB4 <- ABfilter(obj = pubmed_profile, docfile = pubmeddoc, db = "PUBMED")
+length(wos_profile@PT);length(cnki_profile@PT);length(docAB@PT);length(docAB2@PT)
 # index3 <- which(duplicated(cnki_profile@TI) | is.na(cnki_profile@AU) | is.na(cnki_profile@KW))
+# file <- dir("../../../job/citespace5000/cnki/3.output/")
+# setwd("../../../job/citespace5000/cnki/3.output/")
+# file<- lapply(file,read_file)
+# dir.create("../output2")
+# sapply(1:length(file), function(x){
+#   tmp <- str_conv(file[[x]], "ASCII")
+#   write_file(tmp,paste0("../output2/download_",x,"_converted.txt"))
+# })
 
+
+###############
+###############
+getwd()
+setwd("G:/job/citespace5000/cnki/4.process/")
+processdoc <- sapply(dir(pattern = "download.*"), read_file)
+
+processdoc <- str_remove(processdoc, "\nER\n$")
+cnki <- parserAB(processdoc, db = "WOS")
+processdoc <- unlist(str_split(processdoc, paste0("\nER")))
+
+field_extract2 <- function(file, field){
+  Pattern <- paste0("\n", field, "\\s+([\\s\\S]*?)\n(\\w+)")
+  tmp <- str_replace(str_extract(file, Pattern), Pattern, "\\1")
+  # Pattern <- paste0("\r\n", field1, " ([\\s\\S]*?)\r\n", field2)
+  ## tmp <- str_replace_all(unlist(str_extract_all(file, Pattern)), Pattern, "\\1")
+  # tmp <- str_replace_all(str_extract(file, Pattern), Pattern, "\\1")
+  # tmp <- str_replace_all(tmp, "\r\n  ", "")
+  return(tmp)
+}
+
+citespace.parser <- function(citespacefile){
+  
+  ti <- field_extract2(citespacefile, "TI")
+  ti <- str_replace_all(ti, "\n\\s+", " ")
+  ti[ti==""] <- NA
+  
+  au <- field_extract(citespacefile, "AU")
+  au[au==""] <- NA
+  au <- str_split(au, "\n\\s+")
+  
+  # organ <- str_remove(str_extract(citespacefile, "\r\nRP.*"), "\r\nRP\\s+.*reprint author\\), ")
+  # RP是通讯作者
+  organ <- field_extract(citespacefile, "C1")
+  organ[organ==""] <- NA
+  organ <- str_split(organ, "\n\\s+")
+  
+  yr <- str_remove(str_extract(citespacefile, "\nPY .*"), "\nPY\\s+")
+  yr[yr==""] <- NA
+  # table(au, useNA = "always")
+  # any(is.na(au))
+  
+  jl <- str_remove(str_extract(citespacefile, "\nSO.*"), "\nSO\\s+")
+  jl[jl==""] <- NA
+  
+  ky <- field_extract(citespacefile, "DE")
+  ky <- str_to_lower(str_replace_all(ky, "\n\\s+", " "))
+  ky[ky==""] <- NA
+  ky <- str_split(ky, "; ")
+  # ky[1:10]
+  
+  refer <- field_extract(citespacefile, "CR")
+  refer[refer==""] <- NA
+  refer <- str_split(refer, "\n\\s+")
+  # refer[1:4]
+  
+  ab <- field_extract(citespacefile, "AB")
+  ab[ab==""] <- NA
+  # ab[1:3]
+  
+  pt <- field_extract(citespacefile, "PT")
+  pt[pt==""] <- NA
+  pt <- str_replace(pt, "J", "Journal Article")
+  
+  TEST = sd(c(length(ti), length(au), length(organ), length(yr), length(jl),
+              length(ky), length(refer), length(pt), length(ab)))
+  
+  
+  # fd,fund_tp, mh = "list", sh = "list", majr = "list", pmid = "character",
+  # 这些字段都没有，不需要管
+  
+  if(TEST == 0){
+    profile <- new("AB_WOS", TI = ti, AU = au,  AD = organ, PDAT = yr, JL = jl,
+                   KW = ky, CR = refer, AB = ab, PT = pt)
+    return(profile)
+  }else return("WOS Document Error")
+}
+
+cnki <- citespace.parser(tmp2)
+length(unique(cnki@PT))
 
 # docAB2 <- new("ABprofile", TI = docAB@TI[-index], author = docAB@author[-index],  AD = docAB@AD[-index],
 #               year = docAB@year[-index], journal = docAB@journal[-index], keyword = docAB@keyword[-index],
@@ -659,8 +749,11 @@ ABprofile@KW <- sapply(ABprofile@KW, function(x){
 #### 用citespace中去重后得出的年代分布数据绘制年代分布图
 year_d <- readClipboard()#将年代数据复制
 year_d <- plyr::ldply(str_split(year_d, "\t"))
-colnames(year_d) <-  c("year", "count")
+colnames(year_d) <-  c("type","year", "count")
+year_d <- year_d[-1,]
 year_d$year <- as.factor(year_d$year)
+year_d$count <- as.integer(year_d$count)
+as.tbl(year_d)
 
 #### 用抽取出的数据
 year_d <- as.data.frame(table(docAB@PDAT))%>%
@@ -669,9 +762,10 @@ year_d <- as.data.frame(table(docAB@PDAT))%>%
 
 write.table(year_d,"./6.res/year/year_d.txt", quote = F, col.names = NA, sep = "\t")
 
-ggplot(year_d, aes(x=year, y=count, group=1))+ geom_point(color="#56B4E9",size=5)+
-  geom_line()+ xlab("年份/年")+ ylab("发文数量/篇")+
-  geom_text(aes(label=count), vjust=0.5, hjust=1)+ ggsave("./6.res/year/year.png")
+ggplot(year_d, aes(x=year, y=count, color=type, group=type))+ geom_point(size=5, aes(shape=type))+
+  geom_line()+ xlab("年份")+ ylab("篇数")+ 
+  theme(axis.text.x = element_text(angle = 45, hjust=.5, vjust=.5), axis.title = element_text(size=15))+
+  geom_text(aes(label=count), vjust=1.6, hjust=0.6)+ ggsave("./6.res/year/year.png")
 
 ### 1.4.2 author/AD
 author_d <- as.tbl(as.data.frame(table(unlist(docAB2@author)), stringsAsFactors = FALSE))%>%
